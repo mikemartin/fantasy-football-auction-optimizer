@@ -64,6 +64,9 @@ projections <- all_pos %>%
   summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE)), .groups = "drop") %>%
   mutate(across(where(is.numeric), \(x) ifelse(is.nan(x), NA_real_, x))) %>%
   inner_join(identities, by = "id") %>%
+  # Some sources label a handful of players FB or other off-positions; the league
+  # models QB/RB/WR/TE only, and fullbacks project near zero points anyway.
+  filter(pos %in% c("QB", "RB", "WR", "TE")) %>%
   relocate(player, team, pos, .after = id)
 
 out_path <- sprintf("data/projections_raw_%d.csv", league$season)

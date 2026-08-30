@@ -15,6 +15,12 @@ library(dplyr)
 
 # Replacement level: points of the player at the configured replacement rank, per position.
 replacement_points <- function(scored, league) {
+  unknown <- setdiff(unique(scored$pos), names(league$replacement_rank))
+  if (length(unknown) > 0) {
+    stop("Positions with no replacement rank in league_config.R: ",
+         paste(unknown, collapse = ", "),
+         ". Filter them out or add ranks before valuing.")
+  }
   scored %>%
     group_by(pos) %>%
     arrange(desc(points), .by_group = TRUE) %>%
