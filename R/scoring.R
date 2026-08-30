@@ -49,11 +49,34 @@ score_players <- function(stats, league) {
   # penalty (pick_six_rate of INTs are returned for a TD, each costing pick_six more).
   int_pts <- s$pass_int + league$pick_six_rate * s$pick_six
 
+  # Two-point conversions: only some sources project them, either split by play type
+  # (pass_two_pts / rush_two_pts / rec_two_pts) or combined (two_pts). All types score
+  # the same here, so take the larger of the two estimates per player. If no source
+  # supplied any of these columns, say so - never silently score them as zero.
+  two_pt_cols <- intersect(c("pass_two_pts", "rush_two_pts", "rec_two_pts"), names(stats))
+  has_combined <- "two_pts" %in% names(stats)
+  if (length(two_pt_cols) == 0 && !has_combined) {
+    warning(
+      "No projection source supplied two-point conversion projections ",
+      "(two_pts / pass_two_pts / rush_two_pts / rec_two_pts); the ", s$two_pt,
+      "-point rule cannot be applied and 2PCs will contribute 0 points."
+    )
+    stats$two_pt_proj <- 0
+  } else {
+    split_sum <- if (length(two_pt_cols) > 0) {
+      rowSums(as.matrix(stats[, two_pt_cols, drop = FALSE]), na.rm = TRUE)
+    } else 0
+    combined <- if (has_combined) coalesce(stats$two_pts, 0) else 0
+    stats$two_pt_proj <- pmax(split_sum, combined)
+  }
+
   stats %>%
     mutate(
-      # Receiving first downs are not published by any projection source; derive them
-      # from receiving yards at per-position rates (FTN regression estimates).
+      # First downs are not published by any projection source; derive them from
+      # projected yards at FTN regression rates (per-position for receiving, a single
+      # 0.0508/yd rate for rushing).
       rec_first_downs = coalesce(rec_yds, 0) * unname(league$rec_fd_rates[pos]),
+      rush_first_downs = coalesce(rush_yds, 0) * league$rush_fd_rate,
       points =
         coalesce(pass_tds, 0)  * s$pass_td +
         coalesce(pass_int, 0)  * int_pts +
@@ -62,7 +85,9 @@ score_players <- function(stats, league) {
         coalesce(rush_tds, 0)  * s$rush_td +
         coalesce(rec_yds, 0)   * s$rec_yd +
         coalesce(rec_tds, 0)   * s$rec_td +
-        rec_first_downs        * s$rec_first_down,
+        rec_first_downs        * s$rec_first_down +
+        rush_first_downs       * s$rush_first_down +
+        two_pt_proj            * s$two_pt,
       points = round(points, 1)
     )
 }

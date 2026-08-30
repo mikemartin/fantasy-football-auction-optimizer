@@ -12,9 +12,10 @@ secondary pre-draft sanity check on budget allocation.
 
 - 10 teams, $200 budget, 16 roster spots
 - Starters: 1 QB, 2 RB, 2 WR, 1 TE, 1 flex (W/R/T), 1 superflex (Q/W/R/T), 1 K, 1 DEF; 6 bench
-- Scoring: 5/pass TD, −2/INT (plus expected pick-six penalty, see assumptions),
-  0.04/pass yd, 0.1/rush & rec yd, 6/rush & rec TD, 0/reception,
-  1 per **receiving** first down (rushing first downs score 0)
+- Scoring (matched to the league app's Scoring Settings screens): 5/pass TD, −2/INT
+  (plus expected pick-six penalty, see assumptions), 0.04/pass yd, 0.1/rush & rec yd,
+  6/rush & rec TD, 0/reception, 1 per receiving first down, 0.75 per rushing first
+  down, 2 per two-point conversion (any type)
 - K and DEF are $1 players and are never scraped or modeled
 
 ## Usage
@@ -70,12 +71,18 @@ All of these are editable in `R/league_config.R` unless noted.
 - **Pick sixes**: no projection source publishes them, so the −5 penalty is applied as
   expected value: ~1 in 13 INTs is a pick six (rate 0.075), costing an extra
   0.075 × 5 ≈ 0.38 pts per projected INT on top of the −2. Confirmed 2026-08-30.
-- **Receiving first downs**: not published by projection sources; derived from projected
-  receiving yards at FTN regression rates — RB 4.5%, WR 4.8%, TE 5.0% per receiving yard.
-  QB receiving yards (negligible) use the WR rate.
-- **No points for fumbles, receptions, two-point conversions, return TDs, or any
-  yardage/reception bonuses** — none appear in the league rules given, so scraped
-  projections for them are deliberately unused.
+- **First downs**: not published by projection sources; derived from projected yards at
+  FTN regression rates — receiving: RB 4.5%, WR 4.8%, TE 5.0% per receiving yard (QB
+  receiving yards, negligible, use the WR rate); rushing: 5.08% per rushing yard
+  (FTN publishes a single rushing rate, not per-position; y = 0.0508x, R = 0.934).
+- **Two-point conversions** (2 pts) use source projections where available — some
+  sources publish them split by play type (`pass/rush/rec_two_pts`), some combined
+  (`two_pts`); scoring takes the larger of the two estimates per player and warns
+  loudly if no source supplied any of them.
+- **No points for fumbles, receptions, return TDs, or any yardage/reception bonuses** —
+  none appear in the league rules or the app's scoring screens seen so far, so scraped
+  projections for them are deliberately unused. If the app has a misc/fumble tab not
+  yet reviewed, add the rule to `league$scoring` and `R/scoring.R`.
 - **Replacement ranks** assume the 10 flex slots split ~4.5 RB / ~4.5 WR / ~1 TE and
   ~9 of 10 superflex slots go to QBs, with superflex bench demand pushing QB replacement
   from QB21 to ~QB22.

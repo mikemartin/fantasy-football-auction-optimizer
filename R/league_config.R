@@ -14,8 +14,9 @@ league <- list(
   # Starting lineup. K and DEF are treated as $1 players and never modeled.
   starters = c(QB = 1, RB = 2, WR = 2, TE = 1, FLEX = 1, SUPERFLEX = 1, K = 1, DEF = 1),
 
-  # Scoring rules (confirmed 2026-08-30: passing yards at 0.04/yd; pick six scored as
-  # -5 on top of the -2 interception, applied as expected value below).
+  # Scoring rules, matched to the league app's Scoring Settings screens (2026-08-30):
+  # passing yards 0.04/yd confirmed; pick six is -5 on top of the -2 interception,
+  # applied as expected value below.
   scoring = list(
     pass_td       = 5,
     pass_int      = -2,
@@ -26,7 +27,9 @@ league <- list(
     rush_td       = 6,
     rec_td        = 6,
     reception     = 0,
-    rec_first_down = 1       # receiving first downs only; rushing first downs score 0
+    rec_first_down  = 1,
+    rush_first_down = 0.75,
+    two_pt        = 2        # same for passing, rushing, and receiving conversions
   ),
 
   # Projection sources publish neither pick sixes nor receiving first downs, so both
@@ -38,8 +41,11 @@ league <- list(
   # - rec_fd_rates: receiving first downs per receiving yard, from FTN's regression
   #   work. A QB's receiving yards (trick plays, a few yards a season) use the WR rate;
   #   the choice is worth < 0.1 points.
+  # - rush_fd_rate: rushing first downs per rushing yard, from the same FTN article
+  #   (y = 0.0508x, R = 0.934). FTN publishes a single rate, not per-position.
   pick_six_rate = 0.075,
   rec_fd_rates  = c(RB = 0.045, WR = 0.048, TE = 0.050, QB = 0.048),
+  rush_fd_rate  = 0.0508,
 
   # Replacement ranks: the positional rank at which a player is freely available at $1.
   # Derived from starter demand across 10 teams:
