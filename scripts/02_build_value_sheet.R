@@ -27,6 +27,7 @@ sheet <- read_csv(raw_path, show_col_types = FALSE) %>%
   score_players(league) %>%
   add_values(league) %>%
   add_tiers(league) %>%
+  arrange(desc(value_raw), desc(points)) %>%  # add_tiers regroups by position
   select(player, team, pos, points, value, value_raw, tier, par)
 
 csv_path <- sprintf("data/value_sheet_%d.csv", league$season)
