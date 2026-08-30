@@ -94,14 +94,14 @@ css <- '<style>
 
 legend <- paste0(
   '<div class="legend"><b>How to read a row:</b> ',
-  '<b>$</b> = fair price under league scoring &mdash; treat it as your normal max bid; ',
+  '<b>$</b> = fair price under league scoring &mdash; your max bid; ',
   'below it is profit, a few dollars above only for the last player of a tier. ',
   '<span style="color:#c33"><b>QB7</b></span> = 7th-best at the position ',
   '(<span style="color:#c33"><b>QB</b></span>/<span style="color:#171"><b>RB</b></span>/',
   '<span style="color:#26c"><b>WR</b></span>/<span style="color:#a50"><b>TE</b></span>). ',
-  '<b>pts</b> = projected season points. <b>Tier</b>: same tier &asymp; interchangeable ',
-  'players &mdash; buy the cheapest one, pay up only when a tier is nearly empty. ',
-  'Cross players off as they sell and jot the price paid. Full guide on page 2.</div>'
+  '<b>pts</b> = projected season points. <b>Tier</b>: players in one tier are near ',
+  'enough the same &mdash; buy the cheapest, pay up only when a tier is nearly empty. ',
+  'Cross players off as they sell and jot what they went for. Full guide on page 2.</div>'
 )
 
 tracker_row <- function(slot) paste0(
@@ -122,10 +122,10 @@ guide <- paste0('<div class="guide">
 <div class="two">
 <h2>How the auction works</h2>
 <ul>
-<li>Players are nominated one at a time and everyone bids from the same $200.
-Highest bid wins the player; that money is spent for good.</li>
+<li>Managers nominate players one at a time and everyone bids from the same $200.
+The highest bid wins the player; that money is gone for good.</li>
 <li>You must fill all 16 roster spots, so the most you can ever bid is
-$200 minus $1 for every spot you still have to fill. Practical ceiling on one
+$200 minus $1 for every spot you still have to fill. Real ceiling on one
 player: about $185.</li>
 <li>The sheet prices assume every team pays $1 each for K, DEF and 6 bench spots,
 leaving $192 for your 8 real starters (QB, 2 RB, 2 WR, TE, flex, superflex).</li>
@@ -135,17 +135,16 @@ when to keep bidding and when to let go.</li>
 </ul>
 <h2>Five rules</h2>
 <ol>
-<li>Early prices run hot. Let the first handful of players go unless one falls to
+<li>Early bids run high. Let the first handful of players go unless one falls to
 sheet price &mdash; then bid.</li>
 <li>Decide your stop price <i>before</i> the bidding starts, and never bid past it
 on a player you only half-want.</li>
 <li>Think in tiers, not names. While a tier is deep, hunt its cheapest member; when
-it is down to its last player, that is the moment to pay full sheet price or $1-2
-more.</li>
+it is down to its last player, pay full sheet price or $1-2 more.</li>
 <li>This league starts ~2 QBs per team (superflex), so QBs are worth far more here
 than on generic sheets. Leave with two QBs from the board&apos;s top 15 &mdash;
 the $18-37 middle tier is the best value in the room.</li>
-<li>Spend exactly $1 on your K and $1 on your DEF, at the very end. Never more.</li>
+<li>Spend exactly $1 on your K and $1 on your DEF, at the end. Never more.</li>
 </ol>
 <h2>A sensible $200 plan</h2>
 <ul>
@@ -155,7 +154,7 @@ the $18-37 middle tier is the best value in the room.</li>
 <li>Remaining starters (WR/TE/flex) &asymp; $10-25 each</li>
 <li>Bench $1-3 each + K/DEF at $1 = keep ~$10 back</li>
 <li>The plan is a shape, not a script &mdash; if the room hands you a $70 player for
-$50, take it and rebalance.</li>
+$50, take it and adjust.</li>
 </ul>
 <h2>Watching the room</h2>
 <ul>
@@ -166,7 +165,7 @@ are hoarding; mid-tier players will get expensive late.</li>
 <li>Rough correction: for every $100 the room overpays in total, shave ~$1 off each
 remaining top player&apos;s price.</li>
 <li>Endgame: when most teams are down to $1-per-slot, a single spare dollar wins any
-player. Count who can still actually bid.</li>
+player. Count who can still bid.</li>
 </ul>
 </div>
 <h2>Your roster &mdash; fill it in as you buy</h2>', tracker, '</div>')
