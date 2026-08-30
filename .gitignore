@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Generated outputs (rebuild with scripts/01 + 02)
+output/
+data/projections_raw_*.csv
+data/value_sheet_*.csv
