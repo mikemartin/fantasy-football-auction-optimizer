@@ -29,7 +29,9 @@ league <- list(
     reception     = 0,
     rec_first_down  = 1,
     rush_first_down = 0.75,
-    two_pt        = 2        # same for passing, rushing, and receiving conversions
+    two_pt        = 2,       # same for passing, rushing, and receiving conversions
+    fumble_lost   = -2,
+    return_td     = 6        # "special teams player TD" (kick/punt return TDs)
   ),
 
   # Projection sources publish neither pick sixes nor receiving first downs, so both

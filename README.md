@@ -15,7 +15,7 @@ secondary pre-draft sanity check on budget allocation.
 - Scoring (matched to the league app's Scoring Settings screens): 5/pass TD, −2/INT
   (plus expected pick-six penalty, see assumptions), 0.04/pass yd, 0.1/rush & rec yd,
   6/rush & rec TD, 0/reception, 1 per receiving first down, 0.75 per rushing first
-  down, 2 per two-point conversion (any type)
+  down, 2 per two-point conversion (any type), −2 per fumble lost, 6 per return TD
 - K and DEF are $1 players and are never scraped or modeled
 
 ## Usage
@@ -79,10 +79,15 @@ All of these are editable in `R/league_config.R` unless noted.
   sources publish them split by play type (`pass/rush/rec_two_pts`), some combined
   (`two_pts`); scoring takes the larger of the two estimates per player and warns
   loudly if no source supplied any of them.
-- **No points for fumbles, receptions, return TDs, or any yardage/reception bonuses** —
-  none appear in the league rules or the app's scoring screens seen so far, so scraped
-  projections for them are deliberately unused. If the app has a misc/fumble tab not
-  yet reviewed, add the rule to `league$scoring` and `R/scoring.R`.
+- **Fumbles lost (−2) and return TDs (6)** use source projections where available
+  (5 and 4 sources respectively map these columns), with the same warn-if-absent
+  behavior as 2PCs. Fumbles score only when lost, matching the MISC screen.
+- **Fumble-recovery TDs by offensive players (6 pts) are left unscored**: no
+  projection source publishes them, and unlike pick sixes there is no sensible stat
+  to derive an expected value from. League-wide only a handful happen per season, so
+  the omission is worth well under 0.1 points per player.
+- **No points for receptions, return yards, or any yardage/reception bonuses** —
+  none appear in the league rules or any scoring screen.
 - **Replacement ranks** assume the 10 flex slots split ~4.5 RB / ~4.5 WR / ~1 TE and
   ~9 of 10 superflex slots go to QBs, with superflex bench demand pushing QB replacement
   from QB21 to ~QB22.

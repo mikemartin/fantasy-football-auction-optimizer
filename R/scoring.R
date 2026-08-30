@@ -17,6 +17,25 @@ required_stats <- c(
   "rec_yds", "rec_tds"
 )
 
+# For stats some sources publish combined and others split by play type: take the
+# larger of the combined column and the sum of split columns (both estimate the same
+# total, and the source means are computed independently). Warns - never silently
+# zeroes - when no source supplied the stat at all.
+combined_or_split <- function(stats, combined, split, what) {
+  split_cols <- intersect(split, names(stats))
+  has_combined <- combined %in% names(stats)
+  if (length(split_cols) == 0 && !has_combined) {
+    warning("No projection source supplied ", what,
+            "; it cannot be applied and will contribute 0 points.")
+    return(rep(0, nrow(stats)))
+  }
+  split_sum <- if (length(split_cols) > 0) {
+    rowSums(as.matrix(stats[, split_cols, drop = FALSE]), na.rm = TRUE)
+  } else 0
+  combined_v <- if (has_combined) coalesce(stats[[combined]], 0) else 0
+  pmax(split_sum, combined_v)
+}
+
 score_players <- function(stats, league) {
   missing_cols <- setdiff(required_stats, names(stats))
   if (length(missing_cols) > 0) {
@@ -49,25 +68,31 @@ score_players <- function(stats, league) {
   # penalty (pick_six_rate of INTs are returned for a TD, each costing pick_six more).
   int_pts <- s$pass_int + league$pick_six_rate * s$pick_six
 
-  # Two-point conversions: only some sources project them, either split by play type
-  # (pass_two_pts / rush_two_pts / rec_two_pts) or combined (two_pts). All types score
-  # the same here, so take the larger of the two estimates per player. If no source
-  # supplied any of these columns, say so - never silently score them as zero.
-  two_pt_cols <- intersect(c("pass_two_pts", "rush_two_pts", "rec_two_pts"), names(stats))
-  has_combined <- "two_pts" %in% names(stats)
-  if (length(two_pt_cols) == 0 && !has_combined) {
-    warning(
-      "No projection source supplied two-point conversion projections ",
-      "(two_pts / pass_two_pts / rush_two_pts / rec_two_pts); the ", s$two_pt,
-      "-point rule cannot be applied and 2PCs will contribute 0 points."
-    )
-    stats$two_pt_proj <- 0
+  # Two-point conversions: all types score the same here, so combined and split
+  # source columns are interchangeable estimates of the same total.
+  stats$two_pt_proj <- combined_or_split(
+    stats, combined = "two_pts",
+    split = c("pass_two_pts", "rush_two_pts", "rec_two_pts"),
+    what = sprintf("two-point conversion projections (the %g-point rule)", s$two_pt)
+  )
+
+  # Fumbles lost: most sources publish a combined fumbles_lost; a couple split it by
+  # play type instead.
+  stats$fumbles_lost_proj <- combined_or_split(
+    stats, combined = "fumbles_lost",
+    split = c("rush_fumbles_lost", "rec_fumbles_lost", "sack_fumbles_lost",
+              "rushing_fumbles_lost", "receiving_fumbles_lost"),
+    what = sprintf("fumbles-lost projections (the %g-point rule)", s$fumble_lost)
+  )
+
+  # Return TDs ("special teams player TD"). Fumble-recovery TDs for offensive players
+  # are projected by no source and are left unscored - see README.
+  if ("return_tds" %in% names(stats)) {
+    stats$return_tds_proj <- coalesce(stats$return_tds, 0)
   } else {
-    split_sum <- if (length(two_pt_cols) > 0) {
-      rowSums(as.matrix(stats[, two_pt_cols, drop = FALSE]), na.rm = TRUE)
-    } else 0
-    combined <- if (has_combined) coalesce(stats$two_pts, 0) else 0
-    stats$two_pt_proj <- pmax(split_sum, combined)
+    warning("No projection source supplied return-TD projections; the ", s$return_td,
+            "-point special-teams TD rule cannot be applied and will contribute 0 points.")
+    stats$return_tds_proj <- 0
   }
 
   stats %>%
@@ -87,7 +112,9 @@ score_players <- function(stats, league) {
         coalesce(rec_tds, 0)   * s$rec_td +
         rec_first_downs        * s$rec_first_down +
         rush_first_downs       * s$rush_first_down +
-        two_pt_proj            * s$two_pt,
+        two_pt_proj            * s$two_pt +
+        fumbles_lost_proj      * s$fumble_lost +
+        return_tds_proj        * s$return_td,
       points = round(points, 1)
     )
 }
