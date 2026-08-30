@@ -1,0 +1,55 @@
+name: Build value sheet
+
+# Scrapes live projections and builds the auction value sheet on a GitHub-hosted
+# runner (which has open internet access), then commits the generated CSV + HTML
+# back to this branch and uploads them as a downloadable artifact.
+on:
+  push:
+    branches: [claude/fantasy-auction-optimizer-o0fyp4]
+    paths-ignore:
+      - "data/**"
+      - "output/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true # binary packages, keeps install to ~2 min
+
+      - name: Install R packages
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          Rscript -e 'install.packages(c("dplyr","tidyr","readr","stringr","purrr","tibble","glue","rvest","httr2","readxl","data.table","rrapply","remotes"))'
+          Rscript -e 'remotes::install_github("FantasyFootballAnalytics/ffanalytics", upgrade = "never")'
+
+      - name: Scrape live projections
+        run: Rscript scripts/01_scrape_projections.R
+
+      - name: Build value sheet
+        run: Rscript scripts/02_build_value_sheet.R
+
+      - name: Upload sheet as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: value-sheet
+          path: |
+            data/projections_raw_*.csv
+            data/value_sheet_*.csv
+            output/value_sheet_*.html
+
+      - name: Commit generated sheet to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/projections_raw_*.csv data/value_sheet_*.csv output/value_sheet_*.html
+          git diff --cached --quiet || git commit -m "Add generated value sheet [skip ci]"
+          git push
