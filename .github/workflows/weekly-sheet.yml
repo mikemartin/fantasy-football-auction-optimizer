@@ -1,0 +1,57 @@
+name: Weekly start-sit sheet
+
+# Scrapes the current week's projections every Friday morning AEST (Thursday 23:00
+# UTC), scores them under league rules, and commits the start/sit sheet to the branch.
+# Can also be run on demand with an explicit week number.
+on:
+  schedule:
+    - cron: "0 23 * * 4"
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "NFL week (blank = auto-detect)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/fantasy-auction-optimizer-o0fyp4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          Rscript -e 'install.packages(c("dplyr","tidyr","readr","stringr","purrr","tibble","glue","rvest","httr2","readxl","data.table","rrapply","remotes"))'
+          Rscript -e 'remotes::install_github("FantasyFootballAnalytics/ffanalytics", upgrade = "never")'
+
+      - name: Build weekly sheet
+        env:
+          WEEK: ${{ inputs.week }}
+        run: Rscript scripts/04_weekly_sheet.R
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-sheet
+          path: |
+            data/weekly_wk*.csv
+            output/weekly_wk*.html
+
+      - name: Commit to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/weekly_wk*.csv output/weekly_wk*.html
+          git diff --cached --quiet || git commit -m "Add weekly sheet [skip ci]"
+          git push

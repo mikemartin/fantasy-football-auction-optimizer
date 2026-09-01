@@ -74,3 +74,14 @@ league$value_pool <- league$n_teams * league$budget - league$n_dollar_slots  # 1
 # Every modeled starter costs at least $1; the rest is distributed in proportion to
 # points above replacement.
 league$marginal_pool <- league$value_pool - league$n_valued_slots            # 1840
+
+# Your roster (edit as you make moves) - used by scripts/04_weekly_sheet.R to mark
+# and rank your players in the weekly start/sit output. K and DEF are not scraped.
+league$my_roster <- c(
+  "Jayden Daniels", "Bryce Young", "Geno Smith",
+  "Jonathan Taylor", "Christian McCaffrey", "MarShawn Lloyd",
+  "Kaelon Black", "DJ Giddens",
+  "Jaxon Smith-Njigba", "Courtland Sutton", "Xavier Worthy",
+  "Stefon Diggs", "Deebo Samuel",
+  "Travis Kelce"
+)
