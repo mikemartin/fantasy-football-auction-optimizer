@@ -40,6 +40,31 @@ if (nrow(all_pos) == 0 || !"data_src" %in% names(all_pos)) {
 }
 message("Sources: ", paste(unique(all_pos$data_src), collapse = ", "))
 
+# Guard: before a week's numbers go live, some sources serve SEASON-scale data on
+# their weekly pages. Averaging the two scales together produces nonsense, so score
+# each source alone and drop any whose top-20 median looks like season totals
+# (a weekly top-20 median sits near 20 points; season totals sit in the hundreds).
+srcs <- split(all_pos, all_pos$data_src)
+src_ok <- vapply(names(srcs), function(nm) {
+  d <- as_tibble(srcs[[nm]]) %>% filter(pos %in% c("QB", "RB", "WR", "TE"))
+  pts <- tryCatch(suppressWarnings(score_players(d, league))$points,
+                  error = function(e) NA_real_)
+  med <- suppressWarnings(median(head(sort(pts, decreasing = TRUE), 20)))
+  ok <- is.finite(med) && med <= 60
+  message(sprintf("  %-20s top-20 median %7.1f pts%s", nm, med,
+                  ifelse(ok, "", "  <- season-scale, dropped")))
+  ok
+}, logical(1))
+if (!any(src_ok)) {
+  stop("Every source returned season-scale numbers - week ", week,
+       " projections are not published yet. Try again closer to game day.")
+}
+if (!all(src_ok)) {
+  message("Dropped season-scale sources: ",
+          paste(names(srcs)[!src_ok], collapse = ", "))
+}
+all_pos <- all_pos %>% filter(data_src %in% names(srcs)[src_ok])
+
 identities <- all_pos %>%
   filter(!is.na(player)) %>%
   distinct(id, .keep_all = TRUE) %>%
