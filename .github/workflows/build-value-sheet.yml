@@ -9,6 +9,7 @@ on:
     paths-ignore:
       - "data/**"
       - "output/**"
+      - ".run-weekly"
   workflow_dispatch:
 
 permissions:

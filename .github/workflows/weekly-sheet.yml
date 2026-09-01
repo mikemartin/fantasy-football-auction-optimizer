@@ -3,6 +3,9 @@ name: Weekly start-sit sheet
 # Scrapes the current week's projections every Friday morning AEST (Thursday 23:00
 # UTC), scores them under league rules, and commits the start/sit sheet to the branch.
 # Can also be run on demand with an explicit week number.
+# NOTE: schedule and workflow_dispatch only arm once this file reaches the repo's
+# default branch (main). Until then, edit .run-weekly (its contents = week number,
+# empty = auto-detect) and push - that fires a run from this branch.
 on:
   schedule:
     - cron: "0 23 * * 4"
@@ -12,6 +15,9 @@ on:
         description: "NFL week (blank = auto-detect)"
         required: false
         default: ""
+  push:
+    branches: [claude/fantasy-auction-optimizer-o0fyp4]
+    paths: [".run-weekly"]
 
 permissions:
   contents: write
@@ -35,9 +41,13 @@ jobs:
           Rscript -e 'install.packages(c("dplyr","tidyr","readr","stringr","purrr","tibble","glue","rvest","httr2","readxl","data.table","rrapply","remotes"))'
           Rscript -e 'remotes::install_github("FantasyFootballAnalytics/ffanalytics", upgrade = "never")'
 
+      - name: Determine week
+        run: |
+          WEEK="${{ inputs.week }}"
+          [ -z "$WEEK" ] && WEEK="$(tr -cd '0-9' < .run-weekly 2>/dev/null || true)"
+          echo "WEEK=$WEEK" >> "$GITHUB_ENV"
+
       - name: Build weekly sheet
-        env:
-          WEEK: ${{ inputs.week }}
         run: Rscript scripts/04_weekly_sheet.R
 
       - name: Upload artifact
