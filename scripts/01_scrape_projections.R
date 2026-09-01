@@ -69,6 +69,9 @@ projections <- all_pos %>%
   filter(pos %in% c("QB", "RB", "WR", "TE")) %>%
   relocate(player, team, pos, .after = id)
 
+# Stamp when this scrape ran, so the value sheet can show its own age.
+projections$scraped_at <- format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC")
+
 out_path <- sprintf("data/projections_raw_%d.csv", league$season)
 write.csv(projections, out_path, row.names = FALSE)
 message("Wrote ", nrow(projections), " players to ", out_path)

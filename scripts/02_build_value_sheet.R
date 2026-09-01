@@ -23,7 +23,17 @@ if (!file.exists(raw_path)) {
   stop(raw_path, " not found - run scripts/01_scrape_projections.R first.")
 }
 
-sheet <- read_csv(raw_path, show_col_types = FALSE) %>%
+raw_dat <- read_csv(raw_path, show_col_types = FALSE)
+
+# Age of the underlying scrape, so the printed sheet says how current it is.
+scraped_at <- if ("scraped_at" %in% names(raw_dat)) {
+  as.character(raw_dat$scraped_at[1])
+} else {
+  paste("unknown (file modified", format(file.mtime(raw_path), "%Y-%m-%d %H:%M"), ")")
+}
+message("Projections scraped: ", scraped_at)
+
+sheet <- raw_dat %>%
   score_players(league) %>%
   add_values(league) %>%
   add_tiers(league) %>%
@@ -176,7 +186,7 @@ html <- paste0('<!DOCTYPE html>
 <h1>Auction Value Sheet - ', league$season, '</h1>
 <div class="sub">10 teams &middot; $200 budget &middot; superflex &middot; $',
 league$value_pool, ' pool over ', league$n_valued_slots,
-' starter slots &middot; generated ', format(Sys.Date()), '</div>',
+' starter slots &middot; projections scraped ', scraped_at, '</div>',
 legend,
 '<div class="cols"><table>', rows, '</table></div>',
 guide,
