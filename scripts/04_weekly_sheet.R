@@ -82,13 +82,18 @@ projections <- all_pos %>%
   filter(pos %in% c("QB", "RB", "WR", "TE")) %>%
   relocate(player, team, pos, .after = id)
 
+# Sources disagree on suffixes ("Deebo Samuel" vs "Deebo Samuel Sr."), so match
+# roster names with suffixes stripped and case ignored.
+norm_name <- function(x) tolower(trimws(gsub("\\s+(jr|sr|ii|iii|iv)\\.?$", "", x,
+                                             ignore.case = TRUE)))
+
 weekly <- projections %>%
   score_players(league) %>%
   group_by(pos) %>%
   arrange(desc(points), .by_group = TRUE) %>%
   mutate(pos_rank = row_number()) %>%
   ungroup() %>%
-  mutate(mine = player %in% league$my_roster) %>%
+  mutate(mine = norm_name(player) %in% norm_name(league$my_roster)) %>%
   arrange(desc(points)) %>%
   select(player, team, pos, pos_rank, points, mine)
 
@@ -99,7 +104,7 @@ message("Wrote ", csv_path, " (", nrow(weekly), " players)")
 # --- Best legal lineup from my roster --------------------------------------------------
 
 mine <- weekly %>% filter(mine) %>% arrange(desc(points))
-missing <- setdiff(league$my_roster, mine$player)
+missing <- league$my_roster[!norm_name(league$my_roster) %in% norm_name(mine$player)]
 if (length(missing) > 0) {
   warning("On your roster but not in this week's projections (bye, injury, or name ",
           "mismatch): ", paste(missing, collapse = ", "))
