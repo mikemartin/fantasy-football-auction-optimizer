@@ -16,12 +16,12 @@ rosters <- list(
     "Jaxon Smith-Njigba", "Courtland Sutton", "Xavier Worthy", "Stefon Diggs", "Deebo Samuel",
     "Travis Kelce")),
 
-  # Owns Nico Collins AND Chris Olave. Bench not seen in the app - starters only, so their
-  # side of any trade is indicative, not exact.
-  Rowdy17 = list(complete = FALSE, players = c(
-    "Caleb Williams",
-    "Saquon Barkley", "Javonte Williams",
-    "Nico Collins", "Tee Higgins", "Chris Olave",
+  # Full roster seen 2026-09-15. THREE quarterbacks (Caleb, Lawrence, Stroud), four healthy
+  # backs, five receivers - deep everywhere. James Conner on IR.
+  Rowdy17 = list(complete = TRUE, players = c(
+    "Caleb Williams", "Trevor Lawrence", "C.J. Stroud",
+    "Saquon Barkley", "Javonte Williams", "Bucky Irving", "Blake Corum", "James Conner",
+    "Nico Collins", "Chris Olave", "Tee Higgins", "Parker Washington", "Josh Downs",
     "Sam LaPorta")),
 
   # "Waxson Dart" - six receivers, three backs. Zay Flowers currently OUT.
@@ -43,4 +43,4 @@ rosters <- list(
 
 # Players who cannot be counted on right now (OUT / IR). The analyzer zeroes them so a
 # trade is never justified by a player who is not playing.
-unavailable <- c("Zay Flowers", "A.J. Brown")
+unavailable <- c("Zay Flowers", "A.J. Brown", "James Conner")
