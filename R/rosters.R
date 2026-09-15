@@ -52,4 +52,4 @@ rosters <- list(
 
 # Players who cannot be counted on right now (OUT / IR). The analyzer zeroes them so a
 # trade is never justified by a player who is not playing.
-unavailable <- c("Zay Flowers", "A.J. Brown", "James Conner")
+unavailable <- c("Zay Flowers", "A.J. Brown", "James Conner", "DJ Giddens")
