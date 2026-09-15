@@ -84,7 +84,12 @@ candidates <- bind_rows(
   score_trade("themikemartin", "Rowdy17",   "Geno Smith",                        "Chris Olave",   "Geno -> Olave"),
   score_trade("themikemartin", "Rowdy17",   c("Geno Smith", "MarShawn Lloyd"),   "Nico Collins",  "Geno + Lloyd -> Collins"),
   score_trade("themikemartin", "jezz281",   c("Geno Smith", "MarShawn Lloyd"),   "George Pickens","Geno + Lloyd -> Pickens"),
-  score_trade("themikemartin", "jezz281",   "Geno Smith",                        "Rashee Rice",   "Geno -> Rashee Rice")
+  score_trade("themikemartin", "jezz281",   "Geno Smith",                        "Rashee Rice",   "Geno -> Rashee Rice"),
+  score_trade("themikemartin", "dm98",      c("MarShawn Lloyd", "Stefon Diggs"), "CeeDee Lamb",   "Lloyd + Diggs -> Lamb"),
+  score_trade("themikemartin", "dm98",      c("MarShawn Lloyd", "Stefon Diggs"), "Emeka Egbuka",  "Lloyd + Diggs -> Egbuka"),
+  score_trade("themikemartin", "dm98",      "MarShawn Lloyd",                    "Garrett Wilson","Lloyd -> G Wilson"),
+  score_trade("themikemartin", "dm98",      "Travis Kelce",                      "George Kittle", "Kelce -> Kittle"),
+  score_trade("themikemartin", "dm98",      c("Geno Smith", "Travis Kelce"),     "George Kittle", "Geno + Kelce -> Kittle")
 )
 
 cat(sprintf("\nYour current best lineup: %.0f pts (modeled starters, K/DEF excluded)\n\n",

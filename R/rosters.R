@@ -38,7 +38,14 @@ rosters <- list(
     "Travis Etienne", "Chase Brown", "Omarion Hampton", "Jacory Croskey-Merritt",
     "Kyle Monangai", "J.K. Dobbins", "Rhamondre Stevenson",
     "A.J. Brown", "George Pickens", "Rashee Rice", "Quentin Johnston",
-    "Trey McBride"))
+    "Trey McBride")),
+
+  # "Braudie sucks" (@dm98) - owns CeeDee Lamb. Three QBs, five backs, four receivers.
+  dm98 = list(complete = TRUE, players = c(
+    "Jaxson Dart", "Dak Prescott", "Jordan Love",
+    "James Cook", "Cam Skattebo", "Chris Rodriguez", "Jeremiyah Love", "Tyjae Spears",
+    "CeeDee Lamb", "Garrett Wilson", "Emeka Egbuka", "Matthew Golden",
+    "Harold Fannin", "George Kittle"))
 )
 
 # Players who cannot be counted on right now (OUT / IR). The analyzer zeroes them so a
