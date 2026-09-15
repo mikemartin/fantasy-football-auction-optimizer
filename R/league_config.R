@@ -78,10 +78,10 @@ league$marginal_pool <- league$value_pool - league$n_valued_slots            # 1
 # Your roster (edit as you make moves) - used by scripts/04_weekly_sheet.R to mark
 # and rank your players in the weekly start/sit output. K and DEF are not scraped.
 league$my_roster <- c(
-  "Jayden Daniels", "Bryce Young", "Geno Smith",
+  "Jordan Love", "Bryce Young", "Geno Smith",
   "Jonathan Taylor", "Christian McCaffrey", "MarShawn Lloyd",
   "Kaelon Black", "DJ Giddens",
-  "Jaxon Smith-Njigba", "Courtland Sutton", "Xavier Worthy",
+  "Jaxon Smith-Njigba", "Garrett Wilson", "Courtland Sutton", "Xavier Worthy",
   "Stefon Diggs", "Deebo Samuel",
   "Travis Kelce"
 )

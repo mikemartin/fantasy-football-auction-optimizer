@@ -10,10 +10,12 @@
 
 rosters <- list(
 
+  # 2026-09-15: traded Jayden Daniels to dm98 for Jordan Love + Garrett Wilson.
   themikemartin = list(complete = TRUE, players = c(
-    "Jayden Daniels", "Bryce Young", "Geno Smith",
+    "Jordan Love", "Bryce Young", "Geno Smith",
     "Jonathan Taylor", "Christian McCaffrey", "MarShawn Lloyd", "Kaelon Black", "DJ Giddens",
-    "Jaxon Smith-Njigba", "Courtland Sutton", "Xavier Worthy", "Stefon Diggs", "Deebo Samuel",
+    "Jaxon Smith-Njigba", "Garrett Wilson", "Courtland Sutton", "Xavier Worthy",
+    "Stefon Diggs", "Deebo Samuel",
     "Travis Kelce")),
 
   # Full roster seen 2026-09-15. THREE quarterbacks (Caleb, Lawrence, Stroud), four healthy
@@ -42,9 +44,9 @@ rosters <- list(
 
   # "Braudie sucks" (@dm98) - owns CeeDee Lamb. Three QBs, five backs, four receivers.
   dm98 = list(complete = TRUE, players = c(
-    "Jaxson Dart", "Dak Prescott", "Jordan Love",
+    "Jaxson Dart", "Dak Prescott", "Jayden Daniels",
     "James Cook", "Cam Skattebo", "Chris Rodriguez", "Jeremiyah Love", "Tyjae Spears",
-    "CeeDee Lamb", "Garrett Wilson", "Emeka Egbuka", "Matthew Golden",
+    "CeeDee Lamb", "Emeka Egbuka", "Matthew Golden",
     "Harold Fannin", "George Kittle"))
 )
 
