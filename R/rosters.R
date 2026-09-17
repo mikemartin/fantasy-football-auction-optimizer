@@ -36,7 +36,7 @@ rosters <- list(
 
   # "Named you after the dog!" - seven running backs. A.J. Brown on IR.
   jezz281 = list(complete = TRUE, players = c(
-    "Brock Purdy", "Jared Goff",
+    "Brock Purdy", "Jared Goff", "Jacoby Brissett",
     "Travis Etienne", "Chase Brown", "Omarion Hampton", "Jacory Croskey-Merritt",
     "Kyle Monangai", "J.K. Dobbins", "Rhamondre Stevenson",
     "A.J. Brown", "George Pickens", "Rashee Rice", "Quentin Johnston",
@@ -45,7 +45,7 @@ rosters <- list(
   # "Braudie sucks" (@dm98) - owns CeeDee Lamb. Three QBs, five backs, four receivers.
   dm98 = list(complete = TRUE, players = c(
     "Jaxson Dart", "Dak Prescott", "Jayden Daniels",
-    "James Cook", "Cam Skattebo", "Chris Rodriguez", "Jeremiyah Love", "Tyjae Spears",
+    "James Cook", "Emmett Johnson", "Cam Skattebo", "Chris Rodriguez", "Jeremiyah Love", "Tyjae Spears",
     "CeeDee Lamb", "Emeka Egbuka", "Matthew Golden",
     "Harold Fannin", "George Kittle"))
 )
