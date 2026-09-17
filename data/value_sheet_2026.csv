@@ -310,6 +310,7 @@ Tyrone Tracy Jr.,NYG,RB,37.3,1,1,NA,0
 Luke Schoonmaker,DAL,TE,37.1,1,1,NA,0
 Ben Sinnott,WAS,TE,37.1,1,1,NA,0
 Matthew Hibner,BAL,TE,37,1,1,NA,0
+KeAndre Lambert-Smith,LAC,WR,36.7,1,1,NA,0
 Foster Moreau,HOU,TE,36.6,1,1,NA,0
 Ray Davis,BUF,RB,36.3,1,1,NA,0
 Isaiah Davis,NYJ,RB,36.2,1,1,NA,0
@@ -329,6 +330,7 @@ LeQuint Allen,JAC,RB,33.7,1,1,NA,0
 Tylan Wallace,CLE,WR,33.6,1,1,NA,0
 Max Klare,LAR,TE,32.2,1,1,NA,0
 Konata Mumpfield,LAR,WR,32.1,1,1,NA,0
+Jalen Royals,KCC,WR,31.9,1,1,NA,0
 Carson Beck,ARI,QB,31.5,1,1,NA,0
 Jeremy Ruckert,NYJ,TE,31.5,1,1,NA,0
 Travis Homer,PIT,RB,31.3,1,1,NA,0
@@ -338,7 +340,6 @@ Troy Franklin,DEN,WR,30.8,1,1,NA,0
 DJ Giddens,IND,RB,30.5,1,1,NA,0
 Brennan Presley,LA,WR,30.5,1,1,NA,0
 Odell Beckham Jr.,NYG,WR,30.4,1,1,NA,0
-KeAndre Lambert-Smith,LAC,WR,30.4,1,1,NA,0
 Ollie Gordon II,MIA,RB,30.3,1,1,NA,0
 Sione Vaki,DET,RB,30.2,1,1,NA,0
 Emanuel Wilson,SEA,RB,30,1,1,NA,0
@@ -363,11 +364,11 @@ Xavier Smith,LAR,WR,25,1,1,NA,0
 Luke Musgrave,GB,TE,24.9,1,1,NA,0
 Eli Stowers,PHI,TE,24.9,1,1,NA,0
 Jordan James,SF,RB,24.7,1,1,NA,0
-Jalen Royals,KCC,WR,24.7,1,1,NA,0
 Patrick Ricard,NYG,RB,24.2,1,1,NA,0
 Eli Heidenreich,PIT,RB,23.7,1,1,NA,0
 Hunter Luepke,DAL,RB,23.6,1,1,NA,0
 Jack Endries,CIN,TE,23.4,1,1,NA,0
+Tai Felton,MIN,WR,23.4,1,1,NA,0
 Keleki Latu,BUF,TE,23.2,1,1,NA,0
 Jake Tonges,SF,TE,23.1,1,1,NA,0
 Jacob Saylors,DET,RB,22.7,1,1,NA,0
@@ -383,7 +384,6 @@ Raheim Sanders,CLE,RB,21.8,1,1,NA,0
 Ben Sims,MIA,TE,21.5,1,1,NA,0
 Bauer Sharp,TB,TE,21.3,1,1,NA,0
 Will Kacmarek,MIA,TE,20.8,1,1,NA,0
-Savion Williams,GB,WR,20.8,1,1,NA,0
 Will Shipley,PHI,RB,20.4,1,1,NA,0
 Simi Fehoko,ARI,WR,20.4,1,1,NA,0
 Efton Chism III,NE,WR,20.3,1,1,NA,0
@@ -400,11 +400,10 @@ Malik Turner,SF,WR,18.5,1,1,NA,0
 Eric Saubert,SEA,TE,18.4,1,1,NA,0
 James Conner,ARI,RB,18.2,1,1,NA,0
 Ja'Corey Brooks,WSH,WR,18.1,1,1,NA,0
-Corey Kiner,NE,RB,18,1,1,NA,0
 Brady Russell,SEA,RB,17.7,1,1,NA,0
 Alec Ingold,LAC,RB,17.5,1,1,NA,0
 Tahj Brooks,CIN,RB,17.5,1,1,NA,0
-Tai Felton,MIN,WR,17.4,1,1,NA,0
+Corey Kiner,NE,RB,17.3,1,1,NA,0
 Luke Farrell,SF,TE,17.3,1,1,NA,0
 Ko Kieft,TB,TE,17.1,1,1,NA,0
 Kylen Granson,TEN,TE,16.8,1,1,NA,0
@@ -420,6 +419,7 @@ David Martin-Robinson,TEN,TE,16,1,1,NA,0
 Tyler Badie,DEN,RB,15.7,1,1,NA,0
 Dylan Laube,LV,RB,15.4,1,1,NA,0
 Jared Wiley,KC,TE,14.9,1,1,NA,0
+Savion Williams,GB,WR,14.8,1,1,NA,0
 Zonovan Knight,ARI,RB,13.9,1,1,NA,0
 Brenen Thompson,LAC,WR,13.8,1,1,NA,0
 Isaac Guerendo,SF,RB,13.7,1,1,NA,0
@@ -439,6 +439,7 @@ Jameis Winston,NYG,QB,11.4,1,1,NA,0
 Skyler Bell,BUF,WR,11.4,1,1,NA,0
 Audric Estime,NO,RB,11.3,1,1,NA,0
 J.J. McCarthy,MIN,QB,11.2,1,1,NA,0
+British Brooks,HOU,RB,11.2,1,1,NA,0
 Will Howard,PIT,QB,11,1,1,NA,0
 Jeremy McNichols,WAS,RB,10.9,1,1,NA,0
 Sam Roush,CHI,TE,10.9,1,1,NA,0
@@ -488,7 +489,6 @@ Riley Nowakowski,PIT,RB,6.6,1,1,NA,0
 Dohnte Meyers,CIN,WR,6.4,1,1,NA,0
 Eric Gray,NYG,RB,6.2,1,1,NA,0
 Quinn Ewers,JAC,QB,5.6,1,1,NA,0
-British Brooks,HOU,RB,5.1,1,1,NA,0
 Kendall Milton,CIN,RB,4.9,1,1,NA,0
 Tim Patrick,NYJ,WR,4.3,1,1,NA,0
 Stone Smartt,PHI,TE,2.2,1,1,NA,0
