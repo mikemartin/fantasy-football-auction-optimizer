@@ -13,7 +13,7 @@ rosters <- list(
   # 2026-09-15: traded Jayden Daniels to dm98 for Jordan Love + Garrett Wilson.
   themikemartin = list(complete = TRUE, players = c(
     "Jordan Love", "Bryce Young", "Geno Smith",
-    "Jonathan Taylor", "Christian McCaffrey", "MarShawn Lloyd", "Kaelon Black", "DJ Giddens",
+    "Jonathan Taylor", "Christian McCaffrey", "MarShawn Lloyd", "Kaelon Black",
     "Jaxon Smith-Njigba", "Garrett Wilson", "Courtland Sutton", "Xavier Worthy",
     "Stefon Diggs", "Deebo Samuel",
     "Travis Kelce")),
@@ -52,4 +52,4 @@ rosters <- list(
 
 # Players who cannot be counted on right now (OUT / IR). The analyzer zeroes them so a
 # trade is never justified by a player who is not playing.
-unavailable <- c("Zay Flowers", "A.J. Brown", "James Conner", "DJ Giddens")
+unavailable <- c("Zay Flowers", "A.J. Brown", "James Conner")

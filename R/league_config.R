@@ -80,7 +80,7 @@ league$marginal_pool <- league$value_pool - league$n_valued_slots            # 1
 league$my_roster <- c(
   "Jordan Love", "Bryce Young", "Geno Smith",
   "Jonathan Taylor", "Christian McCaffrey", "MarShawn Lloyd",
-  "Kaelon Black", "DJ Giddens",
+  "Kaelon Black",
   "Jaxon Smith-Njigba", "Garrett Wilson", "Courtland Sutton", "Xavier Worthy",
   "Stefon Diggs", "Deebo Samuel",
   "Travis Kelce"
