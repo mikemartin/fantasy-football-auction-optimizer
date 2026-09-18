@@ -61,7 +61,26 @@ print(src_summary)
 # want remaining-season value, and the fuller sources are scaled down to match it.
 source("R/scoring.R")
 
-scale_tolerance <- 0.95   # medians within 5% are ordinary disagreement, not a basis gap
+# A true basis gap is large and predictable: with w of 17 weeks already played, a
+# full-season source reads (17-w)/17 below a remaining-games one - about 12% by week 2,
+# and growing. Ordinary forecaster optimism sits well inside that; ESPN and FantasyPros
+# have run ~7% high all season without ever being on a different basis. So the gap is
+# only called when a source sits closer to the full-season ratio than to parity.
+#
+# Detection always runs and always reports. RESCALING DOES NOT RUN BY DEFAULT: the
+# evidence separating "different basis" from "more optimistic forecaster" is thin, and
+# quietly rewriting one source's numbers to match another is exactly the kind of hidden
+# transformation this pipeline is meant not to make. Set PROJECTION_BASIS_RESCALE=1 to
+# apply it, having read data/source_basis_<season>.csv and decided it is warranted.
+weeks_played <- tryCatch(max(0, as.integer(ffanalytics:::get_scrape_week()) - 1),
+                         error = function(e) 0)
+full_season_ratio <- (17 - weeks_played) / 17
+scale_tolerance <- (1 + full_season_ratio) / 2
+do_rescale <- identical(Sys.getenv("PROJECTION_BASIS_RESCALE"), "1")
+message(sprintf("Basis check: %d week(s) played, a full-season source would read %.3f; ",
+                weeks_played, full_season_ratio),
+        sprintf("flagging any source below %.3f. Rescaling is %s.",
+                scale_tolerance, ifelse(do_rescale, "ON", "OFF (report only)")))
 
 src_pts <- lapply(split(all_pos, all_pos$data_src), function(d) {
   d <- as_tibble(d) %>% filter(pos %in% c("QB", "RB", "WR", "TE"))
@@ -94,7 +113,15 @@ message("Source basis check (median points over ", length(common_ids), " common 
 print(as.data.frame(src_report), row.names = FALSE)
 write.csv(src_report, sprintf("data/source_basis_%d.csv", league$season), row.names = FALSE)
 
-if (basis_gap) {
+if (basis_gap && !do_rescale) {
+  warning("Sources may not be counting the same games: ",
+          paste(sprintf("%s=%.0f", src_report$data_src, src_report$median_pts), collapse = ", "),
+          ". Flagged but NOT corrected - the averaged sheet still mixes them. Review ",
+          "data/source_basis_", league$season, ".csv and re-run with ",
+          "PROJECTION_BASIS_RESCALE=1 if the gap is a real basis difference.")
+}
+
+if (basis_gap && do_rescale) {
   warning("Sources disagree on how many games a season projection covers: ",
           paste(sprintf("%s=%.0f", src_report$data_src, src_report$median_pts), collapse = ", "),
           ". The fuller sources have been scaled down to the shortest basis so the average is ",
@@ -111,8 +138,8 @@ if (basis_gap) {
     mutate(across(all_of(count_cols), \(x) x * unname(scale_factor[data_src])))
   message("Rescaled ", length(count_cols), " counting-stat columns for ",
           sum(src_report$rescaled), " of ", nrow(src_report), " sources.")
-} else {
-  message("All sources are on the same basis; no rescaling applied.")
+} else if (!basis_gap) {
+  message("All sources are on the same basis; no rescaling needed.")
 }
 
 # One identity row per player: name/team/pos from the first source that lists them.
