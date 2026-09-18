@@ -44,6 +44,7 @@ jobs:
           name: value-sheet
           path: |
             data/projections_raw_*.csv
+            data/source_basis_*.csv
             data/value_sheet_*.csv
             output/value_sheet_*.html
 
@@ -51,6 +52,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/projections_raw_*.csv data/value_sheet_*.csv output/value_sheet_*.html
+          git add -f data/projections_raw_*.csv data/source_basis_*.csv data/value_sheet_*.csv output/value_sheet_*.html
           git diff --cached --quiet || git commit -m "Add generated value sheet [skip ci]"
           git push

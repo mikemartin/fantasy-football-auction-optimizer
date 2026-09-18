@@ -45,6 +45,76 @@ src_summary <- all_pos %>%
 message("Sources scraped:")
 print(src_summary)
 
+# --- Basis check: are all sources counting the same games? ------------------------------
+#
+# Sources do not agree on what a "season" projection covers. Before week 1 they all publish
+# full-season totals. Once games are played, some switch to remaining games only (FanDuel
+# announces this in its scrape message) while others keep publishing full-season totals that
+# already include the weeks behind us. Averaging the two bases together silently deflates
+# every player who happens to be covered by the remaining-games source, and the deflation
+# grows every week - so it is measured here rather than left to corrupt the sheet.
+#
+# The measurement: score each source on its own, take the median over players that EVERY
+# source covers, and compare. A source on a remaining-games basis reads low by roughly the
+# share of the season already played; genuine disagreement between sources sits under a few
+# percent. The lowest-scale cluster is treated as the reference, because mid-season decisions
+# want remaining-season value, and the fuller sources are scaled down to match it.
+source("R/scoring.R")
+
+scale_tolerance <- 0.95   # medians within 5% are ordinary disagreement, not a basis gap
+
+src_pts <- lapply(split(all_pos, all_pos$data_src), function(d) {
+  d <- as_tibble(d) %>% filter(pos %in% c("QB", "RB", "WR", "TE"))
+  pts <- tryCatch(suppressWarnings(score_players(d, league))$points,
+                  error = function(e) rep(NA_real_, nrow(d)))
+  tibble(id = d$id, pts = pts)
+})
+common_ids <- Reduce(intersect, lapply(src_pts, function(x) x$id[is.finite(x$pts) & x$pts > 0]))
+
+if (length(common_ids) < 20) {
+  warning("Only ", length(common_ids), " players are covered by every source, too few to ",
+          "check whether the sources count the same games. Projections are averaged as-is; ",
+          "treat cross-source comparisons with caution.")
+  scale_factor <- setNames(rep(1, length(src_pts)), names(src_pts))
+  src_median <- setNames(rep(NA_real_, length(src_pts)), names(src_pts))
+} else {
+  src_median <- vapply(src_pts, function(x) median(x$pts[x$id %in% common_ids]), numeric(1))
+  # Scale everyone to the SHORTEST basis: that is the remaining-season view we actually want.
+  scale_factor <- min(src_median) / src_median
+}
+
+basis_gap <- any(scale_factor < scale_tolerance)
+src_report <- tibble(
+  data_src = names(src_median),
+  median_pts = round(unname(src_median), 1),
+  scale_factor = round(unname(scale_factor), 3),
+  rescaled = unname(scale_factor) < scale_tolerance
+)
+message("Source basis check (median points over ", length(common_ids), " common players):")
+print(as.data.frame(src_report), row.names = FALSE)
+write.csv(src_report, sprintf("data/source_basis_%d.csv", league$season), row.names = FALSE)
+
+if (basis_gap) {
+  warning("Sources disagree on how many games a season projection covers: ",
+          paste(sprintf("%s=%.0f", src_report$data_src, src_report$median_pts), collapse = ", "),
+          ". The fuller sources have been scaled down to the shortest basis so the average is ",
+          "on one footing. See data/source_basis_", league$season, ".csv.")
+
+  # Scale counting stats only. Rates and per-game columns describe a game, not a season, so
+  # multiplying them would corrupt stats that are already on a common footing.
+  count_cols <- setdiff(
+    names(all_pos)[vapply(all_pos, is.numeric, logical(1))],
+    c("id", "src_id", "games", "bye", "site_pts", "site_fppg",
+      grep("_avg$|_rate$|_g$|_pct$", names(all_pos), value = TRUE))
+  )
+  all_pos <- all_pos %>%
+    mutate(across(all_of(count_cols), \(x) x * unname(scale_factor[data_src])))
+  message("Rescaled ", length(count_cols), " counting-stat columns for ",
+          sum(src_report$rescaled), " of ", nrow(src_report), " sources.")
+} else {
+  message("All sources are on the same basis; no rescaling applied.")
+}
+
 # One identity row per player: name/team/pos from the first source that lists them.
 identities <- all_pos %>%
   filter(!is.na(player)) %>%
