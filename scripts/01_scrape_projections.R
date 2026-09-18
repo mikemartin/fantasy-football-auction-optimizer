@@ -103,11 +103,15 @@ if (length(common_ids) < 20) {
 }
 
 basis_gap <- any(scale_factor < scale_tolerance)
+# `flagged` means the source sits far enough below the shortest basis to look like a
+# different one; `rescale_applied` says whether anything was actually done about it. The
+# two are not the same, and the file is the audit trail, so it must not imply otherwise.
 src_report <- tibble(
   data_src = names(src_median),
   median_pts = round(unname(src_median), 1),
   scale_factor = round(unname(scale_factor), 3),
-  rescaled = unname(scale_factor) < scale_tolerance
+  flagged = unname(scale_factor) < scale_tolerance,
+  rescale_applied = do_rescale & unname(scale_factor) < scale_tolerance
 )
 message("Source basis check (median points over ", length(common_ids), " common players):")
 print(as.data.frame(src_report), row.names = FALSE)
@@ -137,7 +141,7 @@ if (basis_gap && do_rescale) {
   all_pos <- all_pos %>%
     mutate(across(all_of(count_cols), \(x) x * unname(scale_factor[data_src])))
   message("Rescaled ", length(count_cols), " counting-stat columns for ",
-          sum(src_report$rescaled), " of ", nrow(src_report), " sources.")
+          sum(src_report$rescale_applied), " of ", nrow(src_report), " sources.")
 } else if (!basis_gap) {
   message("All sources are on the same basis; no rescaling needed.")
 }
