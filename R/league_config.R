@@ -34,6 +34,45 @@ league <- list(
     return_td     = 6        # "special teams player TD" (kick/punt return TDs)
   ),
 
+  # Team defence scoring, from the league's TEAM DEFENSE settings screen (2026-09-21).
+  #
+  # Two things about this table are unusual and drive the whole streaming strategy:
+  #
+  # 1. POINTS ALLOWED HAS ONLY TWO TIERS - a shutout pays 6, conceding 35+ costs 3, and
+  #    every score between 1 and 34 pays exactly nothing. Most leagues run a six-step
+  #    ladder where points allowed is the dominant swing; here it is close to irrelevant,
+  #    because roughly seven games in eight land in the dead zone.
+  # 2. The scoring is built on PRESSURE VOLUME - sacks, tackles for loss, three-and-outs
+  #    and fourth-down stops. That rewards a defence that is good, more than one that
+  #    happens to draw a weak opponent.
+  def_scoring = list(
+    dst_int          = 2,
+    dst_fum_rec      = 2,
+    dst_safety       = 2,
+    blocked_kick     = 1,
+    dst_td           = 6,
+    tackle_for_loss  = 0.5,
+    dst_sacks        = 1,
+    pts_allowed_0    = 6,
+    pts_allowed_35up = -3,
+    three_and_out    = 0.5,
+    fourth_down_stop = 1,
+    st_td            = 6,
+    st_fum_rec       = 2
+  ),
+
+  # Kicker scoring, from the KICKING settings screen (2026-09-21).
+  k_scoring = list(
+    pat_made       = 1,
+    fg_made        = 3,
+    pts_per_fg_yard_over_30 = 0.1
+  ),
+
+  # Spread of a team's points allowed around its projection, used to turn the two
+  # points-allowed tiers into an expected value instead of applying a step function to
+  # an average. NFL team scoring has a standard deviation near 10 points a game.
+  pts_allowed_sd = 9.5,
+
   # Projection sources publish neither pick sixes nor receiving first downs, so both
   # are derived (see R/scoring.R):
   #

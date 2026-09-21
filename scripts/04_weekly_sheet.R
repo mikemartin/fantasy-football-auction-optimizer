@@ -20,6 +20,7 @@ library(readr)
 
 source("R/league_config.R")
 source("R/scoring.R")
+source("R/scoring_dst.R")
 
 args <- commandArgs(trailingOnly = TRUE)
 week <- suppressWarnings(as.integer(args[1]))
@@ -32,13 +33,20 @@ if (is.na(week) || week < 1 || week > 18) {
 }
 message("Scraping week ", week, " projections for ", league$season)
 
-scrape <- scrape_data(pos = c("QB", "RB", "WR", "TE"), season = league$season, week = week)
+scrape <- scrape_data(pos = c("QB", "RB", "WR", "TE", "DST", "K"),
+                      season = league$season, week = week)
 all_pos <- bind_rows(lapply(scrape, as_tibble))
 if (nrow(all_pos) == 0 || !"data_src" %in% names(all_pos)) {
   stop("No projection source returned weekly data - network blocked, sources changed, ",
        "or week ", week, " projections are not published yet.")
 }
 message("Sources: ", paste(unique(all_pos$data_src), collapse = ", "))
+
+# Defence and kicker are scored from different columns entirely, so they are split off
+# before the offensive pipeline touches them. The league starts one of each every week and
+# they were unmodelled until week 2, when a Lions defence facing Buffalo returned 0.50.
+dst_k_raw <- all_pos %>% filter(pos %in% c("DST", "K"))
+all_pos   <- all_pos %>% filter(pos %in% c("QB", "RB", "WR", "TE"))
 
 # Guard: before a week's numbers go live, some sources serve SEASON-scale data on
 # their weekly pages. Averaging the two scales together produces nonsense, so score
@@ -131,6 +139,50 @@ print(as.data.frame(lineup), row.names = FALSE)
 cat("\nBench:\n")
 print(as.data.frame(bench %>% select(player, pos, points)), row.names = FALSE)
 
+# --- Defence and kicker streaming -------------------------------------------------------
+#
+# Both are one-week rentals: the league treats them as $1 slots, and in a 10-team league
+# there are always two or three of each on the wire. The table below ranks every defence
+# so the weekly pick is a lookup rather than a guess.
+
+stream_table <- function(raw, pos_code, scorer) {
+  d <- raw %>% filter(pos == pos_code)
+  if (nrow(d) == 0) {
+    warning("No source returned ", pos_code, " projections for week ", week, ".")
+    return(NULL)
+  }
+  ids <- d %>% filter(!is.na(player)) %>% distinct(id, .keep_all = TRUE) %>%
+    select(id, player, team, pos)
+  avg <- d %>%
+    select(-any_of(setdiff(non_stat_cols, "id"))) %>%
+    group_by(id) %>%
+    summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE)), .groups = "drop") %>%
+    mutate(across(where(is.numeric), \(x) ifelse(is.nan(x), NA_real_, x))) %>%
+    inner_join(ids, by = "id")
+  scorer(avg, league) %>% arrange(desc(points)) %>% mutate(rank = row_number())
+}
+
+dst <- stream_table(dst_k_raw, "DST", score_dst)
+kck <- stream_table(dst_k_raw, "K",   score_k)
+
+if (!is.null(dst)) {
+  cat("\n=== DEFENCE STREAMING, week ", week, " (top 10) ===\n", sep = "")
+  print(as.data.frame(dst %>% mutate(points = round(points, 2)) %>%
+    select(rank, player, team, points) %>% head(10)), row.names = FALSE)
+  cat("NOTE: ", unique(dst$points_note)[1], "\n", sep = "")
+  cat("Points allowed is worth under 4 points of spread in this league (only a shutout\n",
+      "and a 35+ blowout score at all), so these ranks are driven by sacks and turnovers,\n",
+      "not by matchup. Stream the defence that gets pressure, not the one facing a bad team.\n",
+      sep = "")
+  write_csv(dst %>% select(rank, player, team, points),
+            sprintf("data/streaming_dst_wk%02d_%d.csv", week, league$season))
+}
+if (!is.null(kck)) {
+  cat("\n=== KICKERS, week ", week, " (top 5) ===\n", sep = "")
+  print(as.data.frame(kck %>% mutate(points = round(points, 2)) %>%
+    select(rank, player, team, points) %>% head(5)), row.names = FALSE)
+}
+
 # --- Waiver watch: best players NOT on your roster, by position ------------------------
 
 waivers <- weekly %>%
@@ -179,7 +231,13 @@ format(Sys.time(), "%Y-%m-%d %H:%M UTC", tz = "UTC"), '</div>
 <table>', lineup_rows, '</table>
 <h2>Bench</h2><table>', bench_rows, '</table>
 <h2>Top non-roster players (check availability)</h2>
-<table>', waiver_rows, '</table>
+<table>', waiver_rows, '</table>',
+if (!is.null(dst)) paste0('<h2>Defence streaming</h2><table>',
+  paste(vapply(seq_len(min(8, nrow(dst))), function(i) sprintf(
+    '<tr><td class="s">%d</td><td class="p">%s</td><td class="m">%s</td><td class="v">%.1f</td></tr>',
+    dst$rank[i], dst$player[i], dst$team[i], dst$points[i]), character(1)), collapse = ""),
+  '</table><div class="sub">Partial - excludes TFL, 3-and-out, 4th-down stop. ',
+  'Ranks defences; understates totals.</div>') else "", '
 </body></html>')
 
 dir.create("output", showWarnings = FALSE)
