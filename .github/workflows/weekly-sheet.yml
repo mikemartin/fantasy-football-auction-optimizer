@@ -65,4 +65,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f data/weekly_wk*.csv data/streaming_dst_wk*.csv output/weekly_wk*.html
           git diff --cached --quiet || git commit -m "Add weekly sheet [skip ci]"
-          git push
+          # Two workflows commit to this branch, so a run that finishes while the other is
+          # pushing will be rejected as non-fast-forward. Rebase onto whatever landed and
+          # retry rather than losing the scrape.
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push rejected (attempt $i) - rebasing onto origin/claude/fantasy-auction-optimizer-o0fyp4"
+            git pull --rebase origin claude/fantasy-auction-optimizer-o0fyp4 || exit 1
+            sleep $((i * 3))
+          done
+          echo "push failed after 5 attempts" >&2
+          exit 1
