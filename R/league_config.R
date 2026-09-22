@@ -7,6 +7,14 @@
 
 league <- list(
   season       = 2026,
+
+  # Sleeper league id, from the web app URL (sleeper.com/leagues/<id>). The league's own
+  # read-only API is the source of truth for rosters, results, waivers and free agents -
+  # see scripts/00_fetch_league.R. Everything it returns beats reconstructing the league
+  # from screenshots, which is how a dm98 roster ended up implying 18 players in a 16-man
+  # league.
+  sleeper_id   = "1388110539288236032",
+
   n_teams      = 10,
   budget       = 200,
   roster_size  = 16,

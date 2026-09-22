@@ -52,3 +52,4 @@ rsconnect/
 output/
 data/projections_raw_*.csv
 data/value_sheet_*.csv
+data/league/players_nfl.rds
