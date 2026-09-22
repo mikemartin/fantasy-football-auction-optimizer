@@ -24,7 +24,7 @@ rosters <- list(
     "Caleb Williams", "Trevor Lawrence", "C.J. Stroud",
     "Saquon Barkley", "Javonte Williams", "Bucky Irving", "Blake Corum", "James Conner",
     "Nico Collins", "Chris Olave", "Tee Higgins", "Parker Washington", "Josh Downs",
-    "Sam LaPorta")),
+    "Sam LaPorta", "Dalton Schultz")),
 
   # "Waxson Dart" - six receivers, three backs. Zay Flowers currently OUT.
   Wenzo3030 = list(complete = TRUE, players = c(
