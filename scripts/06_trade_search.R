@@ -24,8 +24,12 @@ all_names <- unique(unlist(lapply(rosters, `[[`, "players")))
 tbl <- tibble(name = all_names, k = norm(all_names)) %>%
   left_join(ros %>% select(k, pos, pts = points), by = "k") %>%
   mutate(pts = ifelse(name %in% unavailable, 0, pts))
+# Deep-bench players the projection sources never cover. Zeroed so the search still runs,
+# but named so a trade is never justified by a player we cannot value.
 if (any(is.na(tbl$pts))) {
-  stop("No projection for: ", paste(tbl$name[is.na(tbl$pts)], collapse = ", "))
+  warning("No projection for ", sum(is.na(tbl$pts)), " rostered player(s), scored as 0: ",
+          paste(tbl$name[is.na(tbl$pts)], collapse = ", "))
+  tbl <- tbl %>% mutate(pos = ifelse(is.na(pos), "WR", pos), pts = ifelse(is.na(pts), 0, pts))
 }
 POS <- setNames(tbl$pos, tbl$name)
 PTS <- setNames(tbl$pts, tbl$name)
