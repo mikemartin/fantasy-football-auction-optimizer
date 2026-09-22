@@ -36,17 +36,18 @@ rosters <- list(
 
   # "Named you after the dog!" - seven running backs. A.J. Brown on IR.
   jezz281 = list(complete = TRUE, players = c(
-    "Brock Purdy", "Jared Goff", "Jacoby Brissett",
+    "Brock Purdy", "Jared Goff",
     "Travis Etienne", "Chase Brown", "Omarion Hampton", "Jacory Croskey-Merritt",
     "Kyle Monangai", "J.K. Dobbins", "Rhamondre Stevenson",
-    "A.J. Brown", "George Pickens", "Rashee Rice", "Quentin Johnston",
+    "A.J. Brown", "George Pickens", "Rashee Rice",
     "Trey McBride")),
 
+  # 2026-09-22: paid $31 for Brissett and added Drew Lock - FIVE quarterbacks now.
   # "Braudie sucks" (@dm98) - owns CeeDee Lamb. Three QBs, five backs, four receivers.
   dm98 = list(complete = TRUE, players = c(
-    "Jaxson Dart", "Dak Prescott", "Jayden Daniels",
-    "James Cook", "Emmett Johnson", "Cam Skattebo", "Chris Rodriguez", "Jeremiyah Love", "Tyjae Spears",
-    "CeeDee Lamb", "Emeka Egbuka", "Matthew Golden",
+    "Jaxson Dart", "Dak Prescott", "Jayden Daniels", "Jacoby Brissett", "Drew Lock",
+    "James Cook", "Emmett Johnson", "Cam Skattebo", "Jeremiyah Love", "Tyjae Spears",
+    "CeeDee Lamb", "Emeka Egbuka", "Matthew Golden", "Tre Tucker",
     "Harold Fannin", "George Kittle"))
 )
 
