@@ -18,13 +18,70 @@ secondary pre-draft sanity check on budget allocation.
   down, 2 per two-point conversion (any type), −2 per fumble lost, 6 per return TD
 - K and DEF are $1 players and are never scraped or modeled
 
-## Usage
+## Running it locally
+
+Needs **R 4.1 or newer** (the code uses the `\(x)` lambda shorthand).
 
 ```sh
-Rscript scripts/01_scrape_projections.R   # scrape raw 2026 stat projections -> data/
-Rscript scripts/02_build_value_sheet.R    # score, price, tier -> CSV + HTML sheet
-Rscript scripts/03_lp_sanity_check.R      # optional: LP budget-shape check
+git clone https://github.com/mikemartin/fantasy-football-auction-optimizer.git
+cd fantasy-football-auction-optimizer
+git checkout claude/fantasy-auction-optimizer-o0fyp4
 ```
+
+Install the packages once:
+
+```r
+install.packages(c(
+  "dplyr", "tidyr", "readr", "stringr", "purrr", "tibble", "jsonlite",
+  "glue", "rvest", "httr2", "readxl", "data.table", "rrapply", "remotes"
+))
+remotes::install_github("FantasyFootballAnalytics/ffanalytics", upgrade = "never")
+
+# only needed for the optional LP check in scripts/03
+install.packages("Rglpk")   # needs the GLPK system library:
+                            #   macOS  brew install glpk
+                            #   Debian sudo apt install libglpk-dev
+```
+
+Then run from the repo root, in this order:
+
+```sh
+Rscript scripts/00_fetch_league.R         # live league from Sleeper  -> data/league/
+Rscript scripts/01_scrape_projections.R   # multi-source raw stats    -> data/projections_raw_2026.csv
+Rscript scripts/02_build_value_sheet.R    # score + price             -> value sheet CSV + HTML
+
+Rscript scripts/04_weekly_sheet.R 3       # this week's start/sit + defence streaming
+Rscript scripts/06_trade_search.R         # every trade across all ten teams, both sides
+Rscript scripts/05_trade_analyzer.R       # named candidate trades only
+Rscript scripts/03_lp_sanity_check.R      # optional pre-draft budget check
+```
+
+Steps 00 and 01 are the only ones that need the internet. Everything else reads the
+CSVs they write, so once you have those you can re-run the analysis offline as often
+as you like — changing a scoring rule in `R/league_config.R` and re-running step 02
+takes a second and needs no re-scrape.
+
+Step 00 must run before 04, 05 or 06: `R/rosters.R` reads `data/league/rosters.csv`
+and will stop with a clear message if it is missing.
+
+### If a scrape fails
+
+`01` prints which sources responded and which stats each one carries. Sources block
+scrapers from time to time (FantasySharks and RTSports both return 403 as of week 3)
+— the run continues on whatever answered, and the value sheet is built from those.
+`data/source_basis_2026.csv` records each source's median and whether it looks like it
+is counting a different number of games; see the source-basis note under Assumptions.
+
+### The GitHub Actions alternative
+
+Three workflows do all of the above on a schedule and commit the results back to the
+branch, which is useful if you would rather not install R at all:
+
+| workflow | does | fires |
+|---|---|---|
+| `fetch-league.yml` | step 00 | Tuesdays after waivers, or push to `.run-fetch` |
+| `build-value-sheet.yml` | steps 01–02 | on push, or manually |
+| `weekly-sheet.yml` | step 04 | Fridays, or push a week number into `.run-weekly` |
 
 Outputs:
 
@@ -96,6 +153,21 @@ All of these are editable in `R/league_config.R` unless noted.
 - **Projections are the unweighted mean across whatever sources ffanalytics returns**
   for the season scrape; a player missing from a source is averaged over the sources
   that do project them. `scripts/01_scrape_projections.R` prints which sources responded.
+- **Sources may count different numbers of games.** After week 1, some publish
+  remaining-season projections while others keep publishing full-season totals that
+  include games already played. `scripts/01` scores each source alone, compares medians
+  over players every source covers, and writes `data/source_basis_<season>.csv`. A gap
+  wide enough to look like a basis difference is reported but NOT corrected by default;
+  set `PROJECTION_BASIS_RESCALE=1` to scale the fuller sources down to the shortest.
+- **Team defence scoring is partial.** No source projects tackles for loss,
+  three-and-outs, fourth-down stops, blocked kicks or special-teams fumble recoveries,
+  and against week 2 results those were roughly a third of a defence's total. The
+  streaming table ranks defences but understates them, and says so on the report.
+- **Points allowed has only two tiers in this league** (6 for a shutout, −3 at 35+,
+  nothing between), which is under 4 points of spread across the realistic range. The
+  tiers are converted to an expected value over a normal centred on the projection
+  rather than applied as a step function to an average, which would return zero for
+  every defence.
 - **Rounding**: displayed values are whole dollars (min $1), so the sheet total can
   drift a few dollars from $1,920; `value_raw` keeps the unrounded number and is what
   `apply_inflation()` rescales.
@@ -106,21 +178,22 @@ All of these are editable in `R/league_config.R` unless noted.
 
 ```
 ├── R/
-│   ├── league_config.R      # every league setting and assumption
+│   ├── league_config.R      # every league setting, scoring rule and assumption
 │   ├── scoring.R            # raw stats -> points under league rules
+│   ├── scoring_dst.R        # team defence and kicker scoring
 │   ├── valuation.R          # replacement level, dollars, tiers, apply_inflation()
+│   ├── rosters.R            # loads the live league from data/league/rosters.csv
 │   └── optimizer.R          # LP roster optimizer (secondary)
 ├── scripts/
-│   ├── 01_scrape_projections.R
-│   ├── 02_build_value_sheet.R
-│   └── 03_lp_sanity_check.R
-├── data/                    # scraped raw stats + generated value sheet CSVs
-└── output/                  # printable HTML sheet
-```
-
-## Requirements
-
-```r
-install.packages(c("tidyverse", "Rglpk", "remotes"))
-remotes::install_github("FantasyFootballAnalytics/ffanalytics")
+│   ├── 00_fetch_league.R          # Sleeper API -> rosters, results, waivers, free agents
+│   ├── 01_scrape_projections.R    # ffanalytics multi-source scrape
+│   ├── 02_build_value_sheet.R     # season value sheet: CSV + printable HTML
+│   ├── 03_lp_sanity_check.R       # optional LP budget-shape check
+│   ├── 04_weekly_sheet.R          # in-season start/sit + defence streaming
+│   ├── 05_trade_analyzer.R        # score named trades from both sides
+│   └── 06_trade_search.R          # exhaustive trade search across all ten teams
+├── data/
+│   ├── league/              # live league pulled from Sleeper (step 00)
+│   └── *.csv                # scraped stats and generated value sheets
+└── output/                  # printable HTML sheets
 ```
