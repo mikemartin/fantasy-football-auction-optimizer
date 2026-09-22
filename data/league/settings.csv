@@ -1,2 +1,2 @@
-name,season,teams,roster_slots,waiver_type,waiver_budget,playoff_teams,playoff_start_week,trade_deadline
-An enemy deserves no mercy,2026,10,QB RB RB WR WR TE FLEX SUPER_FLEX K DEF BN BN BN BN BN BN,2,100,6,15,14
+name,season,teams,roster_slots,waiver_type,waiver_budget,waiver_day_of_week,waiver_clear_days,daily_waivers_hour,playoff_teams,playoff_start_week,trade_deadline
+An enemy deserves no mercy,2026,10,QB RB RB WR WR TE FLEX SUPER_FLEX K DEF BN BN BN BN BN BN,2,100,1,1,0,6,15,14
