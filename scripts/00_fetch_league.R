@@ -182,6 +182,9 @@ tx <- map_dfr(seq_len(max(1, this_week)), function(wk) {
     drops <- names(t$drops %||% list())
     tibble(
       week = wk,
+      # Epoch milliseconds; converted on read so the waiver cadence is visible.
+      when_utc = as.POSIXct((t$status_updated %||% NA_real_) / 1000,
+                            origin = "1970-01-01", tz = "UTC"),
       type = t$type %||% NA_character_,
       status = t$status %||% NA_character_,
       manager = paste(unique(na.omit(manager_of[as.character(unlist(t$roster_ids))])),
@@ -206,6 +209,11 @@ settings <- tibble(
   roster_slots = paste(unlist(info$roster_positions), collapse = " "),
   waiver_type = s$waiver_type %||% NA,
   waiver_budget = s$waiver_budget %||% NA,
+  # 0 = Sunday ... 6 = Saturday. With waiver_clear_days, this is when claims process and
+  # therefore when the bidding deadline falls.
+  waiver_day_of_week = s$waiver_day_of_week %||% NA,
+  waiver_clear_days = s$waiver_clear_days %||% NA,
+  daily_waivers_hour = s$daily_waivers_hour %||% NA,
   playoff_teams = s$playoff_teams %||% NA,
   playoff_start_week = s$playoff_week_start %||% NA,
   trade_deadline = s$trade_deadline %||% NA
