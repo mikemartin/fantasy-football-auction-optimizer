@@ -54,6 +54,7 @@ Rscript scripts/04_weekly_sheet.R 3       # this week's start/sit + defence stre
 Rscript scripts/06_trade_search.R         # every trade across all ten teams, both sides
 Rscript scripts/05_trade_analyzer.R       # named candidate trades only
 Rscript scripts/07_market_arbitrage.R     # where we disagree with Sleeper -> who to buy and sell
+Rscript scripts/08_dual_scorecard.R       # trades scored on our numbers AND on Sleeper's
 Rscript scripts/03_lp_sanity_check.R      # optional pre-draft budget check
 ```
 
@@ -179,6 +180,17 @@ All of these are editable in `R/league_config.R` unless noted.
   FTN-derived first downs above, which means a disagreement about first-down *rate* is
   invisible to the comparison; and a gap can be Sleeper being wrong or us being wrong —
   a stale depth chart on our side reads identically to a market error.
+- **Trades are searched on a single week's per-game rates**, on both scorecards, because
+  Sleeper's projection endpoint is weekly. Rest-of-season value, bye weeks, schedule
+  strength and age curves are all outside `scripts/08_dual_scorecard.R`. A package that
+  gains a point or two on one week is noise; treat only the large gaps as signal.
+- **Injured players score zero on both scorecards**, so the trade search is indifferent
+  between receiving a hurt star and receiving a healthy bench body. That is wrong in
+  reality and in our favour: when the search offers a choice of filler, ask for the
+  injured name. The model cannot see the difference, so a human has to.
+- **Active rosters cap at 16 and IR slots sit outside it**, so a team at 16 can never
+  take back more players than it sends. Six of the ten are full, which is what rules out
+  most uneven trade shapes before any projection is consulted.
 - **No points for receptions, return yards, or any yardage/reception bonuses** —
   none appear in the league rules or any scoring screen.
 - **Replacement ranks** assume the 10 flex slots split ~4.5 RB / ~4.5 WR / ~1 TE and
@@ -228,7 +240,8 @@ All of these are editable in `R/league_config.R` unless noted.
 │   ├── 04_weekly_sheet.R          # in-season start/sit + defence streaming
 │   ├── 05_trade_analyzer.R        # score named trades from both sides
 │   ├── 06_trade_search.R          # exhaustive trade search across all ten teams
-│   └── 07_market_arbitrage.R      # our projections vs Sleeper's, per player and per team
+│   ├── 07_market_arbitrage.R      # our projections vs Sleeper's, per player and per team
+│   └── 08_dual_scorecard.R        # trades that clear both our numbers and the market's
 ├── data/
 │   ├── league/              # live league pulled from Sleeper (step 00)
 │   └── *.csv                # scraped stats and generated value sheets
