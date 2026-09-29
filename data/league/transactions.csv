@@ -42,6 +42,9 @@ week,when_utc,type,status,manager,added,dropped,faab
 2,2026-09-15T11:01:47Z,free_agent,complete,DrBongstrong,Aaron Jones,Jayden Reed,NA
 2,2026-09-15T12:23:36Z,trade,complete,themikemartin + dm98,"Jayden Daniels, Jordan Love, Garrett Wilson","Jayden Daniels, Jordan Love, Garrett Wilson",NA
 2,2026-09-15T08:12:20Z,free_agent,complete,dm98,Caleb Douglas,Tyjae Spears,NA
+3,2026-09-29T07:05:03Z,waiver,complete,dm98,Carnell Tate,Tre Tucker,4
+3,2026-09-29T07:05:03Z,waiver,complete,JLstorm1,Kenyon Sadiq,Terrance Ferguson,12
+3,2026-09-29T07:05:03Z,waiver,complete,Wenzo3030,Marcus Mariota,KC Concepcion,8
 3,2026-09-27T20:27:08Z,free_agent,complete,jezz281,Tank Bigsby,Emanuel Wilson,NA
 3,2026-09-27T09:18:53Z,free_agent,complete,dm98,J.K. Dobbins,Drew Lock,NA
 3,2026-09-24T21:16:21Z,free_agent,complete,theNastyJK,Oronde Gadsden,Dallas Goedert,NA
@@ -56,3 +59,6 @@ week,when_utc,type,status,manager,added,dropped,faab
 3,2026-09-22T08:40:48Z,free_agent,complete,jezz281,Emanuel Wilson,Quentin Johnston,NA
 3,2026-09-22T07:56:32Z,free_agent,complete,LeJohnBrains,Denzel Boston,,NA
 3,2026-09-22T07:08:33Z,free_agent,complete,JLstorm1,Rashod Bateman,,NA
+4,2026-09-29T07:17:00Z,free_agent,complete,JLstorm1,Michael Penix,Brian Thomas,NA
+4,2026-09-29T07:13:39Z,free_agent,complete,JLstorm1,Ollie Gordon,Jonah Coleman,NA
+4,2026-09-29T07:09:27Z,free_agent,complete,JLstorm1,Braelon Allen,Rashod Bateman,NA
