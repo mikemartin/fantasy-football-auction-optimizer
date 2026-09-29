@@ -12,8 +12,10 @@
 # them_ours is negative, the deal works because the market is mispricing someone, and it is
 # worth knowing that rather than pretending both sides win on the same facts.
 #
-# Focus: packages built around MarShawn Lloyd, whom Sleeper prices 47% above our model, which
-# makes him the cheapest real currency on our roster. Set LLOYD_ONLY=0 to search all packages.
+# FOCUS pins one player into every package (default MarShawn Lloyd, whom Sleeper prices 47%
+# above our model). EXCLUDE keeps players out of the give side - use it for anyone already
+# committed to a pending offer. PENDING_OUT/PENDING_IN re-base the search on the roster a
+# trade already sent would leave us with. FOCUS=- searches every package.
 #
 # Run:  Rscript scripts/08_dual_scorecard.R
 # -------------------------------------------------------------------------------------------
@@ -112,9 +114,39 @@ ROOM <- setNames(room$room, room$manager)
 
 me <- league$my_manager
 my_players <- rosters[[me]]$players
-LLOYD <- "MarShawn Lloyd"
-lloyd_only <- Sys.getenv("LLOYD_ONLY", "1") != "0"
-if (lloyd_only && !LLOYD %in% my_players) stop(LLOYD, " is not on our roster any more.")
+
+# FOCUS pins a player into every give-package - the piece we have decided to sell. EXCLUDE
+# keeps players out of the give side entirely, which is how a second offer is kept from
+# overlapping with one already sitting in front of another manager: two pending trades that
+# share a player cannot both be accepted.
+# PENDING_IN / PENDING_OUT re-bases the search on the roster we would have if a trade already
+# sent is accepted, so the second offer is judged against the right starting lineup.
+split_env <- function(v) {
+  x <- str_squish(strsplit(Sys.getenv(v, ""), ",")[[1]])
+  x[nzchar(x)]
+}
+pending_out <- split_env("PENDING_OUT")
+pending_in  <- split_env("PENDING_IN")
+if (length(pending_out) || length(pending_in)) {
+  unknown <- setdiff(pending_in, players$name)
+  if (length(unknown)) stop("PENDING_IN names nobody on any roster: ", paste(unknown, collapse = ", "))
+  my_players <- c(setdiff(my_players, pending_out), pending_in)
+  # The counterparty's roster has to move too, or the search will cheerfully offer to buy
+  # the same player twice.
+  for (t in setdiff(names(rosters), me)) {
+    r <- rosters[[t]]$players
+    if (any(pending_in %in% r)) r <- c(setdiff(r, pending_in), pending_out)
+    rosters[[t]]$players <- r
+  }
+  message("Re-based on a pending trade: out ", paste(pending_out, collapse = ", "),
+          " | in ", paste(pending_in, collapse = ", "))
+}
+
+FOCUS   <- Sys.getenv("FOCUS", "MarShawn Lloyd")
+exclude <- split_env("EXCLUDE")
+focused <- nzchar(FOCUS) && Sys.getenv("FOCUS", "MarShawn Lloyd") != "-"
+if (focused && !FOCUS %in% my_players) stop(FOCUS, " is not on our roster.")
+if (length(exclude)) message("Excluded from every give-package: ", paste(exclude, collapse = ", "))
 
 combos <- function(v, k) {
   if (k == 0) return(list(character(0)))
@@ -130,14 +162,14 @@ for (team in setdiff(names(rosters), me)) {
   base_them_mkt  <- lineup(them, MKT)
   base_them_ours <- lineup(them, OURS)
 
-  others <- setdiff(my_players, LLOYD)
-  give_sets <- if (lloyd_only) {
-    # Lloyd plus up to two more: he is the sweetener, not the headline piece.
-    c(list(LLOYD),
-      lapply(combos(others, 1), \(x) c(LLOYD, x)),
-      lapply(combos(others, 2), \(x) c(LLOYD, x)))
+  others <- setdiff(my_players, c(FOCUS, exclude))
+  give_sets <- if (focused) {
+    c(list(FOCUS),
+      lapply(combos(others, 1), \(x) c(FOCUS, x)),
+      lapply(combos(others, 2), \(x) c(FOCUS, x)))
   } else {
-    c(combos(my_players, 1), combos(my_players, 2), combos(my_players, 3))
+    pool <- setdiff(my_players, exclude)
+    c(combos(pool, 1), combos(pool, 2))
   }
 
   for (give in give_sets) {
@@ -167,7 +199,7 @@ for (team in setdiff(names(rosters), me)) {
 
 res <- bind_rows(res) %>% mutate(across(c(you_ours, them_mkt, them_ours), \(x) round(x, 1)))
 cat(sprintf("\nWeek %d. Searched %d packages%s. Our baseline lineup: %.1f pts.\n",
-            week, nrow(res), if (lloyd_only) " containing MarShawn Lloyd" else "", base_me_ours))
+            week, nrow(res), if (focused) paste(" containing", FOCUS) else "", base_me_ours))
 
 # Many give-packages produce an identical outcome because most of our bench never starts.
 # Keep the one that costs the least real value for each (partner, target, result).
@@ -176,7 +208,11 @@ best <- res %>% mutate(c = vapply(give, cost, numeric(1))) %>%
   group_by(partner, get, you_ours, them_mkt) %>%
   slice_min(c, n = 1, with_ties = FALSE) %>% ungroup() %>% select(-c)
 
-out <- sprintf("data/dual_scorecard_wk%s_%d.csv", wk, season)
+# The scenario goes in the filename too: running the same FOCUS with and without a pending
+# trade is the normal way to use this, and the two answers must not overwrite each other.
+tag <- paste0(if (focused) paste0("_", tolower(gsub("[^A-Za-z]", "", FOCUS))) else "",
+              if (length(pending_out) || length(pending_in)) "_pending" else "")
+out <- sprintf("data/dual_scorecard_wk%s_%d%s.csv", wk, season, tag)
 write_csv(best %>% arrange(desc(you_ours)), out)
 
 cat("\n=== CLEARS BOTH SCORECARDS (we gain on ours, they gain on Sleeper's) ===\n")
