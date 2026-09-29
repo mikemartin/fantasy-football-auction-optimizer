@@ -72,6 +72,32 @@ scrapers from time to time (FantasySharks and RTSports both return 403 as of wee
 `data/source_basis_2026.csv` records each source's median and whether it looks like it
 is counting a different number of games; see the source-basis note under Assumptions.
 
+### In a sandbox where CRAN is blocked
+
+Claude Code's containers, and some CI sandboxes, route outbound traffic through a proxy
+that blocks CRAN and Posit Package Manager, so `install.packages()` fails. Ubuntu ships
+the packages this project needs, and apt reaches them:
+
+```sh
+apt-get update
+apt-get install -y --no-install-recommends \
+  r-base-core r-cran-dplyr r-cran-readr r-cran-stringr \
+  r-cran-tibble r-cran-tidyr r-cran-purrr r-cran-jsonlite
+```
+
+`--no-install-recommends` matters: the recommended set drags in graphics and video
+libraries that often 404 against a stale index and fail the whole install. If apt reports
+404s on unrelated packages, `apt-get update` first — the index, not the package, is the
+problem.
+
+That covers steps 02 and 04-06, which read the committed CSVs. Steps 00 and 01 need the
+network anyway, so run those in CI.
+
+**These containers are rebuilt periodically and the install does not survive.** If
+`Rscript: command not found` appears mid-session, nothing is broken — reinstall with the
+command above. ffanalytics is not packaged for apt, so a container that has been rebuilt
+cannot run the scrape locally; that is what the workflows below are for.
+
 ### The GitHub Actions alternative
 
 Three workflows do all of the above on a schedule and commit the results back to the
