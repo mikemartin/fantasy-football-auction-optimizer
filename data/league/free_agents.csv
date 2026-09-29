@@ -62,7 +62,6 @@ player_id,player,pos,nfl_team,status
 13079,Jahdae Walker,WR,CHI,
 13047,Jacardia Wright,RB,SEA,
 13318,Noah Thomas,WR,CIN,
-BAL,BAL D/ST,DEF,BAL,
 13380,Brenen Thompson,WR,LAC,Out
 2944,Matt LaCosse,TE,NE,
 13400,Justin Joly,TE,MIA,
@@ -293,6 +292,7 @@ CLE,CLE D/ST,DEF,CLE,
 11565,J.J. McCarthy,QB,NYG,Out
 8220,Sincere McCormick,RB,SF,
 8676,Rashid Shaheed,WR,SEA,
+13285,Malachi Fields,WR,NYG,
 6271,Olamide Zaccheaus,WR,ATL,
 13392,Jeff Caldwell,WR,KC,IR
 6866,KJ Hill,WR,LAC,
@@ -487,6 +487,7 @@ MIA,MIA D/ST,DEF,MIA,
 6931,DeeJay Dallas,RB,MIN,
 11623,Jordan Whittington,WR,LAR,
 4995,Ian Thomas,TE,LV,
+9225,Tank Bigsby,RB,PHI,
 13411,Zavion Thomas,WR,CHI,
 11603,AJ Barner,TE,SEA,
 13407,Carson Towt,TE,IND,IR
@@ -674,7 +675,6 @@ CIN,CIN D/ST,DEF,CIN,
 13322,Sam Roush,TE,CHI,
 12185,Spencer Shrader,K,IND,Questionable
 13314,Luke Altmyer,QB,DET,
-11643,Jaylen Wright,RB,MIA,Out
 13827,Tanner Arkin,TE,NE,
 12658,Jackson Hawes,TE,BUF,
 13602,Jack Strand,QB,ATL,Out
@@ -700,6 +700,7 @@ CIN,CIN D/ST,DEF,CIN,
 12738,Phil Mafah,RB,NYG,
 13879,Jameson Geers,TE,ARI,IR
 13437,Noah Whittington,RB,HOU,
+KC,KC D/ST,DEF,KC,
 6992,Michael Warren,RB,DET,
 7716,John Bates,TE,WAS,
 13333,Deion Burks,WR,IND,
