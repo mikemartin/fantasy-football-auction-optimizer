@@ -200,6 +200,44 @@ if (nrow(tx) > 0) {
   message("  transactions.csv ", nrow(tx), " moves")
 }
 
+# --- Sleeper's own projections --------------------------------------------------------------
+#
+# Every other manager in the league prices players off the numbers Sleeper shows them. Our
+# projections come from a different place entirely (a multi-source ffanalytics scrape scored
+# under the league rules), and across three weeks the two have been about equally accurate -
+# so the value here is not "ours are better". It is that WHERE THEY DISAGREE, the market's
+# price differs from ours, and that gap is what a trade can cross.
+#
+# Sleeper's projection endpoint is undocumented, so this is best-effort: a failure warns and
+# writes nothing rather than stopping the fetch. Raw stat lines are kept, not Sleeper's point
+# totals, so they can be scored under THIS league's rules - otherwise the comparison would
+# measure scoring-setting differences rather than genuine projection disagreement.
+proj_week <- max(1, this_week)
+proj_url <- sprintf(
+  "/projections/nfl/%s/%d?season_type=regular&position[]=QB&position[]=RB&position[]=WR&position[]=TE&order_by=ppr",
+  info$season, proj_week)
+sl <- tryCatch(fromJSON(paste0("https://api.sleeper.app", proj_url), simplifyVector = FALSE),
+               error = function(e) NULL)
+if (is.null(sl) || length(sl) == 0) {
+  warning("Sleeper's projection endpoint returned nothing for week ", proj_week,
+          ". It is undocumented and may have moved; the market-price comparison is skipped.")
+} else {
+  keep <- c("pass_yd","pass_td","pass_int","rush_yd","rush_td","rec","rec_yd","rec_td",
+            "fum_lost","pass_2pt","rush_2pt","rec_2pt","bonus_pass_yd_300","gp")
+  rows <- map_dfr(sl, function(x) {
+    st <- x$stats %||% list()
+    pid <- as.character(x$player_id %||% NA)
+    out <- tibble(player_id = pid, player = player_name(pid),
+                  pos = pl(pid, "position"), nfl_team = pl(pid, "team"))
+    for (k in keep) out[[k]] <- as.numeric(st[[k]] %||% NA_real_)
+    out
+  })
+  rows <- rows %>% filter(!is.na(pos), pos %in% c("QB","RB","WR","TE"))
+  write_csv(rows, file.path(OUT, sprintf("sleeper_proj_wk%02d.csv", proj_week)))
+  message("  sleeper_proj_wk", sprintf("%02d", proj_week), ".csv ", nrow(rows),
+          " players (the market's view, for comparison against ours)")
+}
+
 # --- Settings -----------------------------------------------------------------------------------
 s <- info$settings
 settings <- tibble(
