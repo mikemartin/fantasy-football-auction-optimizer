@@ -53,6 +53,7 @@ Rscript scripts/02_build_value_sheet.R    # score + price             -> value s
 Rscript scripts/04_weekly_sheet.R 3       # this week's start/sit + defence streaming
 Rscript scripts/06_trade_search.R         # every trade across all ten teams, both sides
 Rscript scripts/05_trade_analyzer.R       # named candidate trades only
+Rscript scripts/07_market_arbitrage.R     # where we disagree with Sleeper -> who to buy and sell
 Rscript scripts/03_lp_sanity_check.R      # optional pre-draft budget check
 ```
 
@@ -169,6 +170,15 @@ All of these are editable in `R/league_config.R` unless noted.
   projection source publishes them, and unlike pick sixes there is no sensible stat
   to derive an expected value from. League-wide only a handful happen per season, so
   the omission is worth well under 0.1 points per player.
+- **The rest of the league prices players off Sleeper's projections.** This is an
+  assumption about the other nine managers, not about football, and it is what
+  `scripts/07_market_arbitrage.R` trades on. Three caveats sit underneath it:
+  Sleeper's projection endpoint is undocumented and publishes raw stats, so the script
+  scores them through this league's own rules rather than trusting any displayed total;
+  Sleeper publishes no first-down projection, so its side of the comparison borrows the
+  FTN-derived first downs above, which means a disagreement about first-down *rate* is
+  invisible to the comparison; and a gap can be Sleeper being wrong or us being wrong —
+  a stale depth chart on our side reads identically to a market error.
 - **No points for receptions, return yards, or any yardage/reception bonuses** —
   none appear in the league rules or any scoring screen.
 - **Replacement ranks** assume the 10 flex slots split ~4.5 RB / ~4.5 WR / ~1 TE and
@@ -217,7 +227,8 @@ All of these are editable in `R/league_config.R` unless noted.
 │   ├── 03_lp_sanity_check.R       # optional LP budget-shape check
 │   ├── 04_weekly_sheet.R          # in-season start/sit + defence streaming
 │   ├── 05_trade_analyzer.R        # score named trades from both sides
-│   └── 06_trade_search.R          # exhaustive trade search across all ten teams
+│   ├── 06_trade_search.R          # exhaustive trade search across all ten teams
+│   └── 07_market_arbitrage.R      # our projections vs Sleeper's, per player and per team
 ├── data/
 │   ├── league/              # live league pulled from Sleeper (step 00)
 │   └── *.csv                # scraped stats and generated value sheets

@@ -15,6 +15,10 @@ league <- list(
   # league.
   sleeper_id   = "1388110539288236032",
 
+  # Our own Sleeper handle ("Chase the Ace"). Used wherever a script needs to tell our roster
+  # apart from the other nine.
+  my_manager   = "themikemartin",
+
   n_teams      = 10,
   budget       = 200,
   roster_size  = 16,
