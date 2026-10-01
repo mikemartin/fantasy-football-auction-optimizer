@@ -184,6 +184,11 @@ All of these are editable in `R/league_config.R` unless noted.
   Sleeper's projection endpoint is weekly. Rest-of-season value, bye weeks, schedule
   strength and age curves are all outside `scripts/08_dual_scorecard.R`. A package that
   gains a point or two on one week is noise; treat only the large gaps as signal.
+- **A player one feed prices at nothing and the other prices as a starter is treated as
+  untradeable**, not as a bargain. Sleeper publishes a zero for a doubtful player while our
+  model still carries his full projection, which makes any package containing him look like
+  a steal for whoever is giving him up. `scripts/08_dual_scorecard.R` lists those packages
+  separately rather than ranking them, and names the player.
 - **Injured players score zero on both scorecards**, so the trade search is indifferent
   between receiving a hurt star and receiving a healthy bench body. That is wrong in
   reality and in our favour: when the search offers a choice of filler, ask for the

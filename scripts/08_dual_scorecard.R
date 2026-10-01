@@ -80,6 +80,18 @@ if (length(gap_mkt) > 0)
   warning("No SLEEPER projection for ", length(gap_mkt), " rostered player(s), scored 0: ",
           paste(gap_mkt, collapse = ", "))
 
+# Kept before the coalesce below. Two cases make a player untradeable on this evidence:
+# a feed that has no row for him at all, and a feed that prices him at nothing while the
+# other has him as a starter. The second is the one that bites - Sleeper publishes a zero
+# for a doubtful player, our model still carries his full projection, and the package then
+# looks like a steal for whoever is giving him up. That is a status artifact, not an edge.
+ONE_SIDED <- 5
+UNPRICED <- players$name[
+  is.na(players$ours) | is.na(players$mkt) |
+  (coalesce(players$ours, 0) >= ONE_SIDED & coalesce(players$mkt,  0) < 1) |
+  (coalesce(players$mkt,  0) >= ONE_SIDED & coalesce(players$ours, 0) < 1)
+]
+
 players <- players %>%
   mutate(ours = coalesce(ours, 0), mkt = coalesce(mkt, 0),
          # Injured players cannot be counted on by either side, on either scorecard.
@@ -191,7 +203,8 @@ for (team in setdiff(names(rosters), me)) {
           you_ours  = lineup(a2, OURS) - base_me_ours,
           them_mkt  = lineup(b2, MKT)  - base_them_mkt,
           them_ours = lineup(b2, OURS) - base_them_ours,
-          shape     = sprintf("%d:%d", ng, nr))
+          shape     = sprintf("%d:%d", ng, nr),
+          unpriced  = paste(intersect(c(give, get), UNPRICED), collapse = " + "))
       }
     }
   }
@@ -215,8 +228,10 @@ tag <- paste0(if (focused) paste0("_", tolower(gsub("[^A-Za-z]", "", FOCUS))) el
 out <- sprintf("data/dual_scorecard_wk%s_%d%s.csv", wk, season, tag)
 write_csv(best %>% arrange(desc(you_ours)), out)
 
+# A package whose numbers rest on a player one of the feeds cannot see is reported
+# separately. Its apparent edge is usually just the missing projection reading as zero.
 cat("\n=== CLEARS BOTH SCORECARDS (we gain on ours, they gain on Sleeper's) ===\n")
-clear <- best %>% filter(you_ours > 0, them_mkt > 0) %>% arrange(desc(you_ours))
+clear <- best %>% filter(you_ours > 0, them_mkt > 0, !nzchar(unpriced)) %>% arrange(desc(you_ours))
 if (nrow(clear) == 0) cat("  none\n") else
   print(as.data.frame(head(clear, 15)), row.names = FALSE)
 
@@ -229,5 +244,14 @@ cat("\n=== TRUE WIN-WIN (they gain on BOTH scorecards - no mispricing needed) ==
 tw <- best %>% filter(you_ours > 0, them_mkt > 0, them_ours > 0) %>%
   arrange(desc(you_ours)) %>% head(10)
 if (nrow(tw) == 0) cat("  none\n") else print(as.data.frame(tw), row.names = FALSE)
+
+cat("=== EXCLUDED: a traded player is unpriced by one of the feeds ===\n")
+susp <- best %>% filter(you_ours > 0, them_mkt > 0, nzchar(unpriced)) %>%
+  arrange(desc(you_ours)) %>% head(8)
+if (nrow(susp) == 0) cat("  none\n") else
+  print(as.data.frame(susp %>% select(partner, give, get, you_ours, them_mkt, unpriced)),
+        row.names = FALSE)
+if (length(UNPRICED) > 0)
+  cat("\nUnpriced by at least one feed: ", paste(UNPRICED, collapse = ", "), "\n", sep = "")
 
 cat("\nWritten: ", out, "\n", sep = "")
