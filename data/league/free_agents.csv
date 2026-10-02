@@ -138,6 +138,7 @@ ARI,ARI D/ST,DEF,ARI,
 13422,Jaren Kanak,TE,TEN,IR
 LV,LV D/ST,DEF,LV,
 8117,Jalen Tolbert,WR,MIA,
+5781,Malik Turner,WR,SF,
 12792,Garrett Greene,QB,TB,
 812,Lee Smith,TE,ATL,
 13964,Myles Montgomery,RB,NE,IR
@@ -172,7 +173,6 @@ NYJ,NYJ D/ST,DEF,NYJ,
 5223,Caleb Scott,WR,TEN,
 9999,Will Levis,QB,NYJ,
 12509,Tre' Harris,WR,LAC,
-5947,Jakobi Meyers,WR,JAX,Questionable
 14026,DJ Herman,RB,MIA,
 11651,Isaac Guerendo,RB,SF,PUP
 14020,Dean Patterson,WR,TB,
@@ -208,7 +208,7 @@ DAL,DAL D/ST,DEF,DAL,
 13311,Chris Bell,WR,MIA,Questionable
 7521,Chris Blair,WR,ATL,
 12543,Tahj Brooks,RB,CIN,
-13299,Nate Boerkircher,TE,JAX,
+13299,Nate Boerkircher,TE,JAX,Questionable
 8208,Tyler Badie,RB,DEN,
 1604,Nick Williams,WR,DEN,
 WAS,WAS D/ST,DEF,WAS,
@@ -237,7 +237,7 @@ LAC,LAC D/ST,DEF,LAC,
 12482,Savion Williams,WR,GB,IR
 8088,Kalif Jackson,TE,MIA,
 11384,Owen Wright,RB,LV,
-13423,Eli Heidenreich,RB,PIT,
+13423,Eli Heidenreich,RB,PIT,Out
 13424,Seth McGowan,RB,IND,
 8253,Deven Thompkins,WR,LV,
 8861,Irv Charles,WR,SEA,IR
@@ -336,14 +336,13 @@ JAX,JAX D/ST,DEF,JAX,
 13830,Kyle Dixon,WR,NE,
 11292,Tommy DeVito,QB,NE,
 12476,Devin Neal,RB,MIN,
-12511,Will Howard,QB,PIT,
+12511,Will Howard,QB,PIT,Out
 8002,Shane Buechele,QB,BUF,
 13355,DJ Rogers,TE,DAL,IR
 8207,Tyler Goodson,RB,DAL,
 12457,Jaydon Blue,RB,PHI,
 12548,Lenny Krieg,K,GB,
 7039,Cody White,WR,LV,
-4177,Mack Hollins,WR,NE,
 13825,Malik McClain,WR,NYJ,
 5848,Marquise Brown,WR,PHI,Questionable
 11371,Julian Hill,TE,NE,IR
@@ -364,7 +363,6 @@ JAX,JAX D/ST,DEF,JAX,
 13595,Cash Jones,RB,ATL,
 11299,Zavier Scott,RB,CHI,
 13779,Al-Jay Henderson,RB,NYJ,
-12151,Julian Hicks,WR,SEA,
 4039,Cooper Kupp,WR,SEA,
 7610,Trey Lance,QB,LAC,Questionable
 12483,Jack Bech,WR,LV,IR
@@ -383,7 +381,7 @@ GB,GB D/ST,DEF,GB,
 2306,Jameis Winston,QB,NYG,
 4924,Zach Terrell,QB,BAL,
 13032,Marshall Lang,TE,MIN,
-1479,Keenan Allen,WR,IND,
+1479,Keenan Allen,WR,IND,Questionable
 3258,Nick Vannett,TE,BAL,
 12477,Kurtis Rourke,QB,SF,
 7204,Reggie Gilliam,RB,NE,Questionable
@@ -409,7 +407,6 @@ GB,GB D/ST,DEF,GB,
 11593,Brevyn Spann-Ford,TE,DAL,
 12634,Jordan Watkins,WR,SF,
 13124,Jeremiah Webb,WR,NE,IR
-11257,Shedrick Jackson,WR,BAL,
 7103,Tavien Feaster,RB,ARI,
 4930,Franko House,TE,CHI,
 13405,Kaytron Allen,RB,WAS,
@@ -436,6 +433,7 @@ GB,GB D/ST,DEF,GB,
 10223,Eric Gray,RB,CLE,
 12492,Pat Bryant,WR,DEN,
 6826,Cole Kmet,TE,CHI,
+11058,Blake Grupe,K,NYJ,
 13276,Omar Cooper,WR,NYJ,IR
 11210,Malik Heath,WR,ATL,
 13121,Ben Yurosek,TE,MIN,IR
@@ -526,7 +524,7 @@ SF,SF D/ST,DEF,SF,
 11573,Frank Gore,RB,BUF,
 13408,Tanner Koziol,TE,JAX,
 12817,Jake Briningstool,TE,KC,
-5857,Noah Fant,TE,NO,
+5857,Noah Fant,TE,NO,Questionable
 12500,Quinn Ewers,QB,JAX,
 5154,Trent Sherfield,WR,BUF,
 12520,Xavier Restrepo,WR,TEN,
@@ -544,7 +542,7 @@ SF,SF D/ST,DEF,SF,
 11600,Ja'Tavion Sanders,TE,CAR,
 12713,Andy Borregales,K,NE,
 9230,Tanner McKee,QB,PHI,
-5008,Durham Smythe,TE,BAL,Questionable
+5008,Durham Smythe,TE,BAL,
 9754,Quentin Johnston,WR,LAC,
 NYG,NYG D/ST,DEF,NYG,
 13288,Nicholas Singleton,RB,TEN,
@@ -658,7 +656,7 @@ CIN,CIN D/ST,DEF,CIN,
 6451,Stephen Carlson,TE,CHI,
 8210,Chig Okonkwo,TE,WAS,Questionable
 12670,KeAndre Lambert-Smith,WR,LAC,IR
-13306,Taylen Green,QB,CLE,
+13306,Taylen Green,QB,CLE,Out
 11256,Tyson Bagent,QB,CHI,
 13770,J. Michael Sturdivant,WR,GB,
 5086,Marquez Valdes-Scantling,WR,LAC,
@@ -673,7 +671,8 @@ CIN,CIN D/ST,DEF,CIN,
 7527,Mac Jones,QB,SF,
 13350,Joe Fagnano,QB,BAL,
 13491,Kaden Wetjen,WR,PIT,
-13289,Drew Allar,QB,PIT,
+13289,Drew Allar,QB,PIT,Out
+12826,Ulysses Bentley,RB,NO,
 6588,Tom Kennedy,WR,DET,
 13338,Kevin Coleman,WR,MIA,
 13322,Sam Roush,TE,CHI,
@@ -703,13 +702,13 @@ CIN,CIN D/ST,DEF,CIN,
 13913,Patrick Gurd,TE,LV,
 12738,Phil Mafah,RB,NYG,
 13879,Jameson Geers,TE,ARI,IR
-13437,Noah Whittington,RB,HOU,
+13437,Noah Whittington,RB,HOU,Out
 KC,KC D/ST,DEF,KC,
 6992,Michael Warren,RB,DET,
 7716,John Bates,TE,WAS,
 13333,Deion Burks,WR,IND,
 5638,Shaq Roland,WR,CHI,
-6427,Ashton Dulin,WR,IND,Questionable
+6427,Ashton Dulin,WR,IND,
 6828,AJ Dillon,RB,CAR,
 11820,Devin Culp,TE,TB,
 11599,Cade Stover,TE,HOU,
