@@ -59,7 +59,15 @@ week,when_utc,type,status,manager,added,dropped,faab
 3,2026-09-22T08:40:48Z,free_agent,complete,jezz281,Emanuel Wilson,Quentin Johnston,NA
 3,2026-09-22T07:56:32Z,free_agent,complete,LeJohnBrains,Denzel Boston,,NA
 3,2026-09-22T07:08:33Z,free_agent,complete,JLstorm1,Rashod Bateman,,NA
+4,2026-10-06T07:05:35Z,waiver,complete,themikemartin,LV D/ST,DET D/ST,0
+4,2026-10-06T07:05:35Z,waiver,failed,themikemartin,Aaron Rodgers,,0
+4,2026-10-06T07:05:35Z,waiver,complete,jezz281,Will Shipley,Tyler Loop,2
+4,2026-10-06T07:05:35Z,waiver,complete,jezz281,CIN D/ST,BAL D/ST,1
+4,2026-10-06T07:05:35Z,waiver,failed,jezz281,DAL D/ST,,0
+4,2026-10-06T07:05:35Z,waiver,complete,dm98,Tyler Allgeier,Emmett Johnson,4
+4,2026-10-06T07:05:35Z,waiver,complete,jezz281,Aaron Rodgers,Jaylen Wright,2
 4,2026-10-05T23:34:41Z,free_agent,complete,theNastyJK,,Jonathon Brooks,NA
+4,2026-10-06T07:05:35Z,waiver,complete,Rowdy17,Tank Bigsby,,3
 4,2026-10-04T12:00:54Z,free_agent,complete,LeJohnBrains,Malik Washington,,NA
 4,2026-10-02T21:01:55Z,free_agent,complete,JLstorm1,Emanuel Wilson,Rico Dowdle,NA
 4,2026-10-01T21:56:14Z,free_agent,complete,LeJohnBrains,Mack Hollins,,NA
@@ -76,3 +84,4 @@ week,when_utc,type,status,manager,added,dropped,faab
 4,2026-09-29T07:17:00Z,free_agent,complete,JLstorm1,Michael Penix,Brian Thomas,NA
 4,2026-09-29T07:13:39Z,free_agent,complete,JLstorm1,Ollie Gordon,Jonah Coleman,NA
 4,2026-09-29T07:09:27Z,free_agent,complete,JLstorm1,Braelon Allen,Rashod Bateman,NA
+5,2026-10-06T07:43:50Z,free_agent,complete,themikemartin,Jalon Daniels,Courtland Sutton,NA
