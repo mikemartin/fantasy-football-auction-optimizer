@@ -90,6 +90,58 @@ projections <- all_pos %>%
   filter(pos %in% c("QB", "RB", "WR", "TE")) %>%
   relocate(player, team, pos, .after = id)
 
+# --- Bye weeks ---------------------------------------------------------------------------
+#
+# Some sources keep serving a per-game projection for a team that is on bye, so a scrape can
+# hand a full projection to a player who will score nothing. Week 5 of 2026 did exactly that:
+# Kelce, Worthy and Bryce Young all came back projected to start while Kansas City and Carolina
+# were off. Bye teams are therefore taken from Sleeper, which publishes no projection for a
+# team that is not playing, and every player and defence on them is zeroed.
+
+std_team <- function(x) {
+  map <- c(KCC = "KC", JAC = "JAX", LA = "LAR", WSH = "WAS", GBP = "GB", NOS = "NO",
+           SFO = "SF", TBB = "TB", NEP = "NE", LVR = "LV")
+  ifelse(x %in% names(map), map[x], x)
+}
+
+bye_teams <- function(week) {
+  sleeper_rows <- NULL
+  path <- sprintf("data/league/sleeper_proj_wk%02d.csv", week)
+  if (file.exists(path)) {
+    sleeper_rows <- readr::read_csv(path, show_col_types = FALSE)
+    source_note <- path
+  } else {
+    url <- sprintf(paste0("https://api.sleeper.app/projections/nfl/%s/%d?season_type=regular",
+                          "&position[]=QB&position[]=RB&position[]=WR&position[]=TE"),
+                   league$season, week)
+    sl <- tryCatch(jsonlite::fromJSON(url, simplifyVector = FALSE), error = function(e) NULL)
+    if (length(sl) > 0) {
+      sleeper_rows <- tibble(
+        nfl_team = vapply(sl, function(r) r$team %||% NA_character_, character(1)),
+        gp       = vapply(sl, function(r) as.numeric(r$stats$gp %||% NA), numeric(1)))
+      source_note <- "Sleeper's projection endpoint"
+    }
+  }
+  if (is.null(sleeper_rows) || !any(coalesce(sleeper_rows$gp, 0) > 0)) {
+    warning("Could not determine week ", week, " byes from Sleeper. Players on bye may be ",
+            "projected as if they play - check your lineup screen for a BYE tag.")
+    return(character(0))
+  }
+  playing <- unique(std_team(na.omit(sleeper_rows$nfl_team[coalesce(sleeper_rows$gp, 0) > 0])))
+  all_teams <- unique(std_team(na.omit(sleeper_rows$nfl_team)))
+  bye <- sort(setdiff(all_teams, playing))
+  # A normal week has between zero and six teams off. Anything past that means the feed is
+  # incomplete, not that half the league is resting, so it is reported and not applied.
+  if (length(bye) > 6) {
+    warning("Sleeper's week ", week, " feed looks incomplete (", length(bye), " teams with no ",
+            "projection); byes not applied.")
+    return(character(0))
+  }
+  message("Week ", week, " byes (from ", source_note, "): ",
+          if (length(bye)) paste(bye, collapse = ", ") else "none")
+  bye
+}
+
 # Sources disagree on suffixes ("Deebo Samuel" vs "Deebo Samuel Sr."), so match
 # roster names with suffixes stripped and case ignored.
 norm_name <- function(x) tolower(trimws(gsub("\\s+(jr|sr|ii|iii|iv)\\.?$", "", x,
@@ -104,6 +156,14 @@ weekly <- projections %>%
   mutate(mine = norm_name(player) %in% norm_name(league$my_roster)) %>%
   arrange(desc(points)) %>%
   select(player, team, pos, pos_rank, points, mine)
+
+byes <- bye_teams(week)
+if (length(byes) > 0) {
+  weekly <- weekly %>%
+    mutate(points = ifelse(std_team(team) %in% byes, 0, points)) %>%
+    group_by(pos) %>% arrange(desc(points), .by_group = TRUE) %>%
+    mutate(pos_rank = row_number()) %>% ungroup() %>% arrange(desc(points))
+}
 
 csv_path <- sprintf("data/weekly_wk%02d_%d.csv", week, league$season)
 write_csv(weekly, csv_path)
@@ -164,6 +224,15 @@ stream_table <- function(raw, pos_code, scorer) {
 
 dst <- stream_table(dst_k_raw, "DST", score_dst)
 kck <- stream_table(dst_k_raw, "K",   score_k)
+
+# Defences and kickers on bye go to the bottom with zero, rather than ranking as streamers.
+drop_byes <- function(d) {
+  if (is.null(d) || length(byes) == 0) return(d)
+  d %>% mutate(points = ifelse(std_team(team) %in% byes, 0, points)) %>%
+    arrange(desc(points)) %>% mutate(rank = row_number())
+}
+dst <- drop_byes(dst)
+kck <- drop_byes(kck)
 
 if (!is.null(dst)) {
   cat("\n=== DEFENCE STREAMING, week ", week, " (top 10) ===\n", sep = "")

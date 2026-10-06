@@ -38,7 +38,7 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          Rscript -e 'install.packages(c("dplyr","tidyr","readr","stringr","purrr","tibble","glue","rvest","httr2","readxl","data.table","rrapply","remotes"))'
+          Rscript -e 'install.packages(c("dplyr","tidyr","readr","stringr","purrr","tibble","glue","jsonlite","rvest","httr2","readxl","data.table","rrapply","remotes"))'
           Rscript -e 'remotes::install_github("FantasyFootballAnalytics/ffanalytics", upgrade = "never")'
 
       - name: Determine week
