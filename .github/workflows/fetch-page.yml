@@ -1,0 +1,32 @@
+name: Fetch a reference page
+
+# Downloads one web page that the dev container's proxy blocks (trade charts, rankings
+# articles) and hands it back as a short-lived build artifact. Nothing is committed: the
+# page stays out of the repo and the artifact expires.
+#
+# Trigger: write the URL into .run-page and push.
+on:
+  push:
+    branches: [claude/fantasy-auction-optimizer-o0fyp4]
+    paths: [".run-page"]
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          url=$(head -n1 .run-page | tr -d '[:space:]')
+          mkdir -p page
+          curl -sSL --fail -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 Safari/605.1.15" \
+            -o page/page.html "$url"
+          ls -la page
+      - uses: actions/upload-artifact@v4
+        with:
+          name: page
+          path: page/
+          retention-days: 2
