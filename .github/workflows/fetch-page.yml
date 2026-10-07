@@ -1,32 +1,63 @@
 name: Fetch a reference page
 
 # Downloads one web page that the dev container's proxy blocks (trade charts, rankings
-# articles) and hands it back as a short-lived build artifact. Nothing is committed: the
-# page stays out of the repo and the artifact expires.
+# articles), pulls out any HTML tables as CSV, and commits only those tables to
+# data/reference/. The article text itself is never committed.
 #
-# Trigger: write the URL into .run-page and push.
+# Trigger: write the URL on the first line of .run-page and a short name on the second
+# (the CSV prefix), then push.
 on:
   push:
     branches: [claude/fantasy-auction-optimizer-o0fyp4]
     paths: [".run-page"]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: claude/fantasy-auction-optimizer-o0fyp4
       - name: Download
         run: |
-          url=$(head -n1 .run-page | tr -d '[:space:]')
-          mkdir -p page
+          url=$(sed -n 1p .run-page | tr -d '[:space:]')
+          mkdir -p /tmp/page
           curl -sSL --fail -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 Safari/605.1.15" \
-            -o page/page.html "$url"
-          ls -la page
-      - uses: actions/upload-artifact@v4
-        with:
-          name: page
-          path: page/
-          retention-days: 2
+            -o /tmp/page/page.html "$url"
+          echo "::notice::downloaded $(wc -c < /tmp/page/page.html) bytes, $(grep -o '<table' /tmp/page/page.html | wc -l) tables"
+      - name: Extract tables
+        run: |
+          pip install --quiet pandas lxml html5lib
+          name=$(sed -n 2p .run-page | tr -d '[:space:]'); name=${name:-page}
+          mkdir -p data/reference
+          python3 - "$name" <<'PY'
+          import sys, pandas as pd
+          name = sys.argv[1]
+          try:
+              tables = pd.read_html("/tmp/page/page.html")
+          except ValueError:
+              tables = []
+          for i, t in enumerate(tables):
+              path = f"data/reference/{name}_{i:02d}.csv"
+              t.to_csv(path, index=False)
+              cols = " | ".join(map(str, t.columns))[:300]
+              print(f"::notice::table {i}: {t.shape[0]} rows; columns: {cols}")
+          if not tables:
+              print("::warning::no HTML tables found - the chart may be an image")
+          PY
+      - name: Commit tables
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reference/ || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Add reference tables from $(sed -n 1p .run-page | cut -c1-80) [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase origin claude/fantasy-auction-optimizer-o0fyp4 || exit 1
+            sleep $((i * 3))
+          done
+          exit 1
