@@ -141,6 +141,7 @@ ARI,ARI D/ST,DEF,ARI,
 12792,Garrett Greene,QB,TB,
 812,Lee Smith,TE,ATL,
 13964,Myles Montgomery,RB,NE,IR
+13744,Cameron Ross,WR,DEN,
 6386,Alex Bachman,WR,LAR,
 4443,Pharaoh Brown,TE,IND,
 11237,Jacob Saylors,RB,DET,
@@ -328,6 +329,7 @@ JAX,JAX D/ST,DEF,JAX,
 12928,Amar Johnson,RB,LAC,
 12113,Thomas Yassmin,TE,GB,IR
 11627,Troy Franklin,WR,DEN,
+13403,Jam Miller,RB,ATL,
 1592,Darren Fells,TE,TB,
 3868,Jalen Richard,RB,LV,
 13151,Nick Kallerup,TE,SEA,Out
@@ -491,7 +493,7 @@ MIA,MIA D/ST,DEF,MIA,
 6931,DeeJay Dallas,RB,MIN,
 11623,Jordan Whittington,WR,LAR,
 4995,Ian Thomas,TE,LV,
-9225,Tank Bigsby,RB,PHI,Out
+9225,Tank Bigsby,RB,PHI,IR
 DET,DET D/ST,DEF,DET,
 13411,Zavion Thomas,WR,CHI,
 11603,AJ Barner,TE,SEA,
@@ -626,7 +628,7 @@ CHI,CHI D/ST,DEF,CHI,
 11716,Tip Reiman,TE,ARI,PUP
 13319,Oscar Delp,TE,NO,
 11783,Ryan Flournoy,WR,DAL,
-13862,Treyvhon Saunders,WR,HOU,
+13862,Treyvhon Saunders,WR,HOU,Questionable
 4683,Aaron Bailey,QB,BAL,
 10871,Luke Schoonmaker,TE,DAL,
 12746,JP Richardson,WR,CHI,
