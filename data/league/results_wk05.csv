@@ -2,9 +2,9 @@ week,matchup_id,manager,player,pos,points,started
 5,3,jezz281,Rashee Rice,WR,0,FALSE
 5,3,jezz281,Will Shipley,RB,0,FALSE
 5,3,jezz281,Devaughn Vele,WR,0,FALSE
-5,3,jezz281,Omarion Hampton,RB,0,FALSE
+5,3,jezz281,Omarion Hampton,RB,0,TRUE
 5,3,jezz281,Jacory Croskey-Merritt,RB,0,FALSE
-5,3,jezz281,Kyle Monangai,RB,0,TRUE
+5,3,jezz281,Kyle Monangai,RB,0,FALSE
 5,3,jezz281,Jared Goff,QB,0,TRUE
 5,3,jezz281,Tyreek Hill,WR,0,FALSE
 5,3,jezz281,A.J. Brown,WR,0,FALSE
@@ -12,7 +12,7 @@ week,matchup_id,manager,player,pos,points,started
 5,3,jezz281,Travis Etienne,RB,0,FALSE
 5,3,jezz281,Rhamondre Stevenson,RB,0,TRUE
 5,3,jezz281,Trey McBride,TE,0,TRUE
-5,3,jezz281,George Pickens,WR,4.9,TRUE
+5,3,jezz281,George Pickens,WR,24,TRUE
 5,3,jezz281,Brock Purdy,QB,0,TRUE
 5,3,jezz281,Chase Brown,RB,0,TRUE
 5,3,jezz281,Aaron Rodgers,QB,0,FALSE
@@ -29,7 +29,7 @@ week,matchup_id,manager,player,pos,points,started
 5,5,DrBongstrong,Justin Jefferson,WR,0,FALSE
 5,5,DrBongstrong,Amon-Ra St. Brown,WR,0,TRUE
 5,5,DrBongstrong,Kyle Pitts,TE,0,FALSE
-5,5,DrBongstrong,Kenny Gainwell,RB,0,FALSE
+5,5,DrBongstrong,Kenny Gainwell,RB,3.8,FALSE
 5,5,DrBongstrong,Isaiah Likely,TE,0,TRUE
 5,5,DrBongstrong,Christian Watson,WR,0,TRUE
 5,5,DrBongstrong,Isiah Pacheco,RB,0,FALSE
@@ -37,7 +37,7 @@ week,matchup_id,manager,player,pos,points,started
 5,5,themikemartin,Jake Bates,K,0,TRUE
 5,5,themikemartin,MarShawn Lloyd,RB,0,FALSE
 5,5,themikemartin,Xavier Worthy,WR,0,FALSE
-5,5,themikemartin,Jalon Daniels,QB,8.81,TRUE
+5,5,themikemartin,Jalon Daniels,QB,16.36,TRUE
 5,5,themikemartin,Geno Smith,QB,0,FALSE
 5,5,themikemartin,Travis Kelce,TE,0,FALSE
 5,5,themikemartin,Stefon Diggs,WR,0,FALSE
@@ -87,7 +87,7 @@ week,matchup_id,manager,player,pos,points,started
 5,4,JLstorm1,MIN D/ST,DEF,0,TRUE
 5,1,Rowdy17,Sam LaPorta,TE,0,TRUE
 5,1,Rowdy17,Caleb Williams,QB,0,FALSE
-5,1,Rowdy17,Bucky Irving,RB,7.2,TRUE
+5,1,Rowdy17,Bucky Irving,RB,33.25,TRUE
 5,1,Rowdy17,Blake Corum,RB,0,FALSE
 5,1,Rowdy17,Ka'imi Fairbairn,K,0,TRUE
 5,1,Rowdy17,James Conner,RB,0,FALSE
@@ -96,7 +96,7 @@ week,matchup_id,manager,player,pos,points,started
 5,1,Rowdy17,Tee Higgins,WR,0,FALSE
 5,1,Rowdy17,Trevor Lawrence,QB,0,TRUE
 5,1,Rowdy17,Nico Collins,WR,0,TRUE
-5,1,Rowdy17,Javonte Williams,RB,10.45,TRUE
+5,1,Rowdy17,Javonte Williams,RB,14.45,TRUE
 5,1,Rowdy17,Romeo Doubs,WR,0,FALSE
 5,1,Rowdy17,Chris Olave,WR,0,TRUE
 5,1,Rowdy17,Parker Washington,WR,0,TRUE
@@ -109,18 +109,18 @@ week,matchup_id,manager,player,pos,points,started
 5,2,dm98,Matthew Golden,WR,0,TRUE
 5,2,dm98,Harold Fannin,TE,0,FALSE
 5,2,dm98,Jaxson Dart,QB,0,FALSE
-5,2,dm98,Emeka Egbuka,WR,2.2,FALSE
+5,2,dm98,Emeka Egbuka,WR,13.2,FALSE
 5,2,dm98,Carnell Tate,WR,0,FALSE
 5,2,dm98,Jeremiyah Love,RB,0,TRUE
 5,2,dm98,Jacoby Brissett,QB,0,TRUE
-5,2,dm98,Dak Prescott,QB,1.84,TRUE
+5,2,dm98,Dak Prescott,QB,13.64,TRUE
 5,2,dm98,George Kittle,TE,0,TRUE
-5,2,dm98,CeeDee Lamb,WR,0,TRUE
+5,2,dm98,CeeDee Lamb,WR,0.9,TRUE
 5,2,dm98,J.K. Dobbins,RB,0,FALSE
 5,2,dm98,Tyler Allgeier,RB,0,FALSE
 5,2,dm98,James Cook,RB,0,TRUE
 5,2,dm98,DEN D/ST,DEF,0,TRUE
-5,4,LeJohnBrains,Brandon Aubrey,K,1,TRUE
+5,4,LeJohnBrains,Brandon Aubrey,K,5.1,TRUE
 5,4,LeJohnBrains,Malik Washington,WR,0,FALSE
 5,4,LeJohnBrains,Adonai Mitchell,WR,0,FALSE
 5,4,LeJohnBrains,Woody Marks,RB,0,FALSE
@@ -142,7 +142,7 @@ week,matchup_id,manager,player,pos,points,started
 5,2,Wenzo3030,Tyler Warren,TE,0,FALSE
 5,2,Wenzo3030,Cam Ward,QB,0,FALSE
 5,2,Wenzo3030,Davante Adams,WR,0,TRUE
-5,2,Wenzo3030,Chris Godwin,WR,3.1,FALSE
+5,2,Wenzo3030,Chris Godwin,WR,6,FALSE
 5,2,Wenzo3030,Josh Allen,QB,0,TRUE
 5,2,Wenzo3030,Mark Andrews,TE,0,TRUE
 5,2,Wenzo3030,DK Metcalf,WR,0,FALSE
