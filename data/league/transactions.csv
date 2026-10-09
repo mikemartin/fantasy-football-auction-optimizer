@@ -1,0 +1,89 @@
+week,when_utc,type,status,manager,added,dropped,faab
+1,2026-09-15T07:04:59Z,waiver,failed,jezz281,DeMario Douglas,,0
+1,2026-09-15T07:04:59Z,waiver,complete,jezz281,Demarcus Robinson,,0
+1,2026-09-15T07:04:59Z,waiver,failed,jezz281,TB D/ST,,1
+1,2026-09-15T07:04:59Z,waiver,complete,jezz281,SF D/ST,JAX D/ST,1
+1,2026-09-15T04:05:22Z,free_agent,complete,LeJohnBrains,,Kyler Murray,NA
+1,2026-09-15T07:04:59Z,waiver,complete,jezz281,Devaughn Vele,Wil Lutz,4
+1,2026-09-15T07:04:59Z,waiver,complete,Rowdy17,Dalton Schultz,,2
+1,2026-09-13T20:48:15Z,free_agent,complete,jezz281,Wil Lutz,Tony Pollard,NA
+1,2026-09-13T02:04:58Z,free_agent,complete,Rowdy17,,Malik Davis,NA
+1,2026-09-11T02:34:52Z,free_agent,complete,theNastyJK,Dallas Goedert,,NA
+1,2026-09-09T10:34:58Z,free_agent,complete,DrBongstrong,Alvin Kamara,,NA
+1,2026-09-09T10:33:13Z,free_agent,complete,DrBongstrong,Isiah Pacheco,Aaron Jones,NA
+1,2026-09-02T11:12:15Z,free_agent,complete,dm98,Chris Rodriguez,Michael Pittman,NA
+1,2026-08-31T22:01:36Z,free_agent,complete,Rowdy17,Malik Davis,,NA
+1,2026-09-01T01:50:32Z,trade,complete,themikemartin + Rowdy17,"Caleb Williams, Jayden Daniels","Caleb Williams, Jayden Daniels",NA
+1,2026-08-31T11:40:16Z,free_agent,complete,jezz281,JAX D/ST,Rachaad White,NA
+1,2026-08-30T22:19:07Z,free_agent,complete,Rowdy17,James Conner,Jake Ferguson,NA
+1,2026-08-31T13:35:25Z,waiver,complete,themikemartin,MarShawn Lloyd,Chris Rodriguez,31
+1,2026-08-30T23:00:32Z,trade,complete,JLstorm1 + Rowdy17,"Justin Herbert, Trevor Lawrence","Justin Herbert, Trevor Lawrence",NA
+1,2026-08-31T13:35:25Z,waiver,failed,JLstorm1,MarShawn Lloyd,,0
+1,2026-08-30T14:27:43Z,free_agent,complete,themikemartin,Xavier Worthy,MarShawn Lloyd,NA
+1,2026-08-31T13:15:25Z,waiver,complete,themikemartin,Bryce Young,Fernando Mendoza,2
+1,2026-08-30T14:12:20Z,free_agent,complete,themikemartin,DJ Giddens,Tyrone Tracy,NA
+1,2026-08-30T14:06:05Z,free_agent,complete,Wenzo3030,KC Concepcion,Bryce Young,NA
+1,2026-08-30T14:04:35Z,free_agent,complete,themikemartin,Kaelon Black,Dallas Goedert,NA
+1,2026-08-30T13:49:26Z,free_agent,complete,theNastyJK,Evan McPherson,,NA
+2,2026-09-22T07:05:47Z,waiver,complete,JLstorm1,MIN D/ST,BAL D/ST,6
+2,2026-09-22T07:05:47Z,waiver,complete,JLstorm1,Jonah Coleman,Michael Pittman,7
+2,2026-09-22T07:05:47Z,waiver,complete,dm98,Tre Tucker,,6
+2,2026-09-22T07:05:47Z,waiver,complete,dm98,Jacoby Brissett,,31
+2,2026-09-22T00:11:08Z,free_agent,complete,LeJohnBrains,Malachi Fields,Tutu Atwell,NA
+2,2026-09-22T00:10:25Z,free_agent,complete,LeJohnBrains,Tutu Atwell,,NA
+2,2026-09-22T07:05:47Z,waiver,failed,jezz281,Tre Tucker,,3
+2,2026-09-20T11:14:14Z,free_agent,complete,jezz281,Chase McLaughlin,Jacoby Brissett,NA
+2,2026-09-17T02:09:01Z,free_agent,complete,JLstorm1,Michael Pittman,,NA
+2,2026-09-17T00:12:56Z,free_agent,complete,themikemartin,,DJ Giddens,NA
+2,2026-09-15T22:28:55Z,free_agent,complete,jezz281,Jacoby Brissett,Carson Wentz,NA
+2,2026-09-15T22:27:34Z,free_agent,complete,jezz281,Carson Wentz,Demarcus Robinson,NA
+2,2026-09-15T19:13:58Z,free_agent,complete,dm98,Emmett Johnson,,NA
+2,2026-09-16T03:05:47Z,waiver,complete,DrBongstrong,Kyler Murray,Jakobi Meyers,25
+2,2026-09-15T11:01:47Z,free_agent,complete,DrBongstrong,Aaron Jones,Jayden Reed,NA
+2,2026-09-15T12:23:36Z,trade,complete,themikemartin + dm98,"Jayden Daniels, Jordan Love, Garrett Wilson","Jayden Daniels, Jordan Love, Garrett Wilson",NA
+2,2026-09-15T08:12:20Z,free_agent,complete,dm98,Caleb Douglas,Tyjae Spears,NA
+3,2026-09-29T07:05:03Z,waiver,complete,dm98,Carnell Tate,Tre Tucker,4
+3,2026-09-29T07:05:03Z,waiver,complete,JLstorm1,Kenyon Sadiq,Terrance Ferguson,12
+3,2026-09-29T07:05:03Z,waiver,complete,Wenzo3030,Marcus Mariota,KC Concepcion,8
+3,2026-09-27T20:27:08Z,free_agent,complete,jezz281,Tank Bigsby,Emanuel Wilson,NA
+3,2026-09-27T09:18:53Z,free_agent,complete,dm98,J.K. Dobbins,Drew Lock,NA
+3,2026-09-24T21:16:21Z,free_agent,complete,theNastyJK,Oronde Gadsden,Dallas Goedert,NA
+3,2026-09-24T01:35:08Z,free_agent,complete,dm98,Romeo Doubs,Caleb Douglas,NA
+3,2026-09-23T22:08:57Z,free_agent,complete,JLstorm1,Terrance Ferguson,Carnell Tate,NA
+3,2026-09-23T10:59:48Z,free_agent,complete,LeJohnBrains,,Makai Lemon,NA
+3,2026-09-23T09:54:59Z,waiver,complete,jezz281,Deebo Samuel,J.K. Dobbins,1
+3,2026-09-23T00:18:06Z,free_agent,complete,jezz281,KC D/ST,SF D/ST,NA
+3,2026-09-22T10:51:52Z,free_agent,complete,themikemartin,Aaron Rodgers,Deebo Samuel,NA
+3,2026-09-22T10:34:45Z,free_agent,complete,themikemartin,Tony Pollard,Kaelon Black,NA
+3,2026-09-22T09:20:55Z,free_agent,complete,dm98,Drew Lock,Chris Rodriguez,NA
+3,2026-09-22T08:40:48Z,free_agent,complete,jezz281,Emanuel Wilson,Quentin Johnston,NA
+3,2026-09-22T07:56:32Z,free_agent,complete,LeJohnBrains,Denzel Boston,,NA
+3,2026-09-22T07:08:33Z,free_agent,complete,JLstorm1,Rashod Bateman,,NA
+4,2026-10-06T07:05:35Z,waiver,complete,themikemartin,LV D/ST,DET D/ST,0
+4,2026-10-06T07:05:35Z,waiver,failed,themikemartin,Aaron Rodgers,,0
+4,2026-10-06T07:05:35Z,waiver,complete,jezz281,Will Shipley,Tyler Loop,2
+4,2026-10-06T07:05:35Z,waiver,complete,jezz281,CIN D/ST,BAL D/ST,1
+4,2026-10-06T07:05:35Z,waiver,failed,jezz281,DAL D/ST,,0
+4,2026-10-06T07:05:35Z,waiver,complete,dm98,Tyler Allgeier,Emmett Johnson,4
+4,2026-10-06T07:05:35Z,waiver,complete,jezz281,Aaron Rodgers,Jaylen Wright,2
+4,2026-10-05T23:34:41Z,free_agent,complete,theNastyJK,,Jonathon Brooks,NA
+4,2026-10-06T07:05:35Z,waiver,complete,Rowdy17,Tank Bigsby,,3
+4,2026-10-04T12:00:54Z,free_agent,complete,LeJohnBrains,Malik Washington,,NA
+4,2026-10-02T21:01:55Z,free_agent,complete,JLstorm1,Emanuel Wilson,Rico Dowdle,NA
+4,2026-10-01T21:56:14Z,free_agent,complete,LeJohnBrains,Mack Hollins,,NA
+4,2026-10-01T21:56:07Z,free_agent,complete,LeJohnBrains,Jakobi Meyers,,NA
+4,2026-09-30T13:56:09Z,free_agent,complete,jezz281,Tyler Loop,Chase McLaughlin,NA
+4,2026-09-30T10:31:10Z,free_agent,complete,dm98,,Romeo Doubs,NA
+4,2026-09-29T16:01:21Z,free_agent,complete,theNastyJK,Rachaad White,De'Von Achane,NA
+4,2026-09-29T15:57:52Z,free_agent,complete,theNastyJK,Deshaun Watson,Oronde Gadsden,NA
+4,2026-09-29T11:15:03Z,free_agent,complete,jezz281,Tyreek Hill,,NA
+4,2026-09-29T10:44:24Z,free_agent,complete,LeJohnBrains,,Malachi Fields,NA
+4,2026-09-29T10:34:04Z,free_agent,complete,jezz281,BAL D/ST,KC D/ST,NA
+4,2026-09-29T10:29:53Z,free_agent,complete,jezz281,Jaylen Wright,Tank Bigsby,NA
+4,2026-09-29T10:16:00Z,free_agent,complete,themikemartin,Juwan Johnson,Aaron Rodgers,NA
+4,2026-09-29T07:17:00Z,free_agent,complete,JLstorm1,Michael Penix,Brian Thomas,NA
+4,2026-09-29T07:13:39Z,free_agent,complete,JLstorm1,Ollie Gordon,Jonah Coleman,NA
+4,2026-09-29T07:09:27Z,free_agent,complete,JLstorm1,Braelon Allen,Rashod Bateman,NA
+5,2026-10-08T06:39:53Z,free_agent,complete,Wenzo3030,Keaton Mitchell,Marcus Mariota,NA
+5,2026-10-06T07:56:31Z,free_agent,complete,Rowdy17,Romeo Doubs,Tank Bigsby,NA
+5,2026-10-06T07:43:50Z,free_agent,complete,themikemartin,Jalon Daniels,Courtland Sutton,NA
