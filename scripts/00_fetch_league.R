@@ -254,10 +254,20 @@ settings <- tibble(
   daily_waivers_hour = s$daily_waivers_hour %||% NA,
   playoff_teams = s$playoff_teams %||% NA,
   playoff_start_week = s$playoff_week_start %||% NA,
-  trade_deadline = s$trade_deadline %||% NA
+  trade_deadline = s$trade_deadline %||% NA,
+  # Days an accepted trade waits before it processes (0 = immediately). Decides whether a
+  # trade accepted mid-week can land before the weekend's games.
+  trade_review_days = s$trade_review_days %||% NA
 )
 write_csv(settings, file.path(OUT, "settings.csv"))
 message("  settings.csv")
+
+# Every scalar league setting, untouched, so a question about a rule nobody anticipated can
+# be answered from data rather than guessed.
+scalar <- Filter(function(v) length(v) == 1 && !is.list(v), s)
+write_csv(tibble(setting = names(scalar), value = vapply(scalar, as.character, character(1))),
+          file.path(OUT, "settings_all.csv"))
+message("  settings_all.csv ", length(scalar), " settings")
 cat("\n")
 print(as.data.frame(settings), row.names = FALSE)
 cat("\n=== STANDINGS ===\n")
