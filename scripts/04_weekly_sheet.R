@@ -250,6 +250,8 @@ if (!is.null(kck)) {
   cat("\n=== KICKERS, week ", week, " (top 5) ===\n", sep = "")
   print(as.data.frame(kck %>% mutate(points = round(points, 2)) %>%
     select(rank, player, team, points) %>% head(5)), row.names = FALSE)
+  write_csv(kck %>% select(rank, player, team, points),
+            sprintf("data/streaming_k_wk%02d_%d.csv", week, league$season))
 }
 
 # --- Waiver watch: best players NOT on your roster, by position ------------------------
