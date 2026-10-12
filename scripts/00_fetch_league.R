@@ -172,6 +172,27 @@ for (wk in seq_len(max(1, this_week))) {
   message(sprintf("  results_wk%02d.csv %d player-weeks", wk, nrow(rows)))
 }
 
+# --- Schedule ------------------------------------------------------------------------------
+#
+# Sleeper builds the whole regular-season schedule up front, so future weeks' pairings are
+# available before those weeks start. Saved separately from results so a future week never
+# reads as a week of zero scores.
+reg_end <- (info$settings$playoff_week_start %||% 15) - 1
+sched <- map_dfr(seq_len(reg_end), function(wk) {
+  mus <- tryCatch(get_json(paste0("/league/", league$sleeper_id, "/matchups/", wk), allow_empty = TRUE),
+                  error = function(e) NULL)
+  if (is.null(mus) || length(mus) == 0) return(tibble())
+  tibble(week = wk,
+         matchup_id = vapply(mus, function(m) as.integer(m$matchup_id %||% NA), integer(1)),
+         manager = vapply(mus, function(m) manager_of[[as.character(m$roster_id)]], character(1)))
+})
+if (nrow(sched) > 0) {
+  sched <- sched %>% filter(!is.na(matchup_id)) %>% group_by(week, matchup_id) %>%
+    mutate(opponent = rev(manager)) %>% ungroup() %>% arrange(week, matchup_id)
+  write_csv(sched, file.path(OUT, "schedule.csv"))
+  message("  schedule.csv weeks ", min(sched$week), "-", max(sched$week))
+}
+
 # --- Transactions ------------------------------------------------------------------------------
 tx <- map_dfr(seq_len(max(1, this_week)), function(wk) {
   ts <- tryCatch(get_json(paste0("/league/", league$sleeper_id, "/transactions/", wk),
