@@ -34,14 +34,14 @@ week,matchup_id,manager,player,pos,points,started
 7,4,DrBongstrong,Christian Watson,WR,0,TRUE
 7,4,DrBongstrong,Isiah Pacheco,RB,0,FALSE
 7,4,DrBongstrong,PIT D/ST,DEF,0,TRUE
-7,3,themikemartin,MarShawn Lloyd,RB,0,TRUE
+7,3,themikemartin,MarShawn Lloyd,RB,0,FALSE
 7,3,themikemartin,Xavier Worthy,WR,0,FALSE
+7,3,themikemartin,Will Reichard,K,0,TRUE
 7,3,themikemartin,Geno Smith,QB,0,FALSE
 7,3,themikemartin,Travis Kelce,TE,0,TRUE
 7,3,themikemartin,Stefon Diggs,WR,0,FALSE
 7,3,themikemartin,Christian McCaffrey,RB,0,TRUE
-7,3,themikemartin,Harrison Butker,K,0,TRUE
-7,3,themikemartin,Tony Pollard,RB,0,FALSE
+7,3,themikemartin,Tony Pollard,RB,0,TRUE
 7,3,themikemartin,Jordan Love,QB,0,TRUE
 7,3,themikemartin,Jonathan Taylor,RB,0,TRUE
 7,3,themikemartin,Juwan Johnson,TE,0,FALSE
@@ -49,6 +49,7 @@ week,matchup_id,manager,player,pos,points,started
 7,3,themikemartin,Garrett Wilson,WR,0,TRUE
 7,3,themikemartin,Bryce Young,QB,0,TRUE
 7,3,themikemartin,Jaxon Smith-Njigba,WR,0,TRUE
+7,3,themikemartin,DET D/ST,DEF,0,FALSE
 7,3,themikemartin,NYJ D/ST,DEF,0,TRUE
 7,1,theNastyJK,Brock Bowers,TE,0,TRUE
 7,1,theNastyJK,Rome Odunze,WR,0,FALSE

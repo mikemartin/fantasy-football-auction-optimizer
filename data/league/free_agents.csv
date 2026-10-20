@@ -55,6 +55,7 @@ player_id,player,pos,nfl_team,status
 13273,Josh Cuevas,TE,BAL,
 13282,Jack Endries,TE,CIN,Out
 7608,Khalil Herbert,RB,ATL,
+4227,Harrison Butker,K,KC,
 8484,Ko Kieft,TE,TB,
 9510,Lew Nichols,RB,PIT,
 11571,Isaiah Davis,RB,NYJ,
@@ -304,7 +305,6 @@ TB,TB D/ST,DEF,TB,
 6271,Olamide Zaccheaus,WR,ATL,
 13392,Jeff Caldwell,WR,KC,IR
 6866,KJ Hill,WR,LAC,
-11792,Will Reichard,K,MIN,
 6920,Isaiah Hodgins,WR,PIT,
 10225,Jonathan Mingo,WR,DAL,
 12470,Riley Leonard,QB,IND,Out
@@ -497,7 +497,6 @@ MIA,MIA D/ST,DEF,MIA,
 11623,Jordan Whittington,WR,LAR,
 4995,Ian Thomas,TE,LV,
 9225,Tank Bigsby,RB,PHI,IR
-DET,DET D/ST,DEF,DET,
 13411,Zavion Thomas,WR,CHI,
 11603,AJ Barner,TE,SEA,
 13407,Carson Towt,TE,IND,IR
