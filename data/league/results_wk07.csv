@@ -139,9 +139,10 @@ week,matchup_id,manager,player,pos,points,started
 7,2,LeJohnBrains,Bijan Robinson,RB,0,TRUE
 7,2,LeJohnBrains,PHI D/ST,DEF,0,TRUE
 7,2,Wenzo3030,Drake Maye,QB,0,TRUE
+7,2,Wenzo3030,J.J. McCarthy,QB,0,FALSE
 7,2,Wenzo3030,Tyler Warren,TE,0,TRUE
 7,2,Wenzo3030,Cam Ward,QB,0,FALSE
-7,2,Wenzo3030,Davante Adams,WR,0,TRUE
+7,2,Wenzo3030,Davante Adams,WR,0,FALSE
 7,2,Wenzo3030,Chris Godwin,WR,0,FALSE
 7,2,Wenzo3030,Josh Allen,QB,0,TRUE
 7,2,Wenzo3030,Mark Andrews,TE,0,FALSE
