@@ -260,6 +260,27 @@ for (proj_week in unique(pmin(18, max(1, this_week) + 0:1))) {
     message("  sleeper_proj_wk", sprintf("%02d", proj_week), ".csv ", nrow(rows),
             " players (the market's view, for comparison against ours)")
   }
+
+  # Kickers and defences are kept as every raw stat Sleeper projects, long format. Scored
+  # against scoring_settings.csv they reproduce the number the Sleeper app shows, which
+  # matters most for defences: our own projection covers only part of this league's DEF
+  # scoring, and Sleeper's may cover more of it.
+  dk <- tryCatch(fromJSON(paste0("https://api.sleeper.app", sprintf(
+    "/projections/nfl/%s/%d?season_type=regular&position[]=DEF&position[]=K", info$season, proj_week)),
+    simplifyVector = FALSE), error = function(e) NULL)
+  if (length(dk)) {
+    dk_rows <- map_dfr(dk, function(x) {
+      st <- x$stats %||% list()
+      st <- st[vapply(st, is.numeric, logical(1))]
+      if (!length(st)) return(NULL)
+      pid <- as.character(x$player_id %||% NA)
+      tibble(player_id = pid, player = player_name(pid), pos = pl(pid, "position"),
+             nfl_team = x$team %||% pl(pid, "team"), stat = names(st), value = unlist(st))
+    })
+    write_csv(dk_rows, file.path(OUT, sprintf("sleeper_proj_dk_wk%02d.csv", proj_week)))
+    message("  sleeper_proj_dk_wk", sprintf("%02d", proj_week), ".csv ",
+            n_distinct(dk_rows$player_id), " kickers and defences")
+  }
 }
 
 # --- Settings -----------------------------------------------------------------------------------
@@ -292,6 +313,12 @@ scalar <- Filter(function(v) length(v) == 1 && !is.list(v), s)
 write_csv(tibble(setting = names(scalar), value = vapply(scalar, as.character, character(1))),
           file.path(OUT, "settings_all.csv"))
 message("  settings_all.csv ", length(scalar), " settings")
+
+# Sleeper scores a projection as the sum of stat x setting, so this table is what turns the
+# raw kicker and defence projections into the points the app displays.
+sc <- info$scoring_settings %||% list()
+write_csv(tibble(stat = names(sc), points = as.numeric(unlist(sc))), file.path(OUT, "scoring_settings.csv"))
+message("  scoring_settings.csv ", length(sc), " scoring rules")
 cat("\n")
 print(as.data.frame(settings), row.names = FALSE)
 cat("\n=== STANDINGS ===\n")
