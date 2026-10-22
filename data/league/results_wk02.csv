@@ -8,7 +8,7 @@ week,matchup_id,manager,player,pos,points,started
 2,2,jezz281,A.J. Brown,WR,0,FALSE
 2,2,jezz281,Chase McLaughlin,K,17.6,TRUE
 2,2,jezz281,J.K. Dobbins,RB,4.35,FALSE
-2,2,jezz281,Travis Etienne,RB,5.85,TRUE
+2,2,jezz281,Travis Etienne Jr.,RB,5.85,TRUE
 2,2,jezz281,Rhamondre Stevenson,RB,4.85,FALSE
 2,2,jezz281,Trey McBride,TE,12.1,TRUE
 2,2,jezz281,George Pickens,WR,8,TRUE
@@ -21,13 +21,13 @@ week,matchup_id,manager,player,pos,points,started
 2,2,DrBongstrong,Chris Boswell,K,5.6,TRUE
 2,2,DrBongstrong,Derrick Henry,RB,18.7,TRUE
 2,2,DrBongstrong,Alvin Kamara,RB,2.95,FALSE
-2,2,DrBongstrong,Aaron Jones,RB,12.75,TRUE
+2,2,DrBongstrong,Aaron Jones Sr.,RB,12.75,TRUE
 2,2,DrBongstrong,Matthew Stafford,QB,30.98,TRUE
 2,2,DrBongstrong,Sam Darnold,QB,0,FALSE
 2,2,DrBongstrong,Kyler Murray,QB,0,FALSE
 2,2,DrBongstrong,Justin Jefferson,WR,7.5,TRUE
 2,2,DrBongstrong,Amon-Ra St. Brown,WR,31.2,TRUE
-2,2,DrBongstrong,Kyle Pitts,TE,2.5,TRUE
+2,2,DrBongstrong,Kyle Pitts Sr.,TE,2.5,TRUE
 2,2,DrBongstrong,Kenny Gainwell,RB,3,FALSE
 2,2,DrBongstrong,Isaiah Likely,TE,6.3,TRUE
 2,2,DrBongstrong,Christian Watson,WR,11.1,TRUE
@@ -42,7 +42,7 @@ week,matchup_id,manager,player,pos,points,started
 2,3,themikemartin,Stefon Diggs,WR,18.7,FALSE
 2,3,themikemartin,Christian McCaffrey,RB,22.6,TRUE
 2,3,themikemartin,Courtland Sutton,WR,3.5,FALSE
-2,3,themikemartin,Deebo Samuel,WR,4.5,FALSE
+2,3,themikemartin,Deebo Samuel Sr.,WR,4.5,FALSE
 2,3,themikemartin,Jordan Love,QB,15.8,TRUE
 2,3,themikemartin,Jonathan Taylor,RB,31.2,TRUE
 2,3,themikemartin,Garrett Wilson,WR,14.7,TRUE
@@ -54,7 +54,7 @@ week,matchup_id,manager,player,pos,points,started
 2,5,theNastyJK,Rome Odunze,WR,6.3,FALSE
 2,5,theNastyJK,Malik Nabers,WR,0.1,TRUE
 2,5,theNastyJK,Quinshon Judkins,RB,6.55,FALSE
-2,5,theNastyJK,Luther Burden,WR,4.2,TRUE
+2,5,theNastyJK,Luther Burden III,WR,4.2,TRUE
 2,5,theNastyJK,Tetairoa McMillan,WR,14.1,TRUE
 2,5,theNastyJK,Tyler Shough,QB,24.88,TRUE
 2,5,theNastyJK,Jadarian Price,RB,6.5,FALSE
@@ -67,14 +67,14 @@ week,matchup_id,manager,player,pos,points,started
 2,5,theNastyJK,De'Von Achane,RB,11.8,TRUE
 2,5,theNastyJK,Zach Charbonnet,RB,0,FALSE
 2,5,theNastyJK,LAR D/ST,DEF,7.5,TRUE
-2,1,JLstorm1,Marvin Harrison,WR,0,FALSE
-2,1,JLstorm1,Brian Thomas,WR,7,FALSE
+2,1,JLstorm1,Marvin Harrison Jr.,WR,0,FALSE
+2,1,JLstorm1,Brian Thomas Jr.,WR,7,FALSE
 2,1,JLstorm1,Cam Little,K,8.4,TRUE
 2,1,JLstorm1,Carnell Tate,WR,3.7,FALSE
 2,1,JLstorm1,Lamar Jackson,QB,18.05,TRUE
 2,1,JLstorm1,D'Andre Swift,RB,12.15,TRUE
 2,1,JLstorm1,Justin Herbert,QB,8.88,TRUE
-2,1,JLstorm1,Michael Pittman,WR,0,FALSE
+2,1,JLstorm1,Michael Pittman Jr.,WR,0,FALSE
 2,1,JLstorm1,Rico Dowdle,RB,7.15,FALSE
 2,1,JLstorm1,Jaylen Waddle,WR,19.8,TRUE
 2,1,JLstorm1,Ja'Marr Chase,WR,20.5,TRUE
@@ -101,12 +101,12 @@ week,matchup_id,manager,player,pos,points,started
 2,1,Rowdy17,Josh Downs,WR,13.2,FALSE
 2,1,Rowdy17,C.J. Stroud,QB,17.77,FALSE
 2,1,Rowdy17,HOU D/ST,DEF,10.5,TRUE
-2,3,dm98,Chris Rodriguez,RB,2.8,FALSE
+2,3,dm98,Chris Rodriguez Jr.,RB,2.8,FALSE
 2,3,dm98,Jayden Daniels,QB,19.49,TRUE
 2,3,dm98,Harrison Mevis,K,4,TRUE
 2,3,dm98,Cam Skattebo,RB,7.25,TRUE
 2,3,dm98,Matthew Golden,WR,9.8,FALSE
-2,3,dm98,Harold Fannin,TE,8.4,FALSE
+2,3,dm98,Harold Fannin Jr.,TE,8.4,FALSE
 2,3,dm98,Jaxson Dart,QB,0.8,FALSE
 2,3,dm98,Emeka Egbuka,WR,7.3,TRUE
 2,3,dm98,Jeremiyah Love,RB,5.25,TRUE
@@ -115,7 +115,7 @@ week,matchup_id,manager,player,pos,points,started
 2,3,dm98,Dak Prescott,QB,35.26,TRUE
 2,3,dm98,George Kittle,TE,16,TRUE
 2,3,dm98,CeeDee Lamb,WR,32.3,TRUE
-2,3,dm98,James Cook,RB,24.4,TRUE
+2,3,dm98,James Cook III,RB,24.4,TRUE
 2,3,dm98,DEN D/ST,DEF,7,TRUE
 2,4,LeJohnBrains,Brandon Aubrey,K,17.4,TRUE
 2,4,LeJohnBrains,Adonai Mitchell,WR,11.3,FALSE
@@ -136,16 +136,16 @@ week,matchup_id,manager,player,pos,points,started
 2,5,Wenzo3030,Drake Maye,QB,8.77,TRUE
 2,5,Wenzo3030,Tyler Warren,TE,9.15,FALSE
 2,5,Wenzo3030,Cam Ward,QB,20.77,FALSE
-2,5,Wenzo3030,KC Concepcion,WR,3.2,FALSE
+2,5,Wenzo3030,KC Concepcion Jr.,WR,3.2,FALSE
 2,5,Wenzo3030,Davante Adams,WR,36.5,TRUE
-2,5,Wenzo3030,Chris Godwin,WR,9.55,FALSE
+2,5,Wenzo3030,Chris Godwin Jr.,WR,9.55,FALSE
 2,5,Wenzo3030,Josh Allen,QB,48.32,TRUE
 2,5,Wenzo3030,Mark Andrews,TE,8.9,TRUE
 2,5,Wenzo3030,DK Metcalf,WR,3.7,FALSE
 2,5,Wenzo3030,Chuba Hubbard,RB,15.4,TRUE
 2,5,Wenzo3030,Drake London,WR,8.9,TRUE
 2,5,Wenzo3030,Kyren Williams,RB,15.95,TRUE
-2,5,Wenzo3030,Kenneth Walker,RB,25.05,TRUE
+2,5,Wenzo3030,Kenneth Walker III,RB,25.05,TRUE
 2,5,Wenzo3030,Cameron Dicker,K,2,TRUE
 2,5,Wenzo3030,Zay Flowers,WR,0,FALSE
 2,5,Wenzo3030,NE D/ST,DEF,19.5,TRUE
@@ -161,7 +161,7 @@ week,matchup_id,manager,player,pos,points,started
 2,4,Elasticschnit,Josh Jacobs,RB,0,FALSE
 2,4,Elasticschnit,David Montgomery,RB,2.4,TRUE
 2,4,Elasticschnit,Terry McLaurin,WR,7,TRUE
-2,4,Elasticschnit,Brian Robinson,RB,9.2,FALSE
+2,4,Elasticschnit,Brian Robinson Jr.,RB,9.2,FALSE
 2,4,Elasticschnit,Jaylen Warren,RB,9.45,TRUE
 2,4,Elasticschnit,Puka Nacua,WR,0,TRUE
 2,4,Elasticschnit,SEA D/ST,DEF,8.5,TRUE

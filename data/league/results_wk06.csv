@@ -8,7 +8,7 @@ week,matchup_id,manager,player,pos,points,started
 6,4,jezz281,Tyreek Hill,WR,0,FALSE
 6,4,jezz281,A.J. Brown,WR,3.7,TRUE
 6,4,jezz281,Tyler Bass,K,18.9,TRUE
-6,4,jezz281,Travis Etienne,RB,0,FALSE
+6,4,jezz281,Travis Etienne Jr.,RB,0,FALSE
 6,4,jezz281,Rhamondre Stevenson,RB,5.85,TRUE
 6,4,jezz281,Trey McBride,TE,9.3,TRUE
 6,4,jezz281,Rachaad White,RB,12.45,TRUE
@@ -22,13 +22,13 @@ week,matchup_id,manager,player,pos,points,started
 6,5,DrBongstrong,Chris Boswell,K,19.9,TRUE
 6,5,DrBongstrong,Derrick Henry,RB,6.25,TRUE
 6,5,DrBongstrong,Alvin Kamara,RB,14.4,FALSE
-6,5,DrBongstrong,Aaron Jones,RB,0,FALSE
+6,5,DrBongstrong,Aaron Jones Sr.,RB,0,FALSE
 6,5,DrBongstrong,Matthew Stafford,QB,18.88,TRUE
 6,5,DrBongstrong,Sam Darnold,QB,11.77,TRUE
 6,5,DrBongstrong,Kyler Murray,QB,0,FALSE
 6,5,DrBongstrong,Justin Jefferson,WR,0,FALSE
 6,5,DrBongstrong,Amon-Ra St. Brown,WR,0,FALSE
-6,5,DrBongstrong,Kyle Pitts,TE,20,TRUE
+6,5,DrBongstrong,Kyle Pitts Sr.,TE,20,TRUE
 6,5,DrBongstrong,Kenny Gainwell,RB,3.9,FALSE
 6,5,DrBongstrong,Isaiah Likely,TE,21.9,TRUE
 6,5,DrBongstrong,Christian Watson,WR,9.4,TRUE
@@ -54,7 +54,7 @@ week,matchup_id,manager,player,pos,points,started
 6,2,theNastyJK,Rome Odunze,WR,6.9,FALSE
 6,2,theNastyJK,Malik Nabers,WR,23.5,TRUE
 6,2,theNastyJK,Quinshon Judkins,RB,0,TRUE
-6,2,theNastyJK,Luther Burden,WR,11.5,TRUE
+6,2,theNastyJK,Luther Burden III,WR,11.5,TRUE
 6,2,theNastyJK,Tetairoa McMillan,WR,11.6,TRUE
 6,2,theNastyJK,Tyler Shough,QB,31.46,TRUE
 6,2,theNastyJK,Tyler Loop,K,4.4,TRUE
@@ -69,11 +69,11 @@ week,matchup_id,manager,player,pos,points,started
 6,2,theNastyJK,Zach Charbonnet,RB,0,FALSE
 6,2,theNastyJK,LAR D/ST,DEF,7,TRUE
 6,5,JLstorm1,Emanuel Wilson,RB,8.95,TRUE
-6,5,JLstorm1,Michael Penix,QB,26.1,TRUE
+6,5,JLstorm1,Michael Penix Jr.,QB,26.1,TRUE
 6,5,JLstorm1,Braelon Allen,RB,16.9,TRUE
-6,5,JLstorm1,Marvin Harrison,WR,6.4,TRUE
+6,5,JLstorm1,Marvin Harrison Jr.,WR,6.4,TRUE
 6,5,JLstorm1,Cam Little,K,10,TRUE
-6,5,JLstorm1,Ollie Gordon,RB,0,FALSE
+6,5,JLstorm1,Ollie Gordon II,RB,0,FALSE
 6,5,JLstorm1,Lamar Jackson,QB,0,FALSE
 6,5,JLstorm1,D'Andre Swift,RB,21.75,TRUE
 6,5,JLstorm1,Justin Herbert,QB,9.51,TRUE
@@ -107,7 +107,7 @@ week,matchup_id,manager,player,pos,points,started
 6,3,dm98,Spencer Shrader,K,9.7,TRUE
 6,3,dm98,Cam Skattebo,RB,0,TRUE
 6,3,dm98,Matthew Golden,WR,20.4,TRUE
-6,3,dm98,Harold Fannin,TE,0.9,FALSE
+6,3,dm98,Harold Fannin Jr.,TE,0.9,FALSE
 6,3,dm98,Jaxson Dart,QB,0,FALSE
 6,3,dm98,Emeka Egbuka,WR,11.8,FALSE
 6,3,dm98,Carnell Tate,WR,16,FALSE
@@ -118,7 +118,7 @@ week,matchup_id,manager,player,pos,points,started
 6,3,dm98,CeeDee Lamb,WR,11,TRUE
 6,3,dm98,J.K. Dobbins,RB,11.35,FALSE
 6,3,dm98,Tyler Allgeier,RB,7.3,TRUE
-6,3,dm98,James Cook,RB,28.05,TRUE
+6,3,dm98,James Cook III,RB,28.05,TRUE
 6,3,dm98,DEN D/ST,DEF,13.5,TRUE
 6,3,LeJohnBrains,Brandon Aubrey,K,1,TRUE
 6,3,LeJohnBrains,Malik Washington,WR,0,FALSE
@@ -142,14 +142,14 @@ week,matchup_id,manager,player,pos,points,started
 6,1,Wenzo3030,Tyler Warren,TE,0,FALSE
 6,1,Wenzo3030,Cam Ward,QB,7.78,FALSE
 6,1,Wenzo3030,Davante Adams,WR,6.9,TRUE
-6,1,Wenzo3030,Chris Godwin,WR,6.7,FALSE
+6,1,Wenzo3030,Chris Godwin Jr.,WR,6.7,FALSE
 6,1,Wenzo3030,Josh Allen,QB,21.05,TRUE
 6,1,Wenzo3030,Mark Andrews,TE,1.4,TRUE
 6,1,Wenzo3030,DK Metcalf,WR,14.3,FALSE
 6,1,Wenzo3030,Chuba Hubbard,RB,23.35,FALSE
 6,1,Wenzo3030,Drake London,WR,10.2,TRUE
 6,1,Wenzo3030,Kyren Williams,RB,10.45,TRUE
-6,1,Wenzo3030,Kenneth Walker,RB,30.4,TRUE
+6,1,Wenzo3030,Kenneth Walker III,RB,30.4,TRUE
 6,1,Wenzo3030,Cameron Dicker,K,6,TRUE
 6,1,Wenzo3030,Keaton Mitchell,RB,0.4,FALSE
 6,1,Wenzo3030,Zay Flowers,WR,8.7,TRUE
@@ -166,7 +166,7 @@ week,matchup_id,manager,player,pos,points,started
 6,2,Elasticschnit,Josh Jacobs,RB,0,FALSE
 6,2,Elasticschnit,David Montgomery,RB,0,FALSE
 6,2,Elasticschnit,Terry McLaurin,WR,3.7,TRUE
-6,2,Elasticschnit,Brian Robinson,RB,1,FALSE
+6,2,Elasticschnit,Brian Robinson Jr.,RB,1,FALSE
 6,2,Elasticschnit,Jaylen Warren,RB,12.05,TRUE
 6,2,Elasticschnit,Puka Nacua,WR,10,TRUE
 6,2,Elasticschnit,SEA D/ST,DEF,6.5,TRUE

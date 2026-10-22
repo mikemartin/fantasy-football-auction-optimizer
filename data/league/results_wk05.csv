@@ -9,8 +9,8 @@ week,matchup_id,manager,player,pos,points,started
 5,3,jezz281,Tyreek Hill,WR,0,FALSE
 5,3,jezz281,Eddy Pineiro,K,7.4,TRUE
 5,3,jezz281,A.J. Brown,WR,0,FALSE
-5,3,jezz281,Deebo Samuel,WR,0.5,TRUE
-5,3,jezz281,Travis Etienne,RB,0,FALSE
+5,3,jezz281,Deebo Samuel Sr.,WR,0.5,TRUE
+5,3,jezz281,Travis Etienne Jr.,RB,0,FALSE
 5,3,jezz281,Rhamondre Stevenson,RB,16,TRUE
 5,3,jezz281,Trey McBride,TE,15.6,TRUE
 5,3,jezz281,George Pickens,WR,24,TRUE
@@ -23,13 +23,13 @@ week,matchup_id,manager,player,pos,points,started
 5,5,DrBongstrong,Chris Boswell,K,14.2,TRUE
 5,5,DrBongstrong,Derrick Henry,RB,22.25,TRUE
 5,5,DrBongstrong,Alvin Kamara,RB,0.6,FALSE
-5,5,DrBongstrong,Aaron Jones,RB,18.7,TRUE
+5,5,DrBongstrong,Aaron Jones Sr.,RB,18.7,TRUE
 5,5,DrBongstrong,Matthew Stafford,QB,30.32,FALSE
 5,5,DrBongstrong,Sam Darnold,QB,9.3,FALSE
 5,5,DrBongstrong,Kyler Murray,QB,21.51,TRUE
 5,5,DrBongstrong,Justin Jefferson,WR,14.8,FALSE
 5,5,DrBongstrong,Amon-Ra St. Brown,WR,10.9,TRUE
-5,5,DrBongstrong,Kyle Pitts,TE,11.2,FALSE
+5,5,DrBongstrong,Kyle Pitts Sr.,TE,11.2,FALSE
 5,5,DrBongstrong,Kenny Gainwell,RB,3.8,FALSE
 5,5,DrBongstrong,Isaiah Likely,TE,25.4,TRUE
 5,5,DrBongstrong,Christian Watson,WR,27.3,TRUE
@@ -55,7 +55,7 @@ week,matchup_id,manager,player,pos,points,started
 5,3,theNastyJK,Rome Odunze,WR,4,FALSE
 5,3,theNastyJK,Malik Nabers,WR,24.1,TRUE
 5,3,theNastyJK,Quinshon Judkins,RB,6.5,TRUE
-5,3,theNastyJK,Luther Burden,WR,7.65,TRUE
+5,3,theNastyJK,Luther Burden III,WR,7.65,TRUE
 5,3,theNastyJK,Tetairoa McMillan,WR,0,FALSE
 5,3,theNastyJK,Tyler Shough,QB,-0.16,TRUE
 5,3,theNastyJK,Jadarian Price,RB,0,FALSE
@@ -69,11 +69,11 @@ week,matchup_id,manager,player,pos,points,started
 5,3,theNastyJK,Zach Charbonnet,RB,0,FALSE
 5,3,theNastyJK,LAR D/ST,DEF,4.5,TRUE
 5,4,JLstorm1,Emanuel Wilson,RB,13.7,TRUE
-5,4,JLstorm1,Michael Penix,QB,15.4,TRUE
+5,4,JLstorm1,Michael Penix Jr.,QB,15.4,TRUE
 5,4,JLstorm1,Braelon Allen,RB,20.6,TRUE
-5,4,JLstorm1,Marvin Harrison,WR,0,FALSE
+5,4,JLstorm1,Marvin Harrison Jr.,WR,0,FALSE
 5,4,JLstorm1,Cam Little,K,10.1,TRUE
-5,4,JLstorm1,Ollie Gordon,RB,18.55,FALSE
+5,4,JLstorm1,Ollie Gordon II,RB,18.55,FALSE
 5,4,JLstorm1,Kenyon Sadiq,TE,-1.7,FALSE
 5,4,JLstorm1,Lamar Jackson,QB,0,FALSE
 5,4,JLstorm1,D'Andre Swift,RB,15.8,TRUE
@@ -108,7 +108,7 @@ week,matchup_id,manager,player,pos,points,started
 5,2,dm98,Harrison Mevis,K,4,TRUE
 5,2,dm98,Cam Skattebo,RB,8.1,TRUE
 5,2,dm98,Matthew Golden,WR,19.3,TRUE
-5,2,dm98,Harold Fannin,TE,0.4,FALSE
+5,2,dm98,Harold Fannin Jr.,TE,0.4,FALSE
 5,2,dm98,Jaxson Dart,QB,0,FALSE
 5,2,dm98,Emeka Egbuka,WR,13.2,FALSE
 5,2,dm98,Carnell Tate,WR,0.6,FALSE
@@ -119,7 +119,7 @@ week,matchup_id,manager,player,pos,points,started
 5,2,dm98,CeeDee Lamb,WR,0.9,TRUE
 5,2,dm98,J.K. Dobbins,RB,14.9,FALSE
 5,2,dm98,Tyler Allgeier,RB,1.6,FALSE
-5,2,dm98,James Cook,RB,25.55,TRUE
+5,2,dm98,James Cook III,RB,25.55,TRUE
 5,2,dm98,DEN D/ST,DEF,20.5,TRUE
 5,4,LeJohnBrains,Brandon Aubrey,K,5.1,TRUE
 5,4,LeJohnBrains,Malik Washington,WR,8.85,FALSE
@@ -143,14 +143,14 @@ week,matchup_id,manager,player,pos,points,started
 5,2,Wenzo3030,Tyler Warren,TE,18.4,TRUE
 5,2,Wenzo3030,Cam Ward,QB,5,FALSE
 5,2,Wenzo3030,Davante Adams,WR,19.1,TRUE
-5,2,Wenzo3030,Chris Godwin,WR,6,FALSE
+5,2,Wenzo3030,Chris Godwin Jr.,WR,6,FALSE
 5,2,Wenzo3030,Josh Allen,QB,36,TRUE
 5,2,Wenzo3030,Mark Andrews,TE,2.8,FALSE
 5,2,Wenzo3030,DK Metcalf,WR,4.05,FALSE
 5,2,Wenzo3030,Chuba Hubbard,RB,0,FALSE
 5,2,Wenzo3030,Drake London,WR,18.8,TRUE
 5,2,Wenzo3030,Kyren Williams,RB,16.85,TRUE
-5,2,Wenzo3030,Kenneth Walker,RB,0,FALSE
+5,2,Wenzo3030,Kenneth Walker III,RB,0,FALSE
 5,2,Wenzo3030,Cameron Dicker,K,6.2,TRUE
 5,2,Wenzo3030,Keaton Mitchell,RB,3.9,TRUE
 5,2,Wenzo3030,Zay Flowers,WR,10.35,TRUE
@@ -167,7 +167,7 @@ week,matchup_id,manager,player,pos,points,started
 5,1,Elasticschnit,Josh Jacobs,RB,0,FALSE
 5,1,Elasticschnit,David Montgomery,RB,1.1,TRUE
 5,1,Elasticschnit,Terry McLaurin,WR,11.2,TRUE
-5,1,Elasticschnit,Brian Robinson,RB,1.6,FALSE
+5,1,Elasticschnit,Brian Robinson Jr.,RB,1.6,FALSE
 5,1,Elasticschnit,Jaylen Warren,RB,33.05,TRUE
 5,1,Elasticschnit,Puka Nacua,WR,29.7,TRUE
 5,1,Elasticschnit,SEA D/ST,DEF,13.5,TRUE

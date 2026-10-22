@@ -7,9 +7,9 @@ week,matchup_id,manager,player,pos,points,started
 3,1,jezz281,Kyle Monangai,RB,5.35,FALSE
 3,1,jezz281,Jared Goff,QB,21.36,TRUE
 3,1,jezz281,A.J. Brown,WR,0,FALSE
-3,1,jezz281,Deebo Samuel,WR,16.15,FALSE
+3,1,jezz281,Deebo Samuel Sr.,WR,16.15,FALSE
 3,1,jezz281,Chase McLaughlin,K,13.2,TRUE
-3,1,jezz281,Travis Etienne,RB,11,TRUE
+3,1,jezz281,Travis Etienne Jr.,RB,11,TRUE
 3,1,jezz281,Rhamondre Stevenson,RB,6.05,FALSE
 3,1,jezz281,Trey McBride,TE,10.5,TRUE
 3,1,jezz281,George Pickens,WR,12.2,TRUE
@@ -22,13 +22,13 @@ week,matchup_id,manager,player,pos,points,started
 3,3,DrBongstrong,Chris Boswell,K,14.3,TRUE
 3,3,DrBongstrong,Derrick Henry,RB,22.4,TRUE
 3,3,DrBongstrong,Alvin Kamara,RB,5.6,FALSE
-3,3,DrBongstrong,Aaron Jones,RB,12.45,TRUE
+3,3,DrBongstrong,Aaron Jones Sr.,RB,12.45,TRUE
 3,3,DrBongstrong,Matthew Stafford,QB,19.4,TRUE
 3,3,DrBongstrong,Sam Darnold,QB,27.41,FALSE
 3,3,DrBongstrong,Kyler Murray,QB,12.17,FALSE
 3,3,DrBongstrong,Justin Jefferson,WR,4.2,TRUE
 3,3,DrBongstrong,Amon-Ra St. Brown,WR,8.9,TRUE
-3,3,DrBongstrong,Kyle Pitts,TE,0.5,TRUE
+3,3,DrBongstrong,Kyle Pitts Sr.,TE,0.5,TRUE
 3,3,DrBongstrong,Kenny Gainwell,RB,2,FALSE
 3,3,DrBongstrong,Isaiah Likely,TE,2.3,TRUE
 3,3,DrBongstrong,Christian Watson,WR,19.6,TRUE
@@ -56,7 +56,7 @@ week,matchup_id,manager,player,pos,points,started
 3,5,theNastyJK,Malik Nabers,WR,4.6,TRUE
 3,5,theNastyJK,Oronde Gadsden,TE,0,TRUE
 3,5,theNastyJK,Quinshon Judkins,RB,9.4,FALSE
-3,5,theNastyJK,Luther Burden,WR,14.8,TRUE
+3,5,theNastyJK,Luther Burden III,WR,14.8,TRUE
 3,5,theNastyJK,Tetairoa McMillan,WR,2.7,TRUE
 3,5,theNastyJK,Tyler Shough,QB,28.55,TRUE
 3,5,theNastyJK,Jadarian Price,RB,1.7,FALSE
@@ -68,8 +68,8 @@ week,matchup_id,manager,player,pos,points,started
 3,5,theNastyJK,De'Von Achane,RB,2.45,TRUE
 3,5,theNastyJK,Zach Charbonnet,RB,0,FALSE
 3,5,theNastyJK,LAR D/ST,DEF,6,TRUE
-3,2,JLstorm1,Marvin Harrison,WR,7,FALSE
-3,2,JLstorm1,Brian Thomas,WR,0.8,FALSE
+3,2,JLstorm1,Marvin Harrison Jr.,WR,7,FALSE
+3,2,JLstorm1,Brian Thomas Jr.,WR,0.8,FALSE
 3,2,JLstorm1,Cam Little,K,5,TRUE
 3,2,JLstorm1,Terrance Ferguson,TE,1.9,FALSE
 3,2,JLstorm1,Jonah Coleman,RB,0,FALSE
@@ -108,7 +108,7 @@ week,matchup_id,manager,player,pos,points,started
 3,2,dm98,Harrison Mevis,K,17.9,TRUE
 3,2,dm98,Cam Skattebo,RB,13.25,TRUE
 3,2,dm98,Matthew Golden,WR,19,TRUE
-3,2,dm98,Harold Fannin,TE,18.1,FALSE
+3,2,dm98,Harold Fannin Jr.,TE,18.1,FALSE
 3,2,dm98,Jaxson Dart,QB,0,FALSE
 3,2,dm98,Emeka Egbuka,WR,8.2,FALSE
 3,2,dm98,Jeremiyah Love,RB,20.15,TRUE
@@ -119,7 +119,7 @@ week,matchup_id,manager,player,pos,points,started
 3,2,dm98,CeeDee Lamb,WR,18.2,TRUE
 3,2,dm98,J.K. Dobbins,RB,6.8,FALSE
 3,2,dm98,Romeo Doubs,WR,6.9,FALSE
-3,2,dm98,James Cook,RB,24.65,TRUE
+3,2,dm98,James Cook III,RB,24.65,TRUE
 3,2,dm98,DEN D/ST,DEF,18.5,TRUE
 3,5,LeJohnBrains,Brandon Aubrey,K,11.8,TRUE
 3,5,LeJohnBrains,Adonai Mitchell,WR,0,TRUE
@@ -140,16 +140,16 @@ week,matchup_id,manager,player,pos,points,started
 3,4,Wenzo3030,Drake Maye,QB,5.26,TRUE
 3,4,Wenzo3030,Tyler Warren,TE,8.45,FALSE
 3,4,Wenzo3030,Cam Ward,QB,11.19,FALSE
-3,4,Wenzo3030,KC Concepcion,WR,1.9,FALSE
+3,4,Wenzo3030,KC Concepcion Jr.,WR,1.9,FALSE
 3,4,Wenzo3030,Davante Adams,WR,17.7,TRUE
-3,4,Wenzo3030,Chris Godwin,WR,2.5,FALSE
+3,4,Wenzo3030,Chris Godwin Jr.,WR,2.5,FALSE
 3,4,Wenzo3030,Josh Allen,QB,17.21,TRUE
 3,4,Wenzo3030,Mark Andrews,TE,3.4,TRUE
 3,4,Wenzo3030,DK Metcalf,WR,11.1,FALSE
 3,4,Wenzo3030,Chuba Hubbard,RB,14.25,TRUE
 3,4,Wenzo3030,Drake London,WR,24.4,FALSE
 3,4,Wenzo3030,Kyren Williams,RB,22.8,TRUE
-3,4,Wenzo3030,Kenneth Walker,RB,21.55,TRUE
+3,4,Wenzo3030,Kenneth Walker III,RB,21.55,TRUE
 3,4,Wenzo3030,Cameron Dicker,K,10.4,TRUE
 3,4,Wenzo3030,Zay Flowers,WR,16.15,TRUE
 3,4,Wenzo3030,NE D/ST,DEF,2,TRUE
@@ -165,7 +165,7 @@ week,matchup_id,manager,player,pos,points,started
 3,3,Elasticschnit,Josh Jacobs,RB,0,FALSE
 3,3,Elasticschnit,David Montgomery,RB,6.55,TRUE
 3,3,Elasticschnit,Terry McLaurin,WR,17.7,FALSE
-3,3,Elasticschnit,Brian Robinson,RB,13.25,FALSE
+3,3,Elasticschnit,Brian Robinson Jr.,RB,13.25,FALSE
 3,3,Elasticschnit,Jaylen Warren,RB,23.35,TRUE
 3,3,Elasticschnit,Puka Nacua,WR,0,TRUE
 3,3,Elasticschnit,SEA D/ST,DEF,7,TRUE
