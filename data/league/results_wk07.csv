@@ -1,15 +1,16 @@
 week,matchup_id,manager,player,pos,points,started
 7,5,jezz281,Tre Tucker,WR,0,FALSE
 7,5,jezz281,Rashee Rice,WR,0,FALSE
-7,5,jezz281,Roschon Johnson,RB,0,TRUE
+7,5,jezz281,Roschon Johnson,RB,1.3,FALSE
 7,5,jezz281,Omarion Hampton,RB,0,FALSE
 7,5,jezz281,Kyle Monangai,RB,0,FALSE
 7,5,jezz281,Germie Bernard,WR,0,FALSE
-7,5,jezz281,Omar Cooper Jr.,WR,0,FALSE
+7,5,jezz281,Omar Cooper Jr.,WR,0,TRUE
 7,5,jezz281,Jared Goff,QB,0,TRUE
-7,5,jezz281,A.J. Brown,WR,0,TRUE
+7,5,jezz281,Eddy Pineiro,K,0,TRUE
+7,5,jezz281,A.J. Brown,WR,7.8,TRUE
 7,5,jezz281,Travis Etienne Jr.,RB,0,FALSE
-7,5,jezz281,Rhamondre Stevenson,RB,0,TRUE
+7,5,jezz281,Rhamondre Stevenson,RB,19.25,TRUE
 7,5,jezz281,Trey McBride,TE,0,TRUE
 7,5,jezz281,Rachaad White,RB,0,FALSE
 7,5,jezz281,George Pickens,WR,0,TRUE
@@ -34,17 +35,17 @@ week,matchup_id,manager,player,pos,points,started
 7,4,DrBongstrong,Christian Watson,WR,0,TRUE
 7,4,DrBongstrong,Isiah Pacheco,RB,0,FALSE
 7,4,DrBongstrong,PIT D/ST,DEF,0,TRUE
-7,3,themikemartin,MarShawn Lloyd,RB,0,FALSE
-7,3,themikemartin,Xavier Worthy,WR,0,FALSE
 7,3,themikemartin,Will Reichard,K,0,TRUE
 7,3,themikemartin,Jacory Croskey-Merritt,RB,0,FALSE
 7,3,themikemartin,Geno Smith,QB,0,FALSE
 7,3,themikemartin,Travis Kelce,TE,0,TRUE
 7,3,themikemartin,Stefon Diggs,WR,0,FALSE
 7,3,themikemartin,Christian McCaffrey,RB,0,TRUE
+7,3,themikemartin,Jakobi Meyers,WR,0,FALSE
 7,3,themikemartin,Tony Pollard,RB,0,TRUE
 7,3,themikemartin,Jordan Love,QB,0,TRUE
 7,3,themikemartin,Jonathan Taylor,RB,0,TRUE
+7,3,themikemartin,Rico Dowdle,RB,0,FALSE
 7,3,themikemartin,Romeo Doubs,WR,0,FALSE
 7,3,themikemartin,Garrett Wilson,WR,0,TRUE
 7,3,themikemartin,Bryce Young,QB,0,TRUE
@@ -53,10 +54,10 @@ week,matchup_id,manager,player,pos,points,started
 7,3,themikemartin,DET D/ST,DEF,0,FALSE
 7,3,themikemartin,NYJ D/ST,DEF,0,TRUE
 7,1,theNastyJK,Brock Bowers,TE,0,TRUE
-7,1,theNastyJK,Rome Odunze,WR,0,FALSE
+7,1,theNastyJK,Rome Odunze,WR,9.9,FALSE
 7,1,theNastyJK,Malik Nabers,WR,0,TRUE
 7,1,theNastyJK,Quinshon Judkins,RB,0,TRUE
-7,1,theNastyJK,Luther Burden III,WR,0,TRUE
+7,1,theNastyJK,Luther Burden III,WR,22.7,TRUE
 7,1,theNastyJK,Tetairoa McMillan,WR,0,TRUE
 7,1,theNastyJK,Tyler Shough,QB,0,TRUE
 7,1,theNastyJK,Jadarian Price,RB,0,FALSE
@@ -74,10 +75,10 @@ week,matchup_id,manager,player,pos,points,started
 7,5,JLstorm1,Braelon Allen,RB,0,TRUE
 7,5,JLstorm1,Marvin Harrison Jr.,WR,0,FALSE
 7,5,JLstorm1,Cam Little,K,0,FALSE
-7,5,JLstorm1,Ollie Gordon II,RB,0,TRUE
-7,5,JLstorm1,Lamar Jackson,QB,0,FALSE
+7,5,JLstorm1,Ollie Gordon II,RB,0,FALSE
+7,5,JLstorm1,Lamar Jackson,QB,0,TRUE
 7,5,JLstorm1,Chase McLaughlin,K,0,TRUE
-7,5,JLstorm1,D'Andre Swift,RB,0,TRUE
+7,5,JLstorm1,D'Andre Swift,RB,18.25,TRUE
 7,5,JLstorm1,Justin Herbert,QB,0,FALSE
 7,5,JLstorm1,Jaylen Waddle,WR,0,TRUE
 7,5,JLstorm1,Ja'Marr Chase,WR,0,TRUE
@@ -88,7 +89,7 @@ week,matchup_id,manager,player,pos,points,started
 7,5,JLstorm1,Tank Dell,WR,0,FALSE
 7,5,JLstorm1,MIN D/ST,DEF,0,TRUE
 7,1,Rowdy17,Sam LaPorta,TE,0,TRUE
-7,1,Rowdy17,Caleb Williams,QB,0,TRUE
+7,1,Rowdy17,Caleb Williams,QB,24.87,TRUE
 7,1,Rowdy17,Bucky Irving,RB,0,TRUE
 7,1,Rowdy17,Blake Corum,RB,0,FALSE
 7,1,Rowdy17,KC Concepcion Jr.,WR,0,FALSE
@@ -106,12 +107,12 @@ week,matchup_id,manager,player,pos,points,started
 7,1,Rowdy17,HOU D/ST,DEF,0,TRUE
 7,4,dm98,Jayden Daniels,QB,0,FALSE
 7,4,dm98,Spencer Shrader,K,0,TRUE
-7,4,dm98,Cam Skattebo,RB,0,TRUE
+7,4,dm98,Cam Skattebo,RB,0,FALSE
 7,4,dm98,Matthew Golden,WR,0,TRUE
 7,4,dm98,Harold Fannin Jr.,TE,0,FALSE
 7,4,dm98,Jaxson Dart,QB,0,FALSE
 7,4,dm98,Emeka Egbuka,WR,0,FALSE
-7,4,dm98,Carnell Tate,WR,0,FALSE
+7,4,dm98,Carnell Tate,WR,0,TRUE
 7,4,dm98,Jeremiyah Love,RB,0,FALSE
 7,4,dm98,Jacoby Brissett,QB,0,TRUE
 7,4,dm98,Dak Prescott,QB,0,TRUE
@@ -126,36 +127,36 @@ week,matchup_id,manager,player,pos,points,started
 7,2,LeJohnBrains,Adonai Mitchell,WR,0,FALSE
 7,2,LeJohnBrains,Woody Marks,RB,0,TRUE
 7,2,LeJohnBrains,RJ Harvey,RB,0,TRUE
-7,2,LeJohnBrains,Colston Loveland,TE,0,TRUE
-7,2,LeJohnBrains,TreVeyon Henderson,RB,0,FALSE
+7,2,LeJohnBrains,Colston Loveland,TE,15.9,TRUE
+7,2,LeJohnBrains,TreVeyon Henderson,RB,2.3,FALSE
 7,2,LeJohnBrains,Denzel Boston,WR,0,TRUE
-7,2,LeJohnBrains,Mike Evans,WR,0,TRUE
-7,2,LeJohnBrains,Jameis Winston,QB,0,TRUE
-7,2,LeJohnBrains,Baker Mayfield,QB,0,FALSE
+7,2,LeJohnBrains,Mike Evans,WR,0,FALSE
+7,2,LeJohnBrains,Jameis Winston,QB,0,FALSE
+7,2,LeJohnBrains,Baker Mayfield,QB,0,TRUE
 7,2,LeJohnBrains,DJ Moore,WR,0,FALSE
-7,2,LeJohnBrains,Joe Burrow,QB,0,FALSE
+7,2,LeJohnBrains,Joe Burrow,QB,0,TRUE
 7,2,LeJohnBrains,Jalen Hurts,QB,0,FALSE
-7,2,LeJohnBrains,Tyler Huntley,QB,0,TRUE
-7,2,LeJohnBrains,DeVonta Smith,WR,0,FALSE
+7,2,LeJohnBrains,Tyler Huntley,QB,0,FALSE
+7,2,LeJohnBrains,DeVonta Smith,WR,0,TRUE
 7,2,LeJohnBrains,Bijan Robinson,RB,0,TRUE
 7,2,LeJohnBrains,PHI D/ST,DEF,0,TRUE
-7,2,Wenzo3030,Drake Maye,QB,0,TRUE
-7,2,Wenzo3030,J.J. McCarthy,QB,0,FALSE
+7,2,Wenzo3030,Drake Maye,QB,30.19,TRUE
+7,2,Wenzo3030,J.J. McCarthy,QB,0,TRUE
 7,2,Wenzo3030,Tyler Warren,TE,0,TRUE
 7,2,Wenzo3030,Cam Ward,QB,0,FALSE
 7,2,Wenzo3030,Davante Adams,WR,0,FALSE
 7,2,Wenzo3030,Chris Godwin Jr.,WR,0,FALSE
-7,2,Wenzo3030,Josh Allen,QB,0,TRUE
+7,2,Wenzo3030,Josh Allen,QB,0,FALSE
 7,2,Wenzo3030,Mark Andrews,TE,0,FALSE
 7,2,Wenzo3030,DK Metcalf,WR,0,FALSE
-7,2,Wenzo3030,Chuba Hubbard,RB,0,FALSE
+7,2,Wenzo3030,Chuba Hubbard,RB,0,TRUE
 7,2,Wenzo3030,Drake London,WR,0,TRUE
 7,2,Wenzo3030,Kyren Williams,RB,0,TRUE
 7,2,Wenzo3030,Kenneth Walker III,RB,0,TRUE
 7,2,Wenzo3030,Cameron Dicker,K,0,TRUE
 7,2,Wenzo3030,Keaton Mitchell,RB,0,FALSE
 7,2,Wenzo3030,Zay Flowers,WR,0,TRUE
-7,2,Wenzo3030,NE D/ST,DEF,0,TRUE
+7,2,Wenzo3030,NE D/ST,DEF,7,TRUE
 7,3,Elasticschnit,Dalton Kincaid,TE,0,TRUE
 7,3,Elasticschnit,Bo Nix,QB,0,TRUE
 7,3,Elasticschnit,Ladd McConkey,WR,0,FALSE
