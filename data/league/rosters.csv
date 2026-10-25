@@ -17,34 +17,34 @@ jezz281,8183,Brock Purdy,QB,SF,,starter
 jezz281,9224,Chase Brown,RB,CIN,,starter
 jezz281,96,Aaron Rodgers,QB,PIT,,bench
 jezz281,CLE,CLE D/ST,DEF,CLE,,starter
-DrBongstrong,10232,Michael Wilson,WR,ARI,,starter
-DrBongstrong,12490,Bhayshul Tuten,RB,JAX,,starter
+DrBongstrong,10232,Michael Wilson,WR,ARI,,bench
+DrBongstrong,12490,Bhayshul Tuten,RB,JAX,,bench
 DrBongstrong,1945,Chris Boswell,K,PIT,,starter
 DrBongstrong,3198,Derrick Henry,RB,BAL,,starter
 DrBongstrong,4035,Alvin Kamara,RB,NO,,bench
-DrBongstrong,4199,Aaron Jones Sr.,RB,MIN,,bench
-DrBongstrong,421,Matthew Stafford,QB,LAR,,starter
-DrBongstrong,4943,Sam Darnold,QB,SEA,,starter
-DrBongstrong,5849,Kyler Murray,QB,MIN,,bench
-DrBongstrong,6794,Justin Jefferson,WR,MIN,,bench
-DrBongstrong,7547,Amon-Ra St. Brown,WR,DET,,bench
-DrBongstrong,7553,Kyle Pitts Sr.,TE,ATL,,starter
-DrBongstrong,7567,Kenny Gainwell,RB,TB,,bench
+DrBongstrong,4199,Aaron Jones Sr.,RB,MIN,Questionable,starter
+DrBongstrong,421,Matthew Stafford,QB,LAR,,bench
+DrBongstrong,4943,Sam Darnold,QB,SEA,,bench
+DrBongstrong,5849,Kyler Murray,QB,MIN,,starter
+DrBongstrong,6794,Justin Jefferson,WR,MIN,,starter
+DrBongstrong,7547,Amon-Ra St. Brown,WR,DET,,starter
+DrBongstrong,7553,Kyle Pitts Sr.,TE,ATL,,bench
 DrBongstrong,8131,Isaiah Likely,TE,NYG,,starter
 DrBongstrong,8167,Christian Watson,WR,GB,,starter
 DrBongstrong,8205,Isiah Pacheco,RB,DET,IR,IR
+DrBongstrong,9757,Kendre Miller,RB,NO,,starter
 DrBongstrong,PIT,PIT D/ST,DEF,PIT,,starter
 themikemartin,11792,Will Reichard,K,MIN,,starter
 themikemartin,12533,Jacory Croskey-Merritt,RB,WAS,IR,IR
 themikemartin,1373,Geno Smith,QB,NYJ,,bench
 themikemartin,1466,Travis Kelce,TE,KC,,starter
 themikemartin,2449,Stefon Diggs,WR,WAS,,bench
-themikemartin,4034,Christian McCaffrey,RB,SF,,starter
-themikemartin,5022,Dallas Goedert,TE,PHI,Questionable,bench
+themikemartin,4034,Christian McCaffrey,RB,SF,Questionable,starter
+themikemartin,5022,Dallas Goedert,TE,PHI,,bench
 themikemartin,5967,Tony Pollard,RB,TEN,,starter
 themikemartin,6804,Jordan Love,QB,GB,,starter
 themikemartin,6813,Jonathan Taylor,RB,IND,,starter
-themikemartin,7021,Rico Dowdle,RB,PIT,Questionable,bench
+themikemartin,7021,Rico Dowdle,RB,PIT,,bench
 themikemartin,8121,Romeo Doubs,WR,NE,IR,IR
 themikemartin,8146,Garrett Wilson,WR,NYJ,,starter
 themikemartin,9228,Bryce Young,QB,CAR,,starter
@@ -75,17 +75,17 @@ JLstorm1,11576,Braelon Allen,RB,NYJ,,starter
 JLstorm1,11628,Marvin Harrison Jr.,WR,HOU,,bench
 JLstorm1,11786,Cam Little,K,JAX,,bench
 JLstorm1,12495,Ollie Gordon II,RB,MIA,,bench
-JLstorm1,4881,Lamar Jackson,QB,BAL,Questionable,starter
+JLstorm1,4881,Lamar Jackson,QB,BAL,Out,IR
 JLstorm1,6650,Chase McLaughlin,K,TB,,starter
 JLstorm1,6790,D'Andre Swift,RB,CHI,,starter
 JLstorm1,6797,Justin Herbert,QB,LAC,,bench
 JLstorm1,7526,Jaylen Waddle,WR,DEN,,starter
 JLstorm1,7564,Ja'Marr Chase,WR,CIN,,starter
 JLstorm1,8142,Alec Pierce,WR,IND,IR,IR
-JLstorm1,8155,Breece Hall,RB,NYJ,Questionable,bench
-JLstorm1,8408,Jordan Mason,RB,MIN,IR,IR
+JLstorm1,8155,Breece Hall,RB,NYJ,Out,bench
+JLstorm1,8408,Jordan Mason,RB,MIN,,bench
+JLstorm1,9230,Tanner McKee,QB,PHI,,starter
 JLstorm1,9484,Tucker Kraft,TE,GB,,starter
-JLstorm1,9502,Tank Dell,WR,HOU,IR,bench
 JLstorm1,MIN,MIN D/ST,DEF,MIN,,starter
 Rowdy17,10859,Sam LaPorta,TE,DET,,starter
 Rowdy17,11560,Caleb Williams,QB,CHI,,starter
@@ -123,36 +123,36 @@ dm98,8138,James Cook III,RB,BUF,,bench
 dm98,DEN,DEN D/ST,DEF,DEN,,starter
 LeJohnBrains,11533,Brandon Aubrey,K,DAL,,starter
 LeJohnBrains,11610,Malik Washington,WR,MIA,,bench
-LeJohnBrains,11625,Adonai Mitchell,WR,NYJ,,bench
-LeJohnBrains,12474,Woody Marks,RB,HOU,,starter
+LeJohnBrains,11625,Adonai Mitchell,WR,NYJ,,starter
+LeJohnBrains,12474,Woody Marks,RB,HOU,Questionable,starter
 LeJohnBrains,12489,RJ Harvey,RB,DEN,,starter
 LeJohnBrains,12517,Colston Loveland,TE,CHI,,starter
 LeJohnBrains,12529,TreVeyon Henderson,RB,NE,,bench
 LeJohnBrains,13346,Denzel Boston,WR,CLE,,starter
 LeJohnBrains,2216,Mike Evans,WR,SF,Out,bench
 LeJohnBrains,2306,Jameis Winston,QB,NYG,,bench
-LeJohnBrains,4892,Baker Mayfield,QB,TB,Questionable,starter
+LeJohnBrains,4892,Baker Mayfield,QB,TB,,starter
 LeJohnBrains,4983,DJ Moore,WR,BUF,Out,IR
 LeJohnBrains,6770,Joe Burrow,QB,CIN,,starter
 LeJohnBrains,6904,Jalen Hurts,QB,PHI,IR,IR
 LeJohnBrains,7083,Tyler Huntley,QB,BAL,,bench
-LeJohnBrains,7525,DeVonta Smith,WR,PHI,Questionable,starter
+LeJohnBrains,7525,DeVonta Smith,WR,PHI,Out,bench
 LeJohnBrains,9509,Bijan Robinson,RB,ATL,,starter
 LeJohnBrains,PHI,PHI D/ST,DEF,PHI,,starter
 Wenzo3030,11564,Drake Maye,QB,NE,,starter
 Wenzo3030,11565,J.J. McCarthy,QB,NYG,,starter
-Wenzo3030,12518,Tyler Warren,TE,IND,Out,starter
+Wenzo3030,12518,Tyler Warren,TE,IND,Out,bench
 Wenzo3030,12522,Cam Ward,QB,TEN,,bench
 Wenzo3030,2133,Davante Adams,WR,LAR,IR,IR
 Wenzo3030,4037,Chris Godwin Jr.,WR,TB,,bench
 Wenzo3030,4984,Josh Allen,QB,BUF,,bench
-Wenzo3030,5012,Mark Andrews,TE,BAL,,bench
+Wenzo3030,5012,Mark Andrews,TE,BAL,,starter
 Wenzo3030,5846,DK Metcalf,WR,PIT,,bench
+Wenzo3030,6083,Matt Gay,K,LV,,starter
 Wenzo3030,7594,Chuba Hubbard,RB,CAR,,starter
-Wenzo3030,8112,Drake London,WR,ATL,,starter
+Wenzo3030,8112,Drake London,WR,ATL,Questionable,starter
 Wenzo3030,8150,Kyren Williams,RB,LAR,,starter
 Wenzo3030,8151,Kenneth Walker III,RB,KC,,starter
-Wenzo3030,8259,Cameron Dicker,K,LAC,,starter
 Wenzo3030,9511,Keaton Mitchell,RB,LAC,,bench
 Wenzo3030,9997,Zay Flowers,WR,BAL,,starter
 Wenzo3030,NE,NE D/ST,DEF,NE,,starter
@@ -170,5 +170,5 @@ Elasticschnit,5892,David Montgomery,RB,HOU,Out,bench
 Elasticschnit,5927,Terry McLaurin,WR,WAS,Out,starter
 Elasticschnit,8154,Brian Robinson Jr.,RB,ATL,Out,bench
 Elasticschnit,8228,Jaylen Warren,RB,PIT,,starter
-Elasticschnit,9493,Puka Nacua,WR,LAR,Questionable,starter
+Elasticschnit,9493,Puka Nacua,WR,LAR,,starter
 Elasticschnit,SEA,SEA D/ST,DEF,SEA,,starter
