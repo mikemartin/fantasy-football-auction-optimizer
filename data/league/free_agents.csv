@@ -21,7 +21,7 @@ player_id,player,pos,nfl_team,status
 8116,Pierre Strong Jr.,RB,GB,
 7585,Davis Mills,QB,HOU,
 2359,Ameer Abdullah,RB,JAX,Questionable
-5854,Drew Lock,QB,SEA,Questionable
+5854,Drew Lock,QB,SEA,Out
 7593,Trey Sermon,RB,ATL,IR
 11579,Audric Estime,RB,CLE,Out
 13301,Antonio Williams,WR,WAS,
@@ -33,7 +33,7 @@ player_id,player,pos,nfl_team,status
 12925,Jamaal Pritchett,WR,NYJ,
 7262,Jalen Morton,QB,IND,
 8119,Jahan Dotson,WR,ATL,
-13418,Robert Henry Jr.,RB,SEA,
+13418,Robert Henry Jr.,RB,SEA,Out
 12542,Efton Chism III,WR,NE,
 7049,Jauan Jennings,WR,MIN,
 10228,Charlie Jones,WR,NYG,
@@ -88,7 +88,7 @@ BAL,BAL D/ST,DEF,BAL,
 12475,Ricky White III,WR,SEA,
 11806,Casey Washington,WR,CAR,
 6111,Jake Browning,QB,LAC,
-11273,Ben VanSumeren,RB,KC,
+11273,Ben VanSumeren,RB,KC,Out
 7583,Sam Ehlinger,QB,DEN,Out
 13438,DeaMonte Trayanum,RB,NYJ,
 4744,Barrett Burns,TE,BAL,
@@ -427,7 +427,7 @@ GB,GB D/ST,DEF,GB,
 13010,Jordan Waters,RB,LAR,
 7720,Kene Nwangwu,RB,NYJ,Out
 13726,Camden Brown,WR,DAL,
-12536,Jaylin Noel,WR,HOU,
+12536,Jaylin Noel,WR,HOU,Questionable
 7597,Kenny Yeboah,TE,ARI,
 12492,Pat Bryant,WR,DEN,IR
 6826,Cole Kmet,TE,CHI,IR
@@ -489,7 +489,7 @@ MIA,MIA D/ST,DEF,MIA,
 6154,David Sills V,WR,TB,
 6931,DeeJay Dallas,RB,MIN,
 11623,Jordan Whittington,WR,LAR,
-4995,Ian Thomas,TE,LV,
+4995,Ian Thomas,TE,LV,Questionable
 9225,Tank Bigsby,RB,PHI,IR
 13411,Zavion Thomas,WR,CHI,
 11603,AJ Barner,TE,SEA,
@@ -531,7 +531,7 @@ SF,SF D/ST,DEF,SF,
 12484,Jayden Higgins,WR,HOU,IR
 7595,Tylan Wallace,WR,CLE,
 13645,Michael Wortham,WR,JAX,
-13404,Garrett Nussmeier,QB,KC,
+13404,Garrett Nussmeier,QB,KC,Out
 11942,Colson Yankoff,TE,WAS,
 13436,Kentrel Bullock,RB,CIN,
 3202,Austin Hooper,TE,ATL,
@@ -675,7 +675,7 @@ CIN,CIN D/ST,DEF,CIN,
 13322,Sam Roush,TE,CHI,
 13314,Luke Altmyer,QB,DET,
 5001,Dalton Schultz,TE,HOU,
-11643,Jaylen Wright,RB,MIA,
+11643,Jaylen Wright,RB,MIA,Questionable
 13827,Tanner Arkin,TE,NE,
 12658,Jackson Hawes,TE,BUF,
 13602,Jack Strand,QB,ATL,Out
