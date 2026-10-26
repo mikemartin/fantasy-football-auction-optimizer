@@ -108,6 +108,7 @@ Kirk Cousins,LV,QB,103.1,1,1,NA,0
 Travis Etienne,NO,RB,103,1,1,NA,0
 Ladd McConkey,LAC,WR,101.5,1,1,NA,0
 Denzel Boston,CLE,WR,100.9,1,1,NA,0
+Kaleb Johnson,GB,RB,100.7,1,1,NA,0
 Michael Wilson,ARI,WR,100,1,1,NA,0
 Jaylen Waddle,DEN,WR,99.7,1,1,NA,0
 Malik Washington,MIA,WR,98.6,1,1,NA,0
@@ -207,7 +208,6 @@ Tyler Higbee,LAR,TE,56.7,1,1,NA,0
 Michael Mayer,LV,TE,56.7,1,1,NA,0
 Darnell Washington,PIT,TE,56.4,1,1,NA,0
 Jake Ferguson,DAL,TE,55.7,1,1,NA,0
-Kaleb Johnson,GB,RB,55.2,1,1,NA,0
 Mack Hollins,NE,WR,53.3,1,1,NA,0
 Emmett Johnson,KC,RB,53.2,1,1,NA,0
 Dohnte Meyers,CIN,WR,53,1,1,NA,0
@@ -442,6 +442,7 @@ Joe Flacco,CIN,QB,5.2,1,1,NA,0
 Jelani Woods,NYJ,TE,5.2,1,1,NA,0
 Brayden Willis,SF,TE,5.2,1,1,NA,0
 Stetson Bennett,LAR,QB,5.1,1,1,NA,0
+Kene Nwangwu,NYJ,RB,5.1,1,1,NA,0
 Adam Prentice,DEN,RB,5.1,1,1,NA,0
 Barion Brown,NO,WR,5.1,1,1,NA,0
 Nick Kallerup,SEA,TE,4.9,1,1,NA,0
@@ -455,9 +456,9 @@ Ko Kieft,TB,TE,4.6,1,1,NA,0
 Josh Whyle,GB,TE,4.6,1,1,NA,0
 Tyson Bagent,CHI,QB,4.4,1,1,NA,0
 Colson Yankoff,WSH,TE,4.4,1,1,NA,0
+Carter Runyon,LV,TE,4.3,1,1,NA,0
 Justin Joly,MIA,TE,4.3,1,1,NA,0
 Seydou Traore,MIA,TE,4.3,1,1,NA,0
-Dallen Bentley,DEN,TE,4.3,1,1,NA,0
 Dareke Young,LV,WR,4.2,1,1,NA,0
 Lewis Bond,HOU,WR,4.1,1,1,NA,0
 Tommy DeVito,NE,QB,4,1,1,NA,0
@@ -515,7 +516,6 @@ Dare Ogunbowale,HOU,RB,0,1,1,NA,0
 Andrew Beck,NYJ,RB,0,1,1,NA,0
 Jakob Johnson,HOU,RB,0,1,1,NA,0
 Reggie Gilliam,NE,RB,0,1,1,NA,0
-Kene Nwangwu,NYJ,RB,0,1,1,NA,0
 Ty Chandler,NO,RB,0,1,1,NA,0
 Malik Davis,DAL,RB,0,1,1,NA,0
 Isiah Pacheco,DET,RB,0,1,1,NA,0
@@ -555,10 +555,10 @@ Cam Grandy,CIN,TE,0,1,1,NA,0
 Caleb Lohner,DEN,TE,0,1,1,NA,0
 Moliki Matavao,NO,TE,0,1,1,NA,0
 Ben Yurosek,MIN,TE,0,1,1,NA,0
-Carter Runyon,LV,TE,0,1,1,NA,0
 Keleki Latu,BUF,TE,0,1,1,NA,0
 Joe Royer,CLE,TE,0,1,1,NA,0
 Carsen Ryan,CLE,TE,0,1,1,NA,0
+Dallen Bentley,DEN,TE,0,1,1,NA,0
 John Michael Gyllenborg,KC,TE,0,1,1,NA,0
 Tanner Arkin,NE,TE,0,1,1,NA,0
 Odell Beckham Jr.,MIN,WR,0,1,1,NA,0
