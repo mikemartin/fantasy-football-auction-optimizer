@@ -11,6 +11,7 @@ player_id,player,pos,nfl_team,status
 13295,Behren Morton,QB,NE,Out
 12493,Oronde Gadsden,TE,LAC,
 12699,LaJohntay Wester,WR,BAL,
+11304,E.J. Jenkins,TE,ATL,
 19,Joe Flacco,QB,CIN,
 4054,Mo Alie-Cox,TE,IND,
 12848,Josh Kelly,WR,HOU,
@@ -129,7 +130,7 @@ ARI,ARI D/ST,DEF,ARI,
 3286,Demarcus Robinson,WR,SF,IR
 11608,Isaiah Williams,WR,NYJ,
 12524,Shedeur Sanders,QB,CLE,
-8177,Grant Calcaterra,TE,PHI,IR
+8177,Grant Calcaterra,TE,PHI,
 8125,Calvin Austin III,WR,NYG,IR
 7746,Austin Trammell,WR,JAX,
 7587,Dyami Brown,WR,WAS,
@@ -145,7 +146,7 @@ LV,LV D/ST,DEF,LV,
 6386,Alex Bachman,WR,LAR,
 4443,Pharaoh Brown,TE,IND,
 11237,Jacob Saylors,RB,DET,
-8414,Britain Covey,WR,PHI,
+8414,Britain Covey,WR,PHI,Out
 8523,Nick Muse,TE,ATL,
 9501,DeMario Douglas,WR,NE,
 8180,Jalen Nailor,WR,LV,
@@ -154,13 +155,14 @@ LV,LV D/ST,DEF,LV,
 12455,Brashard Smith,RB,KC,IR
 10937,Jake Moody,K,BAL,
 13428,Joey Aguilar,QB,JAX,
-13349,Eli Stowers,TE,PHI,IR
+13349,Eli Stowers,TE,PHI,
 11618,Jalen McMillan,WR,TB,IR
 4219,Jeremy McNichols,RB,WAS,
 10983,Sean Clifford,QB,CIN,
 5872,Deebo Samuel Sr.,WR,SF,Out
 9480,Brenton Strange,TE,JAX,
 827,Tyrod Taylor,QB,GB,
+6650,Chase McLaughlin,K,TB,
 13432,Khalil Dinkins,TE,SF,
 8145,Jeremy Ruckert,TE,NYJ,
 11261,Andre Szmyt,K,CLE,
@@ -239,11 +241,10 @@ LAC,LAC D/ST,DEF,LAC,
 11384,Owen Wright,RB,LV,
 13423,Eli Heidenreich,RB,PIT,Out
 11959,Bryce Oliver,WR,HOU,
-13424,Seth McGowan,RB,IND,
 8253,Deven Thompkins,WR,LV,
 8861,Irvin Charles,WR,SEA,
 4351,Tim Patrick,WR,NYJ,
-13335,Cole Payton,QB,PHI,
+13335,Cole Payton,QB,PHI,Out
 9220,Evan Hull,RB,ARI,
 11596,Ben Sinnott,TE,WAS,
 1706,Jack Doyle,TE,IND,
@@ -268,6 +269,7 @@ TB,TB D/ST,DEF,TB,
 9479,Darnell Washington,TE,PIT,
 11577,Will Shipley,RB,PHI,IR
 12540,Chimere Dike,WR,TEN,
+CLE,CLE D/ST,DEF,CLE,
 13307,Marlin Klein,TE,HOU,Out
 6699,Gunner Olszewski,WR,NYG,IR
 4263,Elijah McGuire,RB,KC,
@@ -319,7 +321,6 @@ CAR,CAR D/ST,DEF,CAR,
 11655,Tyrone Tracy Jr.,RB,NYG,Questionable
 12775,Max Brosmer,QB,MIN,Out
 12901,Patrick Herbert,TE,LAC,
-JAX,JAX D/ST,DEF,JAX,
 9226,De'Von Achane,RB,MIA,IR
 9494,Marvin Mims Jr.,WR,DEN,
 4993,Mike Gesicki,TE,CIN,
@@ -379,7 +380,6 @@ GB,GB D/ST,DEF,GB,
 10210,Cameron Latu,TE,NE,
 4924,Zach Terrell,QB,BAL,
 13032,Marshall Lang,TE,MIN,
-1479,Keenan Allen,WR,IND,
 3258,Nick Vannett,TE,BAL,
 12477,Kurtis Rourke,QB,SF,Out
 7204,Reggie Gilliam,RB,NE,IR
@@ -410,7 +410,7 @@ GB,GB D/ST,DEF,GB,
 13405,Kaytron Allen,RB,MIA,
 8181,Connor Heyward,RB,LV,
 2078,Odell Beckham Jr.,WR,MIN,
-12062,Cam Grandy,TE,MIN,
+12062,Cam Grandy,TE,CIN,
 11474,Dylan Drummond,WR,ATL,
 13413,Cyrus Allen,WR,KC,
 12829,Coleman Owen,WR,GB,
@@ -455,12 +455,12 @@ GB,GB D/ST,DEF,GB,
 13597,Matthew Caldwell,QB,LAR,IR
 8849,Tanner Conner,TE,NE,
 13533,Barion Brown,WR,NO,
+5189,Eddy Pineiro,K,SF,
 13337,Emmett Johnson,RB,KC,
 13101,Gage Larvadain,WR,BAL,
 11631,Brian Thomas Jr.,WR,JAX,
 2118,Eric Ebron,TE,PIT,
 6290,Scotty Miller,WR,CHI,
-13150,Darius Cooper,WR,PHI,
 11186,Carlos Washington Jr.,RB,MIA,
 11583,Jonathon Brooks,RB,CAR,IR
 5127,Kyle Allen,QB,BUF,
@@ -503,7 +503,7 @@ BUF,BUF D/ST,DEF,BUF,
 12705,Graham Mertz,QB,HOU,IR
 7600,Pat Freiermuth,TE,PIT,
 8527,Dareke Young,WR,LV,
-11199,Emari Demercado,RB,DAL,
+11199,Emari Demercado,RB,DAL,Out
 12860,Theo Wease Jr.,WR,LAC,
 4922,Garrett Scantling,WR,ATL,
 12486,Dillon Gabriel,QB,CLE,IR
@@ -538,6 +538,7 @@ SF,SF D/ST,DEF,SF,
 11377,Tyrell Shavers,WR,BUF,PUP
 11600,Ja'Tavion Sanders,TE,CAR,Out
 12713,Andy Borregales,K,NE,
+9230,Tanner McKee,QB,PHI,
 5008,Durham Smythe,TE,BAL,IR
 9754,Quentin Johnston,WR,LAC,
 NYG,NYG D/ST,DEF,NYG,
@@ -574,7 +575,6 @@ TEN,TEN D/ST,DEF,TEN,
 8126,Wan'Dale Robinson,WR,TEN,
 8249,Lucas Krull,TE,DEN,
 13712,Hayden Large,TE,CHI,IR
-13345,Jonah Coleman,RB,DEN,
 11168,Xavier Smith,WR,SF,
 6853,Van Jefferson,WR,WAS,
 13293,Ja'Kobi Lane,WR,BAL,
@@ -647,7 +647,7 @@ CIN,CIN D/ST,DEF,CIN,
 12510,Jalen Milroe,QB,SEA,
 2505,Darren Waller,TE,CAR,
 11963,Chris Collier,RB,LV,IR
-11034,Jalen Brooks,WR,ARI,
+11034,Jalen Brooks,WR,ARI,Out
 12045,Jack Westover,TE,WAS,
 6451,Stephen Carlson,TE,CHI,
 8210,Chig Okonkwo,TE,WAS,
