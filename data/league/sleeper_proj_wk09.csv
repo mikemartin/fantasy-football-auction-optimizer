@@ -48,7 +48,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4727,Mitchell Paige,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5000,Chase Edmonds,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13743,Joseph Manjack,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11820,Devin Culp,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11820,Devin Culp,TE,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12129,Jalon Calhoun,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6913,Joe Reed,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13143,Dymere Miller,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -101,7 +101,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 13437,Noah Whittington,RB,HOU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4320,James Quick,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12760,Rashod Owens,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13879,Jameson Geers,TE,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13879,Jameson Geers,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7172,Mikey Daniel,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6939,Binjimen Victor,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6814,Laviska Shenault,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -497,7 +497,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3200,Sterling Shepard,WR,NYJ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5103,Dylan Cantrell,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12883,Joshua Simon,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12001,Lawrence Keys,WR,DET,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12001,Lawrence Keys,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4098,Kareem Hunt,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7100,Derrick Dillon,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3811,Alstevis Squirewell,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -511,7 +511,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11493,Jordan Murray,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5252,Ray Lawry,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7452,Josh Pearson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13208,Kyrese Rowan,WR,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13208,Kyrese Rowan,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2981,Ross Scheuerman,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3852,Jaydon Mickens,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5427,LaQuvionte Gonzalez,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -567,7 +567,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 8706,Kehinde Oginni,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5395,Shaun Wilson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7903,Briley Moore,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-7050,Josiah Deguara,TE,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7050,Josiah Deguara,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6778,Chris Streveler,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11421,Ryan Miller,WR,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13870,Quentin Moore,TE,WAS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -603,7 +603,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6261,Reggie White,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 947,Julio Jones,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4328,Jerome Lane,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12907,Quentin Skinner,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12907,Quentin Skinner,WR,PHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4937,Al Riles,WR,IND,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7580,Khalil McClain,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12029,Tyler Harrell,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -622,7 +622,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 2577,Devante Davis,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5889,Bryce Love,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2909,Beau Gardner,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-7537,Jaret Patterson,RB,CLE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7537,Jaret Patterson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2800,Mario Hull,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8407,T.J. Pledger,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3655,Reggie Diggs,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -905,7 +905,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6845,Zack Moss,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8217,Leddie Brown,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13179,Ja'seem Reed,WR,CAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12933,Caden Prieskorn,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12933,Caden Prieskorn,TE,CIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13336,Dane Key,WR,DEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13291,Kejon Owens,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8697,Kevin Shaa,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -997,7 +997,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12217,Shawn Bowman,TE,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6540,DeAndre Thompkins,WR,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7522,Hunter Thedford,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11802,Tejhaun Palmer,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11802,Tejhaun Palmer,WR,LAC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7032,Tyrie Cleveland,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7954,Connor Wedington,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7299,Justice Shelton-Mosley,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1057,8 +1057,8 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4728,Bart Houston,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3418,Mekale McKay,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4997,Mark Walton,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-14058,Malick Meiga,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-4080,Zay Jones,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+14058,Malick Meiga,WR,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4080,Zay Jones,WR,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5032,Jordan Akins,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13962,Cameron Dorner,WR,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8201,Jack Coan,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1173,7 +1173,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 10865,Travis Dye,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8423,Brittain Brown,RB,CHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12969,Lan Larison,RB,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-7087,Jonathan Ward,RB,BAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7087,Jonathan Ward,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13275,Ty Simpson,QB,LAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 14008,Rodney Hammond,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8749,Tyreik McAllister,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1337,7 +1337,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 9503,Jacob Copeland,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12499,Elic Ayomanor,WR,TEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3859,Jalen Simmons,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-6037,Brett Rypien,QB,TB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6037,Brett Rypien,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4301,Josh Magee,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 10866,Aidan O'Connell,QB,LV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11216,Holton Ahlers,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1397,7 +1397,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3343,Nate Sudfeld,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2632,Desmond Martin,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4864,Jevoni Robinson,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13355,DJ Rogers,TE,DAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13355,DJ Rogers,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8118,David Bell,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7540,Amari Rodgers,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11554,Chase Cota,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1518,7 +1518,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 8233,Mataeo Durant,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12033,OJ Hiliare,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12085,Alec Holler,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11082,Ben Sims,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11082,Ben Sims,TE,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12231,JJ Laap,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1689,Adam Thielen,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8705,Landon Lenoir,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1590,7 +1590,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6932,Charlie Taumoepeau,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12787,Josh Williams,RB,TB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4704,Tyler Ferguson,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-14080,Barika Kpeenu,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+14080,Barika Kpeenu,RB,TB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 954,Cam Newton,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6945,Antonio Gibson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6886,Chase Claypool,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1767,7 +1767,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6490,Mik'Quan Deane,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13335,Cole Payton,QB,PHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5108,Luke Falk,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12909,Eli Pancol,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12909,Eli Pancol,WR,DEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11190,Keilahn Harris,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13250,Nay'Quan Wright,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4863,Josh Rosen,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1937,7 +1937,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 8798,Felix Harper,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7235,Aleva Hifo,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 10869,Matt Landers,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13603,Gregory Desrosiers,RB,LAC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13603,Gregory Desrosiers,RB,NYG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5128,Logan Woodside,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8226,Greg Bell,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12884,Quincy Skinner Jr.,WR,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2046,7 +2046,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 827,Tyrod Taylor,QB,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8198,Charleston Rambo,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4420,Cody Hollister,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12941,Bryson Nesbit,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12941,Bryson Nesbit,TE,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12408,Michael Hiers,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4042,Joe Williams,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6492,Terry Wright,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2064,7 +2064,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 10870,Deneric Prince,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13428,Joey Aguilar,QB,JAX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13632,Devonte Ross,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13199,Montorie Foster Jr.,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13199,Montorie Foster Jr.,WR,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8650,Lujuan Winningham,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 200,Vernon Davis,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2949,Synjyn Days,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2104,7 +2104,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 7359,Nakia Griffin-Stewart,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8628,Jontre Kirklin,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13964,Myles Montgomery,RB,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11633,Jamari Thrash,WR,LV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11633,Jamari Thrash,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6661,Joseph Parker,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12546,Marcus Yarns,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8921,Maurice Alexander,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2119,7 +2119,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 1555,Kenny Stills,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4669,Andre Patton,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11262,Damien Caffrey,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-5781,Malik Turner,WR,SF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5781,Malik Turner,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5884,Kelvin Harmon,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13041,Jahmal Banks,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3774,Jason Vander Laan,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2209,7 +2209,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 2003,Bennie Fowler,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4157,Tarik Cohen,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8182,Chase Allen,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13846,Jack Velling,TE,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13846,Jack Velling,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13557,Athan Kaliakmanis,QB,WAS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6857,Collin Johnson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2711,Taylor Heinicke,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2444,7 +2444,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12532,Ja'Corey Brooks,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6072,Bruce Anderson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4330,JoJo Natson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11311,Jason Brownlee,WR,NYG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11311,Jason Brownlee,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12284,Michael Herzog,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7905,Dylan Soehner,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2684,Corbin Louks,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2826,7 +2826,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11571,Isaiah Davis,RB,NYJ,NA,NA,NA,1.31,0.01,0.08,0.61,0,0,NA,0,0,NA,1
 11565,J.J. McCarthy,QB,NYG,243.38,0.7,1.15,19.14,0.23,NA,NA,NA,0.19,0.06,0.02,NA,NA,1
 11563,Bo Nix,QB,DEN,203.91,1.18,0.87,20.19,0.24,NA,NA,NA,0.2,0.08,0.01,NA,NA,1
-11199,Emari Demercado,RB,DAL,NA,NA,NA,1.47,0.01,0.16,1.22,0.01,0,NA,0,0,NA,1
+11199,Emari Demercado,RB,HOU,NA,NA,NA,1.47,0.01,0.16,1.22,0.01,0,NA,0,0,NA,1
 10228,Charlie Jones,WR,NYG,NA,NA,NA,0.25,0,0.07,0.99,0,0,NA,0,0,NA,1
 10225,Jonathan Mingo,WR,DAL,NA,NA,NA,NA,NA,0.1,1.57,0.01,NA,NA,NA,NA,NA,1
 9501,DeMario Douglas,WR,NE,NA,NA,NA,0.77,0.01,2.39,29.68,0.19,0.01,NA,0,0.01,NA,1

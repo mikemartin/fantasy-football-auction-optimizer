@@ -38,8 +38,8 @@ week,matchup_id,manager,player,pos,points,started
 8,2,themikemartin,Jacory Croskey-Merritt,RB,0,FALSE
 8,2,themikemartin,Geno Smith,QB,0,FALSE
 8,2,themikemartin,Travis Kelce,TE,0,TRUE
-8,2,themikemartin,Stefon Diggs,WR,0,FALSE
-8,2,themikemartin,Christian McCaffrey,RB,0,TRUE
+8,2,themikemartin,Stefon Diggs,WR,0,TRUE
+8,2,themikemartin,Christian McCaffrey,RB,0,FALSE
 8,2,themikemartin,Dallas Goedert,TE,0,FALSE
 8,2,themikemartin,Tony Pollard,RB,0,TRUE
 8,2,themikemartin,Jordan Love,QB,0,TRUE
@@ -51,7 +51,7 @@ week,matchup_id,manager,player,pos,points,started
 8,2,themikemartin,Jaxon Smith-Njigba,WR,0,TRUE
 8,2,themikemartin,Jordan Addison,WR,0,FALSE
 8,2,themikemartin,DET D/ST,DEF,0,FALSE
-8,2,themikemartin,NYJ D/ST,DEF,0,TRUE
+8,2,themikemartin,WAS D/ST,DEF,0,TRUE
 8,2,theNastyJK,Brock Bowers,TE,0,TRUE
 8,2,theNastyJK,Rome Odunze,WR,0,FALSE
 8,2,theNastyJK,Malik Nabers,WR,0,TRUE
@@ -76,11 +76,11 @@ week,matchup_id,manager,player,pos,points,started
 8,4,JLstorm1,Cam Little,K,0,TRUE
 8,4,JLstorm1,Ollie Gordon II,RB,0,TRUE
 8,4,JLstorm1,Jonah Coleman,RB,0,FALSE
-8,4,JLstorm1,Keenan Allen,WR,0,FALSE
-8,4,JLstorm1,Lamar Jackson,QB,0,FALSE
+8,4,JLstorm1,Keenan Allen,WR,0,TRUE
+8,4,JLstorm1,Lamar Jackson,QB,0,TRUE
 8,4,JLstorm1,D'Andre Swift,RB,0,TRUE
-8,4,JLstorm1,Justin Herbert,QB,0,TRUE
-8,4,JLstorm1,Jaylen Waddle,WR,0,TRUE
+8,4,JLstorm1,Justin Herbert,QB,0,FALSE
+8,4,JLstorm1,Jaylen Waddle,WR,0,FALSE
 8,4,JLstorm1,Ja'Marr Chase,WR,0,TRUE
 8,4,JLstorm1,Alec Pierce,WR,0,FALSE
 8,4,JLstorm1,Breece Hall,RB,0,FALSE
@@ -140,13 +140,13 @@ week,matchup_id,manager,player,pos,points,started
 8,1,LeJohnBrains,Bijan Robinson,RB,0,TRUE
 8,1,LeJohnBrains,PHI D/ST,DEF,0,TRUE
 8,3,Wenzo3030,Drake Maye,QB,0,TRUE
-8,3,Wenzo3030,J.J. McCarthy,QB,0,TRUE
-8,3,Wenzo3030,Tyler Warren,TE,0,FALSE
+8,3,Wenzo3030,J.J. McCarthy,QB,0,FALSE
+8,3,Wenzo3030,Tyler Warren,TE,0,TRUE
 8,3,Wenzo3030,Cam Ward,QB,0,FALSE
 8,3,Wenzo3030,Davante Adams,WR,0,FALSE
 8,3,Wenzo3030,Chris Godwin Jr.,WR,0,FALSE
-8,3,Wenzo3030,Josh Allen,QB,0,FALSE
-8,3,Wenzo3030,Mark Andrews,TE,0,TRUE
+8,3,Wenzo3030,Josh Allen,QB,0,TRUE
+8,3,Wenzo3030,Mark Andrews,TE,0,FALSE
 8,3,Wenzo3030,DK Metcalf,WR,0,FALSE
 8,3,Wenzo3030,Matt Gay,K,0,TRUE
 8,3,Wenzo3030,Chuba Hubbard,RB,0,TRUE
