@@ -55,6 +55,7 @@ Rscript scripts/06_trade_search.R         # every trade across all ten teams, bo
 Rscript scripts/05_trade_analyzer.R       # named candidate trades only
 Rscript scripts/07_market_arbitrage.R     # where we disagree with Sleeper -> who to buy and sell
 Rscript scripts/08_dual_scorecard.R       # trades scored on our numbers AND on Sleeper's
+WEEK=8 Rscript scripts/09_live_week.R   # live week: banked points + remaining projections, every matchup
 Rscript scripts/03_lp_sanity_check.R      # optional pre-draft budget check
 ```
 
