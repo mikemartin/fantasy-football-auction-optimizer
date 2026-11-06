@@ -136,6 +136,7 @@ week,when_utc,type,status,manager,added,dropped,faab
 7,2026-10-20T09:32:58Z,free_agent,complete,jezz281,Tre Tucker,Tyler Bass,NA
 7,2026-10-20T09:32:29Z,free_agent,complete,jezz281,Omar Cooper Jr.,Tyreek Hill,NA
 7,2026-10-20T09:31:33Z,free_agent,complete,jezz281,CLE D/ST,BAL D/ST,NA
+8,2026-11-03T08:05:42Z,waiver,complete,themikemartin,NO D/ST,WAS D/ST,0
 8,2026-11-01T23:55:34Z,free_agent,complete,jezz281,Cairo Santos,Omar Cooper Jr.,NA
 8,2026-11-01T11:40:09Z,free_agent,complete,LeJohnBrains,Samaje Perine,Jalen Hurts,NA
 8,2026-11-01T11:38:45Z,free_agent,complete,LeJohnBrains,Hunter Henry,Tyler Huntley,NA
@@ -147,3 +148,13 @@ week,when_utc,type,status,manager,added,dropped,faab
 8,2026-10-27T08:26:20Z,free_agent,complete,jezz281,Seth McGowan,CLE D/ST,NA
 8,2026-10-27T08:17:04Z,free_agent,complete,jezz281,JAX D/ST,Eddy Pineiro,NA
 8,2026-10-27T07:07:00Z,free_agent,complete,JLstorm1,Keenan Allen,Chase McLaughlin,NA
+9,2026-11-05T21:24:08Z,free_agent,complete,JLstorm1,Joe Milton,,NA
+9,2026-11-04T19:33:30Z,free_agent,complete,JLstorm1,Drew Lock,Emanuel Wilson,NA
+9,2026-11-04T19:33:28Z,free_agent,complete,jezz281,JAX D/ST,KC D/ST,NA
+9,2026-11-04T19:32:59Z,free_agent,complete,jezz281,,Aaron Rodgers,NA
+9,2026-11-04T07:07:07Z,free_agent,complete,jezz281,Deebo Samuel Sr.,Gardner Minshew II,NA
+9,2026-11-03T08:25:35Z,free_agent,complete,jezz281,KC D/ST,TB D/ST,NA
+9,2026-11-03T08:16:04Z,free_agent,complete,dm98,Mike Washington Jr.,Jacoby Brissett,NA
+9,2026-11-03T08:07:49Z,free_agent,complete,jezz281,TB D/ST,JAX D/ST,NA
+9,2026-11-03T08:06:55Z,free_agent,complete,jezz281,Emmett Johnson,Germie Bernard,NA
+9,2026-11-03T08:06:45Z,free_agent,complete,jezz281,Gardner Minshew II,Cairo Santos,NA
