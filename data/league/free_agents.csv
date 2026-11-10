@@ -22,11 +22,12 @@ player_id,player,pos,nfl_team,status
 8116,Pierre Strong Jr.,RB,GB,
 7585,Davis Mills,QB,HOU,
 2359,Ameer Abdullah,RB,JAX,
+5854,Drew Lock,QB,SEA,Questionable
 7593,Trey Sermon,RB,ATL,IR
-11579,Audric Estime,RB,NO,
 11636,Johnny Wilson,WR,PHI,IR
 8134,Khalil Shakir,WR,BUF,
 7828,Noah Gray,TE,KC,
+11557,Joe Milton,QB,PHI,
 5995,Justice Hill,RB,BAL,
 12925,Jamaal Pritchett,WR,NYJ,
 7262,Jalen Morton,QB,IND,
@@ -60,7 +61,6 @@ player_id,player,pos,nfl_team,status
 13079,Jahdae Walker,WR,CHI,
 13047,Jacardia Wright,RB,SEA,Out
 13318,Noah Thomas,WR,CIN,
-BAL,BAL D/ST,DEF,BAL,
 13380,Brenen Thompson,WR,LAC,Out
 2944,Matt LaCosse,TE,NE,
 13400,Justin Joly,TE,MIA,Out
@@ -76,7 +76,6 @@ BAL,BAL D/ST,DEF,BAL,
 5957,Isaac Nauta,TE,GB,
 13268,Elijah Sarratt,WR,BAL,Out
 12535,Isaac TeSlaa,WR,DET,
-12491,Corey Kiner,RB,NE,
 6768,Tua Tagovailoa,QB,ATL,
 5004,Ito Smith,RB,DAL,
 12356,Jabari Small,RB,DET,
@@ -194,7 +193,7 @@ DAL,DAL D/ST,DEF,DAL,
 13603,Gregory Desrosiers,RB,NYG,
 11650,Luke McCaffrey,WR,WAS,
 4195,Jake Elliott,K,PHI,
-13296,Caleb Douglas,WR,MIA,
+7021,Rico Dowdle,RB,PIT,
 11895,Mason Tipton,WR,NO,PUP
 11630,Roman Wilson,WR,PIT,IR
 7083,Tyler Huntley,QB,BAL,IR
@@ -280,6 +279,7 @@ CLE,CLE D/ST,DEF,CLE,
 12888,Dalen Cambre,WR,NYG,
 13353,Chris Brazzell II,WR,CAR,IR
 12641,Jaylin Lane,WR,WAS,IR
+10213,Tre Tucker,WR,LV,
 13696,Ja'Mori Maclin,WR,BUF,
 7536,Quintin Morris,TE,JAX,
 13339,Davon Booth,RB,IND,
@@ -287,6 +287,7 @@ CLE,CLE D/ST,DEF,CLE,
 3976,Mitchell Trubisky,QB,TEN,
 13416,Roman Hemby,RB,LV,
 13356,Trebor Pena,WR,JAX,
+12508,Jaxson Dart,QB,NYG,IR
 4066,Evan Engram,TE,DEN,
 13670,Harrison Wallace III,WR,ARI,
 3048,Chris Manhertz,TE,NYG,
@@ -299,12 +300,12 @@ CLE,CLE D/ST,DEF,CLE,
 6271,Olamide Zaccheaus,WR,ATL,Questionable
 13392,Jeff Caldwell,WR,KC,IR
 6866,KJ Hill,WR,LAC,
+11792,Will Reichard,K,MIN,
 6920,Isaiah Hodgins,WR,PIT,
 10225,Jonathan Mingo,WR,DAL,Questionable
 12470,Riley Leonard,QB,IND,Out
 12473,Mitchell Evans,TE,CAR,
 ATL,ATL D/ST,DEF,ATL,
-10219,Chris Rodriguez Jr.,RB,JAX,
 13277,CJ Donaldson,RB,NO,Out
 5917,Mecole Hardman Jr.,WR,IND,
 12460,Antwane Wells Jr.,WR,ATL,
@@ -371,7 +372,6 @@ NO,NO D/ST,DEF,NO,
 13313,Emmanuel Henderson Jr.,WR,SEA,
 7568,Brevin Jordan,TE,HOU,
 5985,Foster Moreau,TE,HOU,
-GB,GB D/ST,DEF,GB,
 13429,Seydou Traore,TE,MIA,
 13904,Jacob De Jesus,WR,KC,
 10234,Derius Davis,WR,LAC,
@@ -419,7 +419,6 @@ GB,GB D/ST,DEF,GB,
 13413,Cyrus Allen,WR,KC,
 12829,Coleman Owen,WR,GB,
 12773,DJ Uiagalelei,QB,LAC,
-12718,Konata Mumpfield,WR,LAR,
 9481,Luke Musgrave,TE,GB,PUP
 13419,Jaydn Ott,RB,KC,
 12939,Anthony Tyus III,RB,CAR,
@@ -639,7 +638,6 @@ CIN,CIN D/ST,DEF,CIN,
 5970,Greg Dortch,WR,BUF,
 13075,Myles Price,WR,MIN,
 11433,Nate Adkins,TE,DEN,
-9502,Tank Dell,WR,HOU,
 2307,Marcus Mariota,QB,WAS,
 11056,Jared Wayne,WR,MIA,
 8214,Cole Turner,TE,MIA,IR
@@ -713,6 +711,7 @@ KC,KC D/ST,DEF,KC,
 13333,Deion Burks,WR,IND,
 5638,Shaq Roland,WR,CHI,
 6427,Ashton Dulin,WR,IND,
+6806,J.K. Dobbins,RB,DEN,
 13312,Josh Kattus,TE,CIN,Out
 6828,AJ Dillon,RB,CAR,Out
 11820,Devin Culp,TE,MIN,

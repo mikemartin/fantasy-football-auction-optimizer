@@ -148,6 +148,11 @@ week,when_utc,type,status,manager,added,dropped,faab
 8,2026-10-27T08:26:20Z,free_agent,complete,jezz281,Seth McGowan,CLE D/ST,NA
 8,2026-10-27T08:17:04Z,free_agent,complete,jezz281,JAX D/ST,Eddy Pineiro,NA
 8,2026-10-27T07:07:00Z,free_agent,complete,JLstorm1,Keenan Allen,Chase McLaughlin,NA
+9,2026-11-10T08:05:41Z,waiver,complete,jezz281,Corey Kiner,Tre Tucker,4
+9,2026-11-10T08:05:41Z,waiver,failed,jezz281,Tank Dell,,3
+9,2026-11-10T08:05:41Z,waiver,complete,dm98,Tank Dell,J.K. Dobbins,7
+9,2026-11-10T08:05:41Z,waiver,failed,themikemartin,BUF D/ST,,0
+9,2026-11-10T08:05:41Z,waiver,complete,themikemartin,BAL D/ST,Rico Dowdle,0
 9,2026-11-09T23:56:29Z,free_agent,complete,DrBongstrong,Tyler Bass,Michael Wilson,NA
 9,2026-11-08T07:55:18Z,free_agent,complete,DrBongstrong,Demarcus Robinson,Sam Darnold,NA
 9,2026-11-08T07:53:04Z,free_agent,complete,DrBongstrong,DET D/ST,Kendre Miller,NA
@@ -170,3 +175,8 @@ week,when_utc,type,status,manager,added,dropped,faab
 9,2026-11-03T08:07:49Z,free_agent,complete,jezz281,TB D/ST,JAX D/ST,NA
 9,2026-11-03T08:06:55Z,free_agent,complete,jezz281,Emmett Johnson,Germie Bernard,NA
 9,2026-11-03T08:06:45Z,free_agent,complete,jezz281,Gardner Minshew II,Cairo Santos,NA
+10,2026-11-10T09:54:34Z,free_agent,complete,dm98,GB D/ST,Jaxson Dart,NA
+10,2026-11-10T09:51:04Z,free_agent,complete,jezz281,Konata Mumpfield,Will Reichard,NA
+10,2026-11-10T08:11:40Z,free_agent,complete,jezz281,Chris Rodriguez Jr.,,NA
+10,2026-11-10T08:06:51Z,free_agent,complete,JLstorm1,Caleb Douglas,Joe Milton,NA
+10,2026-11-10T08:06:13Z,free_agent,complete,JLstorm1,Audric Estime,Drew Lock,NA
