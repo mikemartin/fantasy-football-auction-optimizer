@@ -18,7 +18,7 @@ week,matchup_id,manager,player,pos,points,started
 9,4,jezz281,JAX D/ST,DEF,11.5,TRUE
 9,2,DrBongstrong,Michael Wilson,WR,9,FALSE
 9,2,DrBongstrong,Bhayshul Tuten,RB,8.9,TRUE
-9,2,DrBongstrong,Chris Boswell,K,0,TRUE
+9,2,DrBongstrong,Chris Boswell,K,0,FALSE
 9,2,DrBongstrong,Derrick Henry,RB,7.83,TRUE
 9,2,DrBongstrong,Demarcus Robinson,WR,3.2,TRUE
 9,2,DrBongstrong,Alvin Kamara,RB,6.4,FALSE
@@ -26,6 +26,7 @@ week,matchup_id,manager,player,pos,points,started
 9,2,DrBongstrong,Matthew Stafford,QB,12.22,TRUE
 9,2,DrBongstrong,Kyler Murray,QB,0,FALSE
 9,2,DrBongstrong,Justin Jefferson,WR,0,TRUE
+9,2,DrBongstrong,Tyler Bass,K,0,TRUE
 9,2,DrBongstrong,Amon-Ra St. Brown,WR,12.6,FALSE
 9,2,DrBongstrong,Kyle Pitts Sr.,TE,2.3,TRUE
 9,2,DrBongstrong,Isaiah Likely,TE,12.3,TRUE

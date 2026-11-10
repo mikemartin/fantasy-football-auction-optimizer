@@ -16,9 +16,8 @@ jezz281,8137,George Pickens,WR,DAL,Out,bench
 jezz281,8183,Brock Purdy,QB,SF,,starter
 jezz281,9224,Chase Brown,RB,CIN,,starter
 jezz281,JAX,JAX D/ST,DEF,JAX,,starter
-DrBongstrong,10232,Michael Wilson,WR,ARI,,bench
 DrBongstrong,12490,Bhayshul Tuten,RB,JAX,,starter
-DrBongstrong,1945,Chris Boswell,K,PIT,,starter
+DrBongstrong,1945,Chris Boswell,K,PIT,,bench
 DrBongstrong,3198,Derrick Henry,RB,BAL,,starter
 DrBongstrong,3286,Demarcus Robinson,WR,SF,,starter
 DrBongstrong,4035,Alvin Kamara,RB,NO,,bench
@@ -26,6 +25,7 @@ DrBongstrong,4199,Aaron Jones Sr.,RB,MIN,,bench
 DrBongstrong,421,Matthew Stafford,QB,LAR,,starter
 DrBongstrong,5849,Kyler Murray,QB,MIN,Out,bench
 DrBongstrong,6794,Justin Jefferson,WR,MIN,,starter
+DrBongstrong,7042,Tyler Bass,K,BUF,,starter
 DrBongstrong,7547,Amon-Ra St. Brown,WR,DET,,bench
 DrBongstrong,7553,Kyle Pitts Sr.,TE,ATL,,starter
 DrBongstrong,8131,Isaiah Likely,TE,NYG,,starter
@@ -62,7 +62,7 @@ theNastyJK,13286,Jadarian Price,RB,SEA,,bench
 theNastyJK,13301,Antonio Williams,WR,WAS,,bench
 theNastyJK,7839,Evan McPherson,K,CIN,,starter
 theNastyJK,8148,Jameson Williams,WR,DET,,bench
-theNastyJK,8161,Malik Willis,QB,MIA,,starter
+theNastyJK,8161,Malik Willis,QB,MIA,Questionable,starter
 theNastyJK,9221,Jahmyr Gibbs,RB,DET,,starter
 theNastyJK,9753,Zach Charbonnet,RB,SEA,,bench
 theNastyJK,LAR,LAR D/ST,DEF,LAR,,starter
@@ -162,7 +162,7 @@ Elasticschnit,13150,Darius Cooper,WR,PHI,,starter
 Elasticschnit,13281,Jordyn Tyson,WR,NO,,IR
 Elasticschnit,2747,Jason Myers,K,SEA,,starter
 Elasticschnit,4046,Patrick Mahomes,QB,KC,Questionable,starter
-Elasticschnit,5850,Josh Jacobs,RB,GB,Questionable,bench
+Elasticschnit,5850,Josh Jacobs,RB,GB,Out,bench
 Elasticschnit,5892,David Montgomery,RB,HOU,Out,bench
 Elasticschnit,5927,Terry McLaurin,WR,WAS,IR,bench
 Elasticschnit,8154,Brian Robinson Jr.,RB,ATL,IR,bench
