@@ -1,4 +1,4 @@
 "data_src","median_pts","scale_factor","flagged","rescale_applied"
-"CBS",76.9,0.88,FALSE,FALSE
-"ESPN",73.8,0.917,FALSE,FALSE
-"FanDuel",67.7,1,FALSE,FALSE
+"CBS",71.7,0.954,FALSE,FALSE
+"ESPN",74,0.924,FALSE,FALSE
+"FanDuel",68.4,1,FALSE,FALSE
