@@ -36,7 +36,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11192,Malik Flowers,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12189,Xavier White,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1987,Marqise Lee,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2334,Phillip Dorsett II,WR,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2334,Phillip Dorsett,WR,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 9759,C.J. Johnson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7091,Aaron Parker,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4936,Skyler Howard,QB,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -50,7 +50,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4727,Mitchell Paige,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5000,Chase Edmonds,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13743,Joseph Manjack IV,WR,NYJ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11820,Devin Culp,TE,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12129,Jalon Calhoun,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6913,Joe Reed,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13143,Dymere Miller,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -94,6 +93,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5597,Brogan Roback,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1567,Tavon Austin,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2325,Nelson Agholor,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13200,Max Hurleman,WR,PIT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12972,Roc Taylor,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6992,Michael Warren,RB,DET,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11913,Devron Harper,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -137,13 +137,11 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6819,Michael Pittman Jr.,WR,PIT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4252,Isaiah Ford,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1215,Jarius Wright,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11068,Mitch Tinsley,WR,CIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6960,Tyler Johnson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7985,Pro Wells,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 587,Logan Paulsen,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7233,Andre Baccellia,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12256,Baylor Cupp,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12889,Beaux Collins,WR,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12361,Aeneas Dennis,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13663,Wesley Grimes,WR,SF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5409,Tanner Hudson,TE,CIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -156,7 +154,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 14082,Alex Tecza,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 9491,Ty Scott,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13777,Ademola Faleye,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13861,Daniel Sobkowicz,WR,HOU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13861,Daniel Sobkowicz,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13873,Sam Scott,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4670,Artavis Scott,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4360,Fred Ross,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -166,6 +164,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4152,Marlon Mack,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13621,Dillon Bell,WR,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7574,Larry Rountree,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9756,Jordan Addison,WR,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11982,Isaiah Washington,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11619,Ja'Lynn Polk,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5374,Justin Watson,WR,KC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -269,7 +268,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 2937,Damond Powell,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13161,Zakhari Franklin,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4490,Wyatt Houston,TE,CAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11911,Jeshaun Jones,WR,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12851,Rivaldo Fairweather,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13702,Malik Rutherford,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11568,Blake Watson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -277,7 +275,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3584,Marcus Leak,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5961,Jalin Moore,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6148,Preston Williams,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13770,J. Michael Sturdivant,WR,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11256,Tyson Bagent,QB,CHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4996,Kyle Lauletta,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13034,Tyrone Broden,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -314,6 +311,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11588,Jawhar Jordan,RB,HOU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8139,Zamir White,RB,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4768,Adam Zaruba,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13329,Malik Benson,WR,LV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2044,Brelan Chancellor,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5310,Antonio Callaway,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13011,Brennan Presley,WR,LAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -332,6 +330,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5612,Anthony Mahoungou,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12975,JJ Galbreath,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11932,Mike DiLiello,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11056,Jared Wayne,WR,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3969,Leonard Fournette,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8178,Braylon Sanders,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2307,Marcus Mariota,QB,WAS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -366,7 +365,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6592,Dontae Strickland,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13831,Kevorian Barnes,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11222,Marcus Cooper,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-9227,Israel Abanikanda,RB,DAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7227,Artavis Pierce,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 312,Matthew Slater,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3078,Jamel Johnson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -389,6 +387,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12443,Devon Garrison,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12746,JP Richardson,WR,CHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 333,Ryan Fitzpatrick,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11435,Emanuel Wilson,RB,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1223,Garrett Celek,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13222,Montana Lemonious-Craig,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6155,Jaylen Smith,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -447,7 +446,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6593,Spencer Schnell,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8441,Justin Hall,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4861,Kent Taylor,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-6798,Jalen Reagor,WR,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2821,Jake Kumerow,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4349,Taquan Mizzell,RB,NYG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 181,Drew Stanton,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -660,7 +658,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 6894,Mitchell Wilcox,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6446,Jon Hilliman,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 233,Matt Moore,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13210,Drake Dabney,TE,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13238,Winston Wright,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5570,Chad Beebe,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4537,Jordan Johnson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -677,6 +674,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4607,Zach Conque,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5800,Justin Stockton,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2752,Trent Steelman,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13288,Nicholas Singleton,RB,TEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2431,Mike Davis,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5112,Bo Scarbrough,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 14018,Jordan Nubin,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -697,6 +695,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 676,LeSean McCoy,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2917,Brian Vogler,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4475,Sefo Liufau,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11600,Ja'Tavion Sanders,TE,CAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2381,Chris Conley,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1067,Marvin Jones,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8202,Michael Woods,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -707,6 +706,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 7988,Riley Lees,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7400,Manasseh Bailey,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11184,Daniel Arias,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11377,Tyrell Shavers,WR,BUF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11089,Jordan Byrd,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11347,Chase Cota,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3336,Moritz Bohringer,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -780,6 +780,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5201,Terry Swanson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8161,Malik Willis,QB,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11381,Travis Vokolek,TE,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+10212,Josh Whyle,TE,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5831,Bryant Mitchell,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12486,Dillon Gabriel,QB,CLE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4922,Garrett Scantling,WR,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -812,7 +813,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3333,Temarrick Hemingway,TE,WAS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8101,Mark Vital,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5125,Damoun Patterson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-7611,Rhamondre Stevenson,RB,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5275,Jeff Badet,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5796,Austin Wolf,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4626,Amba Etta-Tawo,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -914,6 +914,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 7751,Dax Milne,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7603,Shi Smith,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4489,Gehrig Dieter,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8219,Jelani Woods,TE,NYJ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8187,CJ Verdell,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 178,Matt Schaub,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 246,Darren Sproles,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -940,6 +941,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11447,Kris Leach,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5127,Kyle Allen,QB,BUF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7396,Devin Phelps,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11583,Jonathon Brooks,RB,CAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11186,Carlos Washington Jr.,RB,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13150,Darius Cooper,WR,PHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6290,Scotty Miller,WR,CHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -954,6 +956,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 13941,Omari Kelly,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13681,Kaidon Salter,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8572,Andrew Parchment,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5892,David Montgomery,RB,HOU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12212,Austin Stogner,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11523,Cody Chrest,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5358,Anthony Manzo-Lewis,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1084,7 +1087,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3418,Mekale McKay,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4997,Mark Walton,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 14058,Malick Meiga,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-4080,Zay Jones,WR,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5032,Jordan Akins,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13962,Cameron Dorner,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8201,Jack Coan,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1105,6 +1107,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5131,Justin Jackson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4600,Noel Thomas,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5224,Taj Williams,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13419,Jaydn Ott,RB,KC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11213,Camren McDonald,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 9481,Luke Musgrave,TE,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2206,Logan Kilgore,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1112,7 +1115,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12773,DJ Uiagalelei,QB,LAC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8828,Michael Young,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13677,Noah Short,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12829,Coleman Owen,WR,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12829,Coleman Owen,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6059,Travis Fulgham,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6364,Papi White,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4409,Josiah Price,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1142,6 +1145,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12003,Gunnar Watson,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2078,Odell Beckham Jr.,WR,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13773,Isaiah Jacobs,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8151,Kenneth Walker III,RB,KC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6919,Thaddeus Moss,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11472,Alfonzo Graham,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4392,Malcolm Lewis,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1184,8 +1188,10 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11491,Austin Aune,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12306,La'Damian Webb,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2913,Gavin Lutman,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12541,Dont'e Thornton Jr.,WR,LV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2900,Terrence Franks,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1234,Russell Wilson,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13320,Zachariah Branch,WR,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11133,Jaray Jenkins,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7084,Jake Luton,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12007,Nathaniel Peat,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1267,6 +1273,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4924,Zach Terrell,QB,BAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2306,Jameis Winston,QB,NYG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8061,Jake Hausmann,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11628,Marvin Harrison Jr.,WR,HOU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7529,Gary Brightwell,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4955,Ronald Jones,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8215,Austin Allen,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1305,7 +1312,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 7989,DJ Turner,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 536,Antonio Brown,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5162,Reggie Bonnafon,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13904,Jacob De Jesus,WR,KC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8190,Abram Smith,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7503,Connor Davis,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7563,Javian Hawkins,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1320,6 +1326,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 2578,John Harris,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 14041,Anderson Castle,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13776,Hank Beatty,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7568,Brevin Jordan,TE,HOU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13313,Emmanuel Henderson Jr.,WR,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5885,Ryan Finley,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12013,Jaden Shirden,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1356,7 +1363,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12222,Joseph Scates,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12528,Ajou Ajou,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13967,Jimmy Kibble,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13013,Mark Redman,TE,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6142,Caleb Wilson,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4055,O.J. Howard,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4775,David Olson,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1390,7 +1396,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 11371,Julian Hill,TE,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8246,Bryant Koback,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11169,Dresser Winn,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-5848,Marquise Brown,WR,PHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5848,Marquise Brown,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1854,Quincy Enunwa,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6723,Vincent Testaverde,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13850,Octavian Smith,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1481,6 +1487,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4613,Shaq Hill,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12070,McCallan Castles,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4665,Eli Jenkins,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13279,Carnell Tate,WR,TEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8184,D'Vonte Price,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7993,Trey Ragas,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6878,Anthony McFarland,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1582,6 +1589,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12460,Antwane Wells Jr.,WR,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2945,Lee Ward,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5917,Mecole Hardman Jr.,WR,IND,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13277,CJ Donaldson,RB,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4725,Phazahn Odom,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4985,Rashaad Penny,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5271,Buddy Howell,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1594,6 +1602,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 12118,Jacob Warren,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12470,Riley Leonard,QB,IND,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3516,Mitch Mathews,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+10225,Jonathan Mingo,WR,DAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6920,Isaiah Hodgins,WR,PIT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13300,Le'Veon Moss,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4660,Sean Culkin,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1633,7 +1642,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3164,Ezekiel Elliott,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6524,Jamire Jordan,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12533,Jacory Croskey-Merritt,RB,WAS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-13670,Harrison Wallace III,WR,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11329,Josh Vann,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4066,Evan Engram,TE,DEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8700,Savon Scarver,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1696,7 +1704,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5787,Bryce Bobo,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1833,Damien Williams,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12488,Kobe Hudson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-8170,James Mitchell,TE,DAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12370,Praise Olatoke,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4068,Mike Williams,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8152,Kennedy Brooks,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1773,6 +1780,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5431,Shay Fields,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8248,Kalil Pimpleton,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4285,Robert Davis,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+10226,Andrei Iosivas,WR,CIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12019,Devin Carter,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13321,Dan Villari,TE,LAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 9493,Puka Nacua,WR,LAR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1807,6 +1815,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 2846,Marquez Clark,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12355,Treveyon Pratt,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11276,Joseph Ngata,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4351,Tim Patrick,WR,NYJ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5558,Marcus Martin,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7703,Jacob Harris,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3407,Beau Sandland,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1834,13 +1843,13 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5163,Ryan Nall,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5929,Anthony Johnson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5772,Aaron Lacombe,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13423,Eli Heidenreich,RB,PIT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13972,Brandon Frazier,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11384,Owen Wright,RB,LV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1546,Kenjon Barner,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5142,Kurt Benkert,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8088,Kalif Jackson,TE,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13190,Taylor Elgersma,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-7535,Hunter Long,TE,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7867,Spencer Brown,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8663,Jared Bernhardt,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7960,T.J. Simmons,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1926,12 +1935,12 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 7438,Kristian Wilkerson,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7352,Matt Cole,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5902,Penny Hart,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13311,Chris Bell,WR,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 943,Kyle Rudolph,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7286,Marvelle Ross,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5209,Mike Boone,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8543,Drew Estrada,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6040,Tyree Jackson,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-8799,Zaire Mitchell-Paden,TE,CLE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7596,Elijah Moore,WR,PHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13325,Jordan Hudson,WR,DAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6371,Drew Anderson,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2038,7 +2047,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 642,Golden Tate,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5223,Caleb Scott,WR,TEN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3505,Dom Williams,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12897,Nate Carter,RB,KC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2703,Ezell Ruffin,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2346,Devin Funchess,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7599,Jermar Jefferson,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2047,6 +2055,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5798,Darren Carrington,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5777,Malachi Jones,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8211,Tyrion Davis-Price,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7607,Michael Carter,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 9506,Sean Tucker,RB,TB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7317,Jared Rice,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12755,Kelly Akharaiyi,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2123,7 +2132,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 5539,Derrick Willies,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5775,Jared Murphy,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11957,Sam Schnee,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-8523,Nick Muse,TE,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8414,Britain Covey,WR,PHI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2399,Ty Montgomery,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6448,Darrin Hall,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2203,7 +2211,6 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3816,Brandon Brown-Dukes,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5878,N'Keal Harry,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11589,Trey Benson,RB,ARI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-11280,Brady Russell,RB,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 8770,Malik Williams,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4184,Bucky Hodges,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5155,Corey Willis,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2245,6 +2252,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 13128,Rushawn Baker,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13249,Thomas Gordon,TE,DET,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12063,Rocky Lombardi,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+10220,Will Mallory,TE,IND,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4528,Trevor Knight,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1837,Jimmy Garoppolo,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7460,Jake Burt,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2361,6 +2369,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 8154,Brian Robinson Jr.,RB,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12475,Ricky White III,WR,SEA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13347,Demond Claiborne,RB,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11635,Ladd McConkey,WR,LAC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7458,Isaiah Zuber,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12950,Robert Lewis,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12898,Seth Henigan,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2405,6 +2414,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 4710,Gio Pascascio,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11947,Austin Jones,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3920,Harvey Binford,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5844,T.J. Hockenson,TE,MIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7088,Xavier Jones,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 14044,Miles Davis,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7064,Darrynton Evans,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2420,11 +2430,13 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 8905,Travis Koontz,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6236,Travon McMillian,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1718,Derek Carrier,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2197,Brandin Cooks,WR,SF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5092,Troy Fumagalli,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12333,Dakereon Joyner,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7713,Jaelon Darden,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11931,Austin Reed,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5169,Malik Earl,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13400,Justin Joly,TE,MIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 14001,Julius Davis,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7008,Brian Lewerke,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6820,Clyde Edwards-Helaire,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2435,6 +2447,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 3036,Matt Lengel,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2944,Matt LaCosse,TE,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13939,Gabriel Benyard,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13380,Brenen Thompson,WR,LAC,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5911,Jalen Hurd,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 13318,Noah Thomas,WR,CIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 11505,David Durden,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2591,6 +2604,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 7619,Mathew Sexton,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 3648,Matt Weiser,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6823,Jacob Eason,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8116,Pierre Strong Jr.,RB,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 5007,Keke Coutee,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 4569,Brian Brown,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6908,La'Mical Perine,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2619,6 +2633,7 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 13108,Julian Fleming,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1550,Ryan Griffin,QB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7944,Michael Strachan,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4054,Mo Alie-Cox,TE,IND,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6374,Drew Belcher,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 801,Charles Clay,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 12264,Cole Beck,WR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2679,347 +2694,333 @@ player_id,player,pos,nfl_team,pass_yd,pass_td,pass_int,rush_yd,rush_td,rec,rec_y
 1408,Le'Veon Bell,RB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 7926,Carl Tucker,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6462,Ellis Richardson,TE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-12507,Omarion Hampton,RB,LAC,NA,NA,NA,32.21,0.31,1.5,9.31,0.06,0.04,NA,0.02,0,NA,1
-9997,Zay Flowers,WR,BAL,NA,NA,NA,1.24,0.01,5.79,82.54,0.37,0.03,NA,0,0.03,NA,1
-4033,David Njoku,TE,LAC,NA,NA,NA,NA,NA,1.8,18.17,0.1,0.01,NA,NA,0.01,NA,1
-3257,Jacoby Brissett,QB,BAL,200.73,1.07,0.81,14.26,0.11,NA,NA,NA,0.18,0.07,0.01,NA,NA,1
-13293,Ja'Kobi Lane,WR,BAL,NA,NA,NA,0.12,0,2.38,25.47,0.11,0.01,NA,0,0.01,NA,1
-13273,Josh Cuevas,TE,BAL,NA,NA,NA,NA,NA,1.05,11.28,0.05,0,NA,NA,0,NA,1
-12493,Oronde Gadsden,TE,LAC,NA,NA,NA,NA,NA,1.71,17.58,0.12,0.01,NA,NA,0.01,NA,1
-11629,Devontez Walker,WR,BAL,NA,NA,NA,0.24,0,0.76,12.33,0.09,0,NA,0,0.01,NA,1
-9511,Keaton Mitchell,RB,LAC,NA,NA,NA,20.61,0.08,1.8,11.53,0.11,0.03,NA,0.01,0.01,NA,1
-7571,Rashod Bateman,WR,BAL,NA,NA,NA,0.26,0,2.03,27.78,0.1,0.01,NA,0,0.01,NA,1
-5995,Justice Hill,RB,BAL,NA,NA,NA,27.43,0.18,1.91,11.78,0.06,0.03,NA,0.01,0,NA,1
-3198,Derrick Henry,RB,BAL,NA,NA,NA,72.95,0.9,1.33,9.12,0.06,0.08,NA,0.06,0,NA,1
-11635,Ladd McConkey,WR,LAC,NA,NA,NA,0.38,0,3.96,59.15,0.3,0.02,NA,0,0.02,NA,1
-10234,Derius Davis,WR,LAC,NA,NA,NA,0.51,0,0.19,1.92,0.01,0,NA,0,0,NA,1
-9754,Quentin Johnston,WR,LAC,NA,NA,NA,0.55,0,2.27,35.71,0.17,0.01,NA,0,0.01,NA,1
-6797,Justin Herbert,QB,LAC,220.98,0.91,0.91,19.78,0.09,NA,NA,NA,0.16,0.05,0.01,NA,NA,1
-5012,Mark Andrews,TE,BAL,NA,NA,NA,0.84,0.01,3.23,26.1,0.17,0.01,NA,0,0.01,NA,1
-12860,Theo Wease Jr.,WR,LAC,NA,NA,NA,NA,NA,0.1,1.35,0.01,0,NA,NA,0,NA,1
-12699,LaJohntay Wester,WR,BAL,NA,NA,NA,0.21,0,0.08,0.85,0,0,NA,0,0,NA,1
-12670,KeAndre Lambert-Smith,WR,LAC,NA,NA,NA,NA,NA,0.67,7.32,0.06,0,NA,0,0,NA,1
-11647,Kimani Vidal,RB,LAC,NA,NA,NA,22.2,0.19,1.57,11.03,0.12,0.03,NA,0.01,0.01,NA,1
-13324,Matt Hibner,TE,BAL,NA,NA,NA,NA,NA,1.17,12,0.08,0,NA,NA,0.01,NA,1
-13268,Elijah Sarratt,WR,BAL,NA,NA,NA,0.02,0,0.19,2.06,0.01,0,NA,0,0,NA,1
-12509,Tre' Harris,WR,LAC,NA,NA,NA,0.48,0,1.91,25.7,0.06,0.01,NA,0,0,NA,1
-11570,Rasheen Ali,RB,BAL,NA,NA,NA,0.4,0,0.09,0.68,0.01,0,NA,0,0,NA,1
-8127,Charlie Kolar,TE,LAC,NA,NA,NA,NA,NA,1.55,15.9,0.09,0.01,NA,0,0,NA,1
-13380,Brenen Thompson,WR,LAC,NA,NA,NA,NA,NA,0.35,4.04,0.02,0,NA,NA,0,NA,1
-13302,Adam Randall,RB,BAL,NA,NA,NA,1.13,0.01,0.02,0.18,0,0,NA,0,0,NA,1
-9758,C.J. Stroud,QB,HOU,230.89,1.37,0.38,19.27,0.16,NA,NA,NA,0.19,0.09,0.01,NA,NA,1
-9509,Bijan Robinson,RB,ATL,NA,NA,NA,89.59,0.7,3.48,25.03,0.18,0.09,NA,0.03,0.01,NA,1
-9502,Tank Dell,WR,HOU,NA,NA,NA,0.26,0,2.38,27.28,0.19,0.01,NA,0,0.01,NA,1
-9488,Jaxon Smith-Njigba,WR,SEA,NA,NA,NA,2.78,0.02,6.8,104.85,0.85,0.03,NA,0,0.05,NA,1
-9480,Brenton Strange,TE,JAX,NA,NA,NA,NA,NA,3.98,45.51,0.23,0.02,NA,NA,0.02,NA,1
-8195,Ronnie Rivers,RB,LAR,NA,NA,NA,1.19,0.01,0.01,0.11,0,0,NA,0,0,NA,1
-8168,Skyy Moore,WR,GB,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-8167,Christian Watson,WR,GB,NA,NA,NA,0.51,0,3.99,76.1,0.65,0.02,NA,0,0.04,NA,1
-8147,John Metchie III,WR,CAR,NA,NA,NA,0.03,0,0.44,5.04,0.03,0,NA,0,0,NA,1
-8144,Chris Olave,WR,NO,NA,NA,NA,0.22,0,5.93,81.87,0.38,0.03,NA,0,0.02,NA,1
-8119,Jahan Dotson,WR,ATL,NA,NA,NA,0.1,0,1.97,36.91,0.23,0.01,NA,0,0.01,NA,1
-8112,Drake London,WR,ATL,NA,NA,NA,0.19,0,5.7,95.33,0.24,0.02,NA,0,0.02,NA,1
-7891,Brock Wright,TE,DET,NA,NA,NA,NA,NA,0.81,6.9,0.04,0,NA,NA,0,NA,1
-7608,Khalil Herbert,RB,ATL,NA,NA,NA,21.06,0.18,0.7,4.63,0.04,NA,NA,NA,NA,NA,1
-7569,Nico Collins,WR,HOU,NA,NA,NA,1.18,0.01,4.54,66.69,0.56,0.02,NA,0,0.03,NA,1
-7562,Tutu Atwell,WR,LAR,NA,NA,NA,0.28,0,2.26,39.38,0.22,0.01,NA,0,0.01,NA,1
-7543,Travis Etienne Jr.,RB,NO,NA,NA,NA,42.21,0.29,1.51,8.28,0.09,0.04,NA,0.01,0.01,NA,1
-7021,Rico Dowdle,RB,PIT,NA,NA,NA,38.38,0.27,2.09,16.21,0.13,0.04,NA,0.01,0.01,NA,1
-6931,DeeJay Dallas,RB,MIN,NA,NA,NA,2.1,0.01,0.57,3.7,0.02,0,NA,0,0,NA,1
-6865,Colby Parkinson,TE,LAR,NA,NA,NA,NA,NA,2.99,28.82,0.25,0.01,NA,NA,0.01,NA,1
-5844,T.J. Hockenson,TE,MIN,NA,NA,NA,NA,NA,4.62,43.5,0.28,0.02,NA,NA,0.02,NA,1
+12507,Omarion Hampton,RB,LAC,NA,NA,NA,32.79,0.32,1.48,9.24,0.06,0.04,NA,0.02,0,NA,1
+9997,Zay Flowers,WR,BAL,NA,NA,NA,1.25,0.01,5.72,81.54,0.36,0.02,NA,0,0.03,NA,1
+4033,David Njoku,TE,LAC,NA,NA,NA,NA,NA,2.11,21.42,0.11,0.01,NA,NA,0.01,NA,1
+3257,Jacoby Brissett,QB,BAL,198.3,1.06,0.8,14.45,0.11,NA,NA,NA,0.17,0.07,0.01,NA,NA,1
+13293,Ja'Kobi Lane,WR,BAL,NA,NA,NA,0.12,0,2.35,25.16,0.11,0.01,NA,0,0.01,NA,1
+13273,Josh Cuevas,TE,BAL,NA,NA,NA,NA,NA,1.04,11.15,0.05,0,NA,NA,0,NA,1
+12493,Oronde Gadsden,TE,LAC,NA,NA,NA,NA,NA,1.69,17.45,0.12,0.01,NA,NA,0.01,NA,1
+11629,Devontez Walker,WR,BAL,NA,NA,NA,0.25,0,0.76,12.18,0.08,0,NA,0,0.01,NA,1
+9511,Keaton Mitchell,RB,LAC,NA,NA,NA,21.19,0.08,1.78,11.45,0.11,0.03,NA,0.01,0.01,NA,1
+7571,Rashod Bateman,WR,BAL,NA,NA,NA,0.27,0,2.01,27.44,0.1,0.01,NA,0,0.01,NA,1
+5995,Justice Hill,RB,BAL,NA,NA,NA,27.79,0.18,1.89,11.64,0.06,0.03,NA,0.01,0,NA,1
+3198,Derrick Henry,RB,BAL,NA,NA,NA,75.04,0.92,1.32,9.01,0.06,0.08,NA,0.06,0,NA,1
+10234,Derius Davis,WR,LAC,NA,NA,NA,0.52,0,0.93,9.52,0.07,0.01,NA,0,0,NA,1
+9754,Quentin Johnston,WR,LAC,NA,NA,NA,0.56,0.01,2.69,42.54,0.2,0.01,NA,0,0.01,NA,1
+6797,Justin Herbert,QB,LAC,219.39,0.92,0.9,20.14,0.09,NA,NA,NA,0.16,0.05,0.01,NA,NA,1
+5012,Mark Andrews,TE,BAL,NA,NA,NA,0.85,0.01,3.19,25.78,0.17,0.01,NA,0,0.01,NA,1
+12860,Theo Wease Jr.,WR,LAC,NA,NA,NA,NA,NA,0.1,1.34,0.01,0,NA,NA,0,NA,1
+12699,LaJohntay Wester,WR,BAL,NA,NA,NA,0.21,0,0.07,0.84,0,0,NA,0,0,NA,1
+12670,KeAndre Lambert-Smith,WR,LAC,NA,NA,NA,NA,NA,1.98,21.81,0.17,0.01,NA,0,0.01,NA,1
+11647,Kimani Vidal,RB,LAC,NA,NA,NA,22.61,0.19,1.55,10.95,0.12,0.03,NA,0.01,0.01,NA,1
+13324,Matt Hibner,TE,BAL,NA,NA,NA,NA,NA,1.16,11.86,0.08,0,NA,NA,0.01,NA,1
+13268,Elijah Sarratt,WR,BAL,NA,NA,NA,0.03,0,0.19,2.03,0.01,0,NA,0,0,NA,1
+12509,Tre' Harris,WR,LAC,NA,NA,NA,0.49,0,2.99,40.82,0.09,0.01,NA,0,0.01,NA,1
+11570,Rasheen Ali,RB,BAL,NA,NA,NA,0.41,0,0.09,0.67,0.01,0,NA,0,0,NA,1
+8127,Charlie Kolar,TE,LAC,NA,NA,NA,NA,NA,1.54,15.78,0.09,0.01,NA,0,0,NA,1
+13302,Adam Randall,RB,BAL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+9758,C.J. Stroud,QB,HOU,238.72,1.51,0.39,18.51,0.16,NA,NA,NA,0.19,0.09,0.01,NA,NA,1
+9509,Bijan Robinson,RB,ATL,NA,NA,NA,93.91,0.73,3.28,23.54,0.17,0.09,NA,0.04,0.01,NA,1
+9502,Tank Dell,WR,HOU,NA,NA,NA,0.25,0,2.87,32.91,0.25,0.01,NA,0,0.01,NA,1
+9488,Jaxon Smith-Njigba,WR,SEA,NA,NA,NA,2.78,0.02,6.73,106.37,0.84,0.03,NA,0,0.05,NA,1
+9480,Brenton Strange,TE,JAX,NA,NA,NA,NA,NA,4.02,45.86,0.22,0.02,NA,NA,0.02,NA,1
+8195,Ronnie Rivers,RB,LAR,NA,NA,NA,1.2,0.01,0.01,0.1,0,0,NA,0,0,NA,1
+8168,Skyy Moore,WR,GB,NA,NA,NA,1.26,0.01,0.52,5.36,0.01,0.01,NA,0,0,NA,1
+8167,Christian Watson,WR,GB,NA,NA,NA,0.51,0,4,76.34,0.66,0.02,NA,0,0.04,NA,1
+8147,John Metchie III,WR,CAR,NA,NA,NA,0.03,0,0.44,5.05,0.03,0,NA,0,0,NA,1
+8144,Chris Olave,WR,NO,NA,NA,NA,0.21,0,5.95,80.42,0.36,0.03,NA,0,0.02,NA,1
+8119,Jahan Dotson,WR,ATL,NA,NA,NA,0.1,0,1.92,35.99,0.22,0.01,NA,0,0.01,NA,1
+8112,Drake London,WR,ATL,NA,NA,NA,0.19,0,5.56,92.95,0.23,0.02,NA,0,0.02,NA,1
+7891,Brock Wright,TE,DET,NA,NA,NA,NA,NA,0.81,6.95,0.05,0,NA,NA,0,NA,1
+7608,Khalil Herbert,RB,ATL,NA,NA,NA,17.06,0.15,0.68,4.52,0.04,NA,NA,NA,NA,NA,1
+7569,Nico Collins,WR,HOU,NA,NA,NA,1.13,0.01,4.69,68.95,0.61,0.02,NA,0,0.03,NA,1
+7562,Tutu Atwell,WR,LAR,NA,NA,NA,0.28,0,2.25,39.13,0.22,0.01,NA,0,0.01,NA,1
+7543,Travis Etienne Jr.,RB,NO,NA,NA,NA,40.68,0.26,1.51,8.14,0.09,0.04,NA,0.01,0.01,NA,1
+7021,Rico Dowdle,RB,PIT,NA,NA,NA,39.04,0.27,2.09,16.21,0.13,0.04,NA,0.01,0.01,NA,1
+6931,DeeJay Dallas,RB,MIN,NA,NA,NA,3.9,0.02,0.58,3.78,0.03,0.01,NA,0,0,NA,1
+6865,Colby Parkinson,TE,LAR,NA,NA,NA,NA,NA,2.97,28.64,0.25,0.01,NA,NA,0.01,NA,1
 4993,Mike Gesicki,TE,CIN,NA,NA,NA,NA,NA,3.09,37.1,0.49,0.01,NA,NA,0.03,NA,1
-4983,DJ Moore,WR,BUF,NA,NA,NA,1.01,0.01,3.79,57.89,0.47,0.02,NA,0,0.03,NA,1
+4983,DJ Moore,WR,BUF,NA,NA,NA,1.03,0.01,3.68,55.41,0.44,0.02,NA,0,0.03,NA,1
 4443,Pharaoh Brown,TE,IND,NA,NA,NA,NA,NA,0.34,2.92,0.02,0,NA,NA,0,NA,1
-4351,Tim Patrick,WR,NYJ,NA,NA,NA,NA,NA,0.04,0.5,0,0,NA,NA,0,NA,1
-4217,George Kittle,TE,SF,NA,NA,NA,NA,NA,5.07,66.78,0.58,0.02,NA,NA,0.04,NA,1
-4189,Eric Saubert,TE,SEA,NA,NA,NA,NA,NA,0.51,4.54,0.05,0,NA,NA,0,NA,1
-4054,Mo Alie-Cox,TE,IND,NA,NA,NA,NA,NA,0.38,3.75,0.03,0,NA,NA,0,NA,1
-3155,Laquon Treadwell,WR,IND,NA,NA,NA,NA,NA,2.51,31.65,0.14,NA,NA,NA,NA,NA,1
-2750,DeAndre Carter,WR,DET,NA,NA,NA,0.35,0,0.15,1.94,0.01,NA,NA,NA,NA,NA,1
+4217,George Kittle,TE,SF,NA,NA,NA,NA,NA,5.09,67.02,0.58,0.02,NA,NA,0.04,NA,1
+4189,Eric Saubert,TE,SEA,NA,NA,NA,NA,NA,0.5,4.66,0.05,0,NA,NA,0,NA,1
+3155,Laquon Treadwell,WR,IND,NA,NA,NA,NA,NA,2.51,31.61,0.14,NA,NA,NA,NA,NA,1
+2750,DeAndre Carter,WR,DET,NA,NA,NA,0.35,0,0.15,1.95,0.01,NA,NA,NA,NA,NA,1
 13825,Malik McClain,WR,NYJ,NA,NA,NA,NA,NA,0,0.02,0,NA,NA,NA,NA,NA,1
-13533,Barion Brown,WR,NO,NA,NA,NA,NA,NA,0.59,7.43,0.04,0,NA,NA,0,NA,1
-13400,Justin Joly,TE,MIA,NA,NA,NA,NA,NA,0.19,2.1,0.01,0,NA,NA,0,NA,1
-13329,Malik Benson,WR,LV,NA,NA,NA,NA,NA,0.12,1.15,0.01,0,NA,0,0,NA,1
-13298,KC Concepcion Jr.,WR,CLE,NA,NA,NA,4.29,0.04,4.01,47.12,0.14,0.02,NA,0,0.01,NA,1
-13272,Carson Beck,QB,ARI,189.12,0.82,1,12,0.1,NA,NA,NA,0.15,0.06,0.01,NA,NA,1
-13151,Nick Kallerup,TE,SEA,NA,NA,NA,NA,NA,0.1,1.11,0.01,NA,NA,NA,NA,NA,1
-13075,Myles Price,WR,MIN,NA,NA,NA,1.06,0.01,1.22,13.88,0.09,NA,NA,NA,NA,NA,1
-12817,Jake Briningstool,TE,KC,NA,NA,NA,NA,NA,0.32,3.32,0.02,0,NA,NA,0,NA,1
-12545,Tyler Shough,QB,NO,225.73,1.57,0.71,22.98,0.2,NA,NA,NA,0.22,0.1,0.01,NA,NA,1
-12542,Efton Chism III,WR,NE,NA,NA,NA,0.11,0,0.99,12.26,0.08,0,NA,0,0,NA,1
-12527,Ashton Jeanty,RB,LV,NA,NA,NA,34.11,0.2,3.74,22.91,0.23,0.06,NA,0.01,0.01,NA,1
-12505,Jalen Royals,WR,KC,NA,NA,NA,0.02,0,0.04,0.41,0,0,NA,0,0,NA,1
-12497,Tory Horton,WR,SEA,NA,NA,NA,0.3,0,0.97,11.93,0.11,0,NA,0,0.01,NA,1
-12491,Corey Kiner,RB,NE,NA,NA,NA,63.71,0.3,1.62,13.98,0.1,NA,NA,NA,NA,NA,1
-12482,Savion Williams,WR,GB,NA,NA,NA,2.57,0.02,1.96,18.92,0.11,0.01,NA,0,0.01,NA,1
-12473,Mitchell Evans,TE,CAR,NA,NA,NA,NA,NA,1.55,16.66,0.06,0.01,NA,NA,0,NA,1
-12469,Dylan Sampson,RB,CLE,NA,NA,NA,18.65,0.16,2.42,19.69,0.11,0.03,NA,0.01,0.01,NA,1
-11783,Ryan Flournoy,WR,DAL,NA,NA,NA,0.21,0,3.5,41.82,0.22,0.02,NA,0,0.01,NA,1
-11628,Marvin Harrison Jr.,WR,HOU,NA,NA,NA,NA,NA,1.2,18.06,0.15,0.01,NA,NA,0.01,NA,1
-11616,Jacob Cowing,WR,SF,NA,NA,NA,NA,NA,0.11,1.41,0.01,0,NA,NA,0,NA,1
+13533,Barion Brown,WR,NO,NA,NA,NA,NA,NA,0.49,6.08,0.03,0,NA,NA,0,NA,1
+13298,KC Concepcion Jr.,WR,CLE,NA,NA,NA,4.15,0.04,4.14,48.69,0.14,0.02,NA,0,0.01,NA,1
+13272,Carson Beck,QB,ARI,183.98,0.77,1,11.76,0.09,NA,NA,NA,0.15,0.06,0.01,NA,NA,1
+13151,Nick Kallerup,TE,SEA,NA,NA,NA,NA,NA,0.1,1.13,0.01,NA,NA,NA,NA,NA,1
+13075,Myles Price,WR,MIN,NA,NA,NA,1.04,0.01,2.49,28.33,0.18,NA,NA,NA,NA,NA,1
+13013,Mark Redman,TE,GB,NA,NA,NA,NA,NA,0.22,2.2,0.01,NA,NA,NA,NA,NA,1
+12817,Jake Briningstool,TE,KC,NA,NA,NA,NA,NA,0.33,3.36,0.03,0,NA,NA,0,NA,1
+12545,Tyler Shough,QB,NO,221.74,1.47,0.72,22.15,0.18,NA,NA,NA,0.21,0.09,0.01,NA,NA,1
+12542,Efton Chism III,WR,NE,NA,NA,NA,0.11,0,1,12.35,0.09,0,NA,0,0.01,NA,1
+12527,Ashton Jeanty,RB,LV,NA,NA,NA,34.11,0.21,3.74,22.91,0.23,0.06,NA,0.01,0.01,NA,1
+12505,Jalen Royals,WR,KC,NA,NA,NA,0.02,0,0.04,0.42,0,0,NA,0,0,NA,1
+12497,Tory Horton,WR,SEA,NA,NA,NA,0.3,0,0.96,12.19,0.1,0,NA,0,0.01,NA,1
+12491,Corey Kiner,RB,NE,NA,NA,NA,36.35,0.17,0.57,4.94,0.04,NA,NA,NA,NA,NA,1
+12482,Savion Williams,WR,GB,NA,NA,NA,2.05,0.02,1.84,17.72,0.1,0.01,NA,0,0.01,NA,1
+12473,Mitchell Evans,TE,CAR,NA,NA,NA,NA,NA,1.55,16.68,0.06,0.01,NA,NA,0,NA,1
+12469,Dylan Sampson,RB,CLE,NA,NA,NA,18.07,0.15,2.5,20.35,0.11,0.03,NA,0.01,0.01,NA,1
+11911,Jeshaun Jones,WR,MIN,NA,NA,NA,NA,NA,0.91,10.39,0.07,NA,NA,NA,NA,NA,1
+11783,Ryan Flournoy,WR,DAL,NA,NA,NA,0.21,0,3.51,41.19,0.22,0.02,NA,0,0.01,NA,1
+11616,Jacob Cowing,WR,SF,NA,NA,NA,NA,NA,0.21,2.83,0.02,0,NA,NA,0,NA,1
 11604,Brock Bowers,TE,LV,NA,NA,NA,0.74,0.01,5.74,62.79,0.5,0.02,NA,0,0.03,NA,1
-11600,Ja'Tavion Sanders,TE,CAR,NA,NA,NA,NA,NA,0.15,1.28,0.01,0,NA,NA,0,NA,1
-11571,Isaiah Davis,RB,NYJ,NA,NA,NA,3.26,0.03,0.05,0.45,0,0,NA,0,0,NA,1
-10219,Chris Rodriguez Jr.,RB,JAX,NA,NA,NA,33.8,0.46,0.76,7.28,0.04,0.04,NA,0.03,0,NA,1
-96,Aaron Rodgers,QB,PIT,242.81,1.94,0.53,6.33,0.06,NA,NA,NA,0.19,0.1,0,NA,NA,1
-9500,Josh Downs,WR,KC,NA,NA,NA,0.06,0,2.4,31.54,0.13,0.01,NA,0,0.01,NA,1
-9487,Parker Washington,WR,JAX,NA,NA,NA,1.12,0.01,4.36,70.13,0.52,0.02,NA,0,0.04,NA,1
+11571,Isaiah Davis,RB,NYJ,NA,NA,NA,3.39,0.03,0.05,0.44,0,0,NA,0,0,NA,1
+10219,Chris Rodriguez Jr.,RB,JAX,NA,NA,NA,33.5,0.45,0.77,7.34,0.04,0.04,NA,0.03,0,NA,1
+96,Aaron Rodgers,QB,PIT,242.81,1.92,0.53,6.33,0.06,NA,NA,NA,0.19,0.1,0,NA,NA,1
+9500,Josh Downs,WR,KC,NA,NA,NA,0.06,0,2.76,36.2,0.17,0.01,NA,0,0.01,NA,1
+9487,Parker Washington,WR,JAX,NA,NA,NA,1.11,0.01,4.4,70.67,0.51,0.02,NA,0,0.04,NA,1
 9482,Michael Mayer,TE,LV,NA,NA,NA,NA,NA,3.07,24.74,0.09,0.01,NA,NA,0.01,NA,1
-9228,Bryce Young,QB,CAR,263,1.59,0.55,17.03,0.17,NA,NA,NA,0.19,0.11,0.01,NA,NA,1
-8408,Jordan Mason,RB,MIN,NA,NA,NA,52.3,0.39,0.98,6.67,0.05,0.05,NA,0.02,0,NA,1
-8254,Julius Chestnut,RB,TEN,NA,NA,NA,0.78,0.01,0.07,0.62,0,0,NA,0,0,NA,1
-8250,Tay Martin,WR,DET,NA,NA,NA,NA,NA,0.12,1.43,0.01,0,NA,0,0,NA,1
-8148,Jameson Williams,WR,DET,NA,NA,NA,2.86,0.02,3.77,61.95,0.33,0.02,NA,0,0.02,NA,1
-7600,Pat Freiermuth,TE,PIT,NA,NA,NA,NA,NA,3.14,33.17,0.41,0.01,NA,NA,0.02,NA,1
-7594,Chuba Hubbard,RB,CAR,NA,NA,NA,78.16,0.59,3.2,21.53,0.21,0.08,NA,0.03,0.01,NA,1
-7588,Javonte Williams,RB,DAL,NA,NA,NA,61.46,1.05,2.89,14.14,0.17,0.08,NA,0.07,0.01,NA,1
-5872,Deebo Samuel Sr.,WR,SF,NA,NA,NA,6.43,0.04,3.59,42.5,0.26,0.02,NA,0,0.02,NA,1
-5859,A.J. Brown,WR,NE,NA,NA,NA,0.13,0,4.79,70.34,0.4,0.02,NA,0,0.02,NA,1
-5857,Noah Fant,TE,NO,NA,NA,NA,NA,NA,1.99,17.44,0.28,0.01,NA,NA,0.02,NA,1
-4718,Dare Ogunbowale,RB,HOU,NA,NA,NA,2.66,0.02,0.59,4.37,0.03,0.01,NA,0,0,NA,1
-4199,Aaron Jones Sr.,RB,MIN,NA,NA,NA,39.34,0.16,2.17,13.66,0.1,0.05,NA,0.01,0.01,NA,1
-3214,Hunter Henry,TE,NE,NA,NA,NA,NA,NA,3.9,43.85,0.28,0.01,NA,NA,0.02,NA,1
-2359,Ameer Abdullah,RB,JAX,NA,NA,NA,7.34,0.06,0.15,0.99,0.01,0.01,NA,0,0,NA,1
-13477,Colbie Young,WR,CIN,NA,NA,NA,NA,NA,0.06,0.52,0,0,NA,0,0,NA,1
+9228,Bryce Young,QB,CAR,263.29,1.72,0.55,17.27,0.19,NA,NA,NA,0.2,0.11,0.01,NA,NA,1
+9227,Israel Abanikanda,RB,DAL,NA,NA,NA,12.11,0.1,0.23,1.75,0.01,0.01,NA,0.01,0,NA,1
+8408,Jordan Mason,RB,MIN,NA,NA,NA,51.09,0.39,1.08,7.32,0.06,0.05,NA,0.02,0,NA,1
+8254,Julius Chestnut,RB,TEN,NA,NA,NA,0.77,0,0.07,0.62,0,0,NA,0,0,NA,1
+8250,Tay Martin,WR,DET,NA,NA,NA,NA,NA,0.12,1.44,0.01,0,NA,0,0,NA,1
+8148,Jameson Williams,WR,DET,NA,NA,NA,2.84,0.02,3.79,62.33,0.34,0.02,NA,0,0.03,NA,1
+7600,Pat Freiermuth,TE,PIT,NA,NA,NA,NA,NA,3.14,33.17,0.4,0.01,NA,NA,0.02,NA,1
+7594,Chuba Hubbard,RB,CAR,NA,NA,NA,82.85,0.68,3.29,22.19,0.24,0.08,NA,0.04,0.02,NA,1
+7588,Javonte Williams,RB,DAL,NA,NA,NA,60.32,1.04,2.9,13.93,0.16,0.08,NA,0.07,0.01,NA,1
+6798,Jalen Reagor,WR,MIA,NA,NA,NA,NA,NA,0.11,1.31,0.01,NA,NA,NA,NA,NA,1
+5872,Deebo Samuel Sr.,WR,SF,NA,NA,NA,6.41,0.04,3.9,46.11,0.28,0.02,NA,0,0.02,NA,1
+5859,A.J. Brown,WR,NE,NA,NA,NA,0.13,0,4.82,70.86,0.41,0.02,NA,0,0.02,NA,1
+5857,Noah Fant,TE,NO,NA,NA,NA,NA,NA,1.63,13.97,0.21,0.01,NA,NA,0.01,NA,1
+4718,Dare Ogunbowale,RB,HOU,NA,NA,NA,0.6,0,0.22,1.63,0.01,0,NA,0,0,NA,1
+4199,Aaron Jones Sr.,RB,MIN,NA,NA,NA,37.43,0.15,2.47,15.54,0.11,0.05,NA,0.01,0.01,NA,1
+3214,Hunter Henry,TE,NE,NA,NA,NA,NA,NA,3.92,44.17,0.29,0.02,NA,NA,0.02,NA,1
+2359,Ameer Abdullah,RB,JAX,NA,NA,NA,7.28,0.06,0.15,1,0.01,0.01,NA,0,0,NA,1
+13477,Colbie Young,WR,CIN,NA,NA,NA,NA,NA,0.3,2.59,0.02,0,NA,0,0,NA,1
 13433,Riley Nowakowski,RB,PIT,NA,NA,NA,0.06,0,0.05,0.5,0,0,NA,NA,0,NA,1
-13414,Kaelon Black,RB,SF,NA,NA,NA,33.57,0.13,0.71,5.88,0.04,0.03,NA,0.01,0,NA,1
-13394,Josh Cameron,WR,JAX,NA,NA,NA,0.59,0.01,1.38,18.76,0.17,0.01,NA,0,0.01,NA,1
-13337,Emmett Johnson,RB,KC,NA,NA,NA,17.8,0.17,1.68,19.5,0.1,0.02,NA,0.01,0.01,NA,1
-13307,Marlin Klein,TE,HOU,NA,NA,NA,NA,NA,0.38,3.58,0.02,0,NA,NA,0,NA,1
-13297,Reggie Virgil,WR,ARI,NA,NA,NA,0.29,0,2.64,30.29,0.18,0.01,NA,NA,0.01,NA,1
-13281,Jordyn Tyson,WR,NO,NA,NA,NA,0.48,0,3.31,32.99,0.24,0.02,NA,0,0.01,NA,1
-13274,Germie Bernard,WR,PIT,NA,NA,NA,0.24,0,4.32,48.1,0.28,0.02,NA,0,0.01,NA,1
-12969,Lan Larison,RB,NE,NA,NA,NA,25.28,0.19,2,18.09,0.13,0.03,NA,0.01,0.01,NA,1
-12765,Keleki Latu,TE,BUF,NA,NA,NA,NA,NA,0.29,3.08,0.02,NA,NA,NA,NA,NA,1
-12547,Kyle Williams,WR,NE,NA,NA,NA,0.11,0,0.53,10.25,0.07,0,NA,0,0,NA,1
+13414,Kaelon Black,RB,SF,NA,NA,NA,33.43,0.13,0.71,5.9,0.04,0.03,NA,0.01,0,NA,1
+13394,Josh Cameron,WR,JAX,NA,NA,NA,0.58,0.01,1.39,18.9,0.17,0.01,NA,0,0.01,NA,1
+13337,Emmett Johnson,RB,KC,NA,NA,NA,54.88,0.61,2.98,34.7,0.2,0.07,NA,0.03,0.01,NA,1
+13307,Marlin Klein,TE,HOU,NA,NA,NA,NA,NA,0.39,3.7,0.02,0,NA,NA,0,NA,1
+13297,Reggie Virgil,WR,ARI,NA,NA,NA,0.29,0,2.46,27.5,0.16,0.01,NA,NA,0.01,NA,1
+13281,Jordyn Tyson,WR,NO,NA,NA,NA,0.47,0,3.81,37.04,0.25,0.02,NA,0,0.02,NA,1
+13274,Germie Bernard,WR,PIT,NA,NA,NA,0.24,0,4.44,49.4,0.29,0.02,NA,0,0.01,NA,1
+12969,Lan Larison,RB,NE,NA,NA,NA,4.98,0.04,0.27,2.43,0.02,0.01,NA,0,0,NA,1
+12765,Keleki Latu,TE,BUF,NA,NA,NA,NA,NA,0.28,2.94,0.02,NA,NA,NA,NA,NA,1
+12547,Kyle Williams,WR,NE,NA,NA,NA,0.11,0,0.53,10.32,0.07,0,NA,0,0,NA,1
 12543,Tahj Brooks,RB,CIN,NA,NA,NA,2.46,0.02,0.08,0.7,0.01,0,NA,0,0,NA,1
-12512,Quinshon Judkins,RB,CLE,NA,NA,NA,41.5,0.42,1.86,11.89,0.04,0.06,NA,0.02,0,NA,1
-12502,Gunnar Helm,TE,TEN,NA,NA,NA,NA,NA,2.48,22.86,0.08,0.01,NA,NA,0.01,NA,1
-1166,Kirk Cousins,QB,MIN,233.45,1.35,1.12,6.25,0.09,NA,NA,NA,0.18,0.11,0.01,NA,NA,1
-11637,Keon Coleman,WR,BUF,NA,NA,NA,0.18,0,2.58,37.47,0.25,0.01,NA,0,0.01,NA,1
-11631,Brian Thomas Jr.,WR,JAX,NA,NA,NA,0.16,0,1.52,21.46,0.13,0.01,NA,0,0.01,NA,1
-11625,Adonai Mitchell,WR,NYJ,NA,NA,NA,0.16,0,2.51,39.93,0.23,0.01,NA,0,0.01,NA,1
-11624,Xavier Worthy,WR,KC,NA,NA,NA,0.68,0.01,3.28,33.48,0.18,0.02,NA,0,0.01,NA,1
-11586,Blake Corum,RB,LAR,NA,NA,NA,66.97,0.31,1.03,9.9,0.09,0.06,NA,0.03,0,NA,1
-11576,Braelon Allen,RB,NYJ,NA,NA,NA,34.81,0.2,1.69,9.93,0.09,0.04,NA,0.01,0,NA,1
-11559,Michael Penix Jr.,QB,ATL,224.98,1.38,0.73,9.86,0.13,NA,NA,NA,0.18,0.08,0.01,NA,NA,1
-11439,Jaleel McLaughlin,RB,CLE,NA,NA,NA,5.41,0.05,0.07,0.41,0,0,NA,0,0,NA,1
-11435,Emanuel Wilson,RB,SEA,NA,NA,NA,5.66,0.04,0.14,1.16,0.01,0.01,NA,0,0,NA,1
+12512,Quinshon Judkins,RB,CLE,NA,NA,NA,40.21,0.42,1.92,12.29,0.05,0.06,NA,0.02,0,NA,1
+12502,Gunnar Helm,TE,TEN,NA,NA,NA,NA,NA,3.49,32.22,0.1,0.01,NA,NA,0.01,NA,1
+1166,Kirk Cousins,QB,MIN,238.31,1.41,1.15,6.1,0.09,NA,NA,NA,0.19,0.11,0.01,NA,NA,1
+11637,Keon Coleman,WR,BUF,NA,NA,NA,0.18,0,2.5,35.87,0.23,0.01,NA,0,0.01,NA,1
+11631,Brian Thomas Jr.,WR,JAX,NA,NA,NA,0.16,0,1.53,21.62,0.13,0.01,NA,0,0.01,NA,1
+11625,Adonai Mitchell,WR,NYJ,NA,NA,NA,0.17,0,2.44,38.86,0.22,0.01,NA,0,0.01,NA,1
+11624,Xavier Worthy,WR,KC,NA,NA,NA,0.65,0.01,3.39,34.65,0.22,0.02,NA,0,0.01,NA,1
+11586,Blake Corum,RB,LAR,NA,NA,NA,67.35,0.31,1.02,9.84,0.09,0.06,NA,0.03,0,NA,1
+11576,Braelon Allen,RB,NYJ,NA,NA,NA,36.16,0.21,1.65,9.67,0.09,0.04,NA,0.01,0,NA,1
+11559,Michael Penix Jr.,QB,ATL,219.37,1.33,0.71,9.76,0.12,NA,NA,NA,0.17,0.08,0.01,NA,NA,1
+11439,Jaleel McLaughlin,RB,CLE,NA,NA,NA,5.24,0.05,0.07,0.43,0,0,NA,0,0,NA,1
 11157,Brycen Tremayne,WR,CAR,NA,NA,NA,0.17,0,0.12,1.34,0.01,NA,NA,NA,NA,NA,1
-10225,Jonathan Mingo,WR,DAL,NA,NA,NA,NA,NA,0.33,3.91,0.02,NA,NA,NA,NA,NA,1
-9753,Zach Charbonnet,RB,SEA,NA,NA,NA,58.41,0.53,1.78,11.69,0.08,0.05,NA,0.03,0,NA,1
-9484,Tucker Kraft,TE,GB,NA,NA,NA,NA,NA,4.24,46.48,0.31,0.02,NA,NA,0.02,NA,1
-9220,Evan Hull,RB,ARI,NA,NA,NA,1.37,0.01,0.08,0.66,0,NA,NA,NA,NA,NA,1
-8917,KaVontae Turpin,WR,DAL,NA,NA,NA,2.76,0.03,0.73,8.99,0.05,0.01,NA,0,0,NA,1
-8228,Jaylen Warren,RB,PIT,NA,NA,NA,85.05,0.32,3.1,29.48,0.14,0.07,NA,0.01,0.01,NA,1
+11068,Mitch Tinsley,WR,CIN,NA,NA,NA,NA,NA,0.26,2.81,0.03,0,NA,NA,0,NA,1
+9753,Zach Charbonnet,RB,SEA,NA,NA,NA,59.1,0.54,1.77,12.03,0.08,0.06,NA,0.03,0,NA,1
+9484,Tucker Kraft,TE,GB,NA,NA,NA,NA,NA,4.25,46.63,0.31,0.02,NA,NA,0.02,NA,1
+9220,Evan Hull,RB,ARI,NA,NA,NA,1.34,0.01,0.08,0.64,0,NA,NA,NA,NA,NA,1
+8917,KaVontae Turpin,WR,DAL,NA,NA,NA,2.71,0.03,0.73,8.86,0.05,0.01,NA,0,0,NA,1
+8228,Jaylen Warren,RB,PIT,NA,NA,NA,85.05,0.31,3.1,29.48,0.14,0.07,NA,0.01,0.01,NA,1
 8181,Connor Heyward,RB,LV,NA,NA,NA,1.1,0.01,0.19,1.45,0.01,0,NA,0,0,NA,1
-8155,Breece Hall,RB,NYJ,NA,NA,NA,44.38,0.27,2.74,22.71,0.14,0.06,NA,0.02,0.01,NA,1
-8132,Tyler Allgeier,RB,ARI,NA,NA,NA,39.98,0.16,2.8,16.42,0.1,0.05,NA,0.01,0.01,NA,1
-8130,Trey McBride,TE,ARI,NA,NA,NA,0.48,0,6.45,57.03,0.46,0.02,NA,NA,0.03,NA,1
-7865,Brandon Smith,WR,PIT,NA,NA,NA,NA,NA,0.42,5.36,0.04,NA,NA,NA,NA,NA,1
+8170,James Mitchell,TE,DAL,NA,NA,NA,NA,NA,0.14,1.28,0.01,NA,NA,NA,NA,NA,1
+8155,Breece Hall,RB,NYJ,NA,NA,NA,46.1,0.28,2.67,22.1,0.14,0.06,NA,0.02,0.01,NA,1
+8132,Tyler Allgeier,RB,ARI,NA,NA,NA,39.2,0.15,2.79,15.97,0.09,0.05,NA,0.01,0.01,NA,1
+8130,Trey McBride,TE,ARI,NA,NA,NA,0.47,0,6.42,55.48,0.43,0.02,NA,NA,0.03,NA,1
+7865,Brandon Smith,WR,PIT,NA,NA,NA,NA,NA,0.63,8.04,0.06,NA,NA,NA,NA,NA,1
 7602,Kylen Granson,TE,TEN,NA,NA,NA,NA,NA,0.07,0.74,0,0,NA,NA,0,NA,1
 7564,Ja'Marr Chase,WR,CIN,NA,NA,NA,0.98,0.01,6.21,82.65,0.87,0.03,NA,0,0.05,NA,1
-7536,Quintin Morris,TE,JAX,NA,NA,NA,NA,NA,0.21,2.09,0.02,0,NA,NA,0,NA,1
-7002,Juwan Johnson,TE,NO,NA,NA,NA,NA,NA,3.23,31.6,0.36,0.01,NA,NA,0.02,NA,1
-6786,CeeDee Lamb,WR,DAL,NA,NA,NA,0.77,0.01,7,94.2,0.6,0.03,NA,0,0.04,NA,1
-6039,Ty Johnson,RB,BUF,NA,NA,NA,10.57,0.04,1.76,16.79,0.1,0.02,NA,0,0.01,NA,1
-5967,Tony Pollard,RB,TEN,NA,NA,NA,53.23,0.58,2.22,12.57,0.06,0.06,NA,0.03,0,NA,1
-5906,Dawson Knox,TE,BUF,NA,NA,NA,NA,NA,1.46,13.6,0.16,0.01,NA,NA,0.01,NA,1
-4984,Josh Allen,QB,BUF,254.5,1.77,0.38,31.53,0.78,NA,NA,NA,0.2,0.11,0.06,NA,NA,1
-4602,Robert Tonyan,TE,PIT,NA,NA,NA,NA,NA,0.03,0.33,0,0,NA,NA,0,NA,1
-4046,Patrick Mahomes,QB,KC,252.88,1.55,0.38,18.32,0.17,NA,NA,NA,0.21,0.1,0.01,NA,NA,1
-4035,Alvin Kamara,RB,NO,NA,NA,NA,17.09,0.2,1.51,7.65,0.07,0.02,NA,0.01,0,NA,1
-3286,Demarcus Robinson,WR,SF,NA,NA,NA,NA,NA,2.58,38.12,0.26,0.01,NA,NA,0.02,NA,1
-1466,Travis Kelce,TE,KC,NA,NA,NA,NA,NA,4.6,58.2,0.32,0.02,NA,NA,0.02,NA,1
+7536,Quintin Morris,TE,JAX,NA,NA,NA,NA,NA,0.21,2.11,0.01,0,NA,NA,0,NA,1
+7002,Juwan Johnson,TE,NO,NA,NA,NA,NA,NA,3.24,31.04,0.33,0.01,NA,NA,0.02,NA,1
+6786,CeeDee Lamb,WR,DAL,NA,NA,NA,0.75,0.01,7.01,92.77,0.59,0.03,NA,0,0.04,NA,1
+6039,Ty Johnson,RB,BUF,NA,NA,NA,7.04,0.02,2,18.79,0.11,0.02,NA,0,0.01,NA,1
+5967,Tony Pollard,RB,TEN,NA,NA,NA,52.67,0.52,2.23,12.66,0.06,0.06,NA,0.03,0,NA,1
+5906,Dawson Knox,TE,BUF,NA,NA,NA,NA,NA,1.42,13.02,0.16,0.01,NA,NA,0.01,NA,1
+4984,Josh Allen,QB,BUF,243.62,1.67,0.37,32.04,0.79,NA,NA,NA,0.19,0.11,0.06,NA,NA,1
+4602,Robert Tonyan,TE,PIT,NA,NA,NA,NA,NA,0.13,1.36,0.01,0,NA,NA,0,NA,1
+4046,Patrick Mahomes,QB,KC,256.53,1.85,0.39,17.46,0.2,NA,NA,NA,0.21,0.11,0.01,NA,NA,1
+4035,Alvin Kamara,RB,NO,NA,NA,NA,18.53,0.21,1.83,9.02,0.08,0.03,NA,0.01,0.01,NA,1
+3286,Demarcus Robinson,WR,SF,NA,NA,NA,NA,NA,2.76,40.76,0.27,0.01,NA,NA,0.02,NA,1
+1466,Travis Kelce,TE,KC,NA,NA,NA,NA,NA,4.66,59.05,0.38,0.02,NA,NA,0.02,NA,1
 13491,Kaden Wetjen,WR,PIT,NA,NA,NA,0.24,0,0.04,0.54,0,NA,NA,NA,NA,NA,1
-13424,Seth McGowan,RB,IND,NA,NA,NA,27.09,0.13,1.66,11.19,0.09,0.03,NA,0.01,0,NA,1
-13413,Cyrus Allen,WR,KC,NA,NA,NA,0.05,0,0.59,7.35,0.04,0,NA,NA,0,NA,1
-13408,Tanner Koziol,TE,JAX,NA,NA,NA,NA,NA,0.56,5.77,0.04,0,NA,NA,0,NA,1
-13346,Denzel Boston,WR,CLE,NA,NA,NA,0.57,0.01,2.93,51.57,0.35,0.01,NA,0,0.02,NA,1
-13330,Kenyon Sadiq,TE,NYJ,NA,NA,NA,0.37,0.01,2.08,22.24,0.2,0.01,NA,0,0.01,NA,1
-13320,Zachariah Branch,WR,ATL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+13424,Seth McGowan,RB,IND,NA,NA,NA,27.94,0.14,1.66,11.18,0.09,0.03,NA,0.01,0,NA,1
+13413,Cyrus Allen,WR,KC,NA,NA,NA,0.05,0,0.6,7.46,0.05,0,NA,NA,0,NA,1
+13408,Tanner Koziol,TE,JAX,NA,NA,NA,NA,NA,0.57,5.81,0.04,0,NA,NA,0,NA,1
+13346,Denzel Boston,WR,CLE,NA,NA,NA,0.55,0.01,3.03,53.29,0.37,0.01,NA,0,0.02,NA,1
+13330,Kenyon Sadiq,TE,NYJ,NA,NA,NA,0.38,0.01,2.02,21.64,0.19,0.01,NA,0,0.01,NA,1
 13305,Mike Washington Jr.,RB,LV,NA,NA,NA,26,0.19,0.81,4.74,0.05,0.03,NA,0.01,0,NA,1
-13286,Jadarian Price,RB,SEA,NA,NA,NA,42.99,0.2,1.47,12.02,0.08,0.04,NA,0.01,0,NA,1
-13277,CJ Donaldson,RB,NO,NA,NA,NA,2.56,0.02,0.39,2.27,0.02,NA,NA,NA,NA,NA,1
-12718,Konata Mumpfield,WR,LAR,NA,NA,NA,NA,NA,2.15,34.84,0.31,0.01,NA,NA,0.02,NA,1
-12544,LeQuint Allen Jr.,RB,JAX,NA,NA,NA,7.23,0.06,0.88,6.79,0.04,0.01,NA,0,0,NA,1
-12541,Dont'e Thornton Jr.,WR,LV,NA,NA,NA,NA,NA,0.31,3.33,0.03,0,NA,NA,0,NA,1
-12506,Harold Fannin Jr.,TE,CLE,NA,NA,NA,0.33,0.01,3.87,43.26,0.36,0.01,NA,0,0.02,NA,1
-12504,Kaleb Johnson,RB,GB,NA,NA,NA,40.32,0.27,0.76,6.95,0.04,0.05,NA,0.02,0,NA,1
-12501,Matthew Golden,WR,GB,NA,NA,NA,0.89,0.01,4.77,79.12,0.41,0.03,NA,0,0.03,NA,1
-12499,Elic Ayomanor,WR,TEN,NA,NA,NA,0.09,0,1.87,29.58,0.18,0.01,NA,NA,0.01,NA,1
-12496,Tai Felton,WR,MIN,NA,NA,NA,NA,NA,0.57,6.63,0.04,0,NA,0,0,NA,1
+13286,Jadarian Price,RB,SEA,NA,NA,NA,45.59,0.22,1.45,12.37,0.08,0.05,NA,0.01,0,NA,1
+13210,Drake Dabney,TE,GB,NA,NA,NA,NA,NA,0.04,0.42,0,NA,NA,NA,NA,NA,1
+12897,Nate Carter,RB,KC,NA,NA,NA,20.65,0.18,0.8,6.85,0.05,NA,NA,NA,NA,NA,1
+12718,Konata Mumpfield,WR,LAR,NA,NA,NA,NA,NA,2.14,34.62,0.3,0.01,NA,NA,0.02,NA,1
+12544,LeQuint Allen Jr.,RB,JAX,NA,NA,NA,7.17,0.06,0.89,6.84,0.04,0.01,NA,0,0,NA,1
+12506,Harold Fannin Jr.,TE,CLE,NA,NA,NA,0.32,0.01,4,44.7,0.38,0.01,NA,0,0.02,NA,1
+12504,Kaleb Johnson,RB,GB,NA,NA,NA,34.66,0.24,0.77,6.97,0.04,0.04,NA,0.01,0,NA,1
+12501,Matthew Golden,WR,GB,NA,NA,NA,0.88,0.01,4.78,79.38,0.42,0.03,NA,0,0.03,NA,1
+12499,Elic Ayomanor,WR,TEN,NA,NA,NA,0.09,0,2.88,45.59,0.26,0.01,NA,NA,0.01,NA,1
+12496,Tai Felton,WR,MIN,NA,NA,NA,NA,NA,2.53,29.34,0.17,0.01,NA,0,0.01,NA,1
 12471,DJ Giddens,RB,IND,NA,NA,NA,0.64,0,0.04,0.34,0,0,NA,0,0,NA,1
-12467,Jordan James,RB,SF,NA,NA,NA,2.86,0.02,0.05,0.48,0,0,NA,0,0,NA,1
+12467,Jordan James,RB,SF,NA,NA,NA,2.85,0.02,0.05,0.48,0,0,NA,0,0,NA,1
 12062,Cam Grandy,TE,CIN,NA,NA,NA,NA,NA,0.28,2.57,0.02,0,NA,NA,0,NA,1
-12048,George Holani,RB,SEA,NA,NA,NA,4.74,0.03,0.77,5.96,0.04,0.01,NA,0,0,NA,1
-11834,Devaughn Vele,WR,NO,NA,NA,NA,0.25,0,3.02,34.07,0.24,0.01,NA,0,0.01,NA,1
-11762,Anthony Gould,WR,IND,NA,NA,NA,NA,NA,1.85,18.67,0.11,0.01,NA,0,0.01,NA,1
-11729,Sione Vaki,RB,DET,NA,NA,NA,14,0.1,1.02,9.13,0.04,0.02,NA,0.01,0,NA,1
-11626,Xavier Legette,WR,CAR,NA,NA,NA,NA,NA,1.12,17.8,0.07,0,NA,0,0,NA,1
-11581,MarShawn Lloyd,RB,GB,NA,NA,NA,12.06,0.11,0.72,5.62,0.03,0.02,NA,0.01,0,NA,1
+12048,George Holani,RB,SEA,NA,NA,NA,7.1,0.04,0.76,6.11,0.03,0.01,NA,0,0,NA,1
+11834,Devaughn Vele,WR,NO,NA,NA,NA,0.24,0,2.89,31.93,0.21,0.01,NA,0,0.01,NA,1
+11820,Devin Culp,TE,MIN,NA,NA,NA,NA,NA,0.07,0.74,0.01,0,NA,NA,0,NA,1
+11762,Anthony Gould,WR,IND,NA,NA,NA,NA,NA,1.85,18.65,0.11,0.01,NA,0,0.01,NA,1
+11729,Sione Vaki,RB,DET,NA,NA,NA,14.45,0.11,1.02,9.19,0.04,0.02,NA,0.01,0,NA,1
+11626,Xavier Legette,WR,CAR,NA,NA,NA,NA,NA,1.12,17.82,0.08,0,NA,0,0,NA,1
+11581,MarShawn Lloyd,RB,GB,NA,NA,NA,21.64,0.2,1.21,9.39,0.06,0.03,NA,0.01,0,NA,1
 11574,Dylan Laube,RB,LV,NA,NA,NA,0.85,0.02,0.1,0.55,0,0,NA,0,0,NA,1
-11237,Jacob Saylors,RB,DET,NA,NA,NA,1.09,0.01,0.05,0.47,0,0,NA,0,0,NA,1
-11168,Xavier Smith,WR,LAR,NA,NA,NA,0.11,0,0.91,11.14,0.06,0,NA,0,0,NA,1
-10236,Dalton Kincaid,TE,BUF,NA,NA,NA,NA,NA,3.61,48.78,0.27,0.02,NA,NA,0.02,NA,1
-10226,Andrei Iosivas,WR,CIN,NA,NA,NA,NA,NA,1.23,15.85,0.12,0.01,NA,0,0.01,NA,1
-10213,Tre Tucker,WR,LV,NA,NA,NA,0.91,0.01,2.53,35.95,0.21,0.01,NA,0,0.01,NA,1
-9510,Lew Nichols,RB,PIT,NA,NA,NA,0.48,0,0.01,0.11,0,NA,NA,NA,NA,NA,1
-8676,Rashid Shaheed,WR,SEA,NA,NA,NA,4.98,0.04,2.1,28.09,0.13,0.01,NA,0,0.01,NA,1
+11237,Jacob Saylors,RB,DET,NA,NA,NA,1.08,0.01,0.05,0.47,0,0,NA,0,0,NA,1
+11168,Xavier Smith,WR,LAR,NA,NA,NA,0.11,0,0.9,11.07,0.06,0,NA,0,0,NA,1
+10236,Dalton Kincaid,TE,BUF,NA,NA,NA,NA,NA,3.51,46.69,0.25,0.02,NA,NA,0.02,NA,1
+10213,Tre Tucker,WR,LV,NA,NA,NA,0.91,0.01,2.58,36.74,0.21,0.01,NA,0,0.01,NA,1
+9510,Lew Nichols,RB,PIT,NA,NA,NA,0.76,0.01,0.01,0.11,0,NA,NA,NA,NA,NA,1
+8676,Rashid Shaheed,WR,SEA,NA,NA,NA,4.98,0.04,2.07,28.7,0.12,0.01,NA,0,0.01,NA,1
 8489,Drew Ogletree,TE,IND,NA,NA,NA,NA,NA,0.28,2.58,0.02,0,NA,NA,0,NA,1
-8204,Bo Melton,WR,GB,NA,NA,NA,0.91,0.01,0.31,3.94,0.02,0,NA,0,0,NA,1
-8137,George Pickens,WR,DAL,NA,NA,NA,0.21,0,4.8,71.8,0.28,0.02,NA,0,0.02,NA,1
-7828,Noah Gray,TE,KC,NA,NA,NA,NA,NA,1.67,17.26,0.1,0.01,NA,NA,0.01,NA,1
-7694,Tommy Tremble,TE,CAR,NA,NA,NA,NA,NA,2.48,22.96,0.18,0.01,NA,NA,0.01,NA,1
-7595,Tylan Wallace,WR,CLE,NA,NA,NA,NA,NA,0.31,3.53,0.02,0,NA,NA,0,NA,1
-7568,Brevin Jordan,TE,HOU,NA,NA,NA,NA,NA,0.09,0.81,0.01,0,NA,NA,0,NA,1
+8204,Bo Melton,WR,GB,NA,NA,NA,0.26,0,0.15,1.98,0.01,0,NA,0,0,NA,1
+8137,George Pickens,WR,DAL,NA,NA,NA,0.2,0,4.81,70.72,0.28,0.02,NA,0,0.02,NA,1
+7828,Noah Gray,TE,KC,NA,NA,NA,NA,NA,1.7,17.51,0.11,0.01,NA,NA,0.01,NA,1
+7694,Tommy Tremble,TE,CAR,NA,NA,NA,NA,NA,2.49,22.99,0.19,0.01,NA,NA,0.01,NA,1
+7595,Tylan Wallace,WR,CLE,NA,NA,NA,NA,NA,0.64,7.3,0.04,0,NA,NA,0,NA,1
 7039,Cody White,WR,LV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
 6801,Tee Higgins,WR,CIN,NA,NA,NA,0.24,0,5.13,87.28,0.54,0.02,NA,0,0.03,NA,1
-6770,Joe Burrow,QB,CIN,283.65,2.43,0.63,11.95,0.16,NA,NA,NA,0.22,0.15,0.01,NA,NA,1
-6323,Andrew Beck,RB,NYJ,NA,NA,NA,0.09,0,0.02,0.2,0,0,NA,NA,0,NA,1
+6770,Joe Burrow,QB,CIN,283.65,2.42,0.63,11.95,0.16,NA,NA,NA,0.22,0.15,0.01,NA,NA,1
+6323,Andrew Beck,RB,NYJ,NA,NA,NA,0.09,0,0.02,0.19,0,0,NA,NA,0,NA,1
 6012,Travis Homer,RB,PIT,NA,NA,NA,0.12,0,0.01,0.12,0,NA,NA,NA,NA,NA,1
-6001,Drew Sample,TE,CIN,NA,NA,NA,NA,NA,1.31,10.2,0.09,0.01,NA,NA,0.01,NA,1
-5985,Foster Moreau,TE,HOU,NA,NA,NA,NA,NA,0.79,7.38,0.09,0,NA,NA,0.01,NA,1
-5947,Jakobi Meyers,WR,JAX,NA,NA,NA,0.41,0,3.4,47.39,0.26,0.02,NA,0,0.02,NA,1
+6001,Drew Sample,TE,CIN,NA,NA,NA,NA,NA,1.46,11.4,0.1,0.01,NA,NA,0.01,NA,1
+5985,Foster Moreau,TE,HOU,NA,NA,NA,NA,NA,0.82,7.63,0.1,0,NA,NA,0.01,NA,1
+5947,Jakobi Meyers,WR,JAX,NA,NA,NA,0.41,0,3.43,47.76,0.25,0.02,NA,0,0.02,NA,1
 5133,Tyler Conklin,TE,DET,NA,NA,NA,NA,NA,0.05,0.53,0,0,NA,NA,0,NA,1
-5001,Dalton Schultz,TE,HOU,NA,NA,NA,NA,NA,3.5,35.09,0.11,0.01,NA,NA,0.01,NA,1
-4144,Jonnu Smith,TE,GB,NA,NA,NA,NA,NA,0.87,9.56,0.04,0,NA,0,0,NA,1
-4039,Cooper Kupp,WR,SEA,NA,NA,NA,0.38,0,2.45,31.06,0.2,0.01,NA,NA,0.01,NA,1
-3202,Austin Hooper,TE,ATL,NA,NA,NA,NA,NA,1.24,11.86,0.13,0,NA,NA,0.01,NA,1
-13516,Max Bredeson,RB,MIN,NA,NA,NA,0.04,0,0.04,0.4,0,0,NA,0,0,NA,1
+5001,Dalton Schultz,TE,HOU,NA,NA,NA,NA,NA,3.62,36.28,0.12,0.01,NA,NA,0.01,NA,1
+4144,Jonnu Smith,TE,GB,NA,NA,NA,NA,NA,0.87,9.59,0.04,0,NA,0,0,NA,1
+4039,Cooper Kupp,WR,SEA,NA,NA,NA,0.38,0,2.42,31.66,0.2,0.01,NA,NA,0.01,NA,1
+3202,Austin Hooper,TE,ATL,NA,NA,NA,NA,NA,1.21,11.57,0.12,0,NA,NA,0.01,NA,1
+13770,J. Michael Sturdivant,WR,GB,NA,NA,NA,NA,NA,0.07,0.67,0,NA,NA,NA,NA,NA,1
+13516,Max Bredeson,RB,MIN,NA,NA,NA,0.04,0,0.04,0.41,0,0,NA,0,0,NA,1
 13429,Seydou Traore,TE,MIA,NA,NA,NA,NA,NA,0.03,0.39,0,0,NA,NA,0,NA,1
-13423,Eli Heidenreich,RB,PIT,NA,NA,NA,0.3,0,0.05,0.46,0,0,NA,0,0,NA,1
-13420,Bryce Lance,WR,NO,NA,NA,NA,NA,NA,0.31,3.32,0.03,0,NA,NA,0,NA,1
-13419,Jaydn Ott,RB,KC,NA,NA,NA,3.79,0.03,0.05,0.44,0,0,NA,0,0,NA,1
-13405,Kaytron Allen,RB,MIA,NA,NA,NA,15.39,0.09,0.4,4.13,0.02,0.02,NA,0,0,NA,1
-13402,Skyler Bell,WR,BUF,NA,NA,NA,0.15,0,0.07,1.05,0.01,0,NA,0,0,NA,1
-13333,Deion Burks,WR,IND,NA,NA,NA,NA,NA,2.32,25.59,0.15,0.01,NA,NA,0.01,NA,1
-13311,Chris Bell,WR,MIA,NA,NA,NA,0.24,0,1.54,22.75,0.08,0.01,NA,0,0.01,NA,1
+13420,Bryce Lance,WR,NO,NA,NA,NA,NA,NA,0.23,2.45,0.02,0,NA,NA,0,NA,1
+13405,Kaytron Allen,RB,MIA,NA,NA,NA,15.31,0.09,0.4,4.07,0.02,0.02,NA,0.01,0,NA,1
+13402,Skyler Bell,WR,BUF,NA,NA,NA,0.15,0,0.26,4.04,0.03,0,NA,0,0,NA,1
+13333,Deion Burks,WR,IND,NA,NA,NA,NA,NA,2.31,25.55,0.15,0.01,NA,NA,0.01,NA,1
 13282,Jack Endries,TE,CIN,NA,NA,NA,NA,NA,0.05,0.5,0.01,0,NA,NA,0,NA,1
-13279,Carnell Tate,WR,TEN,NA,NA,NA,0.08,0,4.73,61.92,0.14,0.02,NA,0,0.01,NA,1
-13121,Ben Yurosek,TE,MIN,NA,NA,NA,NA,NA,0.32,3.05,0.02,0,NA,NA,0,NA,1
-12700,Gavin Bartholomew,TE,MIN,NA,NA,NA,NA,NA,0.77,7.51,0.05,0,NA,NA,0,NA,1
-12522,Cam Ward,QB,TEN,217.61,0.77,1.04,12.85,0.2,NA,NA,NA,0.18,0.05,0.01,NA,NA,1
-12518,Tyler Warren,TE,IND,NA,NA,NA,1.08,0.01,5.72,45.9,0.36,0.02,NA,0,0.02,NA,1
-12490,Bhayshul Tuten,RB,JAX,NA,NA,NA,59.77,0.53,2.03,19.48,0.17,0.07,NA,0.03,0.01,NA,1
-12474,Woody Marks,RB,HOU,NA,NA,NA,31.43,0.21,1.32,8.54,0.07,0.04,NA,0.01,0,NA,1
-12357,David Martin-Robinson,TE,TEN,NA,NA,NA,NA,NA,0.04,0.44,0,NA,NA,NA,NA,NA,1
+13121,Ben Yurosek,TE,MIN,NA,NA,NA,NA,NA,1.96,18.45,0.12,0.01,NA,NA,0.01,NA,1
+12889,Beaux Collins,WR,ATL,NA,NA,NA,NA,NA,0.1,1.21,0.01,NA,NA,NA,NA,NA,1
+12700,Gavin Bartholomew,TE,MIN,NA,NA,NA,NA,NA,2.64,25.72,0.17,0.01,NA,NA,0.01,NA,1
+12522,Cam Ward,QB,TEN,219.04,0.71,1.05,12.72,0.18,NA,NA,NA,0.18,0.05,0.01,NA,NA,1
+12518,Tyler Warren,TE,IND,NA,NA,NA,1.09,0.01,5.71,45.83,0.37,0.02,NA,0,0.02,NA,1
+12490,Bhayshul Tuten,RB,JAX,NA,NA,NA,59.24,0.51,2.05,19.63,0.17,0.07,NA,0.03,0.01,NA,1
+12474,Woody Marks,RB,HOU,NA,NA,NA,59.76,0.43,1.92,12.36,0.1,0.07,NA,0.02,0.01,NA,1
+12357,David Martin-Robinson,TE,TEN,NA,NA,NA,NA,NA,0.05,0.44,0,NA,NA,NA,NA,NA,1
 11651,Isaac Guerendo,RB,SF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-11646,Jalen Coker,WR,CAR,NA,NA,NA,0.3,0,4.46,60.91,0.39,0.02,NA,0,0.03,NA,1
-11643,Jaylen Wright,RB,MIA,NA,NA,NA,11.49,0.09,0.52,4.7,0.02,0.01,NA,0,0,NA,1
-11617,Malachi Corley,WR,CLE,NA,NA,NA,0.87,0,0.04,0.44,0,0,NA,0,0,NA,1
-11603,AJ Barner,TE,SEA,NA,NA,NA,2.41,0.05,3.06,29.93,0.19,0.01,NA,0,0.01,NA,1
-11575,Ray Davis,RB,BUF,NA,NA,NA,7.49,0.03,0.12,1.02,0.01,0.01,NA,0,0,NA,1
-11564,Drake Maye,QB,NE,282.9,1.96,1.01,33.2,0.25,NA,NA,NA,0.2,0.11,0.02,NA,NA,1
-11377,Tyrell Shavers,WR,BUF,NA,NA,NA,0.38,0,0.58,10.04,0.05,0,NA,NA,0,NA,1
-11370,Chris Brooks,RB,GB,NA,NA,NA,17.16,0.08,1.01,6.85,0.04,0.02,NA,0,0,NA,1
-11199,Emari Demercado,RB,HOU,NA,NA,NA,32.8,0.18,0.71,4.82,0.04,0.03,NA,0.01,0,NA,1
-10859,Sam LaPorta,TE,DET,NA,NA,NA,0.23,0,4.73,52.25,0.33,0.02,NA,0,0.02,NA,1
-10218,Xavier Hutchinson,WR,HOU,NA,NA,NA,0.36,0,1.78,24.33,0.1,0.01,NA,0,0.01,NA,1
+11646,Jalen Coker,WR,CAR,NA,NA,NA,0.3,0,4.46,60.98,0.43,0.02,NA,0,0.03,NA,1
+11643,Jaylen Wright,RB,MIA,NA,NA,NA,11.31,0.09,0.52,4.63,0.02,0.01,NA,0,0,NA,1
+11617,Malachi Corley,WR,CLE,NA,NA,NA,0.84,0,0.04,0.46,0,0,NA,0,0,NA,1
+11603,AJ Barner,TE,SEA,NA,NA,NA,2.41,0.05,3.03,30.63,0.19,0.01,NA,0,0.01,NA,1
+11575,Ray Davis,RB,BUF,NA,NA,NA,8.01,0.03,0.14,1.22,0.01,0.01,NA,0,0,NA,1
+11564,Drake Maye,QB,NE,285,2.04,1.01,32.99,0.26,NA,NA,NA,0.2,0.12,0.02,NA,NA,1
+11370,Chris Brooks,RB,GB,NA,NA,NA,27.34,0.13,1.01,6.88,0.04,0.03,NA,0.01,0,NA,1
+11280,Brady Russell,RB,SEA,NA,NA,NA,NA,NA,0.06,0.65,0,NA,NA,NA,NA,NA,1
+11199,Emari Demercado,RB,HOU,NA,NA,NA,35.99,0.21,1.12,7.65,0.06,0.03,NA,0.01,0,NA,1
+10859,Sam LaPorta,TE,DET,NA,NA,NA,0.23,0,4.76,52.57,0.34,0.02,NA,0,0.03,NA,1
+10218,Xavier Hutchinson,WR,HOU,NA,NA,NA,0.35,0,2.26,30.9,0.13,0.01,NA,0,0.01,NA,1
 9224,Chase Brown,RB,CIN,NA,NA,NA,54.26,0.12,4.19,22.87,0.2,0.08,NA,0.02,0.01,NA,1
-9221,Jahmyr Gibbs,RB,DET,NA,NA,NA,84.24,0.96,5.23,36.66,0.23,0.1,NA,0.07,0.02,NA,1
-8861,Irvin Charles,WR,SEA,NA,NA,NA,NA,NA,0.04,0.47,0,0,NA,NA,0,NA,1
+9221,Jahmyr Gibbs,RB,DET,NA,NA,NA,83.63,0.99,5.27,36.89,0.24,0.1,NA,0.07,0.02,NA,1
+8861,Irvin Charles,WR,SEA,NA,NA,NA,NA,NA,0.04,0.48,0,0,NA,NA,0,NA,1
+8799,Zaire Mitchell-Paden,TE,CLE,NA,NA,NA,NA,NA,0.06,0.65,0,NA,NA,NA,NA,NA,1
 8527,Dareke Young,WR,LV,NA,NA,NA,NA,NA,0.18,2.13,0.01,0,NA,NA,0,NA,1
-8219,Jelani Woods,TE,NYJ,NA,NA,NA,NA,NA,0.23,2.29,0.02,NA,NA,NA,NA,NA,1
-8183,Brock Purdy,QB,SF,294.58,1.97,0.55,24.27,0.18,NA,NA,NA,0.21,0.14,0.01,NA,NA,1
-8172,Greg Dulcich,TE,MIA,NA,NA,NA,NA,NA,3.36,38.3,0.09,0.01,NA,NA,0.01,NA,1
-8145,Jeremy Ruckert,TE,NYJ,NA,NA,NA,NA,NA,0.26,2.01,0.02,0,NA,NA,0,NA,1
-8122,Zonovan Knight,RB,ARI,NA,NA,NA,32.67,0.2,1.97,15.72,0.1,0.04,NA,0.02,NA,NA,1
-7842,Luke Farrell,TE,SF,NA,NA,NA,NA,NA,0.97,9.75,0.06,0,NA,NA,0,NA,1
-7720,Kene Nwangwu,RB,NYJ,NA,NA,NA,0.57,0,0.01,0.08,0,0,NA,0,0,NA,1
-7553,Kyle Pitts Sr.,TE,ATL,NA,NA,NA,NA,NA,3.07,31.51,0.39,0.01,NA,NA,0.02,NA,1
-7496,Nick Westbrook-Ikhine,WR,IND,NA,NA,NA,NA,NA,0.19,3.26,0.02,0,NA,NA,0,NA,1
-6847,Devin Duvernay,WR,ARI,NA,NA,NA,0.87,0,1.49,12.56,0.06,0.01,NA,0,0,NA,1
-6813,Jonathan Taylor,RB,IND,NA,NA,NA,74.02,0.77,2.34,17.48,0.09,0.08,NA,0.05,0,NA,1
-6794,Justin Jefferson,WR,MIN,NA,NA,NA,0.21,0,6.1,82.63,0.54,0.02,NA,0,0.03,NA,1
-6427,Ashton Dulin,WR,IND,NA,NA,NA,0.46,0,2.16,30.64,0.19,0.01,NA,0,0.01,NA,1
-5870,Daniel Jones,QB,IND,196.18,1.09,0.92,14.38,0.12,NA,NA,NA,0.16,0.05,0.01,NA,NA,1
-5846,DK Metcalf,WR,PIT,NA,NA,NA,0.77,0.01,4,60.19,0.39,0.02,NA,0,0.02,NA,1
+8183,Brock Purdy,QB,SF,295.63,1.98,0.55,24.17,0.18,NA,NA,NA,0.21,0.14,0.01,NA,NA,1
+8172,Greg Dulcich,TE,MIA,NA,NA,NA,NA,NA,3.36,37.74,0.09,0.01,NA,NA,0.01,NA,1
+8145,Jeremy Ruckert,TE,NYJ,NA,NA,NA,NA,NA,0.25,1.95,0.02,0,NA,NA,0,NA,1
+8122,Zonovan Knight,RB,ARI,NA,NA,NA,32.03,0.19,1.96,15.29,0.09,0.04,NA,0.02,NA,NA,1
+7842,Luke Farrell,TE,SF,NA,NA,NA,NA,NA,0.98,9.79,0.06,0,NA,NA,0,NA,1
+7720,Kene Nwangwu,RB,NYJ,NA,NA,NA,0.59,0,0.01,0.08,0,0,NA,0,0,NA,1
+7553,Kyle Pitts Sr.,TE,ATL,NA,NA,NA,NA,NA,3.29,33.8,0.42,0.01,NA,NA,0.02,NA,1
+7535,Hunter Long,TE,ARI,NA,NA,NA,NA,NA,0.1,0.91,0.01,NA,NA,NA,NA,NA,1
+7496,Nick Westbrook-Ikhine,WR,IND,NA,NA,NA,NA,NA,0.49,8.67,0.07,0,NA,NA,0,NA,1
+6847,Devin Duvernay,WR,ARI,NA,NA,NA,0.86,0,1.06,8.73,0.04,0.01,NA,0,0,NA,1
+6813,Jonathan Taylor,RB,IND,NA,NA,NA,74.15,0.79,2.34,17.46,0.09,0.08,NA,0.05,0,NA,1
+6794,Justin Jefferson,WR,MIN,NA,NA,NA,0.2,0,6.49,87.89,0.58,0.03,NA,0,0.04,NA,1
+6427,Ashton Dulin,WR,IND,NA,NA,NA,0.46,0,2.16,30.6,0.19,0.01,NA,0,0.01,NA,1
+5870,Daniel Jones,QB,IND,195.91,1.1,0.92,14.41,0.12,NA,NA,NA,0.16,0.05,0.01,NA,NA,1
+5846,DK Metcalf,WR,PIT,NA,NA,NA,0.77,0.01,4,60.19,0.38,0.02,NA,0,0.02,NA,1
 4995,Ian Thomas,TE,LV,NA,NA,NA,NA,NA,0.25,1.99,0.02,0,NA,NA,0,NA,1
-4981,Calvin Ridley,WR,TEN,NA,NA,NA,0.02,0,1.18,16.64,0.08,0,NA,0,0,NA,1
-421,Matthew Stafford,QB,LAR,245.94,1.72,0.57,5.23,0.02,NA,NA,NA,0.18,0.08,0,NA,NA,1
-4034,Christian McCaffrey,RB,SF,NA,NA,NA,80.47,1.08,3.97,30.83,0.16,0.08,NA,0.08,0.01,NA,1
-3163,Jared Goff,QB,DET,278.88,1.72,0.35,4.66,0.07,NA,NA,NA,0.22,0.13,0,NA,NA,1
-2505,Darren Waller,TE,CAR,NA,NA,NA,NA,NA,3.1,36.9,0.32,0.01,NA,NA,0.02,NA,1
-2197,Brandin Cooks,WR,SF,NA,NA,NA,NA,NA,0.55,8.31,0.06,0,NA,NA,0,NA,1
-14026,DJ Herman,RB,MIA,NA,NA,NA,0.6,0,0.44,4.71,0.02,NA,NA,NA,NA,NA,1
-1373,Geno Smith,QB,NYJ,224.07,1.69,0.35,10.47,0.07,NA,NA,NA,0.18,0.08,0,NA,NA,1
-13434,Will Kacmarek,TE,MIA,NA,NA,NA,NA,NA,0.51,5.14,0.02,0,NA,NA,0,NA,1
-13421,Eli Raridon,TE,NE,NA,NA,NA,NA,NA,2.16,25.95,0.19,0.01,NA,NA,0.01,NA,1
-13338,Kevin Coleman Jr.,WR,MIA,NA,NA,NA,NA,NA,0.88,11.91,0.08,0,NA,NA,0.01,NA,1
-13319,Oscar Delp,TE,NO,NA,NA,NA,NA,NA,1.06,7.56,0.05,0,NA,NA,0,NA,1
-13296,Caleb Douglas,WR,MIA,NA,NA,NA,0.23,0,3.16,46.82,0.17,0.01,NA,NA,0.01,NA,1
-13276,Omar Cooper Jr.,WR,NYJ,NA,NA,NA,0.8,0.01,2.84,40.71,0.28,0.01,NA,0,0.01,NA,1
-13270,CJ Daniels,WR,LAR,NA,NA,NA,0.17,0,1.64,21.77,0.18,0.01,NA,0,0.01,NA,1
-13269,Fernando Mendoza,QB,LV,177.95,0.98,0.99,11.44,0.11,NA,NA,NA,0.17,0.06,0.01,NA,NA,1
-12863,Andrew Armstrong,WR,KC,NA,NA,NA,NA,NA,0.22,2.66,0.02,0,NA,0,0,NA,1
-12634,Jordan Watkins,WR,SF,NA,NA,NA,1.43,0.01,2.03,35.25,0.15,NA,NA,NA,NA,NA,1
-12540,Chimere Dike,WR,TEN,NA,NA,NA,0.55,0.01,1.91,21.01,0.14,0.01,NA,0,0.01,NA,1
-12535,Isaac TeSlaa,WR,DET,NA,NA,NA,0.21,0,1.41,23.16,0.06,0.01,NA,0,0,NA,1
-12498,Mason Taylor,TE,NYJ,NA,NA,NA,NA,NA,2.44,20.28,0.2,0.01,NA,NA,0.01,NA,1
-12494,Kyle McCord,QB,MIA,200.57,0.86,0.56,8.5,0.07,NA,NA,NA,NA,NA,NA,NA,NA,1
-11608,Isaiah Williams,WR,NYJ,NA,NA,NA,0.41,0,0.34,3.99,0.03,0,NA,0,0,NA,1
-11599,Cade Stover,TE,HOU,NA,NA,NA,0.46,0,0.05,0.4,0,0,NA,0,0,NA,1
-11593,Brevyn Spann-Ford,TE,DAL,NA,NA,NA,NA,NA,3.32,29.7,0.15,0.01,NA,NA,0.01,NA,1
-11583,Jonathon Brooks,RB,CAR,NA,NA,NA,15.86,0.12,1.2,10.53,0.06,0.02,NA,0.01,0,NA,1
-11056,Jared Wayne,WR,MIA,NA,NA,NA,NA,NA,0.41,4.94,0.02,NA,NA,NA,NA,NA,1
-10212,Josh Whyle,TE,GB,NA,NA,NA,NA,NA,0.05,0.43,0,0,NA,NA,0,NA,1
-9756,Jordan Addison,WR,MIN,NA,NA,NA,1.4,0.01,2.98,46.98,0.24,0.01,NA,0,0.01,NA,1
-9508,Tyjae Spears,RB,TEN,NA,NA,NA,9.57,0.1,1.18,7.56,0.04,0.01,NA,0.01,0,NA,1
-9504,Kayshon Boutte,WR,HOU,NA,NA,NA,NA,NA,1.66,23.16,0.12,0.01,NA,NA,0.01,NA,1
-9501,DeMario Douglas,WR,NE,NA,NA,NA,0.76,0.01,2.93,40.05,0.25,0.01,NA,0,0.01,NA,1
-9479,Darnell Washington,TE,PIT,NA,NA,NA,NA,NA,2.76,34.83,0.23,0.01,NA,NA,0.01,NA,1
-8227,Teagan Quitoriano,TE,ARI,NA,NA,NA,NA,NA,0.8,7.86,0.05,NA,NA,NA,NA,NA,1
-8225,Daniel Bellinger,TE,TEN,NA,NA,NA,NA,NA,0.88,8.37,0.04,0,NA,NA,0,NA,1
-8180,Jalen Nailor,WR,LV,NA,NA,NA,0.77,0.01,1.27,13.3,0.1,0.01,NA,0,0.01,NA,1
-8151,Kenneth Walker III,RB,KC,NA,NA,NA,88.71,0.82,3.39,21.17,0.26,0.08,NA,0.05,0.02,NA,1
-8150,Kyren Williams,RB,LAR,NA,NA,NA,77.06,0.63,2.69,19.73,0.16,0.08,NA,0.05,0.01,NA,1
-8146,Garrett Wilson,WR,NYJ,NA,NA,NA,0.66,0.01,4.96,63.9,0.52,0.02,NA,0,0.02,NA,1
-8138,James Cook III,RB,BUF,NA,NA,NA,96.84,0.65,1.53,11.89,0.1,0.09,NA,0.06,0.01,NA,1
-8134,Khalil Shakir,WR,BUF,NA,NA,NA,0.46,0,3.71,47.82,0.32,0.02,NA,0,0.02,NA,1
-8126,Wan'Dale Robinson,WR,TEN,NA,NA,NA,0.5,0,4.05,39,0.29,0.02,NA,0,0.02,NA,1
-8117,Jalen Tolbert,WR,MIA,NA,NA,NA,NA,NA,0.28,4.2,0.02,0,NA,NA,0,NA,1
-8116,Pierre Strong Jr.,RB,GB,NA,NA,NA,13.73,0.1,0.95,7.75,0.05,NA,NA,NA,NA,NA,1
-7812,Simi Fehoko,WR,ARI,NA,NA,NA,0.2,0,1.73,19.53,0.12,NA,NA,NA,NA,NA,1
-7757,Ben Skowronek,WR,PIT,NA,NA,NA,NA,NA,0.67,8.33,0.1,NA,NA,NA,NA,NA,1
-7607,Michael Carter,RB,TEN,NA,NA,NA,6.62,0.04,0.5,3.67,0.02,0.01,NA,0,0,NA,1
-7547,Amon-Ra St. Brown,WR,DET,NA,NA,NA,1.38,0.01,7.09,83.11,0.6,0.03,NA,0,0.05,NA,1
-7531,Feleipe Franks,TE,CAR,NA,NA,NA,0.19,0,0.02,0.22,0,0,NA,0,0,NA,1
-7523,Trevor Lawrence,QB,JAX,273.22,1.93,0.83,17.76,0.2,NA,NA,NA,0.19,0.14,0.01,NA,NA,1
-7521,Chris Blair,WR,ATL,NA,NA,NA,NA,NA,0.37,4.31,0.03,NA,NA,NA,NA,NA,1
-7075,Charlie Woerner,TE,ATL,NA,NA,NA,NA,NA,0.29,2.66,0.03,0,NA,NA,0,NA,1
-6804,Jordan Love,QB,GB,245.67,1.66,1.07,12.73,0.15,NA,NA,NA,0.2,0.12,0.01,NA,NA,1
-6783,Jerry Jeudy,WR,CLE,NA,NA,NA,0.12,0,1.4,17.73,0.06,0.01,NA,0,0,NA,1
-6271,Olamide Zaccheaus,WR,ATL,NA,NA,NA,0.88,0.01,1.39,16.35,0.11,0.01,NA,0,0.01,NA,1
-5970,Greg Dortch,WR,BUF,NA,NA,NA,0.54,0,0.23,2.47,0.02,0,NA,0,0,NA,1
-5892,David Montgomery,RB,HOU,NA,NA,NA,27.96,0.37,1.59,10.89,0.11,0.04,NA,0.02,0.01,NA,1
-5854,Drew Lock,QB,SEA,237.9,1.34,0.64,14.79,0.12,NA,NA,NA,0.19,0.07,0.01,NA,NA,1
-4177,Mack Hollins,WR,NE,NA,NA,NA,0.21,0,3.01,40.85,0.16,0.01,NA,0,0.01,NA,1
+4981,Calvin Ridley,WR,TEN,NA,NA,NA,0.02,0,1.19,16.75,0.07,0,NA,0,0,NA,1
+421,Matthew Stafford,QB,LAR,244.4,1.69,0.56,5.26,0.02,NA,NA,NA,0.18,0.08,0,NA,NA,1
+4034,Christian McCaffrey,RB,SF,NA,NA,NA,80.14,1.08,3.98,30.94,0.16,0.08,NA,0.08,0.01,NA,1
+3163,Jared Goff,QB,DET,280.62,1.79,0.35,4.62,0.07,NA,NA,NA,0.22,0.13,0,NA,NA,1
+2505,Darren Waller,TE,CAR,NA,NA,NA,NA,NA,3.1,36.95,0.35,0.01,NA,NA,0.02,NA,1
+14026,DJ Herman,RB,MIA,NA,NA,NA,1,0.01,0.44,4.65,0.02,NA,NA,NA,NA,NA,1
+1373,Geno Smith,QB,NYJ,218.06,1.67,0.34,10.88,0.08,NA,NA,NA,0.17,0.08,0,NA,NA,1
+13434,Will Kacmarek,TE,MIA,NA,NA,NA,NA,NA,0.51,5.06,0.02,0,NA,NA,0,NA,1
+13421,Eli Raridon,TE,NE,NA,NA,NA,NA,NA,2.17,26.14,0.2,0.01,NA,NA,0.01,NA,1
+13338,Kevin Coleman Jr.,WR,MIA,NA,NA,NA,NA,NA,1.75,23.47,0.17,0.01,NA,NA,0.01,NA,1
+13319,Oscar Delp,TE,NO,NA,NA,NA,NA,NA,1.07,7.43,0.05,0,NA,NA,0,NA,1
+13296,Caleb Douglas,WR,MIA,NA,NA,NA,0.23,0,3.34,48.71,0.17,0.01,NA,NA,0.01,NA,1
+13276,Omar Cooper Jr.,WR,NYJ,NA,NA,NA,0.83,0.01,2.76,39.62,0.28,0.01,NA,0,0.01,NA,1
+13270,CJ Daniels,WR,LAR,NA,NA,NA,0.17,0,1.63,21.64,0.17,0.01,NA,0,0.01,NA,1
+13269,Fernando Mendoza,QB,LV,177.95,0.99,0.99,11.44,0.12,NA,NA,NA,0.17,0.06,0.01,NA,NA,1
+12863,Andrew Armstrong,WR,KC,NA,NA,NA,NA,NA,0.23,2.7,0.02,0,NA,0,0,NA,1
+12634,Jordan Watkins,WR,SF,NA,NA,NA,1.43,0.01,1.71,29.79,0.13,NA,NA,NA,NA,NA,1
+12540,Chimere Dike,WR,TEN,NA,NA,NA,0.55,0.01,3.37,37.01,0.23,0.02,NA,0,0.01,NA,1
+12535,Isaac TeSlaa,WR,DET,NA,NA,NA,0.21,0,1.42,23.3,0.06,0.01,NA,0,0,NA,1
+12498,Mason Taylor,TE,NYJ,NA,NA,NA,NA,NA,2.37,19.73,0.2,0.01,NA,NA,0.01,NA,1
+12494,Kyle McCord,QB,MIA,197.67,0.84,0.56,8.36,0.07,NA,NA,NA,NA,NA,NA,NA,NA,1
+11608,Isaiah Williams,WR,NYJ,NA,NA,NA,0.43,0,0.34,3.88,0.03,0,NA,0,0,NA,1
+11599,Cade Stover,TE,HOU,NA,NA,NA,0.44,0,0.05,0.42,0,0,NA,0,0,NA,1
+11593,Brevyn Spann-Ford,TE,DAL,NA,NA,NA,NA,NA,3.33,29.25,0.15,0.01,NA,NA,0.01,NA,1
+9508,Tyjae Spears,RB,TEN,NA,NA,NA,16.68,0.16,1.7,10.84,0.05,0.02,NA,0.01,0,NA,1
+9504,Kayshon Boutte,WR,HOU,NA,NA,NA,NA,NA,2.19,30.63,0.17,0.01,NA,NA,0.01,NA,1
+9501,DeMario Douglas,WR,NE,NA,NA,NA,0.76,0.01,2.95,40.35,0.25,0.02,NA,0,0.01,NA,1
+9479,Darnell Washington,TE,PIT,NA,NA,NA,NA,NA,2.76,34.83,0.22,0.01,NA,NA,0.01,NA,1
+8523,Nick Muse,TE,ATL,NA,NA,NA,NA,NA,0.08,0.84,0.01,NA,NA,NA,NA,NA,1
+8227,Teagan Quitoriano,TE,ARI,NA,NA,NA,NA,NA,0.79,7.65,0.05,NA,NA,NA,NA,NA,1
+8225,Daniel Bellinger,TE,TEN,NA,NA,NA,NA,NA,1.77,16.85,0.08,0.01,NA,NA,0,NA,1
+8180,Jalen Nailor,WR,LV,NA,NA,NA,0.77,0.01,1.42,14.96,0.11,0.01,NA,0,0.01,NA,1
+8150,Kyren Williams,RB,LAR,NA,NA,NA,77.5,0.63,2.67,19.61,0.16,0.08,NA,0.05,0.01,NA,1
+8146,Garrett Wilson,WR,NYJ,NA,NA,NA,0.68,0.01,4.82,62.19,0.51,0.02,NA,0,0.02,NA,1
+8138,James Cook III,RB,BUF,NA,NA,NA,103.09,0.69,1.49,11.38,0.1,0.09,NA,0.06,0.01,NA,1
+8134,Khalil Shakir,WR,BUF,NA,NA,NA,0.47,0,3.6,45.77,0.3,0.02,NA,0,0.02,NA,1
+8126,Wan'Dale Robinson,WR,TEN,NA,NA,NA,0.49,0,4.76,45.8,0.31,0.02,NA,0,0.02,NA,1
+8117,Jalen Tolbert,WR,MIA,NA,NA,NA,NA,NA,0.7,10.34,0.04,0,NA,NA,0,NA,1
+7812,Simi Fehoko,WR,ARI,NA,NA,NA,0.19,0,1.03,11.4,0.06,NA,NA,NA,NA,NA,1
+7757,Ben Skowronek,WR,PIT,NA,NA,NA,NA,NA,0.89,11.11,0.13,NA,NA,NA,NA,NA,1
+7611,Rhamondre Stevenson,RB,NE,NA,NA,NA,43.12,0.29,3.07,24.38,0.17,0.05,NA,0.02,0.01,NA,1
+7547,Amon-Ra St. Brown,WR,DET,NA,NA,NA,1.37,0.01,7.14,83.63,0.63,0.03,NA,0,0.05,NA,1
+7531,Feleipe Franks,TE,CAR,NA,NA,NA,0.19,0,0.02,0.23,0,0,NA,0,0,NA,1
+7523,Trevor Lawrence,QB,JAX,275.31,1.91,0.84,17.6,0.19,NA,NA,NA,0.19,0.14,0.01,NA,NA,1
+7521,Chris Blair,WR,ATL,NA,NA,NA,NA,NA,0.57,6.72,0.05,NA,NA,NA,NA,NA,1
+7075,Charlie Woerner,TE,ATL,NA,NA,NA,NA,NA,0.28,2.59,0.03,0,NA,NA,0,NA,1
+6804,Jordan Love,QB,GB,246.47,1.67,1.07,12.67,0.15,NA,NA,NA,0.2,0.12,0.01,NA,NA,1
+6783,Jerry Jeudy,WR,CLE,NA,NA,NA,0.11,0,1.45,18.33,0.06,0.01,NA,0,0,NA,1
+6271,Olamide Zaccheaus,WR,ATL,NA,NA,NA,0.88,0.01,1.33,15.59,0.11,0.01,NA,0,0.01,NA,1
+5970,Greg Dortch,WR,BUF,NA,NA,NA,0.55,0,0.45,4.73,0.04,0,NA,0,0,NA,1
+5854,Drew Lock,QB,SEA,237.9,1.36,0.64,14.79,0.12,NA,NA,NA,0.19,0.07,0.01,NA,NA,1
+4177,Mack Hollins,WR,NE,NA,NA,NA,0.21,0,3.03,41.16,0.17,0.01,NA,0,0.01,NA,1
 4147,Samaje Perine,RB,CIN,NA,NA,NA,18.95,0.12,1.59,12.36,0.11,0.03,NA,0.01,0.01,NA,1
-4017,Deshaun Watson,QB,CLE,222.74,0.9,0.29,20.3,0.14,NA,NA,NA,0.17,0.06,0.01,NA,NA,1
-3294,Dak Prescott,QB,DAL,268.02,1.71,0.45,12.38,0.09,NA,NA,NA,0.23,0.11,0.01,NA,NA,1
-3271,Tyler Higbee,TE,LAR,NA,NA,NA,NA,NA,3.31,37.02,0.27,0.01,NA,NA,0.01,NA,1
-1479,Keenan Allen,WR,SF,NA,NA,NA,NA,NA,2.25,27.2,0.14,0.01,NA,NA,0.01,NA,1
-13299,Nate Boerkircher,TE,JAX,NA,NA,NA,NA,NA,1.16,12.72,0.08,0,NA,NA,0.01,NA,1
-13288,Nicholas Singleton,RB,TEN,NA,NA,NA,0.47,0.01,0.05,0.39,0,0,NA,0,0,NA,1
-13278,Max Klare,TE,LAR,NA,NA,NA,NA,NA,0.41,4.84,0.03,0,NA,NA,0,NA,1
-13264,Dohnte Meyers,WR,CIN,NA,NA,NA,0.21,0,1.2,13.68,0.11,NA,NA,NA,NA,NA,1
-12658,Jackson Hawes,TE,BUF,NA,NA,NA,NA,NA,0.35,3.98,0.03,0,NA,NA,0,NA,1
-12531,Trevor Etienne,RB,CAR,NA,NA,NA,2.95,0.02,0.12,0.93,0.01,0,NA,0,0,NA,1
-12526,Tetairoa McMillan,WR,CAR,NA,NA,NA,0.34,0,5.45,82,0.31,0.02,NA,0,0.02,NA,1
-12503,Isaiah Bond,WR,CLE,NA,NA,NA,0.73,0.01,0.32,4.79,0.02,0,NA,0,0,NA,1
-12495,Ollie Gordon II,RB,MIA,NA,NA,NA,70.87,0.63,1.32,8.46,0.05,0.06,NA,0.04,0,NA,1
+4080,Zay Jones,WR,ARI,NA,NA,NA,NA,NA,0.65,6.74,0.03,NA,NA,NA,NA,NA,1
+4017,Deshaun Watson,QB,CLE,230.16,0.95,0.3,19.66,0.14,NA,NA,NA,0.17,0.06,0.01,NA,NA,1
+3294,Dak Prescott,QB,DAL,263.96,1.69,0.46,12.15,0.09,NA,NA,NA,0.23,0.11,0.01,NA,NA,1
+3271,Tyler Higbee,TE,LAR,NA,NA,NA,NA,NA,3.29,36.79,0.26,0.01,NA,NA,0.01,NA,1
+1479,Keenan Allen,WR,SF,NA,NA,NA,NA,NA,2.71,32.76,0.17,0.01,NA,NA,0.01,NA,1
+13904,Jacob De Jesus,WR,KC,NA,NA,NA,NA,NA,0.09,1.08,0.01,NA,NA,NA,NA,NA,1
+13670,Harrison Wallace III,WR,ARI,NA,NA,NA,NA,NA,0.35,3.93,0.02,NA,NA,NA,NA,NA,1
+13299,Nate Boerkircher,TE,JAX,NA,NA,NA,NA,NA,1.17,12.81,0.08,0,NA,NA,0.01,NA,1
+13278,Max Klare,TE,LAR,NA,NA,NA,NA,NA,0.41,4.81,0.03,0,NA,NA,0,NA,1
+13264,Dohnte Meyers,WR,CIN,NA,NA,NA,0.21,0,2.26,25.71,0.2,NA,NA,NA,NA,NA,1
+12658,Jackson Hawes,TE,BUF,NA,NA,NA,NA,NA,0.34,3.81,0.03,0,NA,NA,0,NA,1
+12531,Trevor Etienne,RB,CAR,NA,NA,NA,16.88,0.12,1.18,9.32,0.06,0.02,NA,0.01,0,NA,1
+12526,Tetairoa McMillan,WR,CAR,NA,NA,NA,0.35,0,5.46,82.09,0.33,0.02,NA,0,0.02,NA,1
+12503,Isaiah Bond,WR,CLE,NA,NA,NA,0.71,0.01,0.17,2.47,0.01,0,NA,0,0,NA,1
+12495,Ollie Gordon II,RB,MIA,NA,NA,NA,69.76,0.62,1.32,8.34,0.05,0.06,NA,0.04,0,NA,1
 12483,Jack Bech,WR,LV,NA,NA,NA,0.21,0,1.52,14.61,0.14,0.01,NA,0,0.01,NA,1
-11610,Malik Washington,WR,MIA,NA,NA,NA,5.48,0.04,3.68,43.88,0.11,0.02,NA,0,0.01,NA,1
-11579,Audric Estime,RB,NO,NA,NA,NA,33.18,0.42,1.27,8.24,0.05,0.03,NA,0.02,0,NA,1
-11201,Blake Whiteheart,TE,CLE,NA,NA,NA,NA,NA,0.84,8.32,0.08,0,NA,NA,0,NA,1
-10871,Luke Schoonmaker,TE,DAL,NA,NA,NA,NA,NA,1.51,13.34,0.07,0.01,NA,NA,0,NA,1
-10231,Elijah Higgins,TE,ARI,NA,NA,NA,NA,NA,2.76,27.14,0.14,0.01,NA,NA,0.01,NA,1
-10229,Rashee Rice,WR,KC,NA,NA,NA,1.36,0.02,5.19,63.65,0.41,0.02,NA,0,0.03,NA,1
-10220,Will Mallory,TE,IND,NA,NA,NA,NA,NA,0.14,1.41,0.01,NA,NA,NA,NA,NA,1
-10214,Davis Allen,TE,LAR,NA,NA,NA,NA,NA,1.38,14.34,0.12,0.01,NA,NA,0.01,NA,1
-10210,Cameron Latu,TE,NE,NA,NA,NA,NA,NA,0.2,2.17,0.01,0,NA,NA,0,NA,1
+11610,Malik Washington,WR,MIA,NA,NA,NA,5.39,0.04,3.68,43.24,0.11,0.02,NA,0,0.01,NA,1
+11579,Audric Estime,RB,NO,NA,NA,NA,31.98,0.38,1.27,8.09,0.05,0.03,NA,0.02,0,NA,1
+11201,Blake Whiteheart,TE,CLE,NA,NA,NA,NA,NA,0.86,8.6,0.09,0,NA,NA,0,NA,1
+10871,Luke Schoonmaker,TE,DAL,NA,NA,NA,NA,NA,1.51,13.14,0.07,0.01,NA,NA,0,NA,1
+10231,Elijah Higgins,TE,ARI,NA,NA,NA,NA,NA,2.74,26.4,0.13,0.01,NA,NA,0.01,NA,1
+10229,Rashee Rice,WR,KC,NA,NA,NA,1.29,0.02,5.27,64.57,0.49,0.02,NA,0,0.03,NA,1
+10214,Davis Allen,TE,LAR,NA,NA,NA,NA,NA,1.37,14.25,0.12,0.01,NA,NA,0.01,NA,1
+10210,Cameron Latu,TE,NE,NA,NA,NA,NA,NA,0.2,2.18,0.02,0,NA,NA,0,NA,1
 6853,Van Jefferson,WR,WAS,NA,NA,NA,NA,NA,1.17,15.06,0.08,0,NA,NA,0,NA,1
 13418,Robert Henry Jr.,RB,WAS,NA,NA,NA,2.92,0.02,0.02,0.16,0,NA,NA,NA,NA,NA,1
 13301,Antonio Williams,WR,WAS,NA,NA,NA,0.72,0,3.15,35.57,0.19,0.01,NA,0,0.01,NA,1
