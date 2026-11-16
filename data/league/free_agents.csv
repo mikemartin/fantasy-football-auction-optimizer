@@ -233,7 +233,7 @@ LAC,LAC D/ST,DEF,LAC,
 12482,Savion Williams,WR,GB,
 8088,Kalif Jackson,TE,MIA,
 11384,Owen Wright,RB,LV,
-13423,Eli Heidenreich,RB,PIT,
+13423,Eli Heidenreich,RB,PIT,Out
 11959,Bryce Oliver,WR,HOU,
 8253,Deven Thompkins,WR,LV,
 8861,Irvin Charles,WR,SEA,
@@ -272,7 +272,7 @@ CLE,CLE D/ST,DEF,CLE,
 5119,Jason Sanders,K,NYJ,
 8076,Michael Bandy,WR,DEN,
 12756,Stephen Gosnell,WR,BUF,
-12048,George Holani,RB,SEA,Questionable
+12048,George Holani,RB,SEA,Out
 12888,Dalen Cambre,WR,NYG,
 13353,Chris Brazzell II,WR,CAR,IR
 12641,Jaylin Lane,WR,WAS,IR
@@ -335,7 +335,7 @@ CAR,CAR D/ST,DEF,CAR,
 13923,Joshua Pitsenberger,RB,HOU,
 11292,Tommy DeVito,QB,NE,
 12476,Devin Neal,RB,WAS,
-12511,Will Howard,QB,PIT,
+12511,Will Howard,QB,PIT,Out
 8002,Shane Buechele,QB,BUF,Out
 8207,Tyler Goodson,RB,DAL,IR
 12548,Lenny Krieg,K,GB,
@@ -500,7 +500,7 @@ PHI,PHI D/ST,DEF,PHI,
 8123,Hassan Haskins,RB,CLE,
 3161,Carson Wentz,QB,MIN,
 12705,Graham Mertz,QB,HOU,IR
-7600,Pat Freiermuth,TE,PIT,Questionable
+7600,Pat Freiermuth,TE,PIT,
 8527,Dareke Young,WR,LV,
 11199,Emari Demercado,RB,HOU,
 12860,Theo Wease Jr.,WR,LAC,
@@ -664,7 +664,7 @@ CIN,CIN D/ST,DEF,CIN,
 13806,Matt Lauter,TE,NO,
 13350,Joe Fagnano,QB,BAL,
 13491,Kaden Wetjen,WR,PIT,
-13289,Drew Allar,QB,PIT,
+13289,Drew Allar,QB,PIT,Out
 6588,Tom Kennedy,WR,DET,IR
 13338,Kevin Coleman Jr.,WR,MIA,
 13322,Sam Roush,TE,CHI,
