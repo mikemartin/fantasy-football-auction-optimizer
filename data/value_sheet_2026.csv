@@ -313,7 +313,6 @@ Dyami Brown,WAS,WR,14,1,1,NA,0
 Tyler Badie,DEN,RB,13.9,1,1,NA,0
 Jeremy Ruckert,NYJ,TE,13.8,1,1,NA,0
 Hayden Rucci,LAC,TE,13.8,1,1,NA,0
-Oscar Delp,NO,TE,13.8,1,1,NA,0
 Roschon Johnson,CHI,RB,13.7,1,1,NA,0
 Jaleel McLaughlin,CLE,RB,13.7,1,1,NA,0
 Mitchell Evans,CAR,TE,13.7,1,1,NA,0
@@ -342,6 +341,7 @@ Brevin Jordan,HOU,TE,11,1,1,NA,0
 LeQuint Allen Jr.,JAC,RB,10.4,1,1,NA,0
 Chris Manhertz,NYG,TE,10.4,1,1,NA,0
 Ben Yurosek,MIN,TE,10.4,1,1,NA,0
+Oscar Delp,NO,TE,10.4,1,1,NA,0
 Travis Homer,PIT,RB,10.2,1,1,NA,0
 Hunter Luepke,DAL,RB,9.9,1,1,NA,0
 George Holani,SEA,RB,9.9,1,1,NA,0
@@ -350,7 +350,6 @@ Efton Chism III,NE,WR,9.9,1,1,NA,0
 Jacob Saylors,DET,RB,9.8,1,1,NA,0
 Lan Larison,NE,RB,9.6,1,1,NA,0
 Eric Saubert,SEA,TE,9.6,1,1,NA,0
-John Bates,WSH,TE,9.6,1,1,NA,0
 Isaac Guerendo,SF,RB,9.3,1,1,NA,0
 CJ Donaldson,NO,RB,9.3,1,1,NA,0
 Jaydon Blue,PHI,RB,9.2,1,1,NA,0
@@ -374,6 +373,7 @@ Devin Culp,MIN,TE,8.1,1,1,NA,0
 Audric Estime,NO,RB,8,1,1,NA,0
 Mo Alie-Cox,IND,TE,8,1,1,NA,0
 Jonathan Mingo,DAL,WR,7.9,1,1,NA,0
+John Bates,WAS,TE,7.8,1,1,NA,0
 Barion Brown,NO,WR,7.7,1,1,NA,0
 Tim Patrick,NYJ,WR,7.5,1,1,NA,0
 Jordan Whittington,LAR,WR,7.5,1,1,NA,0
@@ -450,14 +450,11 @@ Dallen Bentley,DEN,TE,3.6,1,1,NA,0
 Grant Calcaterra,PHI,TE,3.5,1,1,NA,0
 Ko Kieft,TB,TE,3.5,1,1,NA,0
 Ja'Tavion Sanders,CAR,TE,3.5,1,1,NA,0
-Bauer Sharp,TB,TE,3.5,1,1,NA,0
 Brandin Cooks,SF,WR,3.5,1,1,NA,0
 Tyson Bagent,CHI,QB,3.4,1,1,NA,0
 Carter Runyon,LV,TE,3.4,1,1,NA,0
 DJ Uiagalelei,LAC,QB,3.3,1,1,NA,0
 E.J. Jenkins,PHI,TE,3.2,1,1,NA,0
-Justin Joly,MIA,TE,3.2,1,1,NA,0
-Seydou Traore,MIA,TE,3.2,1,1,NA,0
 Van Jefferson,WSH,WR,3.1,1,1,NA,0
 Elijah Sarratt,BAL,WR,3,1,1,NA,0
 Kenny Pickett,CAR,QB,2.9,1,1,NA,0
@@ -491,6 +488,7 @@ Matthew Caldwell,LA,QB,0.5,1,1,NA,0
 Anthony Tyus III,CAR,RB,0.5,1,1,NA,0
 Mitchell Tinsley,CIN,WR,0.5,1,1,NA,0
 Tyler Conklin,DET,TE,0.3,1,1,NA,0
+Seydou Traore,MIA,TE,0.2,1,1,NA,0
 DeAndre Carter,DET,WR,0.2,1,1,NA,0
 Charlie Jones,NYG,WR,0.2,1,1,NA,0
 Andrew Beck,NYJ,RB,0.1,1,1,NA,0
@@ -570,7 +568,9 @@ Cam Grandy,CIN,TE,0,1,1,NA,0
 Elijah Arroyo,SEA,TE,0,1,1,NA,0
 Caleb Lohner,DEN,TE,0,1,1,NA,0
 Moliki Matavao,NO,TE,0,1,1,NA,0
+Justin Joly,MIA,TE,0,1,1,NA,0
 Joe Royer,CLE,TE,0,1,1,NA,0
+Bauer Sharp,TB,TE,0,1,1,NA,0
 John Michael Gyllenborg,KC,TE,0,1,1,NA,0
 Tanner Arkin,NE,TE,0,1,1,NA,0
 Odell Beckham Jr.,MIN,WR,0,1,1,NA,0
