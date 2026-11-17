@@ -130,7 +130,7 @@ KC,KC D/ST,DEF,KC,pts_ppr,5.69
 KC,KC D/ST,DEF,KC,pts_std,5.69
 KC,KC D/ST,DEF,KC,sack,2.07
 KC,KC D/ST,DEF,KC,tkl_loss,4.1
-KC,KC D/ST,DEF,KC,yds_allow,384.19
+KC,KC D/ST,DEF,KC,yds_allow,384.04
 KC,KC D/ST,DEF,KC,yds_allow_350_399,1
 CHI,CHI D/ST,DEF,CHI,adp_dd_ppr,999
 CHI,CHI D/ST,DEF,CHI,blk_kick,0.05
@@ -278,7 +278,7 @@ BUF,BUF D/ST,DEF,BUF,pts_ppr,5.97
 BUF,BUF D/ST,DEF,BUF,pts_std,5.97
 BUF,BUF D/ST,DEF,BUF,sack,2.21
 BUF,BUF D/ST,DEF,BUF,tkl_loss,4.15
-BUF,BUF D/ST,DEF,BUF,yds_allow,374.56
+BUF,BUF D/ST,DEF,BUF,yds_allow,374.57
 BUF,BUF D/ST,DEF,BUF,yds_allow_350_399,1
 11533,Brandon Aubrey,K,DAL,adp_dd_ppr,999
 11533,Brandon Aubrey,K,DAL,fga,2.38
@@ -395,7 +395,7 @@ DEN,DEN D/ST,DEF,DEN,pts_ppr,6.91
 DEN,DEN D/ST,DEF,DEN,pts_std,6.91
 DEN,DEN D/ST,DEF,DEN,sack,2.46
 DEN,DEN D/ST,DEF,DEN,tkl_loss,4.55
-DEN,DEN D/ST,DEF,DEN,yds_allow,311.38
+DEN,DEN D/ST,DEF,DEN,yds_allow,311.33
 DEN,DEN D/ST,DEF,DEN,yds_allow_300_349,1
 PIT,PIT D/ST,DEF,PIT,adp_dd_ppr,999
 PIT,PIT D/ST,DEF,PIT,blk_kick,0.06
@@ -417,7 +417,7 @@ PIT,PIT D/ST,DEF,PIT,pts_ppr,6.65
 PIT,PIT D/ST,DEF,PIT,pts_std,6.65
 PIT,PIT D/ST,DEF,PIT,sack,2.5
 PIT,PIT D/ST,DEF,PIT,tkl_loss,4.57
-PIT,PIT D/ST,DEF,PIT,yds_allow,327.28
+PIT,PIT D/ST,DEF,PIT,yds_allow,328.02
 PIT,PIT D/ST,DEF,PIT,yds_allow_300_349,1
 10937,Jake Moody,K,ATL,adp_dd_ppr,999
 10937,Jake Moody,K,ATL,fga,1.97
@@ -552,7 +552,7 @@ IND,IND D/ST,DEF,IND,pts_ppr,6.42
 IND,IND D/ST,DEF,IND,pts_std,6.42
 IND,IND D/ST,DEF,IND,sack,2.4
 IND,IND D/ST,DEF,IND,tkl_loss,4.56
-IND,IND D/ST,DEF,IND,yds_allow,400.41
+IND,IND D/ST,DEF,IND,yds_allow,402.77
 IND,IND D/ST,DEF,IND,yds_allow_400_449,1
 11786,Cam Little,K,JAX,adp_dd_ppr,999
 11786,Cam Little,K,JAX,fga,2.25
@@ -936,7 +936,7 @@ ARI,ARI D/ST,DEF,ARI,pts_ppr,5.48
 ARI,ARI D/ST,DEF,ARI,pts_std,5.48
 ARI,ARI D/ST,DEF,ARI,sack,2.3
 ARI,ARI D/ST,DEF,ARI,tkl_loss,4.4
-ARI,ARI D/ST,DEF,ARI,yds_allow,360.91
+ARI,ARI D/ST,DEF,ARI,yds_allow,365.81
 ARI,ARI D/ST,DEF,ARI,yds_allow_350_399,1
 BAL,BAL D/ST,DEF,BAL,adp_dd_ppr,999
 BAL,BAL D/ST,DEF,BAL,blk_kick,0.05
@@ -1221,7 +1221,7 @@ WAS,WAS D/ST,DEF,WAS,pts_ppr,6.99
 WAS,WAS D/ST,DEF,WAS,pts_std,6.99
 WAS,WAS D/ST,DEF,WAS,sack,3.03
 WAS,WAS D/ST,DEF,WAS,tkl_loss,5.44
-WAS,WAS D/ST,DEF,WAS,yds_allow,318.45
+WAS,WAS D/ST,DEF,WAS,yds_allow,318.53
 WAS,WAS D/ST,DEF,WAS,yds_allow_300_349,1
 CAR,CAR D/ST,DEF,CAR,adp_dd_ppr,999
 CAR,CAR D/ST,DEF,CAR,blk_kick,0.05
@@ -1286,7 +1286,7 @@ TB,TB D/ST,DEF,TB,pts_ppr,6.97
 TB,TB D/ST,DEF,TB,pts_std,6.97
 TB,TB D/ST,DEF,TB,sack,2.75
 TB,TB D/ST,DEF,TB,tkl_loss,4.9
-TB,TB D/ST,DEF,TB,yds_allow,328.13
+TB,TB D/ST,DEF,TB,yds_allow,329.82
 TB,TB D/ST,DEF,TB,yds_allow_300_349,1
 6650,Chase McLaughlin,K,TB,adp_dd_ppr,999
 6650,Chase McLaughlin,K,TB,fga,2.19
@@ -1343,7 +1343,7 @@ TB,TB D/ST,DEF,TB,yds_allow_300_349,1
 658,Mike Nugent,K,NA,adp_dd_ppr,1000
 11457,Trey Wolff,K,NA,adp_dd_ppr,1000
 3909,Sam Ficken,K,NA,adp_dd_ppr,1000
-4233,Zane Gonzalez,K,MIA,adp_dd_ppr,1000
+4233,Zane Gonzalez,K,NA,adp_dd_ppr,1000
 11146,Christopher Dunn,K,NA,adp_dd_ppr,1000
 10858,Alex Quevedo,K,NA,adp_dd_ppr,1000
 2650,Ty Long,P,NA,adp_dd_ppr,1000

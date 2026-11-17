@@ -25,7 +25,6 @@ player_id,player,pos,nfl_team,status
 7593,Trey Sermon,RB,ATL,IR
 11636,Johnny Wilson,WR,PHI,IR
 7828,Noah Gray,TE,KC,
-11557,Joe Milton,QB,PHI,
 5995,Justice Hill,RB,BAL,
 12925,Jamaal Pritchett,WR,NYJ,
 7262,Jalen Morton,QB,IND,
@@ -35,7 +34,6 @@ player_id,player,pos,nfl_team,status
 12542,Efton Chism III,WR,NE,
 7049,Jauan Jennings,WR,MIN,Out
 4943,Sam Darnold,QB,SEA,Out
-10228,Charlie Jones,WR,NYG,
 829,Andy Dalton,QB,ATL,Out
 10222,Jayden Reed,WR,GB,IR
 11311,Jason Brownlee,WR,TEN,
@@ -207,7 +205,6 @@ DAL,DAL D/ST,DEF,DAL,
 7521,Chris Blair,WR,ATL,
 12543,Tahj Brooks,RB,CIN,
 13299,Nate Boerkircher,TE,JAX,
-4233,Zane Gonzalez,K,MIA,
 8208,Tyler Badie,RB,DEN,IR
 1604,Nick Williams,WR,DEN,
 WAS,WAS D/ST,DEF,WAS,
@@ -433,6 +430,7 @@ NO,NO D/ST,DEF,NO,
 12492,Pat Bryant,WR,DEN,
 6826,Cole Kmet,TE,CHI,IR
 11058,Blake Grupe,K,LAR,IR
+13276,Omar Cooper Jr.,WR,NYJ,Out
 11210,Malik Heath,WR,ATL,
 13963,Nick DeGennaro,WR,WAS,
 13121,Ben Yurosek,TE,MIN,
@@ -641,7 +639,6 @@ CIN,CIN D/ST,DEF,CIN,
 8214,Cole Turner,TE,MIA,IR
 4017,Deshaun Watson,QB,CLE,
 4464,Nick Mullens,QB,JAX,
-13011,Brennan Presley,WR,LAR,
 13329,Malik Benson,WR,LV,Out
 8139,Zamir White,RB,NO,
 11588,Jawhar Jordan,RB,HOU,Out
