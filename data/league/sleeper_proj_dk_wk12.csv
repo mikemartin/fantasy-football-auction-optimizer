@@ -130,7 +130,7 @@ KC,KC D/ST,DEF,KC,pts_ppr,5.79
 KC,KC D/ST,DEF,KC,pts_std,5.79
 KC,KC D/ST,DEF,KC,sack,2.11
 KC,KC D/ST,DEF,KC,tkl_loss,4.17
-KC,KC D/ST,DEF,KC,yds_allow,384.33
+KC,KC D/ST,DEF,KC,yds_allow,384.38
 KC,KC D/ST,DEF,KC,yds_allow_350_399,1
 CHI,CHI D/ST,DEF,CHI,adp_dd_ppr,999
 CHI,CHI D/ST,DEF,CHI,blk_kick,0.06
@@ -278,7 +278,7 @@ BUF,BUF D/ST,DEF,BUF,pts_ppr,6.39
 BUF,BUF D/ST,DEF,BUF,pts_std,6.39
 BUF,BUF D/ST,DEF,BUF,sack,2.37
 BUF,BUF D/ST,DEF,BUF,tkl_loss,4.44
-BUF,BUF D/ST,DEF,BUF,yds_allow,373.01
+BUF,BUF D/ST,DEF,BUF,yds_allow,373.04
 BUF,BUF D/ST,DEF,BUF,yds_allow_350_399,1
 11533,Brandon Aubrey,K,DAL,adp_dd_ppr,999
 11533,Brandon Aubrey,K,DAL,fga,2.58
@@ -395,7 +395,7 @@ DEN,DEN D/ST,DEF,DEN,pts_ppr,7.7
 DEN,DEN D/ST,DEF,DEN,pts_std,7.7
 DEN,DEN D/ST,DEF,DEN,sack,2.38
 DEN,DEN D/ST,DEF,DEN,tkl_loss,4.41
-DEN,DEN D/ST,DEF,DEN,yds_allow,309.14
+DEN,DEN D/ST,DEF,DEN,yds_allow,309.22
 DEN,DEN D/ST,DEF,DEN,yds_allow_300_349,1
 PIT,PIT D/ST,DEF,PIT,adp_dd_ppr,999
 PIT,PIT D/ST,DEF,PIT,blk_kick,0.06
@@ -417,7 +417,7 @@ PIT,PIT D/ST,DEF,PIT,pts_ppr,6.27
 PIT,PIT D/ST,DEF,PIT,pts_std,6.27
 PIT,PIT D/ST,DEF,PIT,sack,2.35
 PIT,PIT D/ST,DEF,PIT,tkl_loss,4.31
-PIT,PIT D/ST,DEF,PIT,yds_allow,325.9
+PIT,PIT D/ST,DEF,PIT,yds_allow,326.09
 PIT,PIT D/ST,DEF,PIT,yds_allow_300_349,1
 10937,Jake Moody,K,ATL,adp_dd_ppr,999
 10937,Jake Moody,K,ATL,fga,1.8
@@ -530,7 +530,7 @@ CIN,CIN D/ST,DEF,CIN,pts_ppr,7.97
 CIN,CIN D/ST,DEF,CIN,pts_std,7.97
 CIN,CIN D/ST,DEF,CIN,sack,3.27
 CIN,CIN D/ST,DEF,CIN,tkl_loss,6.04
-CIN,CIN D/ST,DEF,CIN,yds_allow,357.5
+CIN,CIN D/ST,DEF,CIN,yds_allow,357.02
 CIN,CIN D/ST,DEF,CIN,yds_allow_350_399,1
 IND,IND D/ST,DEF,IND,adp_dd_ppr,999
 IND,IND D/ST,DEF,IND,blk_kick,0.06
@@ -674,7 +674,7 @@ NYJ,NYJ D/ST,DEF,NYJ,pts_ppr,7.82
 NYJ,NYJ D/ST,DEF,NYJ,pts_std,7.82
 NYJ,NYJ D/ST,DEF,NYJ,sack,2.93
 NYJ,NYJ D/ST,DEF,NYJ,tkl_loss,5.61
-NYJ,NYJ D/ST,DEF,NYJ,yds_allow,291.5
+NYJ,NYJ D/ST,DEF,NYJ,yds_allow,292.05
 NYJ,NYJ D/ST,DEF,NYJ,yds_allow_200_299,1
 SF,SF D/ST,DEF,SF,adp_dd_ppr,999
 SF,SF D/ST,DEF,SF,blk_kick,0.06
@@ -696,7 +696,7 @@ SF,SF D/ST,DEF,SF,pts_ppr,6.81
 SF,SF D/ST,DEF,SF,pts_std,6.81
 SF,SF D/ST,DEF,SF,sack,2.57
 SF,SF D/ST,DEF,SF,tkl_loss,4.56
-SF,SF D/ST,DEF,SF,yds_allow,319.21
+SF,SF D/ST,DEF,SF,yds_allow,318
 SF,SF D/ST,DEF,SF,yds_allow_300_349,1
 TEN,TEN D/ST,DEF,TEN,adp_dd_ppr,999
 TEN,TEN D/ST,DEF,TEN,blk_kick,0.04
@@ -717,7 +717,7 @@ TEN,TEN D/ST,DEF,TEN,pts_ppr,2.65
 TEN,TEN D/ST,DEF,TEN,pts_std,2.65
 TEN,TEN D/ST,DEF,TEN,sack,1.45
 TEN,TEN D/ST,DEF,TEN,tkl_loss,2.86
-TEN,TEN D/ST,DEF,TEN,yds_allow,429.38
+TEN,TEN D/ST,DEF,TEN,yds_allow,428.83
 TEN,TEN D/ST,DEF,TEN,yds_allow_400_449,1
 7839,Evan McPherson,K,CIN,adp_dd_ppr,999
 7839,Evan McPherson,K,CIN,fga,2.64
@@ -758,7 +758,7 @@ NO,NO D/ST,DEF,NO,pts_std,3.79
 NO,NO D/ST,DEF,NO,sack,2.01
 NO,NO D/ST,DEF,NO,st_td,0.05
 NO,NO D/ST,DEF,NO,tkl_loss,3.35
-NO,NO D/ST,DEF,NO,yds_allow,437.5
+NO,NO D/ST,DEF,NO,yds_allow,437.92
 NO,NO D/ST,DEF,NO,yds_allow_400_449,1
 SEA,SEA D/ST,DEF,SEA,adp_dd_ppr,999
 SEA,SEA D/ST,DEF,SEA,blk_kick,0.04
@@ -784,7 +784,7 @@ SEA,SEA D/ST,DEF,SEA,sack,1.96
 SEA,SEA D/ST,DEF,SEA,safe,0.04
 SEA,SEA D/ST,DEF,SEA,st_td,0.04
 SEA,SEA D/ST,DEF,SEA,tkl_loss,3.76
-SEA,SEA D/ST,DEF,SEA,yds_allow,342.17
+SEA,SEA D/ST,DEF,SEA,yds_allow,340.79
 SEA,SEA D/ST,DEF,SEA,yds_allow_300_349,1
 11261,Andre Szmyt,K,CLE,adp_dd_ppr,999
 11261,Andre Szmyt,K,CLE,fga,2.05
@@ -1116,7 +1116,7 @@ JAX,JAX D/ST,DEF,JAX,pts_ppr,9.96
 JAX,JAX D/ST,DEF,JAX,pts_std,9.96
 JAX,JAX D/ST,DEF,JAX,sack,3.16
 JAX,JAX D/ST,DEF,JAX,tkl_loss,6.17
-JAX,JAX D/ST,DEF,JAX,yds_allow,298.22
+JAX,JAX D/ST,DEF,JAX,yds_allow,299
 JAX,JAX D/ST,DEF,JAX,yds_allow_200_299,1
 12713,Andy Borregales,K,NE,adp_dd_ppr,999
 12713,Andy Borregales,K,NE,fga,1.93
@@ -1177,7 +1177,7 @@ CLE,CLE D/ST,DEF,CLE,pts_ppr,8.13
 CLE,CLE D/ST,DEF,CLE,pts_std,8.13
 CLE,CLE D/ST,DEF,CLE,sack,2.59
 CLE,CLE D/ST,DEF,CLE,tkl_loss,5.91
-CLE,CLE D/ST,DEF,CLE,yds_allow,301.8
+CLE,CLE D/ST,DEF,CLE,yds_allow,301.91
 CLE,CLE D/ST,DEF,CLE,yds_allow_300_349,1
 LV,LV D/ST,DEF,LV,adp_dd_ppr,999
 LV,LV D/ST,DEF,LV,blk_kick,0.08
@@ -1198,7 +1198,7 @@ LV,LV D/ST,DEF,LV,pts_ppr,6.12
 LV,LV D/ST,DEF,LV,pts_std,6.12
 LV,LV D/ST,DEF,LV,sack,2.53
 LV,LV D/ST,DEF,LV,tkl_loss,4.98
-LV,LV D/ST,DEF,LV,yds_allow,345.33
+LV,LV D/ST,DEF,LV,yds_allow,345.5
 LV,LV D/ST,DEF,LV,yds_allow_300_349,1
 MIA,MIA D/ST,DEF,MIA,adp_dd_ppr,999
 MIA,MIA D/ST,DEF,MIA,blk_kick,0.07
@@ -1219,7 +1219,7 @@ MIA,MIA D/ST,DEF,MIA,pts_ppr,5.1
 MIA,MIA D/ST,DEF,MIA,pts_std,5.1
 MIA,MIA D/ST,DEF,MIA,sack,2.25
 MIA,MIA D/ST,DEF,MIA,tkl_loss,4.31
-MIA,MIA D/ST,DEF,MIA,yds_allow,355.46
+MIA,MIA D/ST,DEF,MIA,yds_allow,356.41
 MIA,MIA D/ST,DEF,MIA,yds_allow_350_399,1
 WAS,WAS D/ST,DEF,WAS,adp_dd_ppr,999
 WAS,WAS D/ST,DEF,WAS,blk_kick,0.08
@@ -1264,7 +1264,7 @@ CAR,CAR D/ST,DEF,CAR,pts_std,5.24
 CAR,CAR D/ST,DEF,CAR,sack,1.98
 CAR,CAR D/ST,DEF,CAR,st_td,0.05
 CAR,CAR D/ST,DEF,CAR,tkl_loss,3.41
-CAR,CAR D/ST,DEF,CAR,yds_allow,341.04
+CAR,CAR D/ST,DEF,CAR,yds_allow,340.91
 CAR,CAR D/ST,DEF,CAR,yds_allow_300_349,1
 12961,Ryan Fitzgerald,K,CAR,adp_dd_ppr,999
 12961,Ryan Fitzgerald,K,CAR,fga,1.96
@@ -1305,7 +1305,7 @@ TB,TB D/ST,DEF,TB,pts_ppr,8
 TB,TB D/ST,DEF,TB,pts_std,8
 TB,TB D/ST,DEF,TB,sack,2.76
 TB,TB D/ST,DEF,TB,tkl_loss,4.92
-TB,TB D/ST,DEF,TB,yds_allow,326.21
+TB,TB D/ST,DEF,TB,yds_allow,325.9
 TB,TB D/ST,DEF,TB,yds_allow_300_349,1
 6650,Chase McLaughlin,K,TB,adp_dd_ppr,999
 6650,Chase McLaughlin,K,TB,fga,2.2
