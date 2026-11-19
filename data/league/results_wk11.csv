@@ -18,15 +18,15 @@ week,matchup_id,manager,player,pos,points,started
 11,2,jezz281,Michael Mayer,TE,0,FALSE
 11,2,jezz281,JAX D/ST,DEF,0,TRUE
 11,2,DrBongstrong,Bhayshul Tuten,RB,0,TRUE
-11,2,DrBongstrong,Chris Boswell,K,0,TRUE
+11,2,DrBongstrong,Carson Beck,QB,0,TRUE
 11,2,DrBongstrong,Derrick Henry,RB,0,TRUE
 11,2,DrBongstrong,Demarcus Robinson,WR,0,FALSE
 11,2,DrBongstrong,Alvin Kamara,RB,0,FALSE
 11,2,DrBongstrong,Aaron Jones Sr.,RB,0,TRUE
-11,2,DrBongstrong,Matthew Stafford,QB,0,TRUE
-11,2,DrBongstrong,Kyler Murray,QB,0,FALSE
+11,2,DrBongstrong,Matthew Stafford,QB,0,FALSE
 11,2,DrBongstrong,Justin Jefferson,WR,0,TRUE
 11,2,DrBongstrong,Tyler Bass,K,0,FALSE
+11,2,DrBongstrong,Travis Etienne Jr.,RB,0,FALSE
 11,2,DrBongstrong,Amon-Ra St. Brown,WR,0,TRUE
 11,2,DrBongstrong,Kyle Pitts Sr.,TE,0,FALSE
 11,2,DrBongstrong,Isaiah Likely,TE,0,TRUE
@@ -56,22 +56,21 @@ week,matchup_id,manager,player,pos,points,started
 11,5,theNastyJK,Rome Odunze,WR,0,FALSE
 11,5,theNastyJK,Malik Nabers,WR,0,TRUE
 11,5,theNastyJK,Quinshon Judkins,RB,0,FALSE
-11,5,theNastyJK,Luther Burden III,WR,0,FALSE
+11,5,theNastyJK,Luther Burden III,WR,0,TRUE
 11,5,theNastyJK,Tetairoa McMillan,WR,0,TRUE
 11,5,theNastyJK,Tyler Shough,QB,0,TRUE
 11,5,theNastyJK,Fernando Mendoza,QB,0,FALSE
 11,5,theNastyJK,Jadarian Price,RB,0,FALSE
-11,5,theNastyJK,Antonio Williams,WR,0,FALSE
 11,5,theNastyJK,Evan McPherson,K,0,TRUE
-11,5,theNastyJK,Jameson Williams,WR,0,TRUE
+11,5,theNastyJK,Jameson Williams,WR,0,FALSE
 11,5,theNastyJK,Malik Willis,QB,0,FALSE
 11,5,theNastyJK,Jahmyr Gibbs,RB,0,TRUE
 11,5,theNastyJK,Aaron Rodgers,QB,0,TRUE
-11,5,theNastyJK,Zach Charbonnet,RB,0,TRUE
-11,5,theNastyJK,LAR D/ST,DEF,0,TRUE
+11,5,theNastyJK,Zach Charbonnet,RB,0,FALSE
+11,5,theNastyJK,KC D/ST,DEF,0,TRUE
+11,5,theNastyJK,LAR D/ST,DEF,0,FALSE
 11,1,JLstorm1,Michael Penix Jr.,QB,0,FALSE
 11,1,JLstorm1,Braelon Allen,RB,0,FALSE
-11,1,JLstorm1,Audric Estime,RB,0,FALSE
 11,1,JLstorm1,Cam Little,K,0,TRUE
 11,1,JLstorm1,Ollie Gordon II,RB,0,TRUE
 11,1,JLstorm1,Caleb Douglas,WR,0,TRUE
@@ -84,6 +83,7 @@ week,matchup_id,manager,player,pos,points,started
 11,1,JLstorm1,Ja'Marr Chase,WR,0,TRUE
 11,1,JLstorm1,Alec Pierce,WR,0,FALSE
 11,1,JLstorm1,Breece Hall,RB,0,TRUE
+11,1,JLstorm1,Chig Okonkwo,TE,0,TRUE
 11,1,JLstorm1,Jordan Mason,RB,0,FALSE
 11,1,JLstorm1,Tucker Kraft,TE,0,FALSE
 11,1,JLstorm1,MIN D/ST,DEF,0,TRUE
