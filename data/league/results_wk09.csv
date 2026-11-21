@@ -1,0 +1,171 @@
+week,matchup_id,manager,player,pos,points,started
+9,4,jezz281,Tre Tucker,WR,8.5,TRUE
+9,4,jezz281,Rashee Rice,WR,7.9,TRUE
+9,4,jezz281,Will Reichard,K,9.6,TRUE
+9,4,jezz281,Omarion Hampton,RB,7.5,FALSE
+9,4,jezz281,Kyle Monangai,RB,0,FALSE
+9,4,jezz281,Emmett Johnson,RB,10.15,FALSE
+9,4,jezz281,Seth McGowan,RB,11.7,FALSE
+9,4,jezz281,Jared Goff,QB,6.05,TRUE
+9,4,jezz281,A.J. Brown,WR,0,FALSE
+9,4,jezz281,Travis Etienne Jr.,RB,0,FALSE
+9,4,jezz281,Rhamondre Stevenson,RB,14.3,TRUE
+9,4,jezz281,Trey McBride,TE,7.4,TRUE
+9,4,jezz281,Rachaad White,RB,6.65,TRUE
+9,4,jezz281,George Pickens,WR,0,FALSE
+9,4,jezz281,Brock Purdy,QB,30.28,TRUE
+9,4,jezz281,Chase Brown,RB,10.75,TRUE
+9,4,jezz281,JAX D/ST,DEF,11.5,TRUE
+9,2,DrBongstrong,Michael Wilson,WR,9,FALSE
+9,2,DrBongstrong,Bhayshul Tuten,RB,8.9,TRUE
+9,2,DrBongstrong,Chris Boswell,K,0,FALSE
+9,2,DrBongstrong,Derrick Henry,RB,7.83,TRUE
+9,2,DrBongstrong,Demarcus Robinson,WR,3.2,TRUE
+9,2,DrBongstrong,Alvin Kamara,RB,6.4,FALSE
+9,2,DrBongstrong,Aaron Jones Sr.,RB,2.1,FALSE
+9,2,DrBongstrong,Matthew Stafford,QB,12.22,TRUE
+9,2,DrBongstrong,Kyler Murray,QB,0,FALSE
+9,2,DrBongstrong,Justin Jefferson,WR,8.8,TRUE
+9,2,DrBongstrong,Tyler Bass,K,14.1,TRUE
+9,2,DrBongstrong,Amon-Ra St. Brown,WR,12.6,FALSE
+9,2,DrBongstrong,Kyle Pitts Sr.,TE,2.3,TRUE
+9,2,DrBongstrong,Isaiah Likely,TE,12.3,TRUE
+9,2,DrBongstrong,Christian Watson,WR,27.1,TRUE
+9,2,DrBongstrong,Isiah Pacheco,RB,0,FALSE
+9,2,DrBongstrong,DET D/ST,DEF,9,TRUE
+9,2,DrBongstrong,PIT D/ST,DEF,0,FALSE
+9,1,themikemartin,Jake Bates,K,15.6,TRUE
+9,1,themikemartin,Jacory Croskey-Merritt,RB,0,FALSE
+9,1,themikemartin,Omar Cooper Jr.,WR,9.8,TRUE
+9,1,themikemartin,Geno Smith,QB,7.4,FALSE
+9,1,themikemartin,Travis Kelce,TE,16.3,TRUE
+9,1,themikemartin,Stefon Diggs,WR,6.1,FALSE
+9,1,themikemartin,Christian McCaffrey,RB,23.95,TRUE
+9,1,themikemartin,Tony Pollard,RB,0,FALSE
+9,1,themikemartin,Devin Singletary,RB,4.65,TRUE
+9,1,themikemartin,Jordan Love,QB,39.18,TRUE
+9,1,themikemartin,Jonathan Taylor,RB,5.9,TRUE
+9,1,themikemartin,Romeo Doubs,WR,0,FALSE
+9,1,themikemartin,Garrett Wilson,WR,0,FALSE
+9,1,themikemartin,Bryce Young,QB,24.09,TRUE
+9,1,themikemartin,Jaxon Smith-Njigba,WR,7.1,TRUE
+9,1,themikemartin,Jordan Addison,WR,4.8,FALSE
+9,1,themikemartin,CHI D/ST,DEF,19,TRUE
+9,3,theNastyJK,Brock Bowers,TE,19.3,TRUE
+9,3,theNastyJK,Rome Odunze,WR,15,FALSE
+9,3,theNastyJK,Malik Nabers,WR,6.3,TRUE
+9,3,theNastyJK,Quinshon Judkins,RB,6,TRUE
+9,3,theNastyJK,Luther Burden III,WR,14.7,TRUE
+9,3,theNastyJK,Tetairoa McMillan,WR,14.6,TRUE
+9,3,theNastyJK,Tyler Shough,QB,22.95,TRUE
+9,3,theNastyJK,Jadarian Price,RB,11.55,FALSE
+9,3,theNastyJK,Antonio Williams,WR,3.5,FALSE
+9,3,theNastyJK,Evan McPherson,K,14,TRUE
+9,3,theNastyJK,Jameson Williams,WR,5,FALSE
+9,3,theNastyJK,Malik Willis,QB,3.82,TRUE
+9,3,theNastyJK,Jahmyr Gibbs,RB,16.4,TRUE
+9,3,theNastyJK,Zach Charbonnet,RB,11.6,FALSE
+9,3,theNastyJK,LAR D/ST,DEF,13,TRUE
+9,3,JLstorm1,Joe Milton,QB,14.66,FALSE
+9,3,JLstorm1,Michael Penix Jr.,QB,15.98,TRUE
+9,3,JLstorm1,Braelon Allen,RB,5.9,FALSE
+9,3,JLstorm1,Cam Little,K,19.1,TRUE
+9,3,JLstorm1,Ollie Gordon II,RB,7.9,TRUE
+9,3,JLstorm1,Jonah Coleman,RB,17.55,TRUE
+9,3,JLstorm1,Keenan Allen,WR,4.6,TRUE
+9,3,JLstorm1,Lamar Jackson,QB,0,FALSE
+9,3,JLstorm1,Drew Lock,QB,14.35,FALSE
+9,3,JLstorm1,D'Andre Swift,RB,4.6,TRUE
+9,3,JLstorm1,Justin Herbert,QB,11.42,TRUE
+9,3,JLstorm1,Jaylen Waddle,WR,3.2,FALSE
+9,3,JLstorm1,Ja'Marr Chase,WR,28.5,TRUE
+9,3,JLstorm1,Alec Pierce,WR,0,FALSE
+9,3,JLstorm1,Breece Hall,RB,12.95,FALSE
+9,3,JLstorm1,Jordan Mason,RB,4.95,FALSE
+9,3,JLstorm1,Tucker Kraft,TE,0.9,TRUE
+9,3,JLstorm1,MIN D/ST,DEF,10,TRUE
+9,1,Rowdy17,Sam LaPorta,TE,4.2,TRUE
+9,1,Rowdy17,Caleb Williams,QB,16.26,TRUE
+9,1,Rowdy17,Bucky Irving,RB,27.75,TRUE
+9,1,Rowdy17,Blake Corum,RB,14.05,FALSE
+9,1,Rowdy17,KC Concepcion Jr.,WR,16.8,FALSE
+9,1,Rowdy17,Ka'imi Fairbairn,K,17.8,TRUE
+9,1,Rowdy17,James Conner,RB,0,FALSE
+9,1,Rowdy17,Saquon Barkley,RB,8.95,TRUE
+9,1,Rowdy17,Chase McLaughlin,K,10.5,FALSE
+9,1,Rowdy17,Tee Higgins,WR,17.2,TRUE
+9,1,Rowdy17,Trevor Lawrence,QB,14.58,TRUE
+9,1,Rowdy17,Nico Collins,WR,13.5,TRUE
+9,1,Rowdy17,Javonte Williams,RB,21.9,TRUE
+9,1,Rowdy17,Chris Olave,WR,12.8,FALSE
+9,1,Rowdy17,Parker Washington,WR,13.1,FALSE
+9,1,Rowdy17,C.J. Stroud,QB,41.86,FALSE
+9,1,Rowdy17,HOU D/ST,DEF,21.5,TRUE
+9,5,dm98,Jayden Daniels,QB,15.56,TRUE
+9,5,dm98,Spencer Shrader,K,17.6,TRUE
+9,5,dm98,Cam Skattebo,RB,0,FALSE
+9,5,dm98,Matthew Golden,WR,28.4,TRUE
+9,5,dm98,Harold Fannin Jr.,TE,10.2,TRUE
+9,5,dm98,Jaxson Dart,QB,0,FALSE
+9,5,dm98,Emeka Egbuka,WR,5.9,FALSE
+9,5,dm98,Carnell Tate,WR,0,FALSE
+9,5,dm98,Jeremiyah Love,RB,0,FALSE
+9,5,dm98,Mike Washington Jr.,RB,-0.3,FALSE
+9,5,dm98,Dak Prescott,QB,21.5,TRUE
+9,5,dm98,George Kittle,TE,8.8,TRUE
+9,5,dm98,CeeDee Lamb,WR,26.5,TRUE
+9,5,dm98,J.K. Dobbins,RB,2.95,FALSE
+9,5,dm98,Tyler Allgeier,RB,7.6,TRUE
+9,5,dm98,James Cook III,RB,19.7,TRUE
+9,5,dm98,DEN D/ST,DEF,11,TRUE
+9,2,LeJohnBrains,Brandon Aubrey,K,10.5,TRUE
+9,2,LeJohnBrains,Malik Washington,WR,4.1,FALSE
+9,2,LeJohnBrains,Adonai Mitchell,WR,0,TRUE
+9,2,LeJohnBrains,Woody Marks,RB,8.15,TRUE
+9,2,LeJohnBrains,RJ Harvey,RB,0,FALSE
+9,2,LeJohnBrains,Colston Loveland,TE,6.4,TRUE
+9,2,LeJohnBrains,TreVeyon Henderson,RB,0,FALSE
+9,2,LeJohnBrains,Denzel Boston,WR,12.8,TRUE
+9,2,LeJohnBrains,Mike Evans,WR,0,FALSE
+9,2,LeJohnBrains,Hunter Henry,TE,5.5,FALSE
+9,2,LeJohnBrains,Samaje Perine,RB,5.8,FALSE
+9,2,LeJohnBrains,Baker Mayfield,QB,2.72,TRUE
+9,2,LeJohnBrains,DJ Moore,WR,6.35,TRUE
+9,2,LeJohnBrains,Joe Burrow,QB,32.54,TRUE
+9,2,LeJohnBrains,DeVonta Smith,WR,0,FALSE
+9,2,LeJohnBrains,Bijan Robinson,RB,27.2,TRUE
+9,2,LeJohnBrains,PHI D/ST,DEF,17,TRUE
+9,4,Wenzo3030,Drake Maye,QB,22.01,TRUE
+9,4,Wenzo3030,J.J. McCarthy,QB,8.03,FALSE
+9,4,Wenzo3030,Tyler Warren,TE,6.4,TRUE
+9,4,Wenzo3030,Cam Ward,QB,0,FALSE
+9,4,Wenzo3030,Davante Adams,WR,0,FALSE
+9,4,Wenzo3030,Chris Godwin Jr.,WR,4.55,FALSE
+9,4,Wenzo3030,Josh Allen,QB,15.36,TRUE
+9,4,Wenzo3030,Mark Andrews,TE,2.9,FALSE
+9,4,Wenzo3030,DK Metcalf,WR,0,FALSE
+9,4,Wenzo3030,Matt Gay,K,7,TRUE
+9,4,Wenzo3030,Chuba Hubbard,RB,14.6,TRUE
+9,4,Wenzo3030,Drake London,WR,9.8,TRUE
+9,4,Wenzo3030,Kyren Williams,RB,8.6,TRUE
+9,4,Wenzo3030,Kenneth Walker III,RB,36.3,TRUE
+9,4,Wenzo3030,Keaton Mitchell,RB,6.2,FALSE
+9,4,Wenzo3030,Zay Flowers,WR,2.3,TRUE
+9,4,Wenzo3030,NE D/ST,DEF,6.5,TRUE
+9,5,Elasticschnit,Dalton Kincaid,TE,4.8,TRUE
+9,5,Elasticschnit,Bo Nix,QB,18.43,FALSE
+9,5,Elasticschnit,Ladd McConkey,WR,0,FALSE
+9,5,Elasticschnit,Jalen Coker,WR,4.6,TRUE
+9,5,Elasticschnit,Kirk Cousins,QB,8.64,TRUE
+9,5,Elasticschnit,Ashton Jeanty,RB,3.75,TRUE
+9,5,Elasticschnit,Darius Cooper,WR,3.5,TRUE
+9,5,Elasticschnit,Jordyn Tyson,WR,3,FALSE
+9,5,Elasticschnit,Jason Myers,K,6.5,TRUE
+9,5,Elasticschnit,Patrick Mahomes,QB,18.48,TRUE
+9,5,Elasticschnit,Josh Jacobs,RB,0.5,FALSE
+9,5,Elasticschnit,David Montgomery,RB,0,FALSE
+9,5,Elasticschnit,Terry McLaurin,WR,0,FALSE
+9,5,Elasticschnit,Brian Robinson Jr.,RB,0,FALSE
+9,5,Elasticschnit,Jaylen Warren,RB,0,TRUE
+9,5,Elasticschnit,Puka Nacua,WR,29.75,TRUE
+9,5,Elasticschnit,SEA D/ST,DEF,9,TRUE
