@@ -17,7 +17,7 @@ jezz281,8183,Brock Purdy,QB,SF,,starter
 jezz281,9224,Chase Brown,RB,CIN,,starter
 jezz281,JAX,JAX D/ST,DEF,JAX,,starter
 DrBongstrong,12490,Bhayshul Tuten,RB,JAX,,starter
-DrBongstrong,13272,Carson Beck,QB,ARI,Questionable,starter
+DrBongstrong,13272,Carson Beck,QB,ARI,Out,starter
 DrBongstrong,3198,Derrick Henry,RB,BAL,,starter
 DrBongstrong,3286,Demarcus Robinson,WR,SF,,bench
 DrBongstrong,4035,Alvin Kamara,RB,NO,,bench
@@ -34,9 +34,9 @@ DrBongstrong,8205,Isiah Pacheco,RB,DET,IR,IR
 DrBongstrong,DET,DET D/ST,DEF,DET,,bench
 DrBongstrong,PIT,PIT D/ST,DEF,PIT,,starter
 themikemartin,11539,Jake Bates,K,DET,,starter
-themikemartin,11557,Joe Milton,QB,PHI,,starter
-themikemartin,12533,Jacory Croskey-Merritt,RB,WAS,IR,IR
-themikemartin,1373,Geno Smith,QB,NYJ,,bench
+themikemartin,11557,Joe Milton,QB,PHI,,bench
+themikemartin,12526,Tetairoa McMillan,WR,CAR,,starter
+themikemartin,1373,Geno Smith,QB,NYJ,,starter
 themikemartin,1466,Travis Kelce,TE,KC,,starter
 themikemartin,2449,Stefon Diggs,WR,WAS,,starter
 themikemartin,4034,Christian McCaffrey,RB,SF,,starter
@@ -45,10 +45,10 @@ themikemartin,6130,Devin Singletary,RB,NYG,,bench
 themikemartin,6804,Jordan Love,QB,GB,,bench
 themikemartin,6813,Jonathan Taylor,RB,IND,,starter
 themikemartin,8121,Romeo Doubs,WR,NE,IR,IR
-themikemartin,8146,Garrett Wilson,WR,NYJ,,starter
+themikemartin,8148,Jameson Williams,WR,DET,,bench
 themikemartin,9228,Bryce Young,QB,CAR,,starter
 themikemartin,9488,Jaxon Smith-Njigba,WR,SEA,,bench
-themikemartin,9756,Jordan Addison,WR,MIN,Out,bench
+themikemartin,9756,Jordan Addison,WR,MIN,Out,IR
 themikemartin,BAL,BAL D/ST,DEF,BAL,,bench
 themikemartin,CHI,CHI D/ST,DEF,CHI,,starter
 theNastyJK,11604,Brock Bowers,TE,LV,Questionable,starter
@@ -56,12 +56,12 @@ theNastyJK,11620,Rome Odunze,WR,CHI,,bench
 theNastyJK,11632,Malik Nabers,WR,NYG,,starter
 theNastyJK,12512,Quinshon Judkins,RB,CLE,,bench
 theNastyJK,12519,Luther Burden III,WR,CHI,,starter
-theNastyJK,12526,Tetairoa McMillan,WR,CAR,,starter
+theNastyJK,12533,Jacory Croskey-Merritt,RB,WAS,IR,bench
 theNastyJK,12545,Tyler Shough,QB,NO,,starter
 theNastyJK,13269,Fernando Mendoza,QB,LV,,bench
 theNastyJK,13286,Jadarian Price,RB,SEA,,bench
 theNastyJK,7839,Evan McPherson,K,CIN,,starter
-theNastyJK,8148,Jameson Williams,WR,DET,,bench
+theNastyJK,8146,Garrett Wilson,WR,NYJ,,bench
 theNastyJK,8161,Malik Willis,QB,MIA,IR,IR
 theNastyJK,9221,Jahmyr Gibbs,RB,DET,,starter
 theNastyJK,96,Aaron Rodgers,QB,PIT,,starter
