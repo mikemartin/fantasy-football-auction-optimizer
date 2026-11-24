@@ -32,7 +32,7 @@ NE,NE D/ST,DEF,NE,
 7262,Jalen Morton,QB,IND,
 8119,Jahan Dotson,WR,ATL,
 8194,Jashaun Corbin,RB,DAL,
-13418,Robert Henry Jr.,RB,WAS,
+13418,Robert Henry Jr.,RB,WAS,Out
 12542,Efton Chism III,WR,NE,
 7049,Jauan Jennings,WR,MIN,
 4943,Sam Darnold,QB,SEA,Out
@@ -112,7 +112,7 @@ IND,IND D/ST,DEF,IND,
 7066,K.J. Osborn,WR,TEN,
 1979,Blake Bortles,QB,NO,
 260,Josh Johnson,QB,ARI,
-13557,Athan Kaliakmanis,QB,WAS,
+13557,Athan Kaliakmanis,QB,WAS,Out
 8259,Cameron Dicker,K,LAC,
 10220,Will Mallory,TE,IND,Out
 13249,Thomas Gordon,TE,DET,
@@ -267,7 +267,7 @@ LAC,LAC D/ST,DEF,LAC,
 10224,Brayden Willis,TE,SF,
 8160,Kenny Pickett,QB,CAR,
 9479,Darnell Washington,TE,PIT,
-11577,Will Shipley,RB,PHI,
+11577,Will Shipley,RB,PHI,Questionable
 12540,Chimere Dike,WR,TEN,
 CLE,CLE D/ST,DEF,CLE,
 13307,Marlin Klein,TE,HOU,
@@ -278,7 +278,7 @@ CLE,CLE D/ST,DEF,CLE,
 5119,Jason Sanders,K,NYJ,
 8076,Michael Bandy,WR,DEN,
 12756,Stephen Gosnell,WR,BUF,
-12048,George Holani,RB,SEA,Out
+12048,George Holani,RB,SEA,IR
 12888,Dalen Cambre,WR,NYG,
 13353,Chris Brazzell II,WR,CAR,IR
 12641,Jaylin Lane,WR,WAS,IR
@@ -311,7 +311,7 @@ ATL,ATL D/ST,DEF,ATL,
 13277,CJ Donaldson,RB,NO,
 5917,Mecole Hardman Jr.,WR,IND,
 12460,Antwane Wells Jr.,WR,ATL,
-5022,Dallas Goedert,TE,PHI,
+5022,Dallas Goedert,TE,PHI,Questionable
 CAR,CAR D/ST,DEF,CAR,
 13042,Xavier Guillory,WR,CLE,
 11082,Ben Sims,TE,SEA,
@@ -414,7 +414,7 @@ NO,NO D/ST,DEF,NO,
 13405,Kaytron Allen,RB,MIA,
 8181,Connor Heyward,RB,LV,
 2078,Odell Beckham Jr.,WR,MIN,
-12062,Cam Grandy,TE,CIN,
+12062,Cam Grandy,TE,CIN,Out
 11474,Dylan Drummond,WR,ATL,
 13413,Cyrus Allen,WR,KC,
 12829,Coleman Owen,WR,GB,
@@ -431,6 +431,7 @@ NO,NO D/ST,DEF,NO,
 7720,Kene Nwangwu,RB,NYJ,
 13726,Camden Brown,WR,DAL,
 12536,Jaylin Noel,WR,HOU,IR
+10223,Eric Gray,RB,IND,
 7597,Kenny Yeboah,TE,ARI,Out
 12492,Pat Bryant,WR,DEN,
 6826,Cole Kmet,TE,CHI,IR
@@ -544,7 +545,7 @@ SF,SF D/ST,DEF,SF,
 11377,Tyrell Shavers,WR,BUF,
 11600,Ja'Tavion Sanders,TE,CAR,Out
 12713,Andy Borregales,K,NE,
-9230,Tanner McKee,QB,PHI,
+9230,Tanner McKee,QB,PHI,Questionable
 5008,Durham Smythe,TE,BAL,IR
 9754,Quentin Johnston,WR,LAC,
 NYG,NYG D/ST,DEF,NYG,
@@ -711,7 +712,7 @@ CIN,CIN D/ST,DEF,CIN,
 5638,Shaq Roland,WR,CHI,
 6427,Ashton Dulin,WR,IND,
 6806,J.K. Dobbins,RB,DEN,
-13312,Josh Kattus,TE,CIN,Out
+13312,Josh Kattus,TE,CIN,Questionable
 6828,AJ Dillon,RB,CAR,Out
 11820,Devin Culp,TE,MIN,
 13743,Joseph Manjack IV,WR,NYJ,

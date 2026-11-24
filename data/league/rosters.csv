@@ -11,12 +11,12 @@ jezz281,5859,A.J. Brown,WR,NE,Out,IR
 jezz281,5872,Deebo Samuel Sr.,WR,SF,,bench
 jezz281,7611,Rhamondre Stevenson,RB,NE,,bench
 jezz281,8130,Trey McBride,TE,ARI,,starter
-jezz281,8136,Rachaad White,RB,WAS,Questionable,bench
+jezz281,8136,Rachaad White,RB,WAS,,bench
 jezz281,8137,George Pickens,WR,DAL,,starter
 jezz281,8183,Brock Purdy,QB,SF,,starter
 jezz281,9224,Chase Brown,RB,CIN,,starter
 jezz281,JAX,JAX D/ST,DEF,JAX,,starter
-DrBongstrong,12490,Bhayshul Tuten,RB,JAX,,starter
+DrBongstrong,12490,Bhayshul Tuten,RB,JAX,Questionable,starter
 DrBongstrong,12494,Kyle McCord,QB,MIA,,starter
 DrBongstrong,3198,Derrick Henry,RB,BAL,Questionable,starter
 DrBongstrong,4035,Alvin Kamara,RB,NO,,bench
@@ -56,7 +56,7 @@ theNastyJK,11620,Rome Odunze,WR,CHI,,bench
 theNastyJK,11632,Malik Nabers,WR,NYG,,starter
 theNastyJK,12512,Quinshon Judkins,RB,CLE,,bench
 theNastyJK,12519,Luther Burden III,WR,CHI,,starter
-theNastyJK,12533,Jacory Croskey-Merritt,RB,WAS,IR,starter
+theNastyJK,12533,Jacory Croskey-Merritt,RB,WAS,,starter
 theNastyJK,12545,Tyler Shough,QB,NO,,starter
 theNastyJK,13269,Fernando Mendoza,QB,LV,,bench
 theNastyJK,13286,Jadarian Price,RB,SEA,,bench
@@ -71,7 +71,7 @@ theNastyJK,KC,KC D/ST,DEF,KC,,starter
 theNastyJK,LAR,LAR D/ST,DEF,LAR,,bench
 JLstorm1,11559,Michael Penix Jr.,QB,ATL,,bench
 JLstorm1,11576,Braelon Allen,RB,NYJ,,bench
-JLstorm1,11786,Cam Little,K,JAX,,starter
+JLstorm1,11786,Cam Little,K,JAX,Questionable,starter
 JLstorm1,12495,Ollie Gordon II,RB,MIA,,bench
 JLstorm1,13296,Caleb Douglas,WR,MIA,,starter
 JLstorm1,13345,Jonah Coleman,RB,DEN,,starter
@@ -87,7 +87,7 @@ JLstorm1,8210,Chig Okonkwo,TE,WAS,,starter
 JLstorm1,8408,Jordan Mason,RB,MIN,,bench
 JLstorm1,9484,Tucker Kraft,TE,GB,,bench
 JLstorm1,MIN,MIN D/ST,DEF,MIN,,starter
-Rowdy17,10859,Sam LaPorta,TE,DET,,starter
+Rowdy17,10859,Sam LaPorta,TE,DET,Questionable,starter
 Rowdy17,11560,Caleb Williams,QB,CHI,,starter
 Rowdy17,11584,Bucky Irving,RB,TB,,starter
 Rowdy17,11586,Blake Corum,RB,LAR,,bench
