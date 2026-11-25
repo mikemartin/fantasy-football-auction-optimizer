@@ -194,6 +194,8 @@ week,when_utc,type,status,manager,added,dropped,faab
 10,2026-11-10T08:11:40Z,free_agent,complete,jezz281,Chris Rodriguez Jr.,,NA
 10,2026-11-10T08:06:51Z,free_agent,complete,JLstorm1,Caleb Douglas,Joe Milton,NA
 10,2026-11-10T08:06:13Z,free_agent,complete,JLstorm1,Audric Estime,Drew Lock,NA
+11,2026-11-24T08:05:24Z,waiver,complete,Wenzo3030,SF D/ST,TB D/ST,1
+11,2026-11-24T08:05:24Z,waiver,complete,DrBongstrong,Anthony Richardson Sr.,Kyle McCord,20
 11,2026-11-22T20:04:16Z,free_agent,complete,theNastyJK,Michael Mayer,,NA
 11,2026-11-22T11:04:30Z,free_agent,complete,DrBongstrong,Justice Hill,Demarcus Robinson,NA
 11,2026-11-22T11:03:44Z,free_agent,complete,DrBongstrong,Kyle McCord,Carson Beck,NA
@@ -211,3 +213,7 @@ week,when_utc,type,status,manager,added,dropped,faab
 11,2026-11-18T07:05:47Z,waiver,failed,DrBongstrong,Justice Hill,,5
 11,2026-11-18T07:05:47Z,waiver,complete,DrBongstrong,Travis Etienne Jr.,Kyler Murray,5
 11,2026-11-17T09:47:12Z,free_agent,complete,JLstorm1,Jacoby Brissett,Kaleb Johnson,NA
+12,2026-11-24T08:57:54Z,free_agent,complete,themikemartin,Deshaun Watson,Joe Milton,NA
+12,2026-11-24T08:25:08Z,free_agent,complete,themikemartin,CIN D/ST,BAL D/ST,NA
+12,2026-11-24T08:15:46Z,free_agent,complete,jezz281,Konata Mumpfield,Rachaad White,NA
+12,2026-11-24T08:15:25Z,free_agent,complete,jezz281,Chris Rodriguez Jr.,,NA

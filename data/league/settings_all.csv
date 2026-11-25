@@ -1,6 +1,6 @@
 setting,value
 best_ball,0
-last_report,10
+last_report,11
 waiver_budget,100
 disable_adds,0
 divisions,0
@@ -48,7 +48,7 @@ league_average_match,0
 trade_review_days,1
 bench_lock,0
 offseason_adds,0
-leg,11
+leg,12
 reserve_slots,2
 reserve_allow_cov,1
 daily_waivers_last_ran,30
